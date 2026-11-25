@@ -1,0 +1,4 @@
+Feature,Pearson_r,Spearman_rho,Mean_Abs_Diff,Median_Abs_Diff,Max_Abs_Diff,Pairs_Shift_gt_0_01,Pairs_Shift_gt_0_05,Pairs_Identical
+Central Claim Cosine,0.94627,0.94591,0.01118,0.0,0.4138,52,26,279
+Core Reasoning Cosine,0.93619,0.93339,0.0115,0.0,0.3325,54,24,280
+Underlying Warrant Cosine,0.99476,0.99375,0.00171,0.0,0.0552,21,1,296

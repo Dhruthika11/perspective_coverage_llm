@@ -1,0 +1,30 @@
+{
+  "budget_1": {
+    "viewpoint_budget": 1,
+    "mean_retrieval_recall": 0.6846,
+    "std_retrieval_recall": 0.0227,
+    "mean_candidates_passed": 562.0,
+    "mean_class_0a_pass_rate": 0.4434
+  },
+  "budget_3": {
+    "viewpoint_budget": 3,
+    "mean_retrieval_recall": 0.9613,
+    "std_retrieval_recall": 0.0066,
+    "mean_candidates_passed": 1014.1,
+    "mean_class_0a_pass_rate": 0.7801
+  },
+  "budget_5": {
+    "viewpoint_budget": 5,
+    "mean_retrieval_recall": 0.9732,
+    "std_retrieval_recall": 0.0,
+    "mean_candidates_passed": 1162.2,
+    "mean_class_0a_pass_rate": 0.8565
+  },
+  "budget_10": {
+    "viewpoint_budget": 10,
+    "mean_retrieval_recall": 0.9732,
+    "std_retrieval_recall": 0.0,
+    "mean_candidates_passed": 1296.4,
+    "mean_class_0a_pass_rate": 0.8954
+  }
+}

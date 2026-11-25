@@ -1,0 +1,1106 @@
+{
+  "gpt_recovered": {
+    "1485": {
+      "label": "class_0b",
+      "confidence": 0.96,
+      "explanation": "The generated viewpoint about abortion access is unrelated to the claim about cell phones in schools."
+    },
+    "484": {
+      "label": "class_1",
+      "confidence": 0.88,
+      "explanation": "Both argue that video games are linked to violence, but the gold cites APA risk factors while the generated view proposes legal liability for developers."
+    },
+    "1222": {
+      "label": "class_1",
+      "confidence": 0.9,
+      "explanation": "Both support banning assault weapons, yet the gold focuses on protecting women from domestic abuse whereas the generated view cites international human\u2011rights standards and comparative death rates."
+    },
+    "449": {
+      "label": "class_0a",
+      "confidence": 0.96,
+      "explanation": "Gold praises social media\u2019s societal benefits, while the generated view condemns it as a productivity drain."
+    },
+    "1527": {
+      "label": "class_1",
+      "confidence": 0.91,
+      "explanation": "Both endorse banning the music, but the gold argument cites protection of women whereas the generated argument cites law\u2011enforcement efficiency."
+    },
+    "352": {
+      "label": "class_0b",
+      "confidence": 0.94,
+      "explanation": "The generated text discusses weekly working hours, which is unrelated to the claim about public\u2011place smoking bans."
+    },
+    "1147": {
+      "label": "class_0a",
+      "confidence": 0.96,
+      "explanation": "Gold view argues social media harms students, while generated view praises civic benefits, giving opposite stances."
+    },
+    "861": {
+      "label": "class_1",
+      "confidence": 0.92,
+      "explanation": "Both support a legal hour ceiling, but give different justifications (potential vs health)."
+    },
+    "1436": {
+      "label": "class_0b",
+      "confidence": 0.88,
+      "explanation": "Neither perspective addresses the claim about physical vs mental fitness, making them unrelated."
+    },
+    "1085": {
+      "label": "class_1",
+      "confidence": 0.95,
+      "explanation": "Both endorse privatization but give different justifications (more funds vs personal choice)."
+    },
+    "1692": {
+      "label": "class_0a",
+      "confidence": 0.97,
+      "explanation": "One equates bans with slavery (against), the other argues bans improve social cohesion (for)."
+    },
+    "1429": {
+      "label": "class_0b",
+      "confidence": 0.99,
+      "explanation": "The generated view discusses high taxes, which is unrelated to cell phone use in schools."
+    },
+    "1220": {
+      "label": "class_1",
+      "confidence": 0.95,
+      "explanation": "Both support a junk\u2011food ban, but the gold view cites bone\u2011health harms while the generated view cites regulatory efficiency."
+    },
+    "824": {
+      "label": "class_2",
+      "confidence": 0.9,
+      "explanation": "Both argue that broadband is a fundamental right and that the state has a moral duty to provide it via nationalization."
+    },
+    "684": {
+      "label": "class_0b",
+      "confidence": 0.97,
+      "explanation": "The generated viewpoint discusses enforcing a ban on assault weapons, which is unrelated to the claim about banning human cloning."
+    },
+    "424": {
+      "label": "class_0a",
+      "confidence": 0.96,
+      "explanation": "Gold opposes net neutrality citing regulatory burden, while generated supports it on human\u2011rights grounds."
+    },
+    "1683": {
+      "label": "class_0a",
+      "confidence": 0.95,
+      "explanation": "Gold warns of pre\u2011emptive strikes against unilateral disarmament, whereas generated argues it would foster diplomatic cooperation."
+    },
+    "1012": {
+      "label": "class_1",
+      "confidence": 0.88,
+      "explanation": "Both endorse self\u2011determination as a right, but the generated view adds moral\u2011dignity justification beyond the gold's plain assertion."
+    },
+    "1553": {
+      "label": "class_1",
+      "confidence": 0.86,
+      "explanation": "Both argue for abolishing the Electoral College, but the gold view cites swing\u2011state political power while the generated view adds economic distortion arguments."
+    },
+    "1644": {
+      "label": "class_1",
+      "confidence": 0.91,
+      "explanation": "Both oppose state possession of nuclear weapons; the gold view focuses on security/pre\u2011emptive strike risks, the generated view relies on moral/ethical objections."
+    },
+    "1106": {
+      "label": "class_0a",
+      "confidence": 0.9,
+      "explanation": "The gold perspective argues against unilateral disarmament by warning of strikes on nuclear\u2011developing states, while the generated view supports unilateral disarmament as a path to cooperation."
+    },
+    "399": {
+      "label": "class_1",
+      "confidence": 0.95,
+      "explanation": "Both claim the intervention was a success, but one bases it on regime overthrow while the other cites elite stability."
+    },
+    "1086": {
+      "label": "class_1",
+      "confidence": 0.94,
+      "explanation": "Both view social networking as beneficial, yet one focuses on teacher collaboration and the other on empowering marginalized voices."
+    },
+    "1499": {
+      "label": "class_0b",
+      "confidence": 0.98,
+      "explanation": "The generated viewpoint discusses Sikh pupils carrying daggers, unrelated to the claim about experimental treatments for terminal patients."
+    },
+    "736": {
+      "label": "class_1",
+      "confidence": 0.96,
+      "explanation": "Both argue for banning assault weapons, but one cites protection of women while the other uses a general ethical argument."
+    },
+    "1023": {
+      "label": "class_0a",
+      "confidence": 0.97,
+      "explanation": "Gold supports social media for the arts, whereas the generated view claims it harms productivity, presenting opposite stances."
+    },
+    "117": {
+      "label": "class_1",
+      "confidence": 0.95,
+      "explanation": "Both favor vegetarianism, yet one emphasizes health iron benefits and the other highlights social cohesion."
+    },
+    "1211": {
+      "label": "class_0a",
+      "confidence": 0.96,
+      "explanation": "Gold advocates invasion while generated opposes it, yielding opposite stances on the same claim."
+    },
+    "483": {
+      "label": "class_1",
+      "confidence": 0.92,
+      "explanation": "Both reject the claim but one cites player self\u2011control and the other cites lack of empirical evidence."
+    },
+    "1297": {
+      "label": "class_2",
+      "confidence": 0.88,
+      "explanation": "Both support the Act by arguing it creates jobs, using essentially the same justification."
+    },
+    "1474": {
+      "label": "class_1",
+      "confidence": 0.95,
+      "explanation": "Both support net neutrality, but the gold answer cites competition while the generated answer cites social\u2011justice benefits."
+    },
+    "468": {
+      "label": "class_0b",
+      "confidence": 0.9,
+      "explanation": "The generated view discusses banning sexist advertising, which is unrelated to the claim about music that glorifies violence against women."
+    },
+    "711": {
+      "label": "class_1",
+      "confidence": 0.96,
+      "explanation": "Both oppose drone strikes, yet the gold answer focuses on sovereignty rights and the generated answer on destabilizing consequences."
+    },
+    "1640": {
+      "label": "class_0a",
+      "confidence": 0.95,
+      "explanation": "Gold cites harms to specific groups, while the generated view praises empowerment of marginalized voices."
+    },
+    "695": {
+      "label": "class_1",
+      "confidence": 0.94,
+      "explanation": "Both support banning assault weapons, but gold relies on public opinion data and the generated view uses international human\u2011rights comparisons."
+    },
+    "1074": {
+      "label": "class_0a",
+      "confidence": 0.95,
+      "explanation": "Gold highlights hate groups on social media (negative), whereas the generated view emphasizes community building (positive)."
+    },
+    "1669": {
+      "label": "class_0b",
+      "confidence": 0.97,
+      "explanation": "The generated view discusses nuclear weapons, unrelated to the electoral college claim."
+    },
+    "998": {
+      "label": "class_1",
+      "confidence": 0.92,
+      "explanation": "Both endorse self\u2011determination, but the gold answer cites colonial injustice while the generated answer appeals to moral dignity."
+    },
+    "1454": {
+      "label": "class_1",
+      "confidence": 0.91,
+      "explanation": "Both support minors\u2019 abortion autonomy, yet the gold answer uses a contraceptive analogy whereas the generated answer relies on bodily autonomy ethics."
+    },
+    "1256": {
+      "label": "class_1",
+      "confidence": 0.95,
+      "explanation": "Both argue for continued drone strikes, but the gold view cites combating terrorist networks while the generated view emphasizes soldier safety and precision."
+    },
+    "513": {
+      "label": "class_1",
+      "confidence": 0.94,
+      "explanation": "Both oppose nuclear weapons, yet gold cites risk of pre\u2011emptive wars whereas generated cites accidental launch or theft risks."
+    },
+    "1399": {
+      "label": "class_1",
+      "confidence": 0.9,
+      "explanation": "Both view the Libya intervention positively, but gold relies on legal justification while generated highlights social progress outcomes."
+    },
+    "1067": {
+      "label": "class_1",
+      "confidence": 0.95,
+      "explanation": "Both oppose abolition but give different reasons (broad coalitions vs federalism)."
+    },
+    "789": {
+      "label": "class_2",
+      "confidence": 0.9,
+      "explanation": "Both support body cameras and argue they provide factual, objective records to ensure accountability."
+    },
+    "1513": {
+      "label": "class_2",
+      "confidence": 0.9,
+      "explanation": "Both argue the Electoral College breaches the one\u2011person\u2011one\u2011vote principle, just with varying detail."
+    },
+    "1579": {
+      "label": "class_0b",
+      "confidence": 0.95,
+      "explanation": "The generated view discusses taxation and is unrelated to nuclear weapons, unlike the gold perspective which argues about nuclear authority."
+    },
+    "1280": {
+      "label": "class_0a",
+      "confidence": 0.97,
+      "explanation": "Gold asserts the legality of nuclear use, while the generated view argues economic harms of possession, presenting opposite positions."
+    },
+    "671": {
+      "label": "class_0a",
+      "confidence": 0.96,
+      "explanation": "Gold cites lower gun violence with high video\u2011game use, whereas the generated view claims video games normalize aggression, taking opposite stances."
+    },
+    "786": {
+      "label": "class_0a",
+      "confidence": 0.97,
+      "explanation": "Gold opposes the ban citing safety and self\u2011defense, while the generated view supports the ban to reduce violence"
+    },
+    "1141": {
+      "label": "class_1",
+      "confidence": 0.9,
+      "explanation": "Both argue China should invade North Korea, but gold cites security threats whereas the generated view cites humanitarian benefits"
+    },
+    "777": {
+      "label": "class_0b",
+      "confidence": 0.98,
+      "explanation": "The generated text about body\u2011camera policing is unrelated to the claim about African resources"
+    },
+    "1536": {
+      "label": "class_0b",
+      "confidence": 0.96,
+      "explanation": "The generated viewpoint discusses Africa's resource curse and does not address the claim about banning violent music against women."
+    },
+    "1568": {
+      "label": "class_1",
+      "confidence": 0.98,
+      "explanation": "Both perspectives support mandatory vaccines, but the gold answer cites health benefits while the generated answer cites economic productivity and cost savings."
+    },
+    "616": {
+      "label": "class_1",
+      "confidence": 0.97,
+      "explanation": "Both endorse open primaries, yet the gold answer focuses on minority engagement whereas the generated answer emphasizes broader representativeness."
+    },
+    "1053": {
+      "label": "class_0b",
+      "confidence": 0.98,
+      "explanation": "Generated view discusses school dagger protocols, unrelated to invasion claim."
+    },
+    "737": {
+      "label": "class_0a",
+      "confidence": 0.99,
+      "explanation": "Gold opposes a national minimum wage while the generated text supports it, giving opposite stances."
+    },
+    "361": {
+      "label": "class_2",
+      "confidence": 0.93,
+      "explanation": "Both argue that music glorifying violence against women perpetuates harmful attitudes and therefore should be banned."
+    },
+    "838": {
+      "label": "class_1",
+      "confidence": 0.95,
+      "explanation": "Both support minors' abortion access, but gold uses a contraceptive analogy while the generated view cites autonomy and health outcomes."
+    },
+    "1330": {
+      "label": "class_1",
+      "confidence": 0.94,
+      "explanation": "Both argue for mandatory child vaccination, yet gold bases it on disease existence whereas the generated view emphasizes public\u2011health and legal enforcement."
+    },
+    "905": {
+      "label": "class_0b",
+      "confidence": 0.9,
+      "explanation": "The generated text discusses music violence, which is unrelated to the claim about religion's net harm."
+    },
+    "996": {
+      "label": "class_2",
+      "confidence": 0.86,
+      "explanation": "Both argue that banning such music protects women and prevents societal harm."
+    },
+    "925": {
+      "label": "class_1",
+      "confidence": 0.9,
+      "explanation": "Both oppose development, but gold cites a global arms race while the generated view focuses on interpersonal fear and conflict."
+    },
+    "1044": {
+      "label": "class_0a",
+      "confidence": 0.95,
+      "explanation": "Gold opposes restrictions due to harm to rural poor, whereas the generated view supports them for infrastructure and economic reasons."
+    },
+    "125": {
+      "label": "class_2",
+      "confidence": 0.97,
+      "explanation": "Both argue that uniforms simplify enforcement, saving class time, thus share reasoning and stance."
+    },
+    "908": {
+      "label": "class_0b",
+      "confidence": 0.95,
+      "explanation": "The generated view discusses multicultural integration, unrelated to the claim about sportsmen representing countries."
+    },
+    "775": {
+      "label": "class_0a",
+      "confidence": 0.96,
+      "explanation": "Gold opposes bans citing self\u2011protection, while generated supports bans for community safety, opposite stances."
+    },
+    "264": {
+      "label": "class_0a",
+      "confidence": 0.95,
+      "explanation": "Gold argues the Electoral College ensures certainty, while the generated view argues abolition simplifies campaigns, giving opposite positions."
+    },
+    "411": {
+      "label": "class_1",
+      "confidence": 0.94,
+      "explanation": "Both support uniforms but gold cites focus on education whereas the generated view cites social equality, showing different reasoning with the same stance."
+    },
+    "964": {
+      "label": "class_0a",
+      "confidence": 0.96,
+      "explanation": "Gold claims D.A.R.E. prevents drug use, while the generated view criticizes its lack of evidence and effectiveness, presenting opposite stances."
+    },
+    "1681": {
+      "label": "class_1",
+      "confidence": 0.95,
+      "explanation": "Both endorse legalization, but the gold view gives a blanket claim while the generated view cites stigma reduction as its reason."
+    },
+    "891": {
+      "label": "class_1",
+      "confidence": 0.94,
+      "explanation": "Both argue for abolishing the Electoral College, yet they cite different drawbacks of the current system."
+    },
+    "1199": {
+      "label": "class_0a",
+      "confidence": 0.96,
+      "explanation": "The gold perspective opposes body cameras as costly and unreliable, whereas the generated view supports them for accountability."
+    },
+    "947": {
+      "label": "class_0b",
+      "confidence": 0.97,
+      "explanation": "The generated text discusses cultural attitudes toward violent video games, which is unrelated to the claim about Joe Calzaghe\u2019s boxing greatness."
+    },
+    "1609": {
+      "label": "class_0b",
+      "confidence": 0.96,
+      "explanation": "The generated viewpoint addresses free\u2011speech issues, not the debate over banning junk food."
+    },
+    "134": {
+      "label": "class_1",
+      "confidence": 0.94,
+      "explanation": "Both perspectives oppose unilateral nuclear disarmament, but they cite different security\u2011related reasons."
+    },
+    "136": {
+      "label": "class_1",
+      "confidence": 0.9,
+      "explanation": "Both endorse body cameras, but gold cites safety while generated cites transparency and accountability, so stance matches but reasoning differs."
+    },
+    "137": {
+      "label": "class_1",
+      "confidence": 0.85,
+      "explanation": "Both argue against developing tactical nukes; gold focuses on pre\u2011emptive strike risk, generated on social/ethnic tension, yielding same stance with different reasoning."
+    },
+    "140": {
+      "label": "class_0a",
+      "confidence": 0.95,
+      "explanation": "Gold opposes unilateral disarmament due to waste disposal issues, while generated supports it as a trust\u2011building measure, giving opposite stances."
+    },
+    "143": {
+      "label": "class_1",
+      "confidence": 0.95,
+      "explanation": "Both affirm self-determination as a right but use different moral vs legal justifications."
+    },
+    "144": {
+      "label": "class_0a",
+      "confidence": 0.85,
+      "explanation": "Gold emphasizes mental health's impact, opposing the claim that physical fitness is superior, while generated extols physical health."
+    },
+    "149": {
+      "label": "class_0b",
+      "confidence": 0.97,
+      "explanation": "Generated response discusses EU rebates, unrelated to school discipline."
+    },
+    "150": {
+      "label": "ambiguous",
+      "confidence": 0.7,
+      "explanation": "The generated text provides only a title with no argument, making stance and reasoning indeterminable."
+    },
+    "152": {
+      "label": "class_0a",
+      "confidence": 0.95,
+      "explanation": "Gold argues religious freedom worsens conflict (opposes claim), while the generated view supports it as peace\u2011promoting."
+    },
+    "154": {
+      "label": "class_0b",
+      "confidence": 0.98,
+      "explanation": "The generated viewpoint discusses gun policy, which is unrelated to the tax claim."
+    },
+    "155": {
+      "label": "class_0b",
+      "confidence": 0.96,
+      "explanation": "The generated view discusses education technology norms, which is unrelated to the claim about bypassing copyright protection."
+    },
+    "156": {
+      "label": "class_1",
+      "confidence": 0.92,
+      "explanation": "Both perspectives support relocating the Seychelles, but the gold answer appeals to international moral obligations while the generated answer cites economic tourism benefits."
+    },
+    "157": {
+      "label": "class_0b",
+      "confidence": 0.95,
+      "explanation": "The generated view addresses sex\u2011work legalization, which bears no relevance to the claim about banning human cloning."
+    },
+    "158": {
+      "label": "class_1",
+      "confidence": 0.95,
+      "explanation": "Both argue for restrictions, but gold cites city benefits while generated focuses on planning and infrastructure."
+    },
+    "159": {
+      "label": "class_1",
+      "confidence": 0.94,
+      "explanation": "Both support a ban, but gold uses moral protection reasoning whereas generated uses economic cost arguments."
+    },
+    "160": {
+      "label": "class_2",
+      "confidence": 0.85,
+      "explanation": "Both claim violent games increase aggression, offering essentially the same causal reasoning."
+    },
+    "161": {
+      "label": "class_0b",
+      "confidence": 0.86,
+      "explanation": "Generated text does not address NATO expansion, so stance and reasoning are unrelated."
+    },
+    "163": {
+      "label": "class_0a",
+      "confidence": 0.95,
+      "explanation": "Generated view opposes drone strikes while gold supports them, with different arguments."
+    },
+    "165": {
+      "label": "class_1",
+      "confidence": 0.9,
+      "explanation": "Both oppose tactical nuclear weapons but cite different negative consequences."
+    },
+    "166": {
+      "label": "class_1",
+      "confidence": 0.95,
+      "explanation": "Both argue for uniforms but use different reasons (individuality vs time savings)."
+    },
+    "167": {
+      "label": "ambiguous",
+      "confidence": 0.7,
+      "explanation": "Generated view lacks clear argument, making stance indeterminate."
+    },
+    "171": {
+      "label": "class_0a",
+      "confidence": 0.97,
+      "explanation": "Gold opposes DST for health reasons while generated supports it for energy savings."
+    },
+    "172": {
+      "label": "class_0a",
+      "confidence": 0.99,
+      "explanation": "Gold opposes D.A.R.E. as harmful, generated endorses it as beneficial"
+    },
+    "195": {
+      "label": "class_1",
+      "confidence": 0.96,
+      "explanation": "Both favor Olympic inclusion of mind sports, but gold cites chess specifically while generated gives broader diversity benefits"
+    },
+    "196": {
+      "label": "class_1",
+      "confidence": 0.94,
+      "explanation": "Both support net neutrality, gold invokes free\u2011speech rights, generated cites competition and innovation"
+    },
+    "198": {
+      "label": "class_0a",
+      "confidence": 0.96,
+      "explanation": "Gold claims D.A.R.E is ineffective, generated claims it is effective, giving opposite stances on the same claim"
+    },
+    "199": {
+      "label": "class_0b",
+      "confidence": 0.97,
+      "explanation": "Generated viewpoint about music violence is unrelated to the claim about states possessing nuclear weapons"
+    },
+    "200": {
+      "label": "class_0b",
+      "confidence": 0.97,
+      "explanation": "Generated viewpoint about copyright fair use is unrelated to the claim on self\u2011determination as a human right"
+    },
+    "201": {
+      "label": "class_0a",
+      "confidence": 0.96,
+      "explanation": "Gold opposes the ban as impractical, generated advocates the ban on ethical grounds."
+    },
+    "205": {
+      "label": "class_0b",
+      "confidence": 0.91,
+      "explanation": "Generated text discusses drug legalization, unrelated to privatizing Social Security."
+    },
+    "206": {
+      "label": "class_1",
+      "confidence": 0.94,
+      "explanation": "Both support body cameras but give different benefit arguments."
+    },
+    "207": {
+      "label": "class_2",
+      "confidence": 0.9,
+      "explanation": "Both argue against development on legal/illegality grounds, sharing the same stance and reasoning"
+    },
+    "208": {
+      "label": "class_1",
+      "confidence": 0.85,
+      "explanation": "Both support the claim that violent games cause harm, but use different arguments (government restriction vs cultural/psychological impact)"
+    },
+    "210": {
+      "label": "class_2",
+      "confidence": 0.95,
+      "explanation": "Both endorse body cameras by citing increased accountability, using essentially the same reasoning"
+    },
+    "212": {
+      "label": "class_0b",
+      "confidence": 0.96,
+      "explanation": "The generated text discusses assault\u2011weapon bans, which is unrelated to the copyright\u2011bypass claim."
+    },
+    "214": {
+      "label": "class_1",
+      "confidence": 0.92,
+      "explanation": "Both argue for blocking Holocaust\u2011denial sites, but the gold view cites identity harm while the generated view cites economic harm."
+    },
+    "215": {
+      "label": "class_0b",
+      "confidence": 0.95,
+      "explanation": "The generated viewpoint addresses religion and culture, not cell\u2011phone use in schools, making it unrelated."
+    },
+    "217": {
+      "label": "class_1",
+      "confidence": 0.95,
+      "explanation": "Both endorse the Act but the gold view cites economic benefits while the generated view cites social fairness."
+    },
+    "218": {
+      "label": "class_0b",
+      "confidence": 0.8,
+      "explanation": "Gold perspective talks about political bargaining, which does not address the claim; the generated text is incomplete and unrelated."
+    },
+    "220": {
+      "label": "class_0a",
+      "confidence": 0.96,
+      "explanation": "Gold view argues nuclear weapons give states power, while the generated view argues they should be banned, opposite stances."
+    },
+    "221": {
+      "label": "class_0a",
+      "confidence": 0.96,
+      "explanation": "Gold opposes drone strikes citing human rights concerns, while the generated view supports them for rapid threat response, opposite stances."
+    },
+    "223": {
+      "label": "class_0a",
+      "confidence": 0.95,
+      "explanation": "Gold argues against a ban based on personal choice, generated view supports a ban for health protection, opposite stances."
+    },
+    "224": {
+      "label": "class_1",
+      "confidence": 0.9,
+      "explanation": "Both reject developing tactical nukes, but gold cites waste disposal issues whereas the generated view cites economic and escalation costs, same stance different reasoning."
+    },
+    "227": {
+      "label": "class_1",
+      "confidence": 0.94,
+      "explanation": "Both support body cameras but give different reasons (general safety vs communication and de\u2011escalation)."
+    },
+    "229": {
+      "label": "class_0a",
+      "confidence": 0.96,
+      "explanation": "Gold opposes development due to escalation risk, while generated advocates it for flexibility, giving opposite stances."
+    },
+    "230": {
+      "label": "class_0b",
+      "confidence": 0.99,
+      "explanation": "Generated text discusses boxing economics, which is unrelated to the claim about mind sports in the Olympics."
+    },
+    "232": {
+      "label": "class_1",
+      "confidence": 0.96,
+      "explanation": "Both arguments support using drones, but one cites lower PTSD while the other cites cost savings, so reasoning differs."
+    },
+    "233": {
+      "label": "class_1",
+      "confidence": 0.94,
+      "explanation": "Both oppose developing tactical nukes, yet one warns of an arms race and the other cites treaty violations, indicating different reasoning."
+    },
+    "235": {
+      "label": "class_0b",
+      "confidence": 0.9,
+      "explanation": "The generated view discusses video game effects, which is unrelated to the claim about arming teachers."
+    },
+    "236": {
+      "label": "class_0a",
+      "confidence": 0.92,
+      "explanation": "Gold argues body cameras harm officer safety, while generated focuses on implementation feasibility, taking opposite positions."
+    },
+    "239": {
+      "label": "class_1",
+      "confidence": 0.96,
+      "explanation": "Both support uniforms but cite different reasons (gang suppression vs time savings)."
+    },
+    "253": {
+      "label": "class_0a",
+      "confidence": 0.93,
+      "explanation": "Gold opposes a ban on constitutional grounds, generated advocates a ban to boost governmental legitimacy."
+    },
+    "254": {
+      "label": "class_0b",
+      "confidence": 0.95,
+      "explanation": "The generated view discusses cultural heritage fragmentation, which is unrelated to school discipline."
+    },
+    "255": {
+      "label": "class_0a",
+      "confidence": 0.97,
+      "explanation": "Gold argues against a ban using the Second Amendment, while the generated view supports a ban for practical enforcement reasons."
+    },
+    "257": {
+      "label": "class_2",
+      "confidence": 0.9,
+      "explanation": "Both perspectives argue that music glorifying violence against women harms respect for women and can increase violence, supporting a ban."
+    }
+  },
+  "qwen_recovered": {
+    "442": {
+      "label": "class_1",
+      "confidence": 0.95,
+      "explanation": "Both support the ban, but the gold relies on public opinion data while the generated viewpoint relies on ethical public safety arguments."
+    },
+    "444": {
+      "label": "class_0b",
+      "confidence": 0.99,
+      "explanation": "The generated viewpoint discusses international relations and the Palestinian conflict, which is completely unrelated to the debate claim about police body cameras."
+    },
+    "445": {
+      "label": "class_0b",
+      "confidence": 0.99,
+      "explanation": "The generated viewpoint discusses the costs of multicultural integration, which is unrelated to the debate claim about developing tactical nuclear weapons."
+    },
+    "447": {
+      "label": "class_0a",
+      "confidence": 0.9,
+      "explanation": "The gold perspective argues that nuclear weapons provide strategic power (implying a reason to possess them), while the generated viewpoint argues that international treaties make possession inconsistent with legal obligations (arguing against possession)."
+    },
+    "565": {
+      "label": "class_1",
+      "confidence": 0.95,
+      "explanation": "Both support the inclusion of mind sports, but the gold cites historical prestige and competitiveness, whereas the generated viewpoint cites commercial revenue and broadcasting potential."
+    },
+    "576": {
+      "label": "class_0b",
+      "confidence": 1.0,
+      "explanation": "The generated viewpoint discusses the Israeli-Palestinian conflict, which is completely unrelated to the debate claim about South Korean national service."
+    },
+    "579": {
+      "label": "class_0b",
+      "confidence": 1.0,
+      "explanation": "The generated viewpoint discusses the morality of reheating tea, which is unrelated to the debate claim about daylight saving time."
+    },
+    "582": {
+      "label": "class_1",
+      "confidence": 0.95,
+      "explanation": "Both perspectives support transparency, but the gold cites personal reputation risk while the generated viewpoint cites public trust and economic investment."
+    },
+    "583": {
+      "label": "class_0a",
+      "confidence": 0.95,
+      "explanation": "The gold perspective argues against privatization by debunking a common pro-privatization argument, while the generated viewpoint argues in favor of privatization based on efficiency."
+    },
+    "587": {
+      "label": "class_0b",
+      "confidence": 1.0,
+      "explanation": "The generated viewpoint discusses military invasion and diplomacy, which is unrelated to the debate claim about banning assault weapons."
+    },
+    "588": {
+      "label": "class_1",
+      "confidence": 0.95,
+      "explanation": "Both support the claim, but the gold perspective focuses on safety in interactions, while the generated viewpoint emphasizes transparency, objective evidence, and accountability."
+    },
+    "589": {
+      "label": "class_1",
+      "confidence": 0.95,
+      "explanation": "Both support vegetarianism, but the gold perspective cites environmental benefits, whereas the generated viewpoint argues for practical achievability and availability of options."
+    },
+    "590": {
+      "label": "class_0b",
+      "confidence": 0.99,
+      "explanation": "The generated viewpoint discusses open primaries and political polarization, which is completely unrelated to the debate claim about celebrities and national service."
+    },
+    "627": {
+      "label": "class_1",
+      "confidence": 0.9,
+      "explanation": "Both oppose the development of tactical nuclear weapons, but the gold perspective warns of an arms race, while the generated viewpoint focuses on the violation of international treaties and non-proliferation norms."
+    },
+    "628": {
+      "label": "class_1",
+      "confidence": 0.85,
+      "explanation": "Both oppose the development of tactical nuclear weapons, but the gold perspective cites the risk of accidental use by field commanders, while the generated viewpoint critiques the economic deterrence argument as flawed or unstable."
+    },
+    "629": {
+      "label": "class_0a",
+      "confidence": 0.95,
+      "explanation": "The gold perspective argues against the mandate due to enforcement costs and societal problems, while the generated viewpoint supports it based on worker health and productivity benefits."
+    },
+    "632": {
+      "label": "class_0b",
+      "confidence": 0.98,
+      "explanation": "The generated viewpoint discusses economic benefits of prize money and exposure, which is completely unrelated to the debate claim about banning violent music."
+    },
+    "685": {
+      "label": "class_0a",
+      "confidence": 0.9,
+      "explanation": "The gold perspective argues the Act will not help successful businesses (implying a negative or skeptical stance on its efficacy), while the generated viewpoint supports the Act based on moral imperatives and social responsibility."
+    },
+    "686": {
+      "label": "class_1",
+      "confidence": 0.95,
+      "explanation": "Both perspectives support NATO expansion, but the gold cites benefits for Eastern European states, while the generated viewpoint cites economic savings and reduced defense expenditures."
+    },
+    "688": {
+      "label": "class_1",
+      "confidence": 0.95,
+      "explanation": "Both perspectives support banning assault weapons, but the gold relies on public opinion data, while the generated viewpoint relies on social psychological impacts like fear and insecurity."
+    },
+    "692": {
+      "label": "class_1",
+      "confidence": 0.95,
+      "explanation": "Both perspectives support the claim that social networking is beneficial, but the gold focuses on individual social connection for isolated people, while the generated viewpoint focuses on collective social justice and mobilization for marginalized groups."
+    },
+    "780": {
+      "label": "class_0a",
+      "confidence": 0.95,
+      "explanation": "The gold perspective argues against development by citing the risk of preemptive strikes by other nations, whereas the generated viewpoint argues for development as a means of deterrence and sovereignty for smaller nations."
+    },
+    "781": {
+      "label": "class_0b",
+      "confidence": 1.0,
+      "explanation": "The generated viewpoint discusses human cloning, which is completely unrelated to the debate claim about the Free Trade Area of the Americas."
+    },
+    "782": {
+      "label": "ambiguous",
+      "confidence": 0.9,
+      "explanation": "The generated viewpoint is only a title ('A Critique') without substantive argumentation, making it impossible to determine its specific stance or reasoning relative to the gold perspective."
+    },
+    "783": {
+      "label": "class_0b",
+      "confidence": 1.0,
+      "explanation": "The generated viewpoint discusses Korean reunification and cultural preservation, which is unrelated to the debate claim about cell phones in schools."
+    },
+    "794": {
+      "label": "class_1",
+      "confidence": 0.9,
+      "explanation": "Both perspectives support the premise that violent video games are linked to crime and justify regulation, but the gold focuses on public safety while the generated viewpoint focuses on economic consequences for the industry."
+    },
+    "796": {
+      "label": "class_1",
+      "confidence": 0.95,
+      "explanation": "Both perspectives argue against school uniforms, but the gold cites commercial motives as the driver, whereas the generated viewpoint cites the suppression of cultural identity and self-expression."
+    },
+    "798": {
+      "label": "class_0a",
+      "confidence": 0.95,
+      "explanation": "The gold perspective argues that net neutrality enforcement harms internet freedom (anti-regulation), while the generated viewpoint argues that unequal treatment (pro-regulation/anti-neutrality) is necessary for economic innovation."
+    },
+    "799": {
+      "label": "class_0b",
+      "confidence": 1.0,
+      "explanation": "The gold perspective addresses vaccine ingredients, while the generated viewpoint discusses cell phones in schools, which is a completely unrelated topic."
+    },
+    "914": {
+      "label": "class_2",
+      "confidence": 0.95,
+      "explanation": "Both perspectives support police body cameras by arguing they improve the quality of interactions between police and the public through safety, transparency, and accountability."
+    },
+    "915": {
+      "label": "class_1",
+      "confidence": 0.95,
+      "explanation": "Both perspectives argue against the invasion (negative stance), but the gold perspective cites the risk of an arms race while the generated viewpoint cites economic instability."
+    },
+    "917": {
+      "label": "class_1",
+      "confidence": 0.9,
+      "explanation": "Both support withholding funds (negative stance), but the gold perspective focuses on not rewarding election outcomes, whereas the generated viewpoint focuses on social cohesion and legitimizing terrorism."
+    },
+    "920": {
+      "label": "class_0b",
+      "confidence": 1.0,
+      "explanation": "The generated viewpoint discusses physical and mental fitness, which is completely unrelated to the debate claim about funding Palestinian governments."
+    },
+    "1015": {
+      "label": "class_1",
+      "confidence": 0.95,
+      "explanation": "Both support school uniforms (positive stance), but the gold perspective addresses individuality through accessories, while the generated viewpoint addresses social stratification and inclusivity."
+    },
+    "1017": {
+      "label": "class_1",
+      "confidence": 0.95,
+      "explanation": "Both support banning assault weapons (positive stance), but the gold perspective cites reduction in accidental deaths, while the generated viewpoint cites community trust and reduced fear."
+    },
+    "1021": {
+      "label": "class_1",
+      "confidence": 0.95,
+      "explanation": "Both perspectives support self-determination, but the gold relies on historical justice for indigenous peoples while the generated viewpoint cites international legal frameworks."
+    },
+    "1022": {
+      "label": "class_0a",
+      "confidence": 0.98,
+      "explanation": "The gold perspective argues against a ban based on Second Amendment rights, while the generated viewpoint supports a ban based on law enforcement efficiency."
+    },
+    "1024": {
+      "label": "class_0a",
+      "confidence": 0.98,
+      "explanation": "The gold perspective supports drone strikes based on their legality, whereas the generated viewpoint opposes them due to ethical and sovereignty concerns."
+    },
+    "1027": {
+      "label": "class_0b",
+      "confidence": 1.0,
+      "explanation": "The generated viewpoint discusses vegetarianism, which is completely unrelated to the debate claim about the UK's democratic status."
+    },
+    "1028": {
+      "label": "class_1",
+      "confidence": 0.95,
+      "explanation": "Both perspectives support the use of drones, but the gold cites pilot mental health benefits while the generated viewpoint focuses on economic cost efficiency."
+    },
+    "1035": {
+      "label": "class_0a",
+      "confidence": 0.95,
+      "explanation": "The gold perspective opposes the ban using a civil liberties/rights argument, while the generated viewpoint supports the ban using a public health/economic argument."
+    },
+    "1036": {
+      "label": "class_0a",
+      "confidence": 0.98,
+      "explanation": "The gold perspective supports drone strikes for national security, while the generated viewpoint opposes them on grounds of international law and sovereignty."
+    },
+    "1037": {
+      "label": "class_1",
+      "confidence": 0.95,
+      "explanation": "Both perspectives support abolishing the Electoral College, but the gold cites the disproportionate power of swing states, while the generated viewpoint cites increased voter engagement and equal vote value."
+    },
+    "1039": {
+      "label": "class_0b",
+      "confidence": 0.99,
+      "explanation": "The generated viewpoint discusses the relationship between religion and science, which is entirely unrelated to the debate claim about blocking Holocaust denial websites."
+    },
+    "1040": {
+      "label": "class_2",
+      "confidence": 0.92,
+      "explanation": "Both perspectives support legalization specifically to facilitate health interventions (healthcare/safety measures) that reduce HIV transmission."
+    },
+    "1175": {
+      "label": "class_0b",
+      "confidence": 1.0,
+      "explanation": "The gold perspective addresses smoking bans, while the generated viewpoint discusses national security and free speech regulations, making them completely unrelated topics."
+    },
+    "1176": {
+      "label": "class_0b",
+      "confidence": 1.0,
+      "explanation": "The gold perspective argues for abolishing the Electoral College based on democratic principles, whereas the generated viewpoint discusses classroom discipline protocols, which is an unrelated topic."
+    },
+    "1179": {
+      "label": "class_1",
+      "confidence": 0.95,
+      "explanation": "Both perspectives oppose the invasion of North Korea, but the gold cites the risk of an arms race while the generated viewpoint cites internal social and ethnic divisions within China."
+    },
+    "1180": {
+      "label": "class_1",
+      "confidence": 0.9,
+      "explanation": "Both support police body cameras for accountability, but the gold specifically highlights protection from false accusations, while the generated viewpoint focuses on building community trust and ethical adherence."
+    },
+    "1183": {
+      "label": "class_0a",
+      "confidence": 1.0,
+      "explanation": "The gold perspective supports the illegality of drugs due to danger, while the generated viewpoint argues that illegality causes more harm by infringing on autonomy and creating stigma."
+    },
+    "1184": {
+      "label": "class_0a",
+      "confidence": 0.95,
+      "explanation": "The gold perspective argues against social networking sites due to the spread of misinformation, while the generated viewpoint argues in favor of them due to improved public health outcomes."
+    },
+    "1187": {
+      "label": "class_1",
+      "confidence": 0.95,
+      "explanation": "Both perspectives support the claim that states should not possess nuclear weapons, but the gold cites humanitarian mission feasibility while the generated viewpoint cites financial burden and resource allocation."
+    },
+    "1190": {
+      "label": "class_1",
+      "confidence": 0.9,
+      "explanation": "Both perspectives support the claim that violent video games cause violent crime, but the gold focuses on direct behavioral simulation while the generated viewpoint focuses on ethical desensitization and cultural normalization."
+    },
+    "1248": {
+      "label": "class_0a",
+      "confidence": 0.95,
+      "explanation": "The gold perspective argues that religion does good by providing solace and social support, while the generated viewpoint argues that religion does harm by hindering scientific progress and evidence-based practices."
+    },
+    "1249": {
+      "label": "class_1",
+      "confidence": 0.9,
+      "explanation": "Both perspectives oppose the use of drones to take out enemy combatants, but the gold cites strategic inefficiency (not reducing terrorists) while the generated viewpoint cites ethical concerns regarding civilian casualties and human dignity."
+    },
+    "1250": {
+      "label": "class_0b",
+      "confidence": 1.0,
+      "explanation": "The gold perspective addresses drug legalization via economic incentives for sellers, while the generated viewpoint discusses multiculturalism and social cohesion, which is an entirely unrelated topic."
+    },
+    "1251": {
+      "label": "class_0a",
+      "confidence": 1.0,
+      "explanation": "The gold perspective supports drone strikes as a means to protect foreign governments, whereas the generated viewpoint argues against them due to the deterioration of local relationships and trust."
+    },
+    "1252": {
+      "label": "class_0a",
+      "confidence": 1.0,
+      "explanation": "The gold perspective argues for abolishing the Electoral College based on democratic principles, while the generated viewpoint argues against abolition, claiming the current system fosters necessary political dialogue."
+    },
+    "1253": {
+      "label": "class_0b",
+      "confidence": 1.0,
+      "explanation": "The gold perspective argues against banning cloning for reproductive purposes, while the generated viewpoint discusses the D.A.R.E. program and drug abuse in schools, which is unrelated to human cloning."
+    },
+    "1255": {
+      "label": "class_0a",
+      "confidence": 1.0,
+      "explanation": "The gold perspective opposes the death penalty for terrorists, arguing it fuels hatred, while the generated viewpoint supports it as a symbol of justice and retribution."
+    },
+    "1258": {
+      "label": "class_0b",
+      "confidence": 1.0,
+      "explanation": "The gold perspective addresses school discipline, while the generated viewpoint discusses US drone strikes and international law, making them completely unrelated topics."
+    },
+    "1260": {
+      "label": "class_0b",
+      "confidence": 1.0,
+      "explanation": "The gold perspective argues for Scottish independence based on economic potential, whereas the generated viewpoint discusses the logistical challenges of arming teachers, which is an unrelated topic."
+    },
+    "1310": {
+      "label": "class_0b",
+      "confidence": 1.0,
+      "explanation": "The gold perspective addresses the correlation between video games and gun violence, while the generated viewpoint discusses the regulation of cannabis, which is an unrelated topic."
+    },
+    "1312": {
+      "label": "class_0a",
+      "confidence": 1.0,
+      "explanation": "The gold perspective argues against net neutrality by citing reduced investment and higher costs, while the generated viewpoint supports net neutrality as a moral right for fair access, representing opposite stances on the same claim."
+    },
+    "1313": {
+      "label": "class_0b",
+      "confidence": 1.0,
+      "explanation": "The gold perspective argues that community radio benefits democracy by countering corporate power, while the generated viewpoint discusses government transparency and foreign investment in African health initiatives, which are unrelated topics."
+    },
+    "1314": {
+      "label": "class_1",
+      "confidence": 0.95,
+      "explanation": "Both support body cameras, but the gold perspective cites safety as the primary benefit, while the generated viewpoint focuses on fostering empathy and reducing bias."
+    },
+    "1315": {
+      "label": "ambiguous",
+      "confidence": 0.9,
+      "explanation": "The generated viewpoint is a truncated, incoherent fragment that provides no substantive argument or clear stance to compare against the gold perspective."
+    },
+    "1363": {
+      "label": "class_0b",
+      "confidence": 0.99,
+      "explanation": "The generated viewpoint discusses nuclear weapons and deterrence, which is completely unrelated to the debate claim about the American Jobs Act."
+    },
+    "1364": {
+      "label": "class_1",
+      "confidence": 0.95,
+      "explanation": "Both support a working hours ceiling, but the gold perspective argues it creates employment, whereas the generated viewpoint argues it protects worker rights and health."
+    },
+    "1366": {
+      "label": "class_1",
+      "confidence": 0.95,
+      "explanation": "Both support social networking sites, but the gold perspective highlights public health information access, while the generated viewpoint emphasizes economic opportunities for entrepreneurs."
+    },
+    "1367": {
+      "label": "ambiguous",
+      "confidence": 0.9,
+      "explanation": "The generated viewpoint is a title or header for a critique rather than a substantive argument, making its stance and reasoning indistinguishable from the gold perspective's pro-death penalty deterrence argument."
+    },
+    "1422": {
+      "label": "class_1",
+      "confidence": 0.95,
+      "explanation": "Both perspectives support the claim that states should not possess nuclear weapons, but the gold perspective cites security risks (terrorist acquisition) while the generated viewpoint cites economic costs."
+    },
+    "1423": {
+      "label": "class_0b",
+      "confidence": 1.0,
+      "explanation": "The generated viewpoint discusses nuclear disarmament, which is completely unrelated to the debate claim about police body cameras."
+    },
+    "1424": {
+      "label": "class_1",
+      "confidence": 0.9,
+      "explanation": "Both perspectives support transparency in African leaders' health, but the gold perspective focuses on honesty to the people, while the generated viewpoint emphasizes public trust and international investment."
+    },
+    "1425": {
+      "label": "class_0a",
+      "confidence": 0.95,
+      "explanation": "The gold perspective argues against DNA testing due to lack of regulation and reliability, while the generated viewpoint argues in favor of it due to medical benefits."
+    },
+    "1426": {
+      "label": "class_1",
+      "confidence": 0.95,
+      "explanation": "Both perspectives support the claim that social networking sites are beneficial, but the gold perspective focuses on institutional recruitment while the generated viewpoint focuses on civic engagement and democratic participation."
+    },
+    "1543": {
+      "label": "class_2",
+      "confidence": 0.98,
+      "explanation": "Both perspectives argue that body cameras improve accountability and protect officers from false accusations or disputes through evidence."
+    },
+    "1544": {
+      "label": "class_0a",
+      "confidence": 0.98,
+      "explanation": "The gold perspective argues against developing tactical nuclear weapons on the grounds that they conflict with peaceful interests, whereas the generated viewpoint argues in favor of them as a deterrent for stability."
+    },
+    "1545": {
+      "label": "class_0a",
+      "confidence": 0.98,
+      "explanation": "The gold perspective opposes the ban by citing infringement on self-defense rights, while the generated viewpoint supports the ban based on ethical imperatives to protect life."
+    },
+    "1546": {
+      "label": "class_2",
+      "confidence": 0.95,
+      "explanation": "Both perspectives argue against moving the World Cup to winter due to negative impacts on media and sponsorship revenue."
+    },
+    "1547": {
+      "label": "class_1",
+      "confidence": 0.95,
+      "explanation": "Both perspectives oppose the use of drones, but the gold perspective cites legal oversight and accountability, while the generated viewpoint cites economic sustainability and costs."
+    },
+    "1555": {
+      "label": "class_0a",
+      "confidence": 0.98,
+      "explanation": "The gold perspective argues for keeping the Electoral College to protect local interests, while the generated viewpoint argues for abolishing it to empower marginalized communities and ensure equal vote weight."
+    },
+    "1557": {
+      "label": "class_1",
+      "confidence": 0.95,
+      "explanation": "Both perspectives support banning assault weapons, but the gold perspective relies on public opinion data, whereas the generated viewpoint relies on constitutional authority and public safety duties."
+    },
+    "1560": {
+      "label": "class_0a",
+      "confidence": 0.9,
+      "explanation": "The gold perspective questions the negative effects (implying skepticism or opposition), while the generated viewpoint explicitly argues for the benefits of transparency and accountability (supporting the claim)."
+    },
+    "1561": {
+      "label": "class_0a",
+      "confidence": 0.95,
+      "explanation": "The gold perspective supports the claim that violent video games are a risk factor for aggression, while the generated viewpoint refutes the causal link to violent crime by citing other societal factors."
+    },
+    "1562": {
+      "label": "class_1",
+      "confidence": 0.95,
+      "explanation": "Both support the program, but the gold perspective focuses on direct prevention of drug use, while the generated viewpoint emphasizes broader school safety and crime reduction."
+    },
+    "1646": {
+      "label": "class_1",
+      "confidence": 0.95,
+      "explanation": "Both support mandatory vaccination, but the gold perspective cites disease eradication as the primary benefit, whereas the generated viewpoint argues for economic efficiency and cost savings."
+    },
+    "1647": {
+      "label": "class_0a",
+      "confidence": 0.98,
+      "explanation": "The gold perspective argues that net neutrality is harmful (hampering usage), while the generated viewpoint argues it is beneficial for democracy and free expression."
+    },
+    "1648": {
+      "label": "class_1",
+      "confidence": 0.95,
+      "explanation": "Both support vegetarianism, but the gold perspective relies on ethical/moral arguments regarding animal cruelty, while the generated viewpoint focuses on financial accessibility and practicality."
+    },
+    "1649": {
+      "label": "class_1",
+      "confidence": 0.95,
+      "explanation": "Both support vegetarianism, but the gold perspective is based on ethical concerns about animal welfare, whereas the generated viewpoint is based on national food security and resource efficiency."
+    },
+    "1650": {
+      "label": "class_0b",
+      "confidence": 1.0,
+      "explanation": "The gold perspective discusses Nollywood's role in changing perceptions of Africa, while the generated viewpoint discusses body cameras and police discrimination, which are entirely unrelated topics."
+    }
+  }
+}

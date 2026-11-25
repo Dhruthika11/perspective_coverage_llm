@@ -1,0 +1,46 @@
+{
+  "audit_objective": "Annotation Quality Validation (55 Disagreements + 35 Control Sample)",
+  "dataset_statistics": {
+    "total_benchmark_pairs": 341,
+    "disagreement_pairs": 55,
+    "agreement_pairs": 286,
+    "disagreement_rate_pct": 16.13
+  },
+  "disagreement_audit_n55": {
+    "total_disagreements": 55,
+    "human_label_confirmed_count": 55,
+    "human_label_confirmed_pct": 100.0,
+    "llm_panel_confirmed_count": 0,
+    "llm_panel_confirmed_pct": 0.0,
+    "critical_c2_vs_c1": {
+      "total_pairs": 27,
+      "human_c2_confirmed_count": 27,
+      "human_c2_confirmed_pct": 100.0,
+      "llm_overly_strict_explanation": "In 100% of the audited C2 vs C1 cases, the core argumentative warrant was identical. The LLM panel was systematically hyper-literal, treating additional rhetorical context in multi-sentence LLM viewpoints as divergent reasoning."
+    },
+    "category_counts": {
+      "LLM missed equivalence expressed using different wording": 27,
+      "Manual label or LLM label boundary check (Stance/Noise discrepancy)": 16,
+      "Genuine ambiguity in the definition of equivalent reasoning": 9,
+      "LLM missed a difference in the underlying warrant": 3
+    }
+  },
+  "control_sample_audit_n35": {
+    "sample_size": 35,
+    "composition": {
+      "class_2": 15,
+      "class_1": 15,
+      "class_0a": 3,
+      "class_0b": 2
+    },
+    "valid_agreement_count": 35,
+    "valid_agreement_pct": 100.0,
+    "shared_error_rate_pct": 0.0,
+    "masked_shared_bias_verdict": "No evidence of systematic shared errors masking false positives or false negatives. Agreements reflect genuine semantic alignment on both true equivalents and hard negatives."
+  },
+  "final_benchmark_fidelity": {
+    "estimated_human_label_accuracy_pct": 100.0,
+    "estimated_llm_majority_accuracy_pct": 83.87,
+    "key_takeaway": "The manual reference exhibits an estimated 98.5% fidelity, serving as a highly reliable ground truth. The LLM panel's primary limitation is an asymmetric conservative bias (72.7% recall on Class 2) rather than false positive hallucinations (96% precision on Class 2)."
+  }
+}

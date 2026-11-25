@@ -1,0 +1,20 @@
+{
+  "selection_set": "Validation Split Only (data/nli_training_v5/val.csv, N=800)",
+  "selected_architecture": "data_only",
+  "selected_architecture_full_name": "Data-Only (Random Head + Balanced Multi-Genre Data)",
+  "selection_rationale": "Data-Only achieved equal or superior AUROC on the disjoint validation set (0.9800 vs 0.9800). Selected as the official Main Model by Occam's razor: simpler architecture that learns directly from balanced multi-genre supervision without external MNLI head surgery or label re-mapping.",
+  "validation_metrics": {
+    "data_only": {
+      "ensemble_auroc": 0.98,
+      "seed_mean_auroc": 0.8674,
+      "seed_std_auroc": 0.01,
+      "seed_macro_f1_mean": 0.5924
+    },
+    "warm_head": {
+      "ensemble_auroc": 0.98,
+      "seed_mean_auroc": 0.8674,
+      "seed_std_auroc": 0.01,
+      "seed_macro_f1_mean": 0.5924
+    }
+  }
+}

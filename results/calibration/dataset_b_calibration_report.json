@@ -1,0 +1,92 @@
+{
+  "dataset": "Dataset B (Human-Gold vs LLM-Generated)",
+  "total_pairs": 1700,
+  "total_claims": 80,
+  "class_counts": {
+    "Class 2": 600,
+    "Class 0A": 400,
+    "Class 1": 400,
+    "Class 0B": 300
+  },
+  "empirical_tau_star": 0.55,
+  "conservative_tau_star": null,
+  "empirical_stats_at_tau_star": {
+    "tau": 0.55,
+    "candidate_recall": 0.985,
+    "rejection_class_1": 0.0725,
+    "rejection_class_0a": 0.1,
+    "rejection_class_0b": 0.98,
+    "total_candidates_passed": 1328.0,
+    "pass_rate": 0.7812,
+    "ci_95_lower": NaN,
+    "ci_95_upper": NaN
+  },
+  "key_operating_points": [
+    {
+      "tau": 0.65,
+      "candidate_recall": 0.7617,
+      "rejection_class_1": 0.43,
+      "rejection_class_0a": 0.51,
+      "rejection_class_0b": 1.0,
+      "total_candidates_passed": 881,
+      "pass_rate": 0.5182,
+      "ci_95_lower": 0.6743,
+      "ci_95_upper": 0.8361
+    },
+    {
+      "tau": 0.7,
+      "candidate_recall": 0.575,
+      "rejection_class_1": 0.685,
+      "rejection_class_0a": 0.7725,
+      "rejection_class_0b": 1.0,
+      "total_candidates_passed": 562,
+      "pass_rate": 0.3306,
+      "ci_95_lower": 0.4492,
+      "ci_95_upper": 0.6999
+    },
+    {
+      "tau": 0.72,
+      "candidate_recall": 0.5067,
+      "rejection_class_1": 0.7925,
+      "rejection_class_0a": 0.8675,
+      "rejection_class_0b": 1.0,
+      "total_candidates_passed": 440,
+      "pass_rate": 0.2588,
+      "ci_95_lower": 0.3863,
+      "ci_95_upper": 0.6216
+    },
+    {
+      "tau": 0.75,
+      "candidate_recall": 0.3817,
+      "rejection_class_1": 0.905,
+      "rejection_class_0a": 0.9325,
+      "rejection_class_0b": 1.0,
+      "total_candidates_passed": 294,
+      "pass_rate": 0.1729,
+      "ci_95_lower": 0.2742,
+      "ci_95_upper": 0.4876
+    },
+    {
+      "tau": 0.77,
+      "candidate_recall": 0.275,
+      "rejection_class_1": 0.955,
+      "rejection_class_0a": 0.965,
+      "rejection_class_0b": 1.0,
+      "total_candidates_passed": 197,
+      "pass_rate": 0.1159,
+      "ci_95_lower": 0.1603,
+      "ci_95_upper": 0.383
+    },
+    {
+      "tau": 0.8,
+      "candidate_recall": 0.155,
+      "rejection_class_1": 0.9825,
+      "rejection_class_0a": 0.99,
+      "rejection_class_0b": 1.0,
+      "total_candidates_passed": 104,
+      "pass_rate": 0.0612,
+      "ci_95_lower": 0.0632,
+      "ci_95_upper": 0.2405
+    }
+  ]
+}

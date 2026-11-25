@@ -1,0 +1,33 @@
+{
+  "length_only_baseline": {
+    "auroc": 0.5073,
+    "precision": 0.5352,
+    "recall": 0.2815,
+    "f1": 0.3689,
+    "coefficients": [
+      0.0084,
+      0.0088,
+      -0.0004,
+      0.0028
+    ],
+    "feature_names": [
+      "premise_len",
+      "hypothesis_len",
+      "len_diff",
+      "len_ratio"
+    ]
+  },
+  "hypothesis_only_baseline": {
+    "auroc": 0.5567,
+    "precision": 0.5333,
+    "recall": 0.2074,
+    "f1": 0.2987,
+    "vocab_size": 5000
+  },
+  "zero_shot_pretrained_cross_encoder": {
+    "stratum_1_short_human_auroc": 0.8766,
+    "stratum_2_long_llm_auroc": 0.4821,
+    "stratum_3_stance_separation_auroc": 0.5537,
+    "stratum_4_macro_combined_auroc": 0.7633
+  }
+}

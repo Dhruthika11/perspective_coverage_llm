@@ -1,0 +1,1 @@
+Example: "perspective_summary": "The minimum wage should be raised to make up for low wages, which harms workers and the economy, especially women and minorities", "core_reasoning": "Because minimum wage harms workers and the economy, especially women and minorities, it must be raised to the point where it is equal to a living wage"

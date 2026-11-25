@@ -1,0 +1,32 @@
+{
+  "version": "v5",
+  "total_pairs": 3799,
+  "train_pairs": 2999,
+  "val_pairs": 800,
+  "unique_claims_total": 651,
+  "unique_claims_train": 521,
+  "unique_claims_val": 130,
+  "train_class_distribution": {
+    "full_coverage": 1390,
+    "no_coverage": 1087,
+    "contradiction": 360,
+    "partial_coverage": 162
+  },
+  "val_class_distribution": {
+    "full_coverage": 344,
+    "no_coverage": 309,
+    "contradiction": 89,
+    "partial_coverage": 58
+  },
+  "train_regime_distribution": {
+    "long_llm": 1722,
+    "short_human": 1277
+  },
+  "val_regime_distribution": {
+    "long_llm": 495,
+    "short_human": 305
+  },
+  "mean_premise_words_train": 99.5,
+  "mean_premise_words_val": 99.4,
+  "zero_data_contamination_verified": true
+}

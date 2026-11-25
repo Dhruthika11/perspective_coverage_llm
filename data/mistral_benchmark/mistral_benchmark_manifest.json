@@ -1,0 +1,15 @@
+{
+  "benchmark_name": "mistral_ood_benchmarks",
+  "adjudicated_benchmark": {
+    "available": true,
+    "pairs": 60,
+    "positives": 20,
+    "negatives": 40
+  },
+  "balanced_benchmark": {
+    "available": false,
+    "pairs": 0,
+    "positives": 0,
+    "negatives": 0
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "primary_selection_rule": "tau* = max tau s.t. CandidateRecall(tau) >= 0.98",
+  "primary_threshold_tau_star": 0.75,
+  "calibration_performance": {
+    "tau": 0.75,
+    "candidate_recall": 0.9828,
+    "negative_rejection_rate": 0.9286,
+    "related_pass_rate": 0.0,
+    "total_candidates_passed": 60.0,
+    "pass_rate": 0.4839
+  },
+  "test_performance": {
+    "tau": 0.75,
+    "candidate_recall": 0.9833,
+    "negative_rejection_rate": 0.8542,
+    "related_pass_rate": 0.0,
+    "total_candidates_passed": 66.0,
+    "pass_rate": 0.449
+  },
+  "sensitivity_thresholds": {
+    "recall_95": {
+      "tau": 0.77,
+      "stats": {
+        "tau": 0.77,
+        "candidate_recall": 0.9655,
+        "negative_rejection_rate": 0.9286,
+        "related_pass_rate": 0.0,
+        "total_candidates_passed": 59.0,
+        "pass_rate": 0.4758
+      }
+    },
+    "recall_98": {
+      "tau": 0.75,
+      "stats": {
+        "tau": 0.75,
+        "candidate_recall": 0.9828,
+        "negative_rejection_rate": 0.9286,
+        "related_pass_rate": 0.0,
+        "total_candidates_passed": 60.0,
+        "pass_rate": 0.4839
+      }
+    },
+    "recall_99": {
+      "tau": 0.72,
+      "stats": {
+        "tau": 0.72,
+        "candidate_recall": 1.0,
+        "negative_rejection_rate": 0.7857,
+        "related_pass_rate": 0.0833,
+        "total_candidates_passed": 69.0,
+        "pass_rate": 0.5565
+      }
+    }
+  },
+  "test_dataset_breakdown": {
+    "ibm_debater": {
+      "tau": 0.75,
+      "candidate_recall": 0.0,
+      "negative_rejection_rate": 1.0,
+      "related_pass_rate": 0.0,
+      "total_candidates_passed": 0.0,
+      "pass_rate": 0.0
+    },
+    "kialo": {
+      "tau": 0.75,
+      "candidate_recall": 0.95,
+      "negative_rejection_rate": 0.7083,
+      "related_pass_rate": 0.0,
+      "total_candidates_passed": 26.0,
+      "pass_rate": 0.4815
+    },
+    "perspectrum": {
+      "tau": 0.75,
+      "candidate_recall": 1.0,
+      "negative_rejection_rate": 1.0,
+      "related_pass_rate": 0.0,
+      "total_candidates_passed": 40.0,
+      "pass_rate": 0.4878
+    }
+  }
+}

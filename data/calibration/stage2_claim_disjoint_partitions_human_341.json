@@ -1,0 +1,109 @@
+{
+  "benchmark": "Stage 2 Human Ground-Truth Benchmark",
+  "total_concrete_pairs": 341,
+  "total_claims": 65,
+  "split_seed": 42,
+  "partitions": {
+    "train": {
+      "num_claims": 32,
+      "num_pairs": 153,
+      "class_distribution": {
+        "class_1": 53,
+        "class_2": 51,
+        "class_0a": 35,
+        "class_0b": 14
+      },
+      "claim_ids": [
+        2,
+        65,
+        66,
+        71,
+        72,
+        86,
+        101,
+        152,
+        170,
+        240,
+        260,
+        266,
+        347,
+        439,
+        440,
+        488,
+        525,
+        554,
+        569,
+        581,
+        604,
+        609,
+        674,
+        739,
+        795,
+        829,
+        838,
+        847,
+        923,
+        966,
+        1004,
+        1005
+      ]
+    },
+    "calibration": {
+      "num_claims": 16,
+      "num_pairs": 100,
+      "class_distribution": {
+        "class_1": 45,
+        "class_2": 24,
+        "class_0a": 21,
+        "class_0b": 10
+      },
+      "claim_ids": [
+        43,
+        148,
+        228,
+        281,
+        323,
+        370,
+        409,
+        435,
+        485,
+        555,
+        586,
+        633,
+        638,
+        687,
+        894,
+        973
+      ]
+    },
+    "test": {
+      "num_claims": 17,
+      "num_pairs": 88,
+      "class_distribution": {
+        "class_1": 29,
+        "class_0a": 26,
+        "class_2": 24,
+        "class_0b": 9
+      },
+      "claim_ids": [
+        52,
+        82,
+        104,
+        188,
+        261,
+        271,
+        287,
+        296,
+        428,
+        553,
+        564,
+        566,
+        585,
+        767,
+        771,
+        809,
+        841
+      ]
+    }
+  }
+}

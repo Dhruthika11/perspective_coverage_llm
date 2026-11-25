@@ -1,0 +1,4 @@
+Category,Perspectives,% of Dataset,Stance Distribution,Qualitative Rhetorical Profile
+Always Covered,1920,16.26%,52.6% Support / 47.4% Undermine,"Direct, common-sense, high-salience arguments (e.g., 'people cannot live off of their income', 'mining taxes could reduce the deficit')."
+Partially Covered,2368,20.06%,52.4% Support / 47.6% Undermine,Moderately salient arguments retrieved by mid-tier models (7B) but omitted by collapsed large models (32B).
+Never Covered,7517,63.68%,51.4% Support / 48.6% Undermine,"Subtle institutional nuances, progressive taxation mechanisms, philosophical rights, or second-order societal harms."

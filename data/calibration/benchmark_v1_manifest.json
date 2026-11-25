@@ -1,0 +1,56 @@
+{
+  "benchmark_name": "Dataset B (Human-LLM Semantic Coverage Benchmark)",
+  "version": "1.0.0-frozen",
+  "release_timestamp": "2026-11-19T06:00:00Z",
+  "dataset_statistics": {
+    "total_candidate_pairs": 1700,
+    "unanimous_3_of_3_count": 583,
+    "majority_with_ambiguous_count": 942,
+    "majority_2_of_3_count": 124,
+    "split_1_1_1_count": 51,
+    "total_triage_queue_pairs": 1084,
+    "human_ground_truth_pairs_total": 200,
+    "human_ground_truth_class_breakdown": {
+      "class_1": 69,
+      "class_2": 49,
+      "class_0a": 49,
+      "class_0b": 28,
+      "ambiguous": 5
+    },
+    "cumulative_unanimous_audited": 151,
+    "cumulative_unanimous_accuracy": "99.34% (150/151)"
+  },
+  "dual_column_schema": {
+    "model_prediction_column": "jury_consensus_label",
+    "model_consensus_type_column": "jury_consensus_type",
+    "human_ground_truth_column": "human_ground_truth_label",
+    "human_rationale_column": "human_adjudication_rationale",
+    "human_required_flag_column": "human_adjudication_required"
+  },
+  "file_provenance_and_checksums": {
+    "master_dataset": {
+      "path": "data/calibration/llm_jury_full_1700_annotated.csv",
+      "sha256": "7b2f01979e5873d2e3abd294a78c1c30f1db03a2d66d07a04c12127dff1f7b31",
+      "rows": 1700
+    },
+    "triage_queue": {
+      "path": "data/calibration/llm_jury_full_1700_human_triage_queue.csv",
+      "sha256": "73642dd78f6bebd143148b28be376181ba3f0ee5c472d02c5e9fee4e6c05a144",
+      "rows": 1084
+    },
+    "unanimous_100_audited": {
+      "path": "unanimous_100_audit_queue.csv",
+      "sha256": "2f3cfdbfab69f757c6de5348e27b7170498de698b26b1fff02000eb267036eee",
+      "rows": 100
+    },
+    "unanimous_50_fresh_queue": {
+      "path": "unanimous_50_fresh_audit_queue.csv",
+      "sha256": "1519bd538bc0bff588a0e9d3c9d52762aa0ef65e869b9478d1e15fd78f587d9f",
+      "rows": 50
+    },
+    "frozen_jury_specification": {
+      "path": "data/calibration/frozen_jury_specification.json",
+      "sha256": "ad037306158d2abcb79cd438295f84093f36aebf8e1f691c3f4071ebac776c37"
+    }
+  }
+}

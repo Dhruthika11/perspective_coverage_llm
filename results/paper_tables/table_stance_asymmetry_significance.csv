@@ -1,0 +1,6 @@
+model_id,model_name,n_paired_claims,mean_support_cov,mean_undermine_cov,asymmetry_gap,wilcoxon_w,p_value,significant_at_0_001,interpretation
+qwen2_5_1_5b_instruct,Qwen2.5-1.5B,686,0.2619,0.1976,0.0643,39484.5,0.00010559483084471585,True,Affirmative Support Bias is Statistically Significant
+qwen2_5_3b_instruct,Qwen2.5-3B,686,0.2387,0.2,0.0387,41748.5,0.01690119472739331,False,Affirmative Support Bias is Statistically Significant
+qwen2_5_32b_instruct,Qwen2.5-32B,686,0.2735,0.2408,0.0327,50483.5,0.060749301749498566,False,Balanced Stance Deliberation
+gemma_3_12b_it,Gemma-3-12B,686,0.2447,0.2162,0.0285,46940.5,0.06650107807980737,False,Balanced Stance Deliberation
+mistral_7b_instruct_v0_3,Mistral-7B-v0.3,686,0.2558,0.1927,0.0631,38312.0,4.085674567494812e-05,True,Affirmative Support Bias is Statistically Significant

@@ -1,0 +1,203 @@
+{
+  "operating_threshold": 0.5,
+  "total_true_negatives": 578,
+  "total_false_positives": 86,
+  "false_positive_rate": 0.1488,
+  "false_positive_breakdown_by_category": [
+    {
+      "pair_category": "same_topic_diff_concept",
+      "taxonomy_label": "Topical Overlap (Distinct Concept)",
+      "fp_count": 43,
+      "percentage_of_fp": 50.0,
+      "mean_p_full": 0.608
+    },
+    {
+      "pair_category": "same_stance_different_reasoning",
+      "taxonomy_label": "Stance Conflation (Orthogonal Reasoning)",
+      "fp_count": 32,
+      "percentage_of_fp": 37.21,
+      "mean_p_full": 0.5927
+    },
+    {
+      "pair_category": "opposite_stance_conflict",
+      "taxonomy_label": "Adversarial Polarity Inversion",
+      "fp_count": 11,
+      "percentage_of_fp": 12.79,
+      "mean_p_full": 0.6037
+    }
+  ],
+  "case_studies": [
+    {
+      "case_id": 1,
+      "claim_text": "Spain should cede Ceuta and Melilla to Morocco",
+      "pair_category": "same_topic_diff_concept",
+      "taxonomy_classification": "Topical Overlap (Distinct Concept)",
+      "p_v5_full_coverage": 0.831,
+      "perspective_hypothesis": "The cities are a source of revenue for Spain",
+      "premise_excerpt": "### Pragmatic Perspective\n\n#### From an Economic View\nThe practicality lies in assessing the fiscal impact versus potential gains. Maintaining Ceuta and Melilla demands considerable funding for defens...",
+      "qualitative_diagnostic_note": "High lexical/entity overlap on debate topic; premise discusses a distinct sub-aspect, but model triggers on shared keywords."
+    },
+    {
+      "case_id": 2,
+      "claim_text": "All Americans should have the right (be entitled) to health care",
+      "pair_category": "same_topic_diff_concept",
+      "taxonomy_classification": "Topical Overlap (Distinct Concept)",
+      "p_v5_full_coverage": 0.7925,
+      "perspective_hypothesis": "Everyone should have a right to health care.",
+      "premise_excerpt": "### Social Perspective\n\nFrom a social perspective, universal healthcare can significantly improve community health outcomes and reduce health disparities. By ensuring all Americans have access to heal...",
+      "qualitative_diagnostic_note": "High lexical/entity overlap on debate topic; premise discusses a distinct sub-aspect, but model triggers on shared keywords."
+    },
+    {
+      "case_id": 3,
+      "claim_text": "All Americans should have the right (be entitled) to health care",
+      "pair_category": "same_topic_diff_concept",
+      "taxonomy_classification": "Topical Overlap (Distinct Concept)",
+      "p_v5_full_coverage": 0.7847,
+      "perspective_hypothesis": "Everyone should have a right to health care.",
+      "premise_excerpt": "### Social Perspective\n\nFrom a social lens, ensuring access to quality healthcare is vital for creating a fairer society. Universal healthcare entitlement prevents the divide between rich and poor, of...",
+      "qualitative_diagnostic_note": "High lexical/entity overlap on debate topic; premise discusses a distinct sub-aspect, but model triggers on shared keywords."
+    },
+    {
+      "case_id": 4,
+      "claim_text": "Animals should be used for scientific or commercial testing",
+      "pair_category": "same_stance_different_reasoning",
+      "taxonomy_classification": "Stance Conflation (Orthogonal Reasoning)",
+      "p_v5_full_coverage": 0.7747,
+      "perspective_hypothesis": "Animal researchers treat animals humanely, both for the animals' sake and to ensure reliable test results.",
+      "premise_excerpt": "Some cosmetics and health care products must be tested on animals to ensure their safety.",
+      "qualitative_diagnostic_note": "Premise and hypothesis support the same side of the debate; model misinterprets shared high-level sentiment as entailment."
+    },
+    {
+      "case_id": 5,
+      "claim_text": "Gay couples should be allowed to marry",
+      "pair_category": "same_stance_different_reasoning",
+      "taxonomy_classification": "Stance Conflation (Orthogonal Reasoning)",
+      "p_v5_full_coverage": 0.7695,
+      "perspective_hypothesis": "The idea of a \"traditional marriage\" is a modern convention and has not remained static over the centuries.",
+      "premise_excerpt": "Two people who want to get married should be able to, no matter their sexuality.",
+      "qualitative_diagnostic_note": "Premise and hypothesis support the same side of the debate; model misinterprets shared high-level sentiment as entailment."
+    },
+    {
+      "case_id": 6,
+      "claim_text": "All countries should have the right to pursue a nuclear defence",
+      "pair_category": "same_topic_diff_concept",
+      "taxonomy_classification": "Topical Overlap (Distinct Concept)",
+      "p_v5_full_coverage": 0.7581,
+      "perspective_hypothesis": "It is immoral to use the threat of nuclear annihilation in order to achieve foreign policy aims",
+      "premise_excerpt": "### Practical and Pragmatic Perspective\n\nFrom a practical and pragmatic perspective, the implementation and maintenance of nuclear defense capabilities involve substantial costs and logistical complex...",
+      "qualitative_diagnostic_note": "High lexical/entity overlap on debate topic; premise discusses a distinct sub-aspect, but model triggers on shared keywords."
+    },
+    {
+      "case_id": 7,
+      "claim_text": "Music containing lyrics that glorify violent and criminal lifestyles should be banned",
+      "pair_category": "same_stance_different_reasoning",
+      "taxonomy_classification": "Stance Conflation (Orthogonal Reasoning)",
+      "p_v5_full_coverage": 0.7407,
+      "perspective_hypothesis": "It would encourage the viewing of women as helpless victims if this type of music was banned.",
+      "premise_excerpt": "hip hop artists have a right to free speech",
+      "qualitative_diagnostic_note": "Premise and hypothesis support the same side of the debate; model misinterprets shared high-level sentiment as entailment."
+    },
+    {
+      "case_id": 8,
+      "claim_text": "Compensation should be paid for those who have had their culture appropriated",
+      "pair_category": "same_topic_diff_concept",
+      "taxonomy_classification": "Topical Overlap (Distinct Concept)",
+      "p_v5_full_coverage": 0.7256,
+      "perspective_hypothesis": "Compensation rights a wrong",
+      "premise_excerpt": "### Social Perspective\n\n1. **Social Justice and Equity**: Compensation for cultural appropriation aligns with social justice principles by addressing power imbalances and inequalities. It helps level ...",
+      "qualitative_diagnostic_note": "High lexical/entity overlap on debate topic; premise discusses a distinct sub-aspect, but model triggers on shared keywords."
+    },
+    {
+      "case_id": 9,
+      "claim_text": "The ICC should have its own enforcement arm",
+      "pair_category": "opposite_stance_conflict",
+      "taxonomy_classification": "Adversarial Polarity Inversion",
+      "p_v5_full_coverage": 0.725,
+      "perspective_hypothesis": "ICC enforcement would create resentment",
+      "premise_excerpt": "An ICC Enforcement arm would bring in a higher proportion of defendants in to trial",
+      "qualitative_diagnostic_note": "Adversarial polarity conflict; model failed to detect semantic negation clause amidst common topic entities."
+    },
+    {
+      "case_id": 10,
+      "claim_text": "Wire-tapped and \u2018intercepted\u2019 evidence must be allowed as admissible in court",
+      "pair_category": "same_topic_diff_concept",
+      "taxonomy_classification": "Topical Overlap (Distinct Concept)",
+      "p_v5_full_coverage": 0.7095,
+      "perspective_hypothesis": "Wiretapping has a high level of benefit to both reduce serious crime and prosecute criminals.",
+      "premise_excerpt": "### Practical Perspective\n\nFrom a practical perspective, the admissibility of wire-tapped and intercepted evidence should be guided by a clear and pragmatic approach. The goal is to enhance law enforc...",
+      "qualitative_diagnostic_note": "High lexical/entity overlap on debate topic; premise discusses a distinct sub-aspect, but model triggers on shared keywords."
+    },
+    {
+      "case_id": 11,
+      "claim_text": "Eliminate All Nuclear Weapons",
+      "pair_category": "same_topic_diff_concept",
+      "taxonomy_classification": "Topical Overlap (Distinct Concept)",
+      "p_v5_full_coverage": 0.7041,
+      "perspective_hypothesis": "Iran has Israel targeted.",
+      "premise_excerpt": "### Practical Implementation Perspective: Verification and Monitoring Challenges\n\n**Argument**: From a practical implementation perspective, eliminating all nuclear weapons faces significant challenge...",
+      "qualitative_diagnostic_note": "High lexical/entity overlap on debate topic; premise discusses a distinct sub-aspect, but model triggers on shared keywords."
+    },
+    {
+      "case_id": 12,
+      "claim_text": "Newspapers Are a Thing of the Past",
+      "pair_category": "same_stance_different_reasoning",
+      "taxonomy_classification": "Stance Conflation (Orthogonal Reasoning)",
+      "p_v5_full_coverage": 0.7023,
+      "perspective_hypothesis": "Newspapers offer a better reading experience than digital alternatives",
+      "premise_excerpt": "newspapers are more versatile",
+      "qualitative_diagnostic_note": "Premise and hypothesis support the same side of the debate; model misinterprets shared high-level sentiment as entailment."
+    },
+    {
+      "case_id": 13,
+      "claim_text": "Antarctica Should Be Opened Up For Resource Exploitation",
+      "pair_category": "same_topic_diff_concept",
+      "taxonomy_classification": "Topical Overlap (Distinct Concept)",
+      "p_v5_full_coverage": 0.6875,
+      "perspective_hypothesis": "Antartica: A common heritage to the benefit of mankind",
+      "premise_excerpt": "**Viewpoint 1 (Practical Perspective)**\n\nFrom a practical standpoint, opening Antarctica for resource exploitation faces significant practical challenges. The harsh climate and extreme conditions make...",
+      "qualitative_diagnostic_note": "High lexical/entity overlap on debate topic; premise discusses a distinct sub-aspect, but model triggers on shared keywords."
+    },
+    {
+      "case_id": 14,
+      "claim_text": "Britain should become a republic",
+      "pair_category": "same_topic_diff_concept",
+      "taxonomy_classification": "Topical Overlap (Distinct Concept)",
+      "p_v5_full_coverage": 0.687,
+      "perspective_hypothesis": "monarchy in britain led to lots of chaos in the past",
+      "premise_excerpt": "Practical and pragmatic perspectives on Britain becoming a republic focus on reduced dependency on monarchical finances, enhanced transparency, increased fiscal autonomy, investment opportunities, and...",
+      "qualitative_diagnostic_note": "High lexical/entity overlap on debate topic; premise discusses a distinct sub-aspect, but model triggers on shared keywords."
+    },
+    {
+      "case_id": 15,
+      "claim_text": "Former colonial powers should pay reparations to former colonies",
+      "pair_category": "opposite_stance_conflict",
+      "taxonomy_classification": "Adversarial Polarity Inversion",
+      "p_v5_full_coverage": 0.6809,
+      "perspective_hypothesis": "Time has removed the opportunity to truly make reparations to those who may have deserved it.",
+      "premise_excerpt": "colonialism caused an imbalance in the economy and needs to be corrected",
+      "qualitative_diagnostic_note": "Adversarial polarity conflict; model failed to detect semantic negation clause amidst common topic entities."
+    }
+  ],
+  "mitigation_recommendations": [
+    {
+      "priority": "High",
+      "strategy": "Operating Threshold Calibration (theta >= 0.75 - 0.85)",
+      "impact": "Eliminates ~24% of marginal false alarms (from 119 down to 90 FP) with minimal recall penalty (-4%)."
+    },
+    {
+      "priority": "High",
+      "strategy": "Length-Adaptive Routing",
+      "impact": "Scores short texts monolithically (AUROC 0.9146) to eliminate multi-chunk spurious aggregation."
+    },
+    {
+      "priority": "Medium",
+      "strategy": "Stage-1 Cosine / Stance Gate Filter",
+      "impact": "Filters out broad same-topic distractors with low cosine similarity (<0.65) prior to cross-encoder scoring."
+    },
+    {
+      "priority": "Medium",
+      "strategy": "Contrastive Hard-Negative Loss",
+      "impact": "Explicitly penalizes same_stance_different_reasoning pairs during fine-tuning."
+    }
+  ]
+}

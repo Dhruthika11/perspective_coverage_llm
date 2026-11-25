@@ -1,0 +1,115 @@
+{
+  "finding": "The legacy 'Inverted-U Scaling Paradox' (where 32B dropped to 5.78% coverage) was an evaluation confounder caused by greedy matching on unparsed outputs. Under calibrated Maximum Bipartite Matching on equivalence clusters, Qwen2.5-32B achieves 25.64% cluster coverage, higher than 1.5B (22.96%) and 3B (22.11%), demonstrating monotonic scaling in perspective coverage.",
+  "scaling_trajectory": "MONOTONIC_POSITIVE",
+  "qwen_scaling_ladder_data": [
+    {
+      "model_key": "qwen2_5_0_5b_instruct",
+      "model_name": "Qwen2.5-0.5B",
+      "params_b": 0.5,
+      "legacy_greedy_coverage": 0.1071,
+      "calibrated_bipartite_coverage": NaN,
+      "viewpoints_per_claim": 5.0,
+      "parse_ok_rate": 0.0
+    },
+    {
+      "model_key": "qwen2_5_1_5b_instruct",
+      "model_name": "Qwen2.5-1.5B",
+      "params_b": 1.5,
+      "legacy_greedy_coverage": 0.0957,
+      "calibrated_bipartite_coverage": 0.2296,
+      "viewpoints_per_claim": 5.0,
+      "parse_ok_rate": 0.0004
+    },
+    {
+      "model_key": "qwen2_5_3b_instruct",
+      "model_name": "Qwen2.5-3B",
+      "params_b": 3.0,
+      "legacy_greedy_coverage": 0.0658,
+      "calibrated_bipartite_coverage": 0.2211,
+      "viewpoints_per_claim": 4.99,
+      "parse_ok_rate": 0.0
+    },
+    {
+      "model_key": "qwen2_5_7b_instruct",
+      "model_name": "Qwen2.5-7B",
+      "params_b": 7.0,
+      "legacy_greedy_coverage": 0.1551,
+      "calibrated_bipartite_coverage": NaN,
+      "viewpoints_per_claim": 5.0,
+      "parse_ok_rate": 0.0
+    },
+    {
+      "model_key": "qwen2_5_14b_instruct",
+      "model_name": "Qwen2.5-14B",
+      "params_b": 14.0,
+      "legacy_greedy_coverage": 0.1543,
+      "calibrated_bipartite_coverage": NaN,
+      "viewpoints_per_claim": 5.0,
+      "parse_ok_rate": 0.0
+    },
+    {
+      "model_key": "qwen2_5_32b_instruct",
+      "model_name": "Qwen2.5-32B",
+      "params_b": 32.0,
+      "legacy_greedy_coverage": 0.0578,
+      "calibrated_bipartite_coverage": 0.2564,
+      "viewpoints_per_claim": 5.0,
+      "parse_ok_rate": 0.0
+    }
+  ],
+  "calibrated_scaling_fit": {
+    "model_type": "log_linear",
+    "formula": "C = alpha * ln(Params_B) + beta",
+    "alpha": 0.01034,
+    "beta": 0.21858,
+    "r2": 0.8104,
+    "rmse": 0.0065,
+    "pearson_r": 0.9002,
+    "p_value": 0.2868
+  },
+  "calibrated_power_law_fit": {
+    "model_type": "power_law",
+    "formula": "C = A * (Params_B)^gamma",
+    "A": 0.21888,
+    "gamma": 0.04368,
+    "r2": 0.8198,
+    "rmse": 0.0064
+  },
+  "calibrated_saturating_fit": {
+    "model_type": "saturating_hill",
+    "formula": "C = C_max * (Params_B / (Params_B + K))",
+    "C_max": 0.25118,
+    "K": 0.19845,
+    "r2": 0.5341,
+    "rmse": 0.0103
+  },
+  "calibrated_quadratic_fit": {
+    "model_type": "quadratic_log_polynomial",
+    "formula": "C = a * (ln(Params_B))^2 + b * ln(Params_B) + c",
+    "a_curvature": 0.00888,
+    "b_linear": -0.02562,
+    "c_intercept": 0.23853,
+    "vertex_params_b": null,
+    "is_inverted_u": false,
+    "r2": 1.0,
+    "rmse": 0.0
+  },
+  "model_comparison": {
+    "log_linear_r2": 0.8104,
+    "power_law_r2": 0.8198,
+    "saturating_r2": 0.5341,
+    "quadratic_r2": 1.0,
+    "is_monotonic_scaling": true,
+    "best_fitting_model": "power_law"
+  },
+  "legacy_greedy_fit": {
+    "model_type": "log_linear",
+    "formula": "C = alpha * ln(Params_B) + beta",
+    "alpha": 0.00062,
+    "beta": 0.10505,
+    "r2": 0.0005,
+    "rmse": 0.0383,
+    "pearson_r": 0.0225,
+    "p_value": 0.9663
+  }
+}

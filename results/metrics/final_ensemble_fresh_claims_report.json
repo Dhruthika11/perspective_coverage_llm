@@ -1,0 +1,23 @@
+{
+  "evaluation_dataset": "Pristine 50-Claim Fresh Benchmark (data/fresh_claim_benchmark/test_fresh_claims.csv, N=1,110)",
+  "ensemble_model": "Data-Only (Random Head + Balanced Multi-Genre Data)",
+  "temperature_T_applied": 0.2323,
+  "frozen_thresholds_applied": {
+    "theta_f1_star": 0.3,
+    "theta_high_precision": 0.27
+  },
+  "disaggregated_auroc": {
+    "macro_combined": 0.9806,
+    "stratum_1_short_human": 0.9805,
+    "stratum_2_long_llm": 0.9864,
+    "stratum_3_stance_separation": 0.9827
+  },
+  "adversarial_robustness": {
+    "contradictions_caught": "61/73 (83.6%)"
+  },
+  "performance_at_frozen_theta_f1": {
+    "precision": 0.9559,
+    "recall": 0.9272,
+    "f1": 0.9413
+  }
+}

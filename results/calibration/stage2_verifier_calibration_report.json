@@ -1,0 +1,82 @@
+{
+  "selection_rule": "theta* = argmax Recall s.t. Precision >= 0.9",
+  "optimal_theta": 0.5,
+  "calibration_split_metrics": {
+    "brier_score": 0.1859,
+    "expected_calibration_error": 0.1694,
+    "stats": {
+      "theta": 0.5,
+      "precision": 0.86,
+      "recall": 0.7414,
+      "f1": 0.7963,
+      "tp": 43,
+      "fp": 7,
+      "fn": 15,
+      "tn": 59
+    }
+  },
+  "test_split_generalization": {
+    "optimal_theta": 0.5,
+    "test_precision": 0.878,
+    "test_recall": 0.6,
+    "test_f1": 0.7129,
+    "test_ece": 0.1422,
+    "test_brier_score": 0.1888,
+    "confusion_matrix": {
+      "tp": 36,
+      "fp": 5,
+      "fn": 24,
+      "tn": 82
+    },
+    "reliability_bins": [
+      {
+        "bin_idx": 2,
+        "bin_lower": 0.2,
+        "bin_upper": 0.3,
+        "count": 82,
+        "accuracy": 0.2805,
+        "avg_confidence": 0.2365
+      },
+      {
+        "bin_idx": 3,
+        "bin_lower": 0.3,
+        "bin_upper": 0.4,
+        "count": 4,
+        "accuracy": 0.25,
+        "avg_confidence": 0.3345
+      },
+      {
+        "bin_idx": 4,
+        "bin_lower": 0.4,
+        "bin_upper": 0.5,
+        "count": 20,
+        "accuracy": 0.0,
+        "avg_confidence": 0.4571
+      },
+      {
+        "bin_idx": 5,
+        "bin_lower": 0.5,
+        "bin_upper": 0.6,
+        "count": 2,
+        "accuracy": 0.5,
+        "avg_confidence": 0.5399
+      },
+      {
+        "bin_idx": 6,
+        "bin_lower": 0.6,
+        "bin_upper": 0.7,
+        "count": 20,
+        "accuracy": 1.0,
+        "avg_confidence": 0.6902
+      },
+      {
+        "bin_idx": 7,
+        "bin_lower": 0.7,
+        "bin_upper": 0.8,
+        "count": 19,
+        "accuracy": 0.7895,
+        "avg_confidence": 0.7089
+      }
+    ]
+  }
+}

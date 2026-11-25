@@ -1,0 +1,27 @@
+{
+  "n_valid": 7412,
+  "n_reported_missing": 2,
+  "agreement_rate": 0.6204803022126282,
+  "confusion": [
+    {
+      "llm_reported_stance": "support",
+      "predicted_stance": "support",
+      "n": 2558
+    },
+    {
+      "llm_reported_stance": "support",
+      "predicted_stance": "undermine",
+      "n": 1063
+    },
+    {
+      "llm_reported_stance": "undermine",
+      "predicted_stance": "support",
+      "n": 1750
+    },
+    {
+      "llm_reported_stance": "undermine",
+      "predicted_stance": "undermine",
+      "n": 2041
+    }
+  ]
+}

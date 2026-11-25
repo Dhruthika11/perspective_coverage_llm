@@ -1,0 +1,75 @@
+{
+  "protocol_version": "1.0.0-frozen",
+  "freeze_date": "2026-11-19T06:00:00Z",
+  "jury_composition": [
+    {
+      "judge_id": "Judge_1",
+      "model_name": "Google Gemini 3.1 Flash Lite Preview",
+      "model_string": "google/gemini-2.5-flash-preview",
+      "api_provider": "Google DeepMind / Generative AI SDK",
+      "temperature": 0.1,
+      "max_output_tokens": 4096,
+      "role": "Anchor Judge (High reasoning speed, broad contextual window)"
+    },
+    {
+      "judge_id": "Judge_2",
+      "model_name": "OpenAI GPT-OSS 120B",
+      "fallback_model": "OpenAI GPT-OSS 20B",
+      "model_string": "openai/gpt-oss-120b",
+      "api_provider": "Groq / OpenAI-compatible API",
+      "temperature": 0.1,
+      "max_output_tokens": 4096,
+      "role": "Independent Validator (Open-weights reasoning model)"
+    },
+    {
+      "judge_id": "Judge_3",
+      "model_name": "Alibaba Qwen 3.8-27B",
+      "model_string": "qwen/qwen3.8-27b",
+      "api_provider": "Groq / OpenAI-compatible API",
+      "temperature": 0.1,
+      "max_output_tokens": 4096,
+      "role": "Cross-Family Independent Tiebreaker"
+    }
+  ],
+  "taxonomy": {
+    "class_2": "Same stance AND same core reasoning / warrant (Equivalent)",
+    "class_1": "Same stance, but DISTINCT reasoning / warrant (Different argument)",
+    "class_0a": "Opposite stance on the same claim (Direct rebuttal)",
+    "class_0b": "Unrelated debate topic / domain mismatch",
+    "ambiguous": "Corrupted, truncated, or non-propositional text"
+  },
+  "consensus_rules": {
+    "unanimous_concrete": {
+      "rule": "3/3 judges vote for the same non-ambiguous class",
+      "action": "AUTO_ACCEPT",
+      "human_adjudication_required": false,
+      "verified_accuracy": "99.34% (150/151 audited pairs)"
+    },
+    "majority_concrete": {
+      "rule": "2/3 judges vote for class X; 1 judge votes for class Y (X, Y != ambiguous)",
+      "action": "TRIAGE_QUEUE",
+      "human_adjudication_required": true,
+      "provisional_label": "Majority vote"
+    },
+    "majority_with_ambiguous": {
+      "rule": "2/3 judges vote for class X; 1 judge votes ambiguous",
+      "action": "TRIAGE_QUEUE",
+      "human_adjudication_required": true,
+      "provisional_label": "Majority vote (marked for ambiguity verification)"
+    },
+    "split_decision": {
+      "rule": "Judges vote for three distinct classes (1/1/1 split)",
+      "action": "TRIAGE_QUEUE",
+      "human_adjudication_required": true,
+      "provisional_label": "split"
+    },
+    "unanimous_ambiguous": {
+      "rule": "3/3 judges vote ambiguous",
+      "action": "TRIAGE_QUEUE",
+      "human_adjudication_required": true,
+      "provisional_label": "ambiguous"
+    }
+  },
+  "prompt_template": "You are an expert argument annotator evaluating semantic relationships between debate perspectives.\n\nDebate Claim: {claim}\n\nPerspective A (Gold Reference):\n\"{gold_perspective}\"\n\nPerspective B (Generated Viewpoint):\n\"{generated_viewpoint}\"\n\nTask:\nDetermine the relationship of Perspective B relative to Perspective A under the following 4-class taxonomy:\n\nClasses:\n1. \"class_2\" (Same stance AND same core reasoning / warrant): Both perspectives argue for the exact same point on the claim. Surface paraphrases, lexical variations, or concrete elaborations that do not alter the core argumentative claim belong here.\n2. \"class_1\" (Same stance, but DISTINCT reasoning / warrant): Both perspectives share the same stance (pro/con), but rely on fundamentally different arguments, mechanisms, or evidence.\n3. \"class_0a\" (Opposite stance on the same claim / Rebuttal): Perspective B takes the directly opposing stance or offers a counter-argument to Perspective A on this specific claim.\n4. \"class_0b\" (Unrelated debate topic / domain mismatch): Perspective B discusses an entirely different subject or claim.\n5. \"ambiguous\" (Corrupted, truncated, or non-propositional text): One or both perspectives are malformed, cut off mid-sentence, or contain only empty section headers (e.g., ending in a colon like \"A Critique:\").\n\nResponse Format:\nRespond in valid JSON with:\n{\n  \"label\": \"class_2\" | \"class_1\" | \"class_0a\" | \"class_0b\" | \"ambiguous\",\n  \"confidence\": float between 0.0 and 1.0,\n  \"explanation\": \"Brief explanation of the relationship\"\n}\n",
+  "hash_md5": "37225cfab4765e6b4fc1aae00ce4742a"
+}

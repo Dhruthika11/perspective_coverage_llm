@@ -1,0 +1,228 @@
+{
+  "sample_size": 50,
+  "exclusive_consensus_distribution": {
+    "Unanimous 3/3": 44,
+    "Majority 2/3, no ambiguity flag": 4,
+    "Majority 2/3, ambiguity flag": 0,
+    "Unanimous 3/3, ambiguity flag": 1,
+    "No majority / three different labels": 0,
+    "Invalid or missing outputs": 1,
+    "Total": 50
+  },
+  "unanimous_subset_validation": {
+    "total_unanimous_pairs": 45,
+    "unanimous_agreement_with_human": 45,
+    "unanimous_accuracy": 1.0,
+    "unanimous_error_count": 0,
+    "unanimous_error_rate_pct": 0.0
+  },
+  "evaluator_performance_vs_human": {
+    "Gemini-3-Flash": {
+      "accuracy": 0.96,
+      "macro_f1": 0.965,
+      "class_2_recall": 1.0,
+      "class_2_precision": 0.7778,
+      "class_1_recall": 0.9048,
+      "class_1_precision": 1.0,
+      "class_0a_recall": 1.0,
+      "class_0a_precision": 1.0,
+      "class_0b_recall": 1.0,
+      "class_0b_precision": 1.0
+    },
+    "GPT-OSS-120B": {
+      "accuracy": 0.96,
+      "macro_f1": 0.9084,
+      "class_2_recall": 0.8571,
+      "class_2_precision": 1.0,
+      "class_1_recall": 0.9524,
+      "class_1_precision": 0.9524,
+      "class_0a_recall": 1.0,
+      "class_0a_precision": 1.0,
+      "class_0b_recall": 1.0,
+      "class_0b_precision": 1.0
+    },
+    "Qwen-3.8-27B": {
+      "accuracy": 0.96,
+      "macro_f1": 0.9677,
+      "class_2_recall": 0.8571,
+      "class_2_precision": 1.0,
+      "class_1_recall": 0.9524,
+      "class_1_precision": 0.9524,
+      "class_0a_recall": 1.0,
+      "class_0a_precision": 0.9286,
+      "class_0b_recall": 1.0,
+      "class_0b_precision": 1.0
+    },
+    "Majority-Vote": {
+      "accuracy": 0.98,
+      "macro_f1": 0.98,
+      "class_2_recall": 0.8571,
+      "class_2_precision": 1.0,
+      "class_1_recall": 1.0,
+      "class_1_precision": 0.9545,
+      "class_0a_recall": 1.0,
+      "class_0a_precision": 1.0,
+      "class_0b_recall": 1.0,
+      "class_0b_precision": 1.0
+    }
+  },
+  "confusion_matrices": {
+    "labels": [
+      "class_2",
+      "class_1",
+      "class_0a",
+      "class_0b",
+      "ambiguous"
+    ],
+    "matrices": {
+      "Gemini-3-Flash": [
+        [
+          7,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          19,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          13,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          8,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "GPT-OSS-120B": [
+        [
+          6,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          20,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          13,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          8,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "Qwen-3.8-27B": [
+        [
+          6,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          20,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          13,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          8,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "Majority-Vote": [
+        [
+          6,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          21,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          13,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          8,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ]
+    }
+  }
+}

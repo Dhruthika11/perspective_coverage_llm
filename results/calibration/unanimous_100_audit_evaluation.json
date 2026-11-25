@@ -1,0 +1,247 @@
+{
+  "full_100_audit": {
+    "name": "Full 100-Pair Unanimous Audit",
+    "n": 100,
+    "overall_accuracy": 0.99,
+    "cohen_kappa": 0.9867,
+    "macro_f1": 0.9929,
+    "matches": 99,
+    "mismatches": 1,
+    "per_class": {
+      "class_2": {
+        "precision": 1.0,
+        "recall": 0.963,
+        "f1": 0.9811,
+        "support": 27
+      },
+      "class_1": {
+        "precision": 0.9677,
+        "recall": 1.0,
+        "f1": 0.9836,
+        "support": 30
+      },
+      "class_0a": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 24
+      },
+      "class_0b": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 17
+      },
+      "ambiguous": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 2
+      }
+    },
+    "confusion_matrix": {
+      "class_2": {
+        "class_2": 26,
+        "class_1": 0,
+        "class_0a": 0,
+        "class_0b": 0,
+        "ambiguous": 0
+      },
+      "class_1": {
+        "class_2": 1,
+        "class_1": 30,
+        "class_0a": 0,
+        "class_0b": 0,
+        "ambiguous": 0
+      },
+      "class_0a": {
+        "class_2": 0,
+        "class_1": 0,
+        "class_0a": 24,
+        "class_0b": 0,
+        "ambiguous": 0
+      },
+      "class_0b": {
+        "class_2": 0,
+        "class_1": 0,
+        "class_0a": 0,
+        "class_0b": 17,
+        "ambiguous": 0
+      },
+      "ambiguous": {
+        "class_2": 0,
+        "class_1": 0,
+        "class_0a": 0,
+        "class_0b": 0,
+        "ambiguous": 2
+      }
+    }
+  },
+  "subgroup_60_natural": {
+    "name": "Subgroup 1: 60-Pair Natural Distribution Sample",
+    "n": 60,
+    "overall_accuracy": 1.0,
+    "cohen_kappa": 1.0,
+    "macro_f1": 1.0,
+    "matches": 60,
+    "mismatches": 0,
+    "per_class": {
+      "class_2": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 4
+      },
+      "class_1": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 25
+      },
+      "class_0a": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 18
+      },
+      "class_0b": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 11
+      },
+      "ambiguous": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 2
+      }
+    },
+    "confusion_matrix": {
+      "class_2": {
+        "class_2": 4,
+        "class_1": 0,
+        "class_0a": 0,
+        "class_0b": 0,
+        "ambiguous": 0
+      },
+      "class_1": {
+        "class_2": 0,
+        "class_1": 25,
+        "class_0a": 0,
+        "class_0b": 0,
+        "ambiguous": 0
+      },
+      "class_0a": {
+        "class_2": 0,
+        "class_1": 0,
+        "class_0a": 18,
+        "class_0b": 0,
+        "ambiguous": 0
+      },
+      "class_0b": {
+        "class_2": 0,
+        "class_1": 0,
+        "class_0a": 0,
+        "class_0b": 11,
+        "ambiguous": 0
+      },
+      "ambiguous": {
+        "class_2": 0,
+        "class_1": 0,
+        "class_0a": 0,
+        "class_0b": 0,
+        "ambiguous": 2
+      }
+    }
+  },
+  "subgroup_40_booster": {
+    "name": "Subgroup 2: 40-Pair Class Coverage Booster",
+    "n": 40,
+    "overall_accuracy": 0.975,
+    "cohen_kappa": 0.9597,
+    "macro_f1": 0.7774,
+    "matches": 39,
+    "mismatches": 1,
+    "per_class": {
+      "class_2": {
+        "precision": 1.0,
+        "recall": 0.9565,
+        "f1": 0.9778,
+        "support": 23
+      },
+      "class_1": {
+        "precision": 0.8333,
+        "recall": 1.0,
+        "f1": 0.9091,
+        "support": 5
+      },
+      "class_0a": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 6
+      },
+      "class_0b": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 6
+      },
+      "ambiguous": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 0
+      }
+    },
+    "confusion_matrix": {
+      "class_2": {
+        "class_2": 22,
+        "class_1": 0,
+        "class_0a": 0,
+        "class_0b": 0,
+        "ambiguous": 0
+      },
+      "class_1": {
+        "class_2": 1,
+        "class_1": 5,
+        "class_0a": 0,
+        "class_0b": 0,
+        "ambiguous": 0
+      },
+      "class_0a": {
+        "class_2": 0,
+        "class_1": 0,
+        "class_0a": 6,
+        "class_0b": 0,
+        "ambiguous": 0
+      },
+      "class_0b": {
+        "class_2": 0,
+        "class_1": 0,
+        "class_0a": 0,
+        "class_0b": 6,
+        "ambiguous": 0
+      },
+      "ambiguous": {
+        "class_2": 0,
+        "class_1": 0,
+        "class_0a": 0,
+        "class_0b": 0,
+        "ambiguous": 0
+      }
+    }
+  },
+  "cumulative_unanimous_validation": {
+    "stage_a_unanimous_audited": 45,
+    "stage_a_unanimous_correct": 45,
+    "stage_b_unanimous_audited": 6,
+    "stage_b_unanimous_correct": 6,
+    "new_cohort_unanimous_audited": 100,
+    "new_cohort_unanimous_correct": 99,
+    "total_unanimous_audited_to_date": 151,
+    "total_unanimous_correct_to_date": 150,
+    "cumulative_unanimous_accuracy": 0.9934
+  }
+}

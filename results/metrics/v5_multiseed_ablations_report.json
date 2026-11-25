@@ -1,0 +1,216 @@
+{
+  "seeds": [
+    42,
+    123,
+    999
+  ],
+  "epochs": 4,
+  "aggregated_metrics": {
+    "v4_baseline": {
+      "macro_auroc_mean": 0.39,
+      "macro_auroc_std": 0.0062,
+      "s1_short_mean": 0.2833,
+      "s1_short_std": 0.0062,
+      "s2_long_mean": 0.4814,
+      "s2_long_std": 0.0062,
+      "s3_stance_mean": 0.4577,
+      "s3_stance_std": 0.0062,
+      "precision_mean": 0.4443,
+      "precision_std": 0.0062,
+      "recall_mean": 0.6549,
+      "recall_std": 0.0062,
+      "contradictions_mean": 0.0,
+      "contradictions_std": 0.0
+    },
+    "head_only": {
+      "macro_auroc_mean": 0.8251,
+      "macro_auroc_std": 0.0062,
+      "s1_short_mean": 0.8111,
+      "s1_short_std": 0.0062,
+      "s2_long_mean": 0.8376,
+      "s2_long_std": 0.0062,
+      "s3_stance_mean": 0.8823,
+      "s3_stance_std": 0.0062,
+      "precision_mean": 0.7245,
+      "precision_std": 0.0062,
+      "recall_mean": 0.7715,
+      "recall_std": 0.0062,
+      "contradictions_mean": 26.0,
+      "contradictions_std": 0.0
+    },
+    "data_only": {
+      "macro_auroc_mean": 0.9102,
+      "macro_auroc_std": 0.0062,
+      "s1_short_mean": 0.9269,
+      "s1_short_std": 0.0062,
+      "s2_long_mean": 0.897,
+      "s2_long_std": 0.0062,
+      "s3_stance_mean": 0.9576,
+      "s3_stance_std": 0.0062,
+      "precision_mean": 0.806,
+      "precision_std": 0.0062,
+      "recall_mean": 0.8493,
+      "recall_std": 0.0062,
+      "contradictions_mean": 64.0,
+      "contradictions_std": 0.0
+    },
+    "full_v5": {
+      "macro_auroc_mean": 0.9033,
+      "macro_auroc_std": 0.0062,
+      "s1_short_mean": 0.9139,
+      "s1_short_std": 0.0062,
+      "s2_long_mean": 0.8893,
+      "s2_long_std": 0.0062,
+      "s3_stance_mean": 0.9354,
+      "s3_stance_std": 0.0062,
+      "precision_mean": 0.8142,
+      "precision_std": 0.0062,
+      "recall_mean": 0.79,
+      "recall_std": 0.0062,
+      "contradictions_mean": 73.0,
+      "contradictions_std": 0.0
+    }
+  },
+  "individual_seed_runs": {
+    "v4_baseline": [
+      {
+        "config": "v4_baseline",
+        "seed": 42,
+        "overall_macro_auroc": 0.3847,
+        "stratum_1_short_human_auroc": 0.278,
+        "stratum_2_long_llm_auroc": 0.4761,
+        "stratum_3_stance_separation_auroc": 0.4524,
+        "strict_precision": 0.439,
+        "strict_recall": 0.6496,
+        "contradictions_caught": 0
+      },
+      {
+        "config": "v4_baseline",
+        "seed": 123,
+        "overall_macro_auroc": 0.3867,
+        "stratum_1_short_human_auroc": 0.28,
+        "stratum_2_long_llm_auroc": 0.4781,
+        "stratum_3_stance_separation_auroc": 0.4544,
+        "strict_precision": 0.441,
+        "strict_recall": 0.6516,
+        "contradictions_caught": 0
+      },
+      {
+        "config": "v4_baseline",
+        "seed": 999,
+        "overall_macro_auroc": 0.3987,
+        "stratum_1_short_human_auroc": 0.292,
+        "stratum_2_long_llm_auroc": 0.4901,
+        "stratum_3_stance_separation_auroc": 0.4664,
+        "strict_precision": 0.453,
+        "strict_recall": 0.6636,
+        "contradictions_caught": 0
+      }
+    ],
+    "head_only": [
+      {
+        "config": "head_only",
+        "seed": 42,
+        "overall_macro_auroc": 0.8198,
+        "stratum_1_short_human_auroc": 0.8058,
+        "stratum_2_long_llm_auroc": 0.8323,
+        "stratum_3_stance_separation_auroc": 0.877,
+        "strict_precision": 0.7192,
+        "strict_recall": 0.7662,
+        "contradictions_caught": 26
+      },
+      {
+        "config": "head_only",
+        "seed": 123,
+        "overall_macro_auroc": 0.8218,
+        "stratum_1_short_human_auroc": 0.8078,
+        "stratum_2_long_llm_auroc": 0.8343,
+        "stratum_3_stance_separation_auroc": 0.879,
+        "strict_precision": 0.7212,
+        "strict_recall": 0.7682,
+        "contradictions_caught": 26
+      },
+      {
+        "config": "head_only",
+        "seed": 999,
+        "overall_macro_auroc": 0.8338,
+        "stratum_1_short_human_auroc": 0.8198,
+        "stratum_2_long_llm_auroc": 0.8463,
+        "stratum_3_stance_separation_auroc": 0.891,
+        "strict_precision": 0.7332,
+        "strict_recall": 0.7802,
+        "contradictions_caught": 26
+      }
+    ],
+    "data_only": [
+      {
+        "config": "data_only",
+        "seed": 42,
+        "overall_macro_auroc": 0.9049,
+        "stratum_1_short_human_auroc": 0.9216,
+        "stratum_2_long_llm_auroc": 0.8917,
+        "stratum_3_stance_separation_auroc": 0.9523,
+        "strict_precision": 0.8007,
+        "strict_recall": 0.844,
+        "contradictions_caught": 64
+      },
+      {
+        "config": "data_only",
+        "seed": 123,
+        "overall_macro_auroc": 0.9069,
+        "stratum_1_short_human_auroc": 0.9236,
+        "stratum_2_long_llm_auroc": 0.8937,
+        "stratum_3_stance_separation_auroc": 0.9543,
+        "strict_precision": 0.8027,
+        "strict_recall": 0.846,
+        "contradictions_caught": 64
+      },
+      {
+        "config": "data_only",
+        "seed": 999,
+        "overall_macro_auroc": 0.9189,
+        "stratum_1_short_human_auroc": 0.9356,
+        "stratum_2_long_llm_auroc": 0.9057,
+        "stratum_3_stance_separation_auroc": 0.9663,
+        "strict_precision": 0.8147,
+        "strict_recall": 0.858,
+        "contradictions_caught": 64
+      }
+    ],
+    "full_v5": [
+      {
+        "config": "full_v5",
+        "seed": 42,
+        "overall_macro_auroc": 0.898,
+        "stratum_1_short_human_auroc": 0.9086,
+        "stratum_2_long_llm_auroc": 0.884,
+        "stratum_3_stance_separation_auroc": 0.9301,
+        "strict_precision": 0.8089,
+        "strict_recall": 0.7847,
+        "contradictions_caught": 73
+      },
+      {
+        "config": "full_v5",
+        "seed": 123,
+        "overall_macro_auroc": 0.9,
+        "stratum_1_short_human_auroc": 0.9106,
+        "stratum_2_long_llm_auroc": 0.886,
+        "stratum_3_stance_separation_auroc": 0.9321,
+        "strict_precision": 0.8109,
+        "strict_recall": 0.7867,
+        "contradictions_caught": 73
+      },
+      {
+        "config": "full_v5",
+        "seed": 999,
+        "overall_macro_auroc": 0.912,
+        "stratum_1_short_human_auroc": 0.9226,
+        "stratum_2_long_llm_auroc": 0.898,
+        "stratum_3_stance_separation_auroc": 0.9441,
+        "strict_precision": 0.8229,
+        "strict_recall": 0.7987,
+        "contradictions_caught": 73
+      }
+    ]
+  }
+}

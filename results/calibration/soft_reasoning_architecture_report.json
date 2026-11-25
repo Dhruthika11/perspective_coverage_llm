@@ -1,0 +1,441 @@
+{
+  "calibrated_parameters": {
+    "logit_blend": {
+      "alpha": 0.05,
+      "threshold": 0.18
+    },
+    "prob_blend": {
+      "alpha": 0.6,
+      "threshold": 0.18
+    },
+    "gated_penalty": {
+      "tau_div": 0.65,
+      "lambda": 0.4,
+      "threshold": 0.2
+    },
+    "constrained_lr": {
+      "gamma": 0.1,
+      "threshold": 0.16
+    }
+  },
+  "held_out_test_results": [
+    {
+      "model": "M0 Frozen Baseline",
+      "threshold": 0.2,
+      "recall": 95.83,
+      "precision": 54.76,
+      "precision_ci_lower": 39.95,
+      "precision_ci_upper": 68.78,
+      "f1": 0.697,
+      "rej_c1": 41.38,
+      "rej_c0a": 96.15,
+      "rej_c0b": 88.89,
+      "total_fp": 19,
+      "fp_c1": 17,
+      "fp_c0a": 1,
+      "fp_c0b": 1,
+      "tp": 23,
+      "fn": 1
+    },
+    {
+      "model": "M2 Unconstrained (T*=0.18)",
+      "threshold": 0.18,
+      "recall": 83.33,
+      "precision": 55.56,
+      "precision_ci_lower": 39.58,
+      "precision_ci_upper": 70.46,
+      "f1": 0.6667,
+      "rej_c1": 48.28,
+      "rej_c0a": 100.0,
+      "rej_c0b": 88.89,
+      "total_fp": 16,
+      "fp_c1": 15,
+      "fp_c0a": 0,
+      "fp_c0b": 1,
+      "tp": 20,
+      "fn": 4
+    },
+    {
+      "model": "M2 Unconstrained (T*=0.31)",
+      "threshold": 0.31,
+      "recall": 70.83,
+      "precision": 62.96,
+      "precision_ci_lower": 44.23,
+      "precision_ci_upper": 78.47,
+      "f1": 0.6667,
+      "rej_c1": 68.97,
+      "rej_c0a": 100.0,
+      "rej_c0b": 88.89,
+      "total_fp": 10,
+      "fp_c1": 9,
+      "fp_c0a": 0,
+      "fp_c0b": 1,
+      "tp": 17,
+      "fn": 7
+    },
+    {
+      "model": "M_soft: Logit Blend (alpha=0.05)",
+      "threshold": 0.18,
+      "recall": 95.83,
+      "precision": 53.49,
+      "precision_ci_lower": 38.92,
+      "precision_ci_upper": 67.49,
+      "f1": 0.6866,
+      "rej_c1": 37.93,
+      "rej_c0a": 96.15,
+      "rej_c0b": 88.89,
+      "total_fp": 20,
+      "fp_c1": 18,
+      "fp_c0a": 1,
+      "fp_c0b": 1,
+      "tp": 23,
+      "fn": 1
+    },
+    {
+      "model": "M_soft: Prob Blend (alpha=0.6)",
+      "threshold": 0.18,
+      "recall": 95.83,
+      "precision": 54.76,
+      "precision_ci_lower": 39.95,
+      "precision_ci_upper": 68.78,
+      "f1": 0.697,
+      "rej_c1": 37.93,
+      "rej_c0a": 100.0,
+      "rej_c0b": 88.89,
+      "total_fp": 19,
+      "fp_c1": 18,
+      "fp_c0a": 0,
+      "fp_c0b": 1,
+      "tp": 23,
+      "fn": 1
+    },
+    {
+      "model": "M_soft: Gated Penalty (tau=0.65, lam=0.4)",
+      "threshold": 0.2,
+      "recall": 95.83,
+      "precision": 57.5,
+      "precision_ci_lower": 42.2,
+      "precision_ci_upper": 71.49,
+      "f1": 0.7188,
+      "rej_c1": 48.28,
+      "rej_c0a": 96.15,
+      "rej_c0b": 88.89,
+      "total_fp": 17,
+      "fp_c1": 15,
+      "fp_c0a": 1,
+      "fp_c0b": 1,
+      "tp": 23,
+      "fn": 1
+    },
+    {
+      "model": "M_soft: Constrained LR (gamma=0.1)",
+      "threshold": 0.16,
+      "recall": 83.33,
+      "precision": 54.05,
+      "precision_ci_lower": 38.38,
+      "precision_ci_upper": 68.96,
+      "f1": 0.6557,
+      "rej_c1": 44.83,
+      "rej_c0a": 100.0,
+      "rej_c0b": 88.89,
+      "total_fp": 17,
+      "fp_c1": 16,
+      "fp_c0a": 0,
+      "fp_c0b": 1,
+      "tp": 20,
+      "fn": 4
+    }
+  ],
+  "independent_audit_results": [
+    {
+      "model": "M0 Frozen Baseline",
+      "threshold": 0.2,
+      "recall": 88.24,
+      "precision": 81.08,
+      "f1": 0.8451,
+      "rej_c1": 68.42,
+      "rej_c0a": 92.86,
+      "total_fp": 7,
+      "fp_c1": 6,
+      "fp_c0a": 1,
+      "fp_c0b": 0,
+      "tp": 30,
+      "fn": 4
+    },
+    {
+      "model": "M2 Unconstrained (T*=0.18)",
+      "threshold": 0.18,
+      "recall": 79.41,
+      "precision": 81.82,
+      "f1": 0.806,
+      "rej_c1": 68.42,
+      "rej_c0a": 100.0,
+      "total_fp": 6,
+      "fp_c1": 6,
+      "fp_c0a": 0,
+      "fp_c0b": 0,
+      "tp": 27,
+      "fn": 7
+    },
+    {
+      "model": "M2 Unconstrained (T*=0.31)",
+      "threshold": 0.31,
+      "recall": 64.71,
+      "precision": 84.62,
+      "f1": 0.7333,
+      "rej_c1": 78.95,
+      "rej_c0a": 100.0,
+      "total_fp": 4,
+      "fp_c1": 4,
+      "fp_c0a": 0,
+      "fp_c0b": 0,
+      "tp": 22,
+      "fn": 12
+    },
+    {
+      "model": "M_soft: Logit Blend (alpha=0.05)",
+      "threshold": 0.18,
+      "recall": 88.24,
+      "precision": 81.08,
+      "f1": 0.8451,
+      "rej_c1": 68.42,
+      "rej_c0a": 92.86,
+      "total_fp": 7,
+      "fp_c1": 6,
+      "fp_c0a": 1,
+      "fp_c0b": 0,
+      "tp": 30,
+      "fn": 4
+    },
+    {
+      "model": "M_soft: Prob Blend (alpha=0.6)",
+      "threshold": 0.18,
+      "recall": 76.47,
+      "precision": 78.79,
+      "f1": 0.7761,
+      "rej_c1": 68.42,
+      "rej_c0a": 92.86,
+      "total_fp": 7,
+      "fp_c1": 6,
+      "fp_c0a": 1,
+      "fp_c0b": 0,
+      "tp": 26,
+      "fn": 8
+    },
+    {
+      "model": "M_soft: Gated Penalty (tau=0.65, lam=0.4)",
+      "threshold": 0.2,
+      "recall": 85.29,
+      "precision": 80.56,
+      "f1": 0.8286,
+      "rej_c1": 68.42,
+      "rej_c0a": 92.86,
+      "total_fp": 7,
+      "fp_c1": 6,
+      "fp_c0a": 1,
+      "fp_c0b": 0,
+      "tp": 29,
+      "fn": 5
+    },
+    {
+      "model": "M_soft: Constrained LR (gamma=0.1)",
+      "threshold": 0.16,
+      "recall": 79.41,
+      "precision": 79.41,
+      "f1": 0.7941,
+      "rej_c1": 68.42,
+      "rej_c0a": 100.0,
+      "total_fp": 7,
+      "fp_c1": 6,
+      "fp_c0a": 0,
+      "fp_c0b": 1,
+      "tp": 27,
+      "fn": 7
+    }
+  ],
+  "production_ht_results": [
+    {
+      "model": "M0 Frozen Baseline",
+      "threshold": 0.2,
+      "weighted_recall": 82.75,
+      "weighted_precision": 84.79,
+      "weighted_f1": 0.8375,
+      "weighted_c1_rejection": 85.84,
+      "est_pop_fp": 11.3,
+      "est_fp_c1": 10.1,
+      "est_fp_c0a": 1.2,
+      "est_pop_tp": 62.7,
+      "est_pop_fn": 13.1
+    },
+    {
+      "model": "M2 Unconstrained (T*=0.18)",
+      "threshold": 0.18,
+      "weighted_recall": 73.62,
+      "weighted_precision": 84.73,
+      "weighted_f1": 0.7878,
+      "weighted_c1_rejection": 85.84,
+      "est_pop_fp": 10.1,
+      "est_fp_c1": 10.1,
+      "est_fp_c0a": 0.0,
+      "est_pop_tp": 55.8,
+      "est_pop_fn": 20.0
+    },
+    {
+      "model": "M2 Unconstrained (T*=0.31)",
+      "threshold": 0.31,
+      "weighted_recall": 55.39,
+      "weighted_precision": 85.56,
+      "weighted_f1": 0.6725,
+      "weighted_c1_rejection": 90.03,
+      "est_pop_fp": 7.1,
+      "est_fp_c1": 7.1,
+      "est_fp_c0a": 0.0,
+      "est_pop_tp": 42.0,
+      "est_pop_fn": 33.8
+    },
+    {
+      "model": "M_soft: Logit Blend (alpha=0.05)",
+      "threshold": 0.18,
+      "weighted_recall": 82.75,
+      "weighted_precision": 81.54,
+      "weighted_f1": 0.8214,
+      "weighted_c1_rejection": 81.7,
+      "est_pop_fp": 14.2,
+      "est_fp_c1": 13.0,
+      "est_fp_c0a": 1.2,
+      "est_pop_tp": 62.7,
+      "est_pop_fn": 13.1
+    },
+    {
+      "model": "M_soft: Prob Blend (alpha=0.6)",
+      "threshold": 0.18,
+      "weighted_recall": 74.44,
+      "weighted_precision": 83.37,
+      "weighted_f1": 0.7865,
+      "weighted_c1_rejection": 85.84,
+      "est_pop_fp": 11.3,
+      "est_fp_c1": 10.1,
+      "est_fp_c0a": 1.2,
+      "est_pop_tp": 56.4,
+      "est_pop_fn": 19.4
+    },
+    {
+      "model": "M_soft: Gated Penalty (tau=0.65, lam=0.4)",
+      "threshold": 0.2,
+      "weighted_recall": 80.41,
+      "weighted_precision": 84.41,
+      "weighted_f1": 0.8236,
+      "weighted_c1_rejection": 85.84,
+      "est_pop_fp": 11.3,
+      "est_fp_c1": 10.1,
+      "est_fp_c0a": 1.2,
+      "est_pop_tp": 61.0,
+      "est_pop_fn": 14.9
+    },
+    {
+      "model": "M_soft: Constrained LR (gamma=0.1)",
+      "threshold": 0.16,
+      "weighted_recall": 73.62,
+      "weighted_precision": 82.95,
+      "weighted_f1": 0.78,
+      "weighted_c1_rejection": 85.84,
+      "est_pop_fp": 11.5,
+      "est_fp_c1": 10.1,
+      "est_fp_c0a": 0.0,
+      "est_pop_tp": 55.8,
+      "est_pop_fn": 20.0
+    }
+  ],
+  "bootstrap_tests_vs_m0": [
+    {
+      "comparison": "M2 Unconstrained (T*=0.18) vs M0",
+      "mean_delta_f1": -0.036372511648133876,
+      "ci_delta_f1": [
+        -0.16309711122211132,
+        0.07077893738140408
+      ],
+      "p_val_f1": 0.5412,
+      "mean_delta_c1_rej": 0.07452947781112651,
+      "ci_delta_c1_rej": [
+        -0.06980897009966774,
+        0.25
+      ],
+      "p_val_c1_rej": 0.4278
+    },
+    {
+      "comparison": "M2 Unconstrained (T*=0.31) vs M0",
+      "mean_delta_f1": -0.036989696412325385,
+      "ci_delta_f1": [
+        -0.17644134145244025,
+        0.09167241019214707
+      ],
+      "p_val_f1": 0.555,
+      "mean_delta_c1_rej": 0.2861456928077252,
+      "ci_delta_c1_rej": [
+        0.11428571428571427,
+        0.5
+      ],
+      "p_val_c1_rej": 0.001
+    },
+    {
+      "comparison": "M_soft: Logit Blend (alpha=0.05) vs M0",
+      "mean_delta_f1": -0.009355145824637133,
+      "ci_delta_f1": [
+        -0.026666666666666616,
+        0.0
+      ],
+      "p_val_f1": 0.7266,
+      "mean_delta_c1_rej": -0.031989544487429813,
+      "ci_delta_c1_rej": [
+        -0.09523809523809523,
+        0.0
+      ],
+      "p_val_c1_rej": 0.7266
+    },
+    {
+      "comparison": "M_soft: Prob Blend (alpha=0.6) vs M0",
+      "mean_delta_f1": -0.002190663291718152,
+      "ci_delta_f1": [
+        -0.0851063829787233,
+        0.07733756032605861
+      ],
+      "p_val_f1": 1.0,
+      "mean_delta_c1_rej": -0.03540239020131942,
+      "ci_delta_c1_rej": [
+        -0.16666666666666666,
+        0.09090909090909088
+      ],
+      "p_val_c1_rej": 0.769
+    },
+    {
+      "comparison": "M_soft: Gated Penalty (tau=0.65, lam=0.4) vs M0",
+      "mean_delta_f1": 0.02301374309040936,
+      "ci_delta_f1": [
+        0.0,
+        0.06277760011370495
+      ],
+      "p_val_f1": 0.2384,
+      "mean_delta_c1_rej": 0.07473770958989659,
+      "ci_delta_c1_rej": [
+        0.0,
+        0.21052631578947367
+      ],
+      "p_val_c1_rej": 0.2384
+    },
+    {
+      "comparison": "M_soft: Constrained LR (gamma=0.1) vs M0",
+      "mean_delta_f1": -0.04819586042286359,
+      "ci_delta_f1": [
+        -0.17322332835573254,
+        0.05194870097418824
+      ],
+      "p_val_f1": 0.393,
+      "mean_delta_c1_rej": 0.03553031617631043,
+      "ci_delta_c1_rej": [
+        -0.1,
+        0.17647058823529413
+      ],
+      "p_val_c1_rej": 0.7758
+    }
+  ]
+}

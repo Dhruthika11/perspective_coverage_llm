@@ -1,0 +1,35 @@
+[
+  {
+    "model": "M0 Frozen Baseline (T*=0.20)",
+    "weighted_recall": 0.817,
+    "weighted_precision": 0.8444,
+    "weighted_f1": 0.8305,
+    "weighted_c1_rejection": 0.8465,
+    "est_population_tp": 62.5,
+    "est_population_fp": 11.5,
+    "est_population_fn": 14.0,
+    "est_population_tn": 162.0
+  },
+  {
+    "model": "M2 Reasoning (T*=0.18)",
+    "weighted_recall": 0.715,
+    "weighted_precision": 0.8472,
+    "weighted_f1": 0.7755,
+    "weighted_c1_rejection": 0.8465,
+    "est_population_tp": 54.7,
+    "est_population_fp": 9.9,
+    "est_population_fn": 21.8,
+    "est_population_tn": 163.6
+  },
+  {
+    "model": "M2 Reasoning (T*=0.31)",
+    "weighted_recall": 0.5375,
+    "weighted_precision": 0.8621,
+    "weighted_f1": 0.6621,
+    "weighted_c1_rejection": 0.8977,
+    "est_population_tp": 41.1,
+    "est_population_fp": 6.6,
+    "est_population_fn": 35.4,
+    "est_population_tn": 166.9
+  }
+]

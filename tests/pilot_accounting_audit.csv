@@ -1,0 +1,5 @@
+model_key,raw_samples,successfully_processed_samples,fully_quarantined_samples,partially_quarantined_samples,failed_samples,sample_conservation_valid,extracted_viewpoint_candidates,retained_viewpoints,exact_duplicates_removed,quarantined_viewpoint_candidates,candidate_conservation_valid
+gemma_2_9b_it,4535,4535,0,0,0,True,4535,4535,0,0,True
+qwen2_5_32b_instruct,4535,4535,0,0,0,True,17599,17599,0,0,True
+smollm2_135m_instruct,4535,4333,202,339,0,True,30129,17156,12064,909,True
+qwen2_5_3b_instruct_p2,4535,1541,2994,0,0,True,1541,1541,0,0,True

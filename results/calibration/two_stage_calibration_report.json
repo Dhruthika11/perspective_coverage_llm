@@ -1,0 +1,192 @@
+{
+  "cross_validation_5fold": {
+    "mean_tau": 0.75,
+    "tau_std": 0.0,
+    "mean_f1": 0.8991,
+    "f1_std": 0.0237,
+    "folds": [
+      {
+        "fold": 1,
+        "optimal_tau_train": 0.7500000000000003,
+        "val_f1": 0.9032258064510842,
+        "val_precision": 0.8749999999999726,
+        "val_recall": 0.9333333333333023,
+        "val_accuracy": 0.9,
+        "val_roc_auc": 0.9488888888888889
+      },
+      {
+        "fold": 2,
+        "optimal_tau_train": 0.7500000000000003,
+        "val_f1": 0.8656716417905244,
+        "val_precision": 0.7837837837837626,
+        "val_recall": 0.9666666666666345,
+        "val_accuracy": 0.85,
+        "val_roc_auc": 0.8522222222222222
+      },
+      {
+        "fold": 3,
+        "optimal_tau_train": 0.7500000000000003,
+        "val_f1": 0.9206349206343926,
+        "val_precision": 0.8787878787878521,
+        "val_recall": 0.9666666666666345,
+        "val_accuracy": 0.9166666666666666,
+        "val_roc_auc": 0.9444444444444444
+      },
+      {
+        "fold": 4,
+        "optimal_tau_train": 0.7500000000000003,
+        "val_f1": 0.8852459016388154,
+        "val_precision": 0.8709677419354558,
+        "val_recall": 0.89999999999997,
+        "val_accuracy": 0.8833333333333333,
+        "val_roc_auc": 0.9144444444444445
+      },
+      {
+        "fold": 5,
+        "optimal_tau_train": 0.7500000000000003,
+        "val_f1": 0.9206349206343926,
+        "val_precision": 0.8787878787878521,
+        "val_recall": 0.9666666666666345,
+        "val_accuracy": 0.9166666666666666,
+        "val_roc_auc": 0.94
+      }
+    ]
+  },
+  "bootstrap_confidence_intervals_tau_075": {
+    "f1_mean": 0.8976732700200146,
+    "f1_ci": [
+      0.8626031346473603,
+      0.9298282470878044
+    ],
+    "prec_mean": 0.8552830796375522,
+    "prec_ci": [
+      0.8026294837411949,
+      0.9030351906158304
+    ],
+    "rec_mean": 0.9451052966270018,
+    "rec_ci": [
+      0.9072693156732832,
+      0.9761071382414966
+    ],
+    "acc_mean": 0.89252,
+    "acc_ci": [
+      0.86,
+      0.9233333333333333
+    ]
+  },
+  "bootstrap_confidence_intervals_tau_080": {
+    "f1_mean": 0.7247730733503692,
+    "f1_ci": [
+      0.6582749999995146,
+      0.7846226415089346
+    ],
+    "prec_mean": 0.862252480129282,
+    "prec_ci": [
+      0.7948598130841055,
+      0.9238121118012335
+    ],
+    "rec_mean": 0.6262819024454086,
+    "rec_ci": [
+      0.5441884038383528,
+      0.7027213420316821
+    ],
+    "acc_mean": 0.76283,
+    "acc_ci": [
+      0.7133333333333334,
+      0.8100833333333333
+    ]
+  },
+  "disaggregated_categories": [
+    {
+      "Category": "paraphrase_match",
+      "Count": 150,
+      "Expected_Label": 1,
+      "Mean_Cosine_Sim": 0.8263,
+      "Min_Sim": 0.7219,
+      "Max_Sim": 0.9508,
+      "Accuracy_at_0.75": 0.9467,
+      "Accuracy_at_0.80": 0.6267,
+      "False_Accept_Rate_at_0.75": 0.0,
+      "False_Accept_Rate_at_0.80": 0.0
+    },
+    {
+      "Category": "random_unrelated",
+      "Count": 30,
+      "Expected_Label": 0,
+      "Mean_Cosine_Sim": 0.3021,
+      "Min_Sim": 0.1924,
+      "Max_Sim": 0.4063,
+      "Accuracy_at_0.75": 1.0,
+      "Accuracy_at_0.80": 1.0,
+      "False_Accept_Rate_at_0.75": 0.0,
+      "False_Accept_Rate_at_0.80": 0.0
+    },
+    {
+      "Category": "same_topic_diff_concept",
+      "Count": 60,
+      "Expected_Label": 0,
+      "Mean_Cosine_Sim": 0.6997,
+      "Min_Sim": 0.5996,
+      "Max_Sim": 0.7497,
+      "Accuracy_at_0.75": 1.0,
+      "Accuracy_at_0.80": 1.0,
+      "False_Accept_Rate_at_0.75": 0.0,
+      "False_Accept_Rate_at_0.80": 0.0
+    },
+    {
+      "Category": "same_topic_opposite_stance",
+      "Count": 60,
+      "Expected_Label": 0,
+      "Mean_Cosine_Sim": 0.7378,
+      "Min_Sim": 0.3947,
+      "Max_Sim": 0.8787,
+      "Accuracy_at_0.75": 0.6,
+      "Accuracy_at_0.80": 0.75,
+      "False_Accept_Rate_at_0.75": 0.4,
+      "False_Accept_Rate_at_0.80": 0.25
+    }
+  ],
+  "auc_comparison": {
+    "all_pairs_auc": 0.922,
+    "hard_negatives_only_auc": 0.9024
+  },
+  "single_vs_two_stage_comparison": [
+    {
+      "Method": "Single-Stage (Cosine tau=0.75)",
+      "Precision": 0.8554,
+      "Recall": 0.9467,
+      "F1_Score": 0.8987,
+      "Accuracy": 0.8933,
+      "Opposite_Stance_False_Accepts": 24,
+      "Opposite_Stance_Leak_Rate": 0.4
+    },
+    {
+      "Method": "Single-Stage (Cosine tau=0.80)",
+      "Precision": 0.8624,
+      "Recall": 0.6267,
+      "F1_Score": 0.7259,
+      "Accuracy": 0.7633,
+      "Opposite_Stance_False_Accepts": 15,
+      "Opposite_Stance_Leak_Rate": 0.25
+    },
+    {
+      "Method": "Two-Stage (Cosine tau=0.75 + Stance/NLI Filter)",
+      "Precision": 1.0,
+      "Recall": 0.9467,
+      "F1_Score": 0.9726,
+      "Accuracy": 0.9733,
+      "Opposite_Stance_False_Accepts": 0,
+      "Opposite_Stance_Leak_Rate": 0.0
+    },
+    {
+      "Method": "Two-Stage (Cosine tau=0.72 + Stance/NLI Filter)",
+      "Precision": 0.8982,
+      "Recall": 1.0,
+      "F1_Score": 0.9464,
+      "Accuracy": 0.9433,
+      "Opposite_Stance_False_Accepts": 0,
+      "Opposite_Stance_Leak_Rate": 0.0
+    }
+  ],
+  "figure_path": "C:\\Users\\dhrut\\Downloads\\perspective_coverage\\perspective_coverage\\results/calibration\\two_stage_vs_single_stage_calibration.png"
+}

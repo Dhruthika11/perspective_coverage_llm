@@ -1,0 +1,63 @@
+{
+  "partitions": {
+    "train_claims": 32,
+    "train_pairs": 153,
+    "calibration_claims": 16,
+    "calibration_pairs": 100,
+    "test_claims": 17,
+    "test_pairs": 88
+  },
+  "stage1_evaluation": {
+    "tau_star": 0.55,
+    "candidate_recall_c2": 1.0,
+    "candidate_precision_c2": 0.32,
+    "candidate_pass_rate": 0.8523
+  },
+  "stage2_calibration": {
+    "optimal_theta": 0.24,
+    "f1_theta": 0.24,
+    "calibration_stats": {
+      "theta": 0.24,
+      "precision_c2": 0.3,
+      "recall_c2": 0.75,
+      "f1_c2": 0.4286,
+      "tp": 18.0,
+      "fp": 42.0,
+      "fn": 6.0,
+      "fp_class_1": 28.0,
+      "fp_class_0a": 12.0,
+      "fp_class_0b": 2.0,
+      "pass_count": 60.0
+    }
+  },
+  "stage2_test_evaluation": {
+    "setting": "Precision-Constrained (theta=0.24)",
+    "theta": 0.24,
+    "precision_c2": 0.4211,
+    "recall_c2": 0.6667,
+    "f1_c2": 0.5161,
+    "tp": 16,
+    "fp": 22,
+    "fn": 8,
+    "tn": 42,
+    "c2_passed": 16,
+    "total_c2": 24,
+    "c1_passed_fp": 12,
+    "c1_rejection": 0.5862,
+    "c0a_passed_fp": 6,
+    "c0a_rejection": 0.7692,
+    "c0b_passed_fp": 4,
+    "c0b_rejection": 0.5556,
+    "total_accepted": 38,
+    "acceptance_rate": 0.4318
+  },
+  "end_to_end_pipeline": {
+    "recall_c2": 0.6667,
+    "precision_c2": 0.4571,
+    "f1_c2": 0.5424,
+    "rejection_class_0b": 0.8889,
+    "rejection_class_0a": 0.7692,
+    "rejection_class_1": 0.5862,
+    "final_acceptance_rate": 0.3977
+  }
+}

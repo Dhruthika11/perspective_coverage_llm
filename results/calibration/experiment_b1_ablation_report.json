@@ -1,0 +1,99 @@
+{
+  "ablation_results": [
+    {
+      "Model": "1. Entailment only",
+      "Features": [
+        "p_entail"
+      ],
+      "Train_AUC": 0.6646,
+      "Cal_AUC": 0.5843,
+      "Test_AUC": 0.6861,
+      "Test_PR_AUC": 0.6321,
+      "Standardized_Weights": "p_entail: +0.718"
+    },
+    {
+      "Model": "2. Cosine only",
+      "Features": [
+        "cosine_similarity"
+      ],
+      "Train_AUC": 0.7214,
+      "Cal_AUC": 0.7917,
+      "Test_AUC": 0.7514,
+      "Test_PR_AUC": 0.6838,
+      "Standardized_Weights": "cosine_similarity: +0.901"
+    },
+    {
+      "Model": "3. Cosine + Entailment",
+      "Features": [
+        "cosine_similarity",
+        "p_entail"
+      ],
+      "Train_AUC": 0.7551,
+      "Cal_AUC": 0.7278,
+      "Test_AUC": 0.7356,
+      "Test_PR_AUC": 0.6711,
+      "Standardized_Weights": "cosine_similarity: +0.775, p_entail: +0.594"
+    },
+    {
+      "Model": "4. Cosine + Entail + Neutral",
+      "Features": [
+        "cosine_similarity",
+        "p_entail",
+        "p_neutral"
+      ],
+      "Train_AUC": 0.7562,
+      "Cal_AUC": 0.7296,
+      "Test_AUC": 0.7356,
+      "Test_PR_AUC": 0.6711,
+      "Standardized_Weights": "cosine_similarity: +0.777, p_entail: +0.413, p_neutral: -0.192"
+    },
+    {
+      "Model": "5. All Four Features",
+      "Features": [
+        "cosine_similarity",
+        "p_entail",
+        "p_neutral",
+        "p_contra"
+      ],
+      "Train_AUC": 0.7558,
+      "Cal_AUC": 0.7269,
+      "Test_AUC": 0.7328,
+      "Test_PR_AUC": 0.6698,
+      "Standardized_Weights": "cosine_similarity: +0.766, p_entail: +0.309, p_neutral: -0.276, p_contra: -0.238"
+    }
+  ],
+  "delta_auc_bootstraps": {
+    "2. Cosine only": {
+      "mean_delta_auc": 0.0444,
+      "ci_95": [
+        -0.2274,
+        0.24
+      ],
+      "p_value_one_tailed": 0.309
+    },
+    "3. Cosine + Entailment": {
+      "mean_delta_auc": 0.0469,
+      "ci_95": [
+        -0.0915,
+        0.1484
+      ],
+      "p_value_one_tailed": 0.199
+    },
+    "4. Cosine + Entail + Neutral": {
+      "mean_delta_auc": 0.0445,
+      "ci_95": [
+        -0.089,
+        0.1468
+      ],
+      "p_value_one_tailed": 0.219
+    },
+    "5. All Four Features": {
+      "mean_delta_auc": 0.0461,
+      "ci_95": [
+        -0.0958,
+        0.1483
+      ],
+      "p_value_one_tailed": 0.2055
+    }
+  }
+}

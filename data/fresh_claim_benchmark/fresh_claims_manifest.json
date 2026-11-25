@@ -1,0 +1,9 @@
+{
+  "total_pairs": 1001,
+  "n_fresh_claims": 50,
+  "positives": 653,
+  "negatives": 348,
+  "exact_substr_rate": 0.0,
+  "clean_standard_verified": true,
+  "note": "Clean natural human stratum strictly free from template-concatenation verbatim leaks (0.00% verbatim substring)."
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Direct V5 Perspective Coverage Evaluation (No Stage 1 Retrieval Filter)",
+  "verifier_configuration": {
+    "v5_model_dir": "models/ensemble_data_only",
+    "temperature_T_applied": 1.9104,
+    "frozen_theta_f1": 0.52,
+    "frozen_theta_prec90": 0.83,
+    "stage1_status": "BYPASSED (Direct Cross-Encoder All-Pairs Verification)"
+  },
+  "models_evaluated": []
+}

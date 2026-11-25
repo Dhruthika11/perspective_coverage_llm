@@ -1,0 +1,85 @@
+{
+  "benchmark_file": "data/calibration/tri_dataset_750_pairs.csv",
+  "n_calibration_pairs": 124,
+  "n_test_pairs": 147,
+  "platt_parameters": {
+    "w_weight": 2.2976,
+    "b_intercept": -1.2386,
+    "raw_cutoff_for_0_50": 0.5391,
+    "formula": "P_cal = 1 / (1 + exp(-(2.2976 * p + -1.2386))) >= 0.50 <=> p >= 0.5391"
+  },
+  "agreement_analysis": {
+    "agreement_rate": 0.9796,
+    "cohen_kappa": 0.9481,
+    "n_disagreements": 3,
+    "contingency_table": {
+      "platt_false_raw_false": 106,
+      "platt_false_raw_true": 0,
+      "platt_true_raw_false": 3,
+      "platt_true_raw_true": 38
+    }
+  },
+  "rule_performance_comparison": [
+    {
+      "Rule_Name": "Rule A: Platt Calibrated (P_cal >= 0.50, raw >= 0.5391)",
+      "TP": 36,
+      "FP": 5,
+      "FN": 24,
+      "TN": 82,
+      "Precision": 0.878,
+      "Recall": 0.6,
+      "F1_Score": 0.7129,
+      "Accuracy": 0.8027
+    },
+    {
+      "Rule_Name": "Rule B: Raw Operational (p_entail >= 0.80)",
+      "TP": 34,
+      "FP": 4,
+      "FN": 26,
+      "TN": 83,
+      "Precision": 0.8947,
+      "Recall": 0.5667,
+      "F1_Score": 0.6939,
+      "Accuracy": 0.7959
+    }
+  ],
+  "argmax_condition_check": {
+    "is_argmax_entailment_guaranteed_when_p_ge_80": true,
+    "mathematical_proof": "In a 3-class softmax distribution sum(p)=1, if p_E >= 0.80, then p_C + p_N <= 0.20, guaranteeing p_E > max(p_C, p_N). Therefore argmax is strictly Entailment."
+  },
+  "discrepancy_records": [
+    {
+      "claim_text": "Should Men Be Involved And Trusted In Childcare?",
+      "text_a": "Men should not be involved and trusted in childcare.",
+      "text_b": "Incorporating men in childcare can lead to more efficient time management within households. When men actively participa",
+      "pair_category": "same_topic_opposite_stance",
+      "label_3class": 0,
+      "p_verification": 0.5428,
+      "platt_p_cal": 0.5021353755537779,
+      "rule_platt_50_decision": true,
+      "rule_raw_80_decision": false
+    },
+    {
+      "claim_text": "Dictatorship Is the Best Path to Development",
+      "text_a": "Dictatorship will stop all path of development in a democratic country",
+      "text_b": "From an Interpersonal Perspective (Against): Dictatorship is not the best path to development. Dictatorships suppress in",
+      "pair_category": "paraphrase_match",
+      "label_3class": 2,
+      "p_verification": 0.6755,
+      "platt_p_cal": 0.5777240479510828,
+      "rule_platt_50_decision": true,
+      "rule_raw_80_decision": false
+    },
+    {
+      "claim_text": "Which religion best supports science?",
+      "text_a": "No religion can support science \u2013 religions are about beliefs and neither use the scientific method nor are based on its",
+      "text_b": "Religion often imposes strict interpretations that can hinder scientific progress due to conflicts with established reli",
+      "pair_category": "paraphrase_match",
+      "label_3class": 2,
+      "p_verification": 0.7537,
+      "platt_p_cal": 0.620839296653938,
+      "rule_platt_50_decision": true,
+      "rule_raw_80_decision": false
+    }
+  ]
+}

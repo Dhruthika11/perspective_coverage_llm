@@ -1,0 +1,47 @@
+{
+  "benchmark_sample_size": 300,
+  "batch_size": 5,
+  "total_batches": 60,
+  "models_evaluated": [
+    "Gemini-3-Flash",
+    "GPT-OSS-120B",
+    "Qwen-3.8-27B"
+  ],
+  "inter_judge_agreement": {
+    "cohen_kappa_gemini_vs_gpt": 0.0566,
+    "cohen_kappa_gemini_vs_qwen": 0.7519,
+    "cohen_kappa_gpt_vs_qwen": 0.0807,
+    "mean_pairwise_kappa": 0.2964
+  },
+  "consensus_distribution": {
+    "unanimous_3_of_3": 28,
+    "unanimous_pct": 9.3,
+    "majority_2_of_3": 7,
+    "majority_pct": 2.3,
+    "human_adjudication_required": 272,
+    "human_adjudication_pct": 90.7
+  },
+  "telemetry_and_latencies": {
+    "Gemini-3-Flash": {
+      "mean_latency_ms": 4672.7,
+      "median_latency_ms": 3211.5,
+      "p95_latency_ms": 12146.8,
+      "total_prompt_tokens": 47785,
+      "total_output_tokens": 24749
+    },
+    "GPT-OSS-120B": {
+      "mean_latency_ms": 4388.5,
+      "median_latency_ms": 4413.0,
+      "p95_latency_ms": 5461.8,
+      "total_prompt_tokens": 7242,
+      "total_output_tokens": 10757
+    },
+    "Qwen-3.8-27B": {
+      "mean_latency_ms": 1291.6,
+      "median_latency_ms": 1267.0,
+      "p95_latency_ms": 1514.0,
+      "total_prompt_tokens": 52328,
+      "total_output_tokens": 28334
+    }
+  }
+}

@@ -1,0 +1,13 @@
+test_name,status,error_detail
+Invariant 01: Multiple Concatenated JSON,FAILED,"Expected at least 2 distinct JSON viewpoints extracted from concatenated JSON, got 0. Legacy failure: json.loads fails with Extra data on multiple concatenated objects."
+Invariant 02: Nested JSON Structures,FAILED,Failed to extract viewpoint from nested JSON
+Invariant 03: Markdown Viewpoint Headings,PASSED,
+Invariant 04: Numbered Viewpoint Extraction,PASSED,
+Invariant 05: Stance Preservation (Missing Stance),FAILED,Stance was eradicated or missing: ''. Legacy failure: split_multiviewpoint_text only checks s[:35] for 'supportive viewpoint'.
+Invariant 06: Duplicate Viewpoint Deduplication,FAILED,Extracted 8 viewpoints with 1 duplicates! Legacy failure: no deduplication filter exists in splitter.
+Invariant 07: Browser Error Quarantine,FAILED,Browser error was accepted as valid viewpoint! Legacy failure: is_invalid_viewpoint does not check for 'status': 'failed' or browser cache error.
+Invariant 08: Unrelated Topic / Hallucination Filter,FAILED,"Unrelated prompt leakage was accepted as valid viewpoint: Example: ""perspective_summary"": ""The minimum wage "
+Invariant 09: Merged Viewpoints Splitting,FAILED,"Expected multiple viewpoints split from merged text, got 2. Legacy failure: collapses all bullets into single row or drops."
+Invariant 10: Truncated Generation Recovery,PASSED,
+Invariant 11: Unique Sequential Viewpoint IDs,FAILED,"Duplicate viewpoint IDs detected in (claim, sample) group! Legacy failure: 6,444 rows had duplicate viewpoint_id=1."
+Invariant 12: Claim/Sample Association Integrity,PASSED,

@@ -1,0 +1,18 @@
+claim_id,claim_text,total_pairs,class_2_count,class_1_count,M0_baseline_TP,M0_baseline_FP_C1,M0_baseline_F1,M1_claim_TP,M1_claim_FP_C1,M1_claim_F1,M2_reasoning_TP,M2_reasoning_FP_C1,M2_reasoning_F1,M3_warrant_TP,M3_warrant_FP_C1,M3_warrant_F1,M4_all_three_TP,M4_all_three_FP_C1,M4_all_three_F1
+52,There should be a legally mandated ceiling on weekly working hours,6,1,1,1,1,0.6667,1,1,0.6667,0,0,0.0,1,1,0.6667,1,1,0.6667
+82,Developing nations should place restrictions on rural-urban migration,4,2,1,2,0,1.0,2,0,1.0,2,0,1.0,2,0,1.0,2,1,0.8
+104,The USA's social security schemes should be privatized,5,1,4,1,3,0.4,1,3,0.4,1,2,0.5,1,3,0.4,1,3,0.4
+188,We must grant those diagnosed with terminal illnesses the right to access treatments that have not completed clinical testing,3,0,1,0,1,0.0,0,1,0.0,0,0,0.0,0,1,0.0,0,1,0.0
+261,We must support the Scottish Independence,1,1,0,1,0,1.0,1,0,1.0,1,0,1.0,1,0,1.0,1,0,1.0
+271,Open primaries are the most effective method of selecting candidates for elections,6,0,3,0,2,0.0,0,1,0.0,0,1,0.0,0,2,0.0,0,2,0.0
+287,Self-determination of peoples is a human right,4,3,1,3,1,0.8571,3,1,0.8571,3,1,0.8571,3,1,0.8571,3,1,0.8571
+296,The Western intervention in Libya has been a success,2,1,0,1,0,1.0,1,0,1.0,0,0,0.0,1,0,1.0,1,0,1.0
+428,We should expand NATO,1,0,0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0
+553,Subsidize poor communities,2,0,1,0,1,0.0,0,0,0.0,0,0,0.0,0,1,0.0,0,1,0.0
+564,The United States should continue Its use of drone strikes abroad,14,4,5,4,3,0.7273,4,3,0.7273,4,3,0.7273,4,3,0.7273,4,3,0.7273
+566,Any vaccines should be required for children,2,1,0,1,0,1.0,1,0,1.0,1,0,1.0,1,0,1.0,1,0,1.0
+585,Social networking sites are good for our society,14,5,5,4,0,0.8889,3,0,0.75,3,0,0.75,3,0,0.75,5,0,1.0
+767,The People’s Republic of China should invade North Korea,6,2,0,2,0,1.0,2,0,1.0,2,0,1.0,2,0,1.0,2,0,0.8
+771,High taxes are necessary for an effective state,3,0,1,0,1,0.0,0,1,0.0,0,1,0.0,0,1,0.0,0,1,0.0
+809,DNA testing is worth the money,2,1,0,1,0,1.0,1,0,1.0,0,0,0.0,1,0,1.0,0,0,0.0
+841,Violent video games cause violent crime,13,2,6,2,4,0.4444,1,4,0.25,1,2,0.3333,2,4,0.4444,2,4,0.4444

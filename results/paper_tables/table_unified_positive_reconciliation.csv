@@ -1,0 +1,13 @@
+Threshold,Model,Human_Paraphrase_TP,LLM_to_Human_TP,Total_TP
+0.5,Version 3 (Coverage-Aware),221/352 (62.8%),70/188 (37.2%),291/540 (53.9%)
+0.5,Forward Zero-Shot Baseline,188/352 (53.4%),5/188 (2.7%),193/540 (35.7%)
+0.5,Legacy Inverted Baseline,178/352 (50.6%),26/188 (13.8%),204/540 (37.8%)
+0.72,Version 3 (Coverage-Aware),214/352 (60.8%),58/188 (30.9%),272/540 (50.4%)
+0.72,Forward Zero-Shot Baseline,186/352 (52.8%),4/188 (2.1%),190/540 (35.2%)
+0.72,Legacy Inverted Baseline,171/352 (48.6%),19/188 (10.1%),190/540 (35.2%)
+0.8,Version 3 (Coverage-Aware),209/352 (59.4%),51/188 (27.1%),260/540 (48.1%)
+0.8,Forward Zero-Shot Baseline,181/352 (51.4%),4/188 (2.1%),185/540 (34.3%)
+0.8,Legacy Inverted Baseline,166/352 (47.2%),14/188 (7.4%),180/540 (33.3%)
+0.9,Version 3 (Coverage-Aware),200/352 (56.8%),41/188 (21.8%),241/540 (44.6%)
+0.9,Forward Zero-Shot Baseline,171/352 (48.6%),2/188 (1.1%),173/540 (32.0%)
+0.9,Legacy Inverted Baseline,156/352 (44.3%),11/188 (5.9%),167/540 (30.9%)

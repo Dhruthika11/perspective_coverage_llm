@@ -1,0 +1,6 @@
+model_family,model_name,total_pairs,pos_pairs,neg_pairs,tp,fp,fn,tn,precision,recall,f1,accuracy,auroc,auprc
+Gemma,gemma_3_12b_it,60,20,40,11,21,9,19,0.3438,0.55,0.4231,0.5,0.535,0.397
+Mistral,mistral_7b_instruct_v0_3,60,20,40,6,11,14,29,0.3529,0.3,0.3243,0.5833,0.6162,0.4436
+Qwen,qwen2_5_1_5b_instruct,60,20,40,10,16,10,24,0.3846,0.5,0.4348,0.5667,0.5537,0.3756
+Qwen,qwen2_5_32b_instruct,60,20,40,10,12,10,28,0.4545,0.5,0.4762,0.6333,0.6338,0.455
+Qwen,qwen2_5_3b_instruct,60,20,40,8,13,12,27,0.381,0.4,0.3902,0.5833,0.545,0.4089

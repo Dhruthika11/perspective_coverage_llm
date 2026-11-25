@@ -1,0 +1,583 @@
+{
+  "evaluation_dataset": "data/nli_training_v3/test.csv",
+  "master_predictions_file": "results/metrics/master_1118_predictions.csv",
+  "n_total_test_pairs": 1118,
+  "positive_pairs": 540,
+  "positive_subsets": {
+    "human_paraphrase": 352,
+    "llm_to_human": 188
+  },
+  "negative_pairs": 578,
+  "negative_subsets": {
+    "same_stance_different_reasoning": 240,
+    "same_topic_diff_concept": 180,
+    "opposite_stance_conflict": 120,
+    "unrelated_different_claim": 38
+  },
+  "key_scientific_findings": {
+    "finding_1_nli_classification": "V3 achieves superior 3-class Macro-F1 (0.5260 vs 0.4990 forward baseline) and Entailment-F1 (0.6418 vs 0.5195).",
+    "finding_2_llm_perspective_matching": "On the 188 LLM-to-human pairs, V3 crushes the Forward Zero-Shot Baseline (37.23% vs 2.66% at theta=0.50, p=5.42e-20; 27.13% vs 2.13% at theta=0.80, p=1.42e-14). Baseline suffers complete failure on long LLM arguments.",
+    "finding_3_length_scaling": "On Very Long arguments (175-250 words, N=87), V3 achieves 47.1% recall at theta=0.50 (vs 3.4% forward baseline) and 36.8% at theta=0.80 (vs 2.3% forward baseline), proving domain fine-tuning broke through the length bottleneck.",
+    "finding_4_reconciliation": "All subset counts now reconcile with exact mathematical identity from master_1118_predictions.csv."
+  },
+  "unified_tables": {
+    "three_class_argmax": [
+      {
+        "Model": "Version 3 (Coverage-Aware)",
+        "Accuracy": 58.59,
+        "Macro_F1": 0.526,
+        "Entailment_F1": 0.6418,
+        "Contra_F1": 0.3445,
+        "Neutral_F1": 0.5917,
+        "TP_argmax": 293,
+        "FP_argmax": 80,
+        "FN_argmax": 247,
+        "TN_argmax": 498
+      },
+      {
+        "Model": "Forward Zero-Shot Baseline",
+        "Accuracy": 56.35,
+        "Macro_F1": 0.499,
+        "Entailment_F1": 0.5195,
+        "Contra_F1": 0.3493,
+        "Neutral_F1": 0.6282,
+        "TP_argmax": 193,
+        "FP_argmax": 10,
+        "FN_argmax": 347,
+        "TN_argmax": 568
+      },
+      {
+        "Model": "Legacy Inverted Baseline",
+        "Accuracy": 56.8,
+        "Macro_F1": 0.4984,
+        "Entailment_F1": 0.5263,
+        "Contra_F1": 0.3383,
+        "Neutral_F1": 0.6306,
+        "TP_argmax": 205,
+        "FP_argmax": 34,
+        "FN_argmax": 335,
+        "TN_argmax": 544
+      }
+    ],
+    "binary_operating_points": [
+      {
+        "Threshold": 0.5,
+        "Model": "Version 3 (Coverage-Aware)",
+        "TP": 291,
+        "FP": 80,
+        "FN": 249,
+        "TN": 498,
+        "Precision": 78.44,
+        "Recall": 53.89,
+        "F1": 0.6389
+      },
+      {
+        "Threshold": 0.5,
+        "Model": "Forward Zero-Shot Baseline",
+        "TP": 193,
+        "FP": 10,
+        "FN": 347,
+        "TN": 568,
+        "Precision": 95.07,
+        "Recall": 35.74,
+        "F1": 0.5195
+      },
+      {
+        "Threshold": 0.5,
+        "Model": "Legacy Inverted Baseline",
+        "TP": 204,
+        "FP": 33,
+        "FN": 336,
+        "TN": 545,
+        "Precision": 86.08,
+        "Recall": 37.78,
+        "F1": 0.5251
+      },
+      {
+        "Threshold": 0.72,
+        "Model": "Version 3 (Coverage-Aware)",
+        "TP": 272,
+        "FP": 70,
+        "FN": 268,
+        "TN": 508,
+        "Precision": 79.53,
+        "Recall": 50.37,
+        "F1": 0.6168
+      },
+      {
+        "Threshold": 0.72,
+        "Model": "Forward Zero-Shot Baseline",
+        "TP": 190,
+        "FP": 7,
+        "FN": 350,
+        "TN": 571,
+        "Precision": 96.45,
+        "Recall": 35.19,
+        "F1": 0.5156
+      },
+      {
+        "Threshold": 0.72,
+        "Model": "Legacy Inverted Baseline",
+        "TP": 190,
+        "FP": 26,
+        "FN": 350,
+        "TN": 552,
+        "Precision": 87.96,
+        "Recall": 35.19,
+        "F1": 0.5026
+      },
+      {
+        "Threshold": 0.8,
+        "Model": "Version 3 (Coverage-Aware)",
+        "TP": 260,
+        "FP": 66,
+        "FN": 280,
+        "TN": 512,
+        "Precision": 79.75,
+        "Recall": 48.15,
+        "F1": 0.6005
+      },
+      {
+        "Threshold": 0.8,
+        "Model": "Forward Zero-Shot Baseline",
+        "TP": 185,
+        "FP": 7,
+        "FN": 355,
+        "TN": 571,
+        "Precision": 96.35,
+        "Recall": 34.26,
+        "F1": 0.5055
+      },
+      {
+        "Threshold": 0.8,
+        "Model": "Legacy Inverted Baseline",
+        "TP": 180,
+        "FP": 21,
+        "FN": 360,
+        "TN": 557,
+        "Precision": 89.55,
+        "Recall": 33.33,
+        "F1": 0.4858
+      },
+      {
+        "Threshold": 0.9,
+        "Model": "Version 3 (Coverage-Aware)",
+        "TP": 241,
+        "FP": 57,
+        "FN": 299,
+        "TN": 521,
+        "Precision": 80.87,
+        "Recall": 44.63,
+        "F1": 0.5752
+      },
+      {
+        "Threshold": 0.9,
+        "Model": "Forward Zero-Shot Baseline",
+        "TP": 173,
+        "FP": 7,
+        "FN": 367,
+        "TN": 571,
+        "Precision": 96.11,
+        "Recall": 32.04,
+        "F1": 0.4806
+      },
+      {
+        "Threshold": 0.9,
+        "Model": "Legacy Inverted Baseline",
+        "TP": 167,
+        "FP": 17,
+        "FN": 373,
+        "TN": 561,
+        "Precision": 90.76,
+        "Recall": 30.93,
+        "F1": 0.4613
+      }
+    ],
+    "positive_reconciliation": [
+      {
+        "Threshold": 0.5,
+        "Model": "Version 3 (Coverage-Aware)",
+        "Human_Paraphrase_TP": "221/352 (62.8%)",
+        "LLM_to_Human_TP": "70/188 (37.2%)",
+        "Total_TP": "291/540 (53.9%)"
+      },
+      {
+        "Threshold": 0.5,
+        "Model": "Forward Zero-Shot Baseline",
+        "Human_Paraphrase_TP": "188/352 (53.4%)",
+        "LLM_to_Human_TP": "5/188 (2.7%)",
+        "Total_TP": "193/540 (35.7%)"
+      },
+      {
+        "Threshold": 0.5,
+        "Model": "Legacy Inverted Baseline",
+        "Human_Paraphrase_TP": "178/352 (50.6%)",
+        "LLM_to_Human_TP": "26/188 (13.8%)",
+        "Total_TP": "204/540 (37.8%)"
+      },
+      {
+        "Threshold": 0.72,
+        "Model": "Version 3 (Coverage-Aware)",
+        "Human_Paraphrase_TP": "214/352 (60.8%)",
+        "LLM_to_Human_TP": "58/188 (30.9%)",
+        "Total_TP": "272/540 (50.4%)"
+      },
+      {
+        "Threshold": 0.72,
+        "Model": "Forward Zero-Shot Baseline",
+        "Human_Paraphrase_TP": "186/352 (52.8%)",
+        "LLM_to_Human_TP": "4/188 (2.1%)",
+        "Total_TP": "190/540 (35.2%)"
+      },
+      {
+        "Threshold": 0.72,
+        "Model": "Legacy Inverted Baseline",
+        "Human_Paraphrase_TP": "171/352 (48.6%)",
+        "LLM_to_Human_TP": "19/188 (10.1%)",
+        "Total_TP": "190/540 (35.2%)"
+      },
+      {
+        "Threshold": 0.8,
+        "Model": "Version 3 (Coverage-Aware)",
+        "Human_Paraphrase_TP": "209/352 (59.4%)",
+        "LLM_to_Human_TP": "51/188 (27.1%)",
+        "Total_TP": "260/540 (48.1%)"
+      },
+      {
+        "Threshold": 0.8,
+        "Model": "Forward Zero-Shot Baseline",
+        "Human_Paraphrase_TP": "181/352 (51.4%)",
+        "LLM_to_Human_TP": "4/188 (2.1%)",
+        "Total_TP": "185/540 (34.3%)"
+      },
+      {
+        "Threshold": 0.8,
+        "Model": "Legacy Inverted Baseline",
+        "Human_Paraphrase_TP": "166/352 (47.2%)",
+        "LLM_to_Human_TP": "14/188 (7.4%)",
+        "Total_TP": "180/540 (33.3%)"
+      },
+      {
+        "Threshold": 0.9,
+        "Model": "Version 3 (Coverage-Aware)",
+        "Human_Paraphrase_TP": "200/352 (56.8%)",
+        "LLM_to_Human_TP": "41/188 (21.8%)",
+        "Total_TP": "241/540 (44.6%)"
+      },
+      {
+        "Threshold": 0.9,
+        "Model": "Forward Zero-Shot Baseline",
+        "Human_Paraphrase_TP": "171/352 (48.6%)",
+        "LLM_to_Human_TP": "2/188 (1.1%)",
+        "Total_TP": "173/540 (32.0%)"
+      },
+      {
+        "Threshold": 0.9,
+        "Model": "Legacy Inverted Baseline",
+        "Human_Paraphrase_TP": "156/352 (44.3%)",
+        "LLM_to_Human_TP": "11/188 (5.9%)",
+        "Total_TP": "167/540 (30.9%)"
+      }
+    ],
+    "negative_reconciliation": [
+      {
+        "Threshold": 0.5,
+        "Model": "Version 3 (Coverage-Aware)",
+        "FP_Same_Stance (240)": "11 (4.6%)",
+        "FP_Same_Topic (180)": "68 (37.8%)",
+        "FP_Opposite (120)": "0 (0.0%)",
+        "FP_Unrelated (38)": "1 (2.6%)",
+        "Total_FP (578)": "80 (13.8%)",
+        "Rejection_Rate": "498/578 (86.2%)"
+      },
+      {
+        "Threshold": 0.5,
+        "Model": "Forward Zero-Shot Baseline",
+        "FP_Same_Stance (240)": "5 (2.1%)",
+        "FP_Same_Topic (180)": "5 (2.8%)",
+        "FP_Opposite (120)": "0 (0.0%)",
+        "FP_Unrelated (38)": "0 (0.0%)",
+        "Total_FP (578)": "10 (1.7%)",
+        "Rejection_Rate": "568/578 (98.3%)"
+      },
+      {
+        "Threshold": 0.5,
+        "Model": "Legacy Inverted Baseline",
+        "FP_Same_Stance (240)": "10 (4.2%)",
+        "FP_Same_Topic (180)": "18 (10.0%)",
+        "FP_Opposite (120)": "5 (4.2%)",
+        "FP_Unrelated (38)": "0 (0.0%)",
+        "Total_FP (578)": "33 (5.7%)",
+        "Rejection_Rate": "545/578 (94.3%)"
+      },
+      {
+        "Threshold": 0.72,
+        "Model": "Version 3 (Coverage-Aware)",
+        "FP_Same_Stance (240)": "7 (2.9%)",
+        "FP_Same_Topic (180)": "62 (34.4%)",
+        "FP_Opposite (120)": "0 (0.0%)",
+        "FP_Unrelated (38)": "1 (2.6%)",
+        "Total_FP (578)": "70 (12.1%)",
+        "Rejection_Rate": "508/578 (87.9%)"
+      },
+      {
+        "Threshold": 0.72,
+        "Model": "Forward Zero-Shot Baseline",
+        "FP_Same_Stance (240)": "4 (1.7%)",
+        "FP_Same_Topic (180)": "3 (1.7%)",
+        "FP_Opposite (120)": "0 (0.0%)",
+        "FP_Unrelated (38)": "0 (0.0%)",
+        "Total_FP (578)": "7 (1.2%)",
+        "Rejection_Rate": "571/578 (98.8%)"
+      },
+      {
+        "Threshold": 0.72,
+        "Model": "Legacy Inverted Baseline",
+        "FP_Same_Stance (240)": "7 (2.9%)",
+        "FP_Same_Topic (180)": "16 (8.9%)",
+        "FP_Opposite (120)": "3 (2.5%)",
+        "FP_Unrelated (38)": "0 (0.0%)",
+        "Total_FP (578)": "26 (4.5%)",
+        "Rejection_Rate": "552/578 (95.5%)"
+      },
+      {
+        "Threshold": 0.8,
+        "Model": "Version 3 (Coverage-Aware)",
+        "FP_Same_Stance (240)": "7 (2.9%)",
+        "FP_Same_Topic (180)": "58 (32.2%)",
+        "FP_Opposite (120)": "0 (0.0%)",
+        "FP_Unrelated (38)": "1 (2.6%)",
+        "Total_FP (578)": "66 (11.4%)",
+        "Rejection_Rate": "512/578 (88.6%)"
+      },
+      {
+        "Threshold": 0.8,
+        "Model": "Forward Zero-Shot Baseline",
+        "FP_Same_Stance (240)": "4 (1.7%)",
+        "FP_Same_Topic (180)": "3 (1.7%)",
+        "FP_Opposite (120)": "0 (0.0%)",
+        "FP_Unrelated (38)": "0 (0.0%)",
+        "Total_FP (578)": "7 (1.2%)",
+        "Rejection_Rate": "571/578 (98.8%)"
+      },
+      {
+        "Threshold": 0.8,
+        "Model": "Legacy Inverted Baseline",
+        "FP_Same_Stance (240)": "5 (2.1%)",
+        "FP_Same_Topic (180)": "14 (7.8%)",
+        "FP_Opposite (120)": "2 (1.7%)",
+        "FP_Unrelated (38)": "0 (0.0%)",
+        "Total_FP (578)": "21 (3.6%)",
+        "Rejection_Rate": "557/578 (96.4%)"
+      },
+      {
+        "Threshold": 0.9,
+        "Model": "Version 3 (Coverage-Aware)",
+        "FP_Same_Stance (240)": "7 (2.9%)",
+        "FP_Same_Topic (180)": "49 (27.2%)",
+        "FP_Opposite (120)": "0 (0.0%)",
+        "FP_Unrelated (38)": "1 (2.6%)",
+        "Total_FP (578)": "57 (9.9%)",
+        "Rejection_Rate": "521/578 (90.1%)"
+      },
+      {
+        "Threshold": 0.9,
+        "Model": "Forward Zero-Shot Baseline",
+        "FP_Same_Stance (240)": "4 (1.7%)",
+        "FP_Same_Topic (180)": "3 (1.7%)",
+        "FP_Opposite (120)": "0 (0.0%)",
+        "FP_Unrelated (38)": "0 (0.0%)",
+        "Total_FP (578)": "7 (1.2%)",
+        "Rejection_Rate": "571/578 (98.8%)"
+      },
+      {
+        "Threshold": 0.9,
+        "Model": "Legacy Inverted Baseline",
+        "FP_Same_Stance (240)": "4 (1.7%)",
+        "FP_Same_Topic (180)": "12 (6.7%)",
+        "FP_Opposite (120)": "1 (0.8%)",
+        "FP_Unrelated (38)": "0 (0.0%)",
+        "Total_FP (578)": "17 (2.9%)",
+        "Rejection_Rate": "561/578 (97.1%)"
+      }
+    ],
+    "mcnemar_forward_vs_v3": [
+      {
+        "Threshold": 0.5,
+        "Forward_Baseline_TP": 5,
+        "V3_TP": 70,
+        "Delta_TP": 65,
+        "Discordant_b (V3 only)": 65,
+        "Discordant_c (Fwd only)": 0,
+        "McNemar_p_val (Fwd vs V3)": 5.421011e-20,
+        "Inverted_Baseline_TP": 26,
+        "McNemar_p_val (Inv vs V3)": 1.996498e-08
+      },
+      {
+        "Threshold": 0.72,
+        "Forward_Baseline_TP": 4,
+        "V3_TP": 58,
+        "Delta_TP": 54,
+        "Discordant_b (V3 only)": 54,
+        "Discordant_c (Fwd only)": 0,
+        "McNemar_p_val (Fwd vs V3)": 1.110223e-16,
+        "Inverted_Baseline_TP": 19,
+        "McNemar_p_val (Inv vs V3)": 8.06761e-08
+      },
+      {
+        "Threshold": 0.8,
+        "Forward_Baseline_TP": 4,
+        "V3_TP": 51,
+        "Delta_TP": 47,
+        "Discordant_b (V3 only)": 47,
+        "Discordant_c (Fwd only)": 0,
+        "McNemar_p_val (Fwd vs V3)": 1.421085e-14,
+        "Inverted_Baseline_TP": 14,
+        "McNemar_p_val (Inv vs V3)": 5.727765e-08
+      },
+      {
+        "Threshold": 0.9,
+        "Forward_Baseline_TP": 2,
+        "V3_TP": 41,
+        "Delta_TP": 39,
+        "Discordant_b (V3 only)": 39,
+        "Discordant_c (Fwd only)": 0,
+        "McNemar_p_val (Fwd vs V3)": 3.637979e-12,
+        "Inverted_Baseline_TP": 11,
+        "McNemar_p_val (Inv vs V3)": 1.382612e-06
+      }
+    ],
+    "length_breakdown": [
+      {
+        "Threshold": 0.5,
+        "Length_Tier": "short",
+        "Total_Pairs": 2,
+        "Forward_Baseline_TP": 0,
+        "Forward_Recall": "0.0%",
+        "Inverted_Baseline_TP": 1,
+        "Inverted_Recall": "50.0%",
+        "V3_TP": 0,
+        "V3_Recall": "0.0%",
+        "Delta_Recall (V3 vs Fwd)": "+0.0 pp",
+        "McNemar_p_value": 1.0
+      },
+      {
+        "Threshold": 0.5,
+        "Length_Tier": "medium",
+        "Total_Pairs": 21,
+        "Forward_Baseline_TP": 0,
+        "Forward_Recall": "0.0%",
+        "Inverted_Baseline_TP": 2,
+        "Inverted_Recall": "9.5%",
+        "V3_TP": 3,
+        "V3_Recall": "14.3%",
+        "Delta_Recall (V3 vs Fwd)": "+14.3 pp",
+        "McNemar_p_value": 0.25
+      },
+      {
+        "Threshold": 0.5,
+        "Length_Tier": "long",
+        "Total_Pairs": 78,
+        "Forward_Baseline_TP": 2,
+        "Forward_Recall": "2.6%",
+        "Inverted_Baseline_TP": 11,
+        "Inverted_Recall": "14.1%",
+        "V3_TP": 26,
+        "V3_Recall": "33.3%",
+        "Delta_Recall (V3 vs Fwd)": "+30.8 pp",
+        "McNemar_p_value": 1.1921e-07
+      },
+      {
+        "Threshold": 0.5,
+        "Length_Tier": "very_long",
+        "Total_Pairs": 87,
+        "Forward_Baseline_TP": 3,
+        "Forward_Recall": "3.4%",
+        "Inverted_Baseline_TP": 12,
+        "Inverted_Recall": "13.8%",
+        "V3_TP": 41,
+        "V3_Recall": "47.1%",
+        "Delta_Recall (V3 vs Fwd)": "+43.7 pp",
+        "McNemar_p_value": 7.276e-12
+      },
+      {
+        "Threshold": 0.5,
+        "Length_Tier": "ALL",
+        "Total_Pairs": 188,
+        "Forward_Baseline_TP": 5,
+        "Forward_Recall": "2.7%",
+        "Inverted_Baseline_TP": 26,
+        "Inverted_Recall": "13.8%",
+        "V3_TP": 70,
+        "V3_Recall": "37.2%",
+        "Delta_Recall (V3 vs Fwd)": "+34.6 pp",
+        "McNemar_p_value": 5.421e-20
+      },
+      {
+        "Threshold": 0.8,
+        "Length_Tier": "short",
+        "Total_Pairs": 2,
+        "Forward_Baseline_TP": 0,
+        "Forward_Recall": "0.0%",
+        "Inverted_Baseline_TP": 1,
+        "Inverted_Recall": "50.0%",
+        "V3_TP": 0,
+        "V3_Recall": "0.0%",
+        "Delta_Recall (V3 vs Fwd)": "+0.0 pp",
+        "McNemar_p_value": 1.0
+      },
+      {
+        "Threshold": 0.8,
+        "Length_Tier": "medium",
+        "Total_Pairs": 21,
+        "Forward_Baseline_TP": 0,
+        "Forward_Recall": "0.0%",
+        "Inverted_Baseline_TP": 1,
+        "Inverted_Recall": "4.8%",
+        "V3_TP": 1,
+        "V3_Recall": "4.8%",
+        "Delta_Recall (V3 vs Fwd)": "+4.8 pp",
+        "McNemar_p_value": 1.0
+      },
+      {
+        "Threshold": 0.8,
+        "Length_Tier": "long",
+        "Total_Pairs": 78,
+        "Forward_Baseline_TP": 2,
+        "Forward_Recall": "2.6%",
+        "Inverted_Baseline_TP": 7,
+        "Inverted_Recall": "9.0%",
+        "V3_TP": 18,
+        "V3_Recall": "23.1%",
+        "Delta_Recall (V3 vs Fwd)": "+20.5 pp",
+        "McNemar_p_value": 3.0518e-05
+      },
+      {
+        "Threshold": 0.8,
+        "Length_Tier": "very_long",
+        "Total_Pairs": 87,
+        "Forward_Baseline_TP": 2,
+        "Forward_Recall": "2.3%",
+        "Inverted_Baseline_TP": 5,
+        "Inverted_Recall": "5.7%",
+        "V3_TP": 32,
+        "V3_Recall": "36.8%",
+        "Delta_Recall (V3 vs Fwd)": "+34.5 pp",
+        "McNemar_p_value": 1.8626e-09
+      },
+      {
+        "Threshold": 0.8,
+        "Length_Tier": "ALL",
+        "Total_Pairs": 188,
+        "Forward_Baseline_TP": 4,
+        "Forward_Recall": "2.1%",
+        "Inverted_Baseline_TP": 14,
+        "Inverted_Recall": "7.4%",
+        "V3_TP": 51,
+        "V3_Recall": "27.1%",
+        "Delta_Recall (V3 vs Fwd)": "+25.0 pp",
+        "McNemar_p_value": 1.4211e-14
+      }
+    ]
+  }
+}

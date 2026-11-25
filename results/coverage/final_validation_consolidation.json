@@ -1,0 +1,979 @@
+{
+  "item1_holm_audit": [
+    {
+      "m1": "llama_3_2_3b_instruct",
+      "m2": "qwen2_5_7b_instruct",
+      "mean_diff": 9.049053362734288,
+      "t_stat": 9.483598677667771,
+      "p_t": 2.0913207890344707e-20,
+      "w_stat": 71487.0,
+      "p_w": 1.0821392598811035e-27,
+      "p_holm_t": 4.391773656972389e-19,
+      "p_holm_w": 2.2724924457503173e-26
+    },
+    {
+      "m1": "llama_3_2_3b_instruct",
+      "m2": "llama_3_1_8b_instruct",
+      "mean_diff": 8.48746901874311,
+      "t_stat": 9.221155720673032,
+      "p_t": 2.0107981109822777e-19,
+      "w_stat": 74102.0,
+      "p_w": 2.915048730634475e-26,
+      "p_holm_t": 4.021596221964555e-18,
+      "p_holm_w": 5.83009746126895e-25
+    },
+    {
+      "m1": "llama_3_2_3b_instruct",
+      "m2": "gemma_2_27b_it",
+      "mean_diff": 6.994463395810364,
+      "t_stat": 7.854501845831001,
+      "p_t": 1.1327804273321287e-14,
+      "w_stat": 75468.5,
+      "p_w": 1.35725579723812e-23,
+      "p_holm_t": 2.1522828119310447e-13,
+      "p_holm_w": 2.5787860147524277e-22
+    },
+    {
+      "m1": "olmo_2_1124_7b_instruct",
+      "m2": "qwen2_5_7b_instruct",
+      "mean_diff": 6.943491400220507,
+      "t_stat": 7.213435901824733,
+      "p_t": 1.1519337485431484e-12,
+      "w_stat": 86064.5,
+      "p_w": 1.9165377242466206e-20,
+      "p_holm_t": 2.073480747377667e-11,
+      "p_holm_w": 3.449767903643917e-19
+    },
+    {
+      "m1": "olmo_2_1124_7b_instruct",
+      "m2": "llama_3_1_8b_instruct",
+      "mean_diff": 6.381907056229327,
+      "t_stat": 6.16950443502255,
+      "p_t": 1.031478380572163e-09,
+      "w_stat": 100050.5,
+      "p_w": 1.5051696545238228e-16,
+      "p_holm_t": 1.753513246972677e-08,
+      "p_holm_w": 2.5587884126904987e-15
+    },
+    {
+      "m1": "llama_3_2_3b_instruct",
+      "m2": "olmo_2_1124_13b_instruct",
+      "mean_diff": 5.7459271223814765,
+      "t_stat": 5.205075891318472,
+      "p_t": 2.399779695694393e-07,
+      "w_stat": 119281.5,
+      "p_w": 1.4863656888917292e-08,
+      "p_holm_t": 3.731852405592834e-06,
+      "p_holm_w": 2.080911964448421e-07
+    },
+    {
+      "m1": "olmo_2_1124_7b_instruct",
+      "m2": "gemma_2_27b_it",
+      "mean_diff": 4.8889014332965814,
+      "t_stat": 5.011227176872278,
+      "p_t": 6.503112577905007e-07,
+      "w_stat": 99487.5,
+      "p_w": 7.866695046928214e-15,
+      "p_holm_t": 9.104357609067009e-06,
+      "p_holm_w": 1.2586712075085143e-13
+    },
+    {
+      "m1": "llama_3_2_3b_instruct",
+      "m2": "gemma_2_9b_it",
+      "mean_diff": 4.636265490628446,
+      "t_stat": 5.210519761178139,
+      "p_t": 2.3324077534955212e-07,
+      "w_stat": 105146.0,
+      "p_w": 2.0053792239815998e-09,
+      "p_holm_t": 3.731852405592834e-06,
+      "p_holm_w": 3.0080688359724e-08
+    },
+    {
+      "m1": "gemma_2_9b_it",
+      "m2": "qwen2_5_7b_instruct",
+      "mean_diff": 4.412787872105843,
+      "t_stat": 4.971416490038918,
+      "p_t": 7.947794789437301e-07,
+      "w_stat": 102332.0,
+      "p_w": 1.358889799488099e-07,
+      "p_holm_t": 1.0332133226268491e-05,
+      "p_holm_w": 1.7665567393345287e-06
+    },
+    {
+      "m1": "gemma_2_9b_it",
+      "m2": "llama_3_1_8b_instruct",
+      "mean_diff": 3.8512035281146644,
+      "t_stat": 4.724780014526549,
+      "p_t": 2.66913581766062e-06,
+      "w_stat": 102219.5,
+      "p_w": 2.0021344928845083e-06,
+      "p_holm_t": 3.202962981192744e-05,
+      "p_holm_w": 2.40256139146141e-05
+    },
+    {
+      "m1": "olmo_2_1124_7b_instruct",
+      "m2": "olmo_2_1124_13b_instruct",
+      "mean_diff": 3.6403651598676956,
+      "t_stat": 3.538471394028909,
+      "p_t": 0.00042289969325662124,
+      "w_stat": 116232.5,
+      "p_w": 3.198755611099873e-06,
+      "p_holm_t": 0.004651896625822834,
+      "p_holm_w": 3.5186311722098605e-05
+    },
+    {
+      "m1": "olmo_2_1124_13b_instruct",
+      "m2": "qwen2_5_7b_instruct",
+      "mean_diff": 3.3031262403528117,
+      "t_stat": 3.3363292848338357,
+      "p_t": 0.0008834478023297732,
+      "w_stat": 112628.0,
+      "p_w": 5.628589515596191e-05,
+      "p_holm_t": 0.008834478023297732,
+      "p_holm_w": 0.0005065730564036572
+    },
+    {
+      "m1": "olmo_2_1124_13b_instruct",
+      "m2": "llama_3_1_8b_instruct",
+      "mean_diff": 2.741541896361632,
+      "t_stat": 2.3537397649831364,
+      "p_t": 0.01879837441168692,
+      "w_stat": 136676.5,
+      "p_w": 0.003106616241245155,
+      "p_holm_t": 0.13158862088180845,
+      "p_holm_w": 0.021746313688716084
+    },
+    {
+      "m1": "olmo_2_1124_7b_instruct",
+      "m2": "gemma_2_9b_it",
+      "mean_diff": 2.530703528114664,
+      "t_stat": 2.667072080546434,
+      "p_t": 0.00778799678714409,
+      "w_stat": 128353.0,
+      "p_w": 9.270259026579223e-05,
+      "p_holm_t": 0.06230397429715272,
+      "p_holm_w": 0.0007416207221263378
+    },
+    {
+      "m1": "llama_3_2_3b_instruct",
+      "m2": "olmo_2_1124_7b_instruct",
+      "mean_diff": 2.1055619625137822,
+      "t_stat": 2.0690524559741568,
+      "p_t": 0.03882426893783115,
+      "w_stat": 145232.0,
+      "p_w": 0.13624072089968775,
+      "p_holm_t": 0.19412134468915573,
+      "p_holm_w": 0.4979753463700335
+    },
+    {
+      "m1": "gemma_2_27b_it",
+      "m2": "qwen2_5_7b_instruct",
+      "mean_diff": 2.0545899669239245,
+      "t_stat": 2.334491178690558,
+      "p_t": 0.019787706908020456,
+      "w_stat": 119304.0,
+      "p_w": 0.06303489279067997,
+      "p_holm_t": 0.13158862088180845,
+      "p_holm_w": 0.3151744639533999
+    },
+    {
+      "m1": "gemma_2_27b_it",
+      "m2": "llama_3_1_8b_instruct",
+      "mean_diff": 1.4930056229327455,
+      "t_stat": 1.9211973496850894,
+      "p_t": 0.05502033618176769,
+      "w_stat": 118102.0,
+      "p_w": 0.12449383659250837,
+      "p_holm_t": 0.22008134472707075,
+      "p_holm_w": 0.4979753463700335
+    },
+    {
+      "m1": "olmo_2_1124_13b_instruct",
+      "m2": "gemma_2_27b_it",
+      "mean_diff": 1.2485362734288865,
+      "t_stat": 1.1603485465269494,
+      "p_t": 0.24621259214129518,
+      "w_stat": 131804.0,
+      "p_w": 0.0038075834462243953,
+      "p_holm_t": 0.7386377764238855,
+      "p_holm_w": 0.02284550067734637
+    },
+    {
+      "m1": "llama_3_1_8b_instruct",
+      "m2": "qwen2_5_7b_instruct",
+      "mean_diff": 0.5615843439911798,
+      "t_stat": 0.61573221798501,
+      "p_t": 0.5382259156969891,
+      "w_stat": 125646.0,
+      "p_w": 0.9330120637085829,
+      "p_holm_t": 0.7386377764238855,
+      "p_holm_w": 1.0
+    },
+    {
+      "m1": "olmo_2_1124_13b_instruct",
+      "m2": "gemma_2_9b_it",
+      "mean_diff": -1.109661631753032,
+      "t_stat": -1.030565264770496,
+      "p_t": 0.303019763862045,
+      "w_stat": 156643.5,
+      "p_w": 0.5369927252095095,
+      "p_holm_t": 0.7386377764238855,
+      "p_holm_w": 1.0
+    },
+    {
+      "m1": "gemma_2_27b_it",
+      "m2": "gemma_2_9b_it",
+      "mean_diff": -2.3581979051819184,
+      "t_stat": -3.137464413897509,
+      "p_t": 0.0017592261443493667,
+      "w_stat": 92059.0,
+      "p_w": 3.6238404637730597e-06,
+      "p_holm_t": 0.015833035299144302,
+      "p_holm_w": 3.62384046377306e-05
+    }
+  ],
+  "item2_denominators": {
+    "total_907": 5095,
+    "untouched_842": 4509,
+    "benchmark_65": 586,
+    "heldout_17": 173
+  },
+  "item3_partitions": [
+    {
+      "model_key": "qwen2_5_32b_instruct",
+      "Macro_907 (Full)": 81.41339625137817,
+      "Macro_842 (Untouched)": 81.34217541567698,
+      "Delta_842_vs_907": -0.07122083570119742,
+      "Macro_17 (Held-out)": 78.92857647058823,
+      "Macro_65 (Benchmark)": 82.33598,
+      "Micro_907": 77.21295387634936,
+      "Micro_842": 77.64471057884231,
+      "Eff_907": 0.2111647879763822,
+      "Eff_842": 0.2029800556586271
+    },
+    {
+      "model_key": "qwen2_5_1_5b_instruct",
+      "Macro_907 (Full)": 80.39388037486218,
+      "Macro_842 (Untouched)": 80.54314287410925,
+      "Delta_842_vs_907": 0.14926249924707236,
+      "Macro_17 (Held-out)": 74.70238823529411,
+      "Macro_65 (Benchmark)": 78.46035692307693,
+      "Micro_907": 74.17075564278704,
+      "Micro_842": 75.18296739853626,
+      "Eff_907": 0.2659581955098881,
+      "Eff_842": 0.25716886663632227
+    },
+    {
+      "model_key": "qwen2_5_3b_instruct",
+      "Macro_907 (Full)": 78.98737386990076,
+      "Macro_842 (Untouched)": 79.2841814726841,
+      "Delta_842_vs_907": 0.29680760278333196,
+      "Macro_17 (Held-out)": 65.14355294117648,
+      "Macro_65 (Benchmark)": 75.14257384615385,
+      "Micro_907": 72.22767419038273,
+      "Micro_842": 73.29784874695055,
+      "Eff_907": 0.333907993829961,
+      "Eff_842": 0.3247518915200943
+    },
+    {
+      "model_key": "llama_3_2_3b_instruct",
+      "Macro_907 (Full)": 54.898637596471886,
+      "Macro_842 (Untouched)": 55.18618729216151,
+      "Delta_842_vs_907": 0.28754969568962707,
+      "Macro_17 (Held-out)": 45.36414705882353,
+      "Macro_65 (Benchmark)": 51.17376307692307,
+      "Micro_907": 45.55446516192345,
+      "Micro_842": 46.61787536039033,
+      "Eff_907": 0.5117971334068357,
+      "Eff_842": 0.4992874109263658
+    },
+    {
+      "model_key": "olmo_2_1124_7b_instruct",
+      "Macro_907 (Full)": 52.7930756339581,
+      "Macro_842 (Untouched)": 52.88438040380047,
+      "Delta_842_vs_907": 0.0913047698423739,
+      "Macro_17 (Held-out)": 44.78991764705882,
+      "Macro_65 (Benchmark)": 51.61032769230769,
+      "Micro_907": 44.514229636898925,
+      "Micro_842": 45.37591483699268,
+      "Eff_907": 0.5001102535832415,
+      "Eff_842": 0.4859857482185273
+    },
+    {
+      "model_key": "gemma_2_9b_it",
+      "Macro_907 (Full)": 50.26237210584345,
+      "Macro_842 (Untouched)": 50.54288277909739,
+      "Delta_842_vs_907": 0.28051067325394285,
+      "Macro_17 (Held-out)": 39.04761764705882,
+      "Macro_65 (Benchmark)": 46.62868,
+      "Micro_907": 42.2963689892051,
+      "Micro_842": 43.291195387003775,
+      "Eff_907": 0.47519294377067256,
+      "Eff_842": 0.4636579572446556
+    },
+    {
+      "model_key": "olmo_2_1124_13b_instruct",
+      "Macro_907 (Full)": 49.15271047409041,
+      "Macro_842 (Untouched)": 49.259823515439436,
+      "Delta_842_vs_907": 0.10711304134902377,
+      "Macro_17 (Held-out)": 41.638652941176474,
+      "Macro_65 (Benchmark)": 47.76518461538461,
+      "Micro_907": 41.94308145240432,
+      "Micro_842": 42.78110445775116,
+      "Eff_907": 0.4712238147739802,
+      "Eff_842": 0.45819477434679334
+    },
+    {
+      "model_key": "gemma_2_27b_it",
+      "Macro_907 (Full)": 47.90417420066152,
+      "Macro_842 (Untouched)": 48.14515665083135,
+      "Delta_842_vs_907": 0.240982450169831,
+      "Macro_17 (Held-out)": 39.04761764705882,
+      "Macro_65 (Benchmark)": 44.78252461538462,
+      "Micro_907": 40.05888125613347,
+      "Micro_842": 40.82945220669772,
+      "Eff_907": 0.45005512679162074,
+      "Eff_842": 0.43729216152019
+    },
+    {
+      "model_key": "llama_3_1_8b_instruct",
+      "Macro_907 (Full)": 46.41116857772877,
+      "Macro_842 (Untouched)": 46.64445498812351,
+      "Delta_842_vs_907": 0.23328641039474007,
+      "Macro_17 (Held-out)": 36.68767058823529,
+      "Macro_65 (Benchmark)": 43.38921230769231,
+      "Micro_907": 39.92149165848872,
+      "Micro_842": 40.762918607229985,
+      "Eff_907": 0.44851157662624036,
+      "Eff_842": 0.4365795724465558
+    },
+    {
+      "model_key": "qwen2_5_7b_instruct",
+      "Macro_907 (Full)": 45.849584233737595,
+      "Macro_842 (Untouched)": 45.996183135391924,
+      "Delta_842_vs_907": 0.14659890165432898,
+      "Macro_17 (Held-out)": 34.453770588235294,
+      "Macro_65 (Benchmark)": 43.950564615384614,
+      "Micro_907": 39.627085377821395,
+      "Micro_842": 40.40807274340209,
+      "Eff_907": 0.4451058201058201,
+      "Eff_842": 0.4326763239135597
+    }
+  ],
+  "item4_post_training_ladders": [
+    {
+      "Family": "OLMo 2 7B",
+      "Transition": "BASE -> SFT",
+      "Model From": "olmo_2_1124_7b",
+      "Model To": "olmo_2_1124_7b_sft",
+      "From Macro Cov": 41.77065942668137,
+      "To Macro Cov": 51.33777607497244,
+      "Coverage Gain": 9.56711664829107,
+      "Gain 95% CI": "[+7.11%, +11.92%]",
+      "t_stat": 7.779575515602319,
+      "p_value": 1.9779449902387434e-14
+    },
+    {
+      "Family": "OLMo 2 7B",
+      "Transition": "SFT -> INSTRUCT",
+      "Model From": "olmo_2_1124_7b_sft",
+      "Model To": "olmo_2_1124_7b_instruct",
+      "From Macro Cov": 51.33777607497244,
+      "To Macro Cov": 52.793075633958104,
+      "Coverage Gain": 1.4552995589856672,
+      "Gain 95% CI": "[-0.39%, +3.31%]",
+      "t_stat": 1.583492242663878,
+      "p_value": 0.11365829593727289
+    },
+    {
+      "Family": "OLMo 2 7B",
+      "Transition": "INSTRUCT -> DPO",
+      "Model From": "olmo_2_1124_7b_instruct",
+      "Model To": "olmo_2_1124_7b_dpo",
+      "From Macro Cov": 52.793075633958104,
+      "To Macro Cov": 55.176470893054024,
+      "Coverage Gain": 2.383395259095921,
+      "Gain 95% CI": "[+0.85%, +3.83%]",
+      "t_stat": 3.232953454535511,
+      "p_value": 0.0012694480399395634
+    },
+    {
+      "Family": "OLMo 2 13B",
+      "Transition": "BASE -> SFT",
+      "Model From": "olmo_2_1124_13b",
+      "Model To": "olmo_2_1124_13b_sft",
+      "From Macro Cov": 33.77878037486218,
+      "To Macro Cov": 51.80350694597575,
+      "Coverage Gain": 18.02472657111356,
+      "Gain 95% CI": "[+15.50%, +20.52%]",
+      "t_stat": 14.280049441166685,
+      "p_value": 7.096588297965456e-42
+    },
+    {
+      "Family": "OLMo 2 13B",
+      "Transition": "SFT -> INSTRUCT",
+      "Model From": "olmo_2_1124_13b_sft",
+      "Model To": "olmo_2_1124_13b_instruct",
+      "From Macro Cov": 51.80350694597575,
+      "To Macro Cov": 49.152710474090405,
+      "Coverage Gain": -2.6507964718853363,
+      "Gain 95% CI": "[-4.60%, -0.57%]",
+      "t_stat": -2.5908103279881693,
+      "p_value": 0.009728927829191058
+    },
+    {
+      "Family": "OLMo 2 13B",
+      "Transition": "INSTRUCT -> DPO",
+      "Model From": "olmo_2_1124_13b_instruct",
+      "Model To": "olmo_2_1124_13b_dpo",
+      "From Macro Cov": 49.152710474090405,
+      "To Macro Cov": 50.09619360529217,
+      "Coverage Gain": 0.9434831312017639,
+      "Gain 95% CI": "[-0.69%, +2.61%]",
+      "t_stat": 1.0860248355144293,
+      "p_value": 0.27775687199196225
+    },
+    {
+      "Family": "OLMo 2 1B (0425)",
+      "Transition": "BASE -> SFT",
+      "Model From": "olmo_2_0425_1b",
+      "Model To": "olmo_2_0425_1b_sft",
+      "From Macro Cov": 30.5389671444322,
+      "To Macro Cov": 48.4828862183021,
+      "Coverage Gain": 17.9439190738699,
+      "Gain 95% CI": "[+15.42%, +20.47%]",
+      "t_stat": 13.985030230342014,
+      "p_value": 2.198001388315319e-40
+    },
+    {
+      "Family": "OLMo 2 1B (0425)",
+      "Transition": "SFT -> INSTRUCT",
+      "Model From": "olmo_2_0425_1b_sft",
+      "Model To": "olmo_2_0425_1b_instruct",
+      "From Macro Cov": 48.4828862183021,
+      "To Macro Cov": 51.76311345093716,
+      "Coverage Gain": 3.280227232635061,
+      "Gain 95% CI": "[+1.78%, +4.84%]",
+      "t_stat": 4.184590360080461,
+      "p_value": 3.134985409442315e-05
+    },
+    {
+      "Family": "OLMo 2 1B (0425)",
+      "Transition": "INSTRUCT -> DPO",
+      "Model From": "olmo_2_0425_1b_instruct",
+      "Model To": "olmo_2_0425_1b_dpo",
+      "From Macro Cov": 51.76311345093716,
+      "To Macro Cov": 50.5901151047409,
+      "Coverage Gain": -1.1729983461962517,
+      "Gain 95% CI": "[-2.76%, +0.43%]",
+      "t_stat": -1.4302122997321782,
+      "p_value": 0.15300086301652335
+    },
+    {
+      "Family": "OLMo 2 32B (0325)",
+      "Transition": "BASE -> INSTRUCT",
+      "Model From": "olmo_2_0325_32b",
+      "Model To": "olmo_2_0325_32b_instruct",
+      "From Macro Cov": 55.009989966923925,
+      "To Macro Cov": 48.598607386990075,
+      "Coverage Gain": -6.411382579933847,
+      "Gain 95% CI": "[-8.63%, -4.31%]",
+      "t_stat": -5.830719480853764,
+      "p_value": 7.671756469227881e-09
+    },
+    {
+      "Family": "OLMo 2 32B (0325)",
+      "Transition": "INSTRUCT -> DPO",
+      "Model From": "olmo_2_0325_32b_instruct",
+      "Model To": "olmo_2_0325_32b_dpo",
+      "From Macro Cov": 48.598607386990075,
+      "To Macro Cov": 51.314740683572225,
+      "Coverage Gain": 2.716133296582139,
+      "Gain 95% CI": "[+1.45%, +4.06%]",
+      "t_stat": 4.1859961634788805,
+      "p_value": 3.116009972851592e-05
+    }
+  ],
+  "item5_budget_tiers": [
+    {
+      "model_key": "gemma_2_27b_it",
+      "budget_tier": "Standardized 5 Viewpoints/Claim (~4.5k vps)",
+      "n_viewpoints": 4535,
+      "m0_coverage_pct": 47.9042,
+      "viewpoint_efficiency": 0.450055
+    },
+    {
+      "model_key": "gemma_2_2b_it",
+      "budget_tier": "Standardized 5 Viewpoints/Claim (~4.5k vps)",
+      "n_viewpoints": 4535,
+      "m0_coverage_pct": 48.8259,
+      "viewpoint_efficiency": 0.469239
+    },
+    {
+      "model_key": "gemma_2_9b_it",
+      "budget_tier": "Standardized 5 Viewpoints/Claim (~4.5k vps)",
+      "n_viewpoints": 4535,
+      "m0_coverage_pct": 50.2624,
+      "viewpoint_efficiency": 0.475193
+    },
+    {
+      "model_key": "llama_3_1_8b_instruct",
+      "budget_tier": "Standardized 5 Viewpoints/Claim (~4.5k vps)",
+      "n_viewpoints": 4535,
+      "m0_coverage_pct": 46.4112,
+      "viewpoint_efficiency": 0.448512
+    },
+    {
+      "model_key": "llama_3_2_1b_instruct",
+      "budget_tier": "Standardized 5 Viewpoints/Claim (~4.5k vps)",
+      "n_viewpoints": 4559,
+      "m0_coverage_pct": 43.4401,
+      "viewpoint_efficiency": 0.415003
+    },
+    {
+      "model_key": "llama_3_2_3b_instruct",
+      "budget_tier": "Standardized 5 Viewpoints/Claim (~4.5k vps)",
+      "n_viewpoints": 4535,
+      "m0_coverage_pct": 54.8986,
+      "viewpoint_efficiency": 0.511797
+    },
+    {
+      "model_key": "olmo_2_0325_32b",
+      "budget_tier": "Elevated Budget (5k-8k vps)",
+      "n_viewpoints": 6231,
+      "m0_coverage_pct": 55.01,
+      "viewpoint_efficiency": 0.375381
+    },
+    {
+      "model_key": "olmo_2_0325_32b_dpo",
+      "budget_tier": "Standardized 5 Viewpoints/Claim (~4.5k vps)",
+      "n_viewpoints": 4535,
+      "m0_coverage_pct": 51.3147,
+      "viewpoint_efficiency": 0.487321
+    },
+    {
+      "model_key": "olmo_2_0325_32b_instruct",
+      "budget_tier": "Standardized 5 Viewpoints/Claim (~4.5k vps)",
+      "n_viewpoints": 4534,
+      "m0_coverage_pct": 48.5986,
+      "viewpoint_efficiency": 0.469563
+    },
+    {
+      "model_key": "olmo_2_0425_1b",
+      "budget_tier": "Elevated Budget (5k-8k vps)",
+      "n_viewpoints": 7448,
+      "m0_coverage_pct": 30.539,
+      "viewpoint_efficiency": 0.181525
+    },
+    {
+      "model_key": "olmo_2_0425_1b_dpo",
+      "budget_tier": "Standardized 5 Viewpoints/Claim (~4.5k vps)",
+      "n_viewpoints": 4536,
+      "m0_coverage_pct": 50.5901,
+      "viewpoint_efficiency": 0.483907
+    },
+    {
+      "model_key": "olmo_2_0425_1b_instruct",
+      "budget_tier": "Standardized 5 Viewpoints/Claim (~4.5k vps)",
+      "n_viewpoints": 4540,
+      "m0_coverage_pct": 51.7631,
+      "viewpoint_efficiency": 0.494934
+    },
+    {
+      "model_key": "olmo_2_0425_1b_sft",
+      "budget_tier": "Standardized 5 Viewpoints/Claim (~4.5k vps)",
+      "n_viewpoints": 4510,
+      "m0_coverage_pct": 48.4829,
+      "viewpoint_efficiency": 0.469845
+    },
+    {
+      "model_key": "olmo_2_1124_13b",
+      "budget_tier": "Elevated Budget (5k-8k vps)",
+      "n_viewpoints": 7129,
+      "m0_coverage_pct": 33.7788,
+      "viewpoint_efficiency": 0.203815
+    },
+    {
+      "model_key": "olmo_2_1124_13b_dpo",
+      "budget_tier": "Standardized 5 Viewpoints/Claim (~4.5k vps)",
+      "n_viewpoints": 4535,
+      "m0_coverage_pct": 50.0962,
+      "viewpoint_efficiency": 0.476295
+    },
+    {
+      "model_key": "olmo_2_1124_13b_instruct",
+      "budget_tier": "Standardized 5 Viewpoints/Claim (~4.5k vps)",
+      "n_viewpoints": 4535,
+      "m0_coverage_pct": 49.1527,
+      "viewpoint_efficiency": 0.471224
+    },
+    {
+      "model_key": "olmo_2_1124_13b_sft",
+      "budget_tier": "Standardized 5 Viewpoints/Claim (~4.5k vps)",
+      "n_viewpoints": 4532,
+      "m0_coverage_pct": 51.8035,
+      "viewpoint_efficiency": 0.488305
+    },
+    {
+      "model_key": "olmo_2_1124_7b",
+      "budget_tier": "Elevated Budget (5k-8k vps)",
+      "n_viewpoints": 7414,
+      "m0_coverage_pct": 41.7707,
+      "viewpoint_efficiency": 0.24103
+    },
+    {
+      "model_key": "olmo_2_1124_7b_dpo",
+      "budget_tier": "Standardized 5 Viewpoints/Claim (~4.5k vps)",
+      "n_viewpoints": 4535,
+      "m0_coverage_pct": 55.1765,
+      "viewpoint_efficiency": 0.516648
+    },
+    {
+      "model_key": "olmo_2_1124_7b_instruct",
+      "budget_tier": "Standardized 5 Viewpoints/Claim (~4.5k vps)",
+      "n_viewpoints": 4535,
+      "m0_coverage_pct": 52.7931,
+      "viewpoint_efficiency": 0.50011
+    },
+    {
+      "model_key": "olmo_2_1124_7b_sft",
+      "budget_tier": "Standardized 5 Viewpoints/Claim (~4.5k vps)",
+      "n_viewpoints": 4535,
+      "m0_coverage_pct": 51.3378,
+      "viewpoint_efficiency": 0.490628
+    },
+    {
+      "model_key": "olmoe_1b_7b_0924_instruct",
+      "budget_tier": "Standardized 5 Viewpoints/Claim (~4.5k vps)",
+      "n_viewpoints": 4556,
+      "m0_coverage_pct": 43.5886,
+      "viewpoint_efficiency": 0.430641
+    },
+    {
+      "model_key": "qwen2_5_0_5b_instruct",
+      "budget_tier": "Standardized 5 Viewpoints/Claim (~4.5k vps)",
+      "n_viewpoints": 4666,
+      "m0_coverage_pct": 52.4505,
+      "viewpoint_efficiency": 0.477925
+    },
+    {
+      "model_key": "qwen2_5_14b_instruct",
+      "budget_tier": "Standardized 5 Viewpoints/Claim (~4.5k vps)",
+      "n_viewpoints": 4550,
+      "m0_coverage_pct": 51.6626,
+      "viewpoint_efficiency": 0.483297
+    },
+    {
+      "model_key": "qwen2_5_14b_instruct_p2",
+      "budget_tier": "Truncated / Partial Budget (<4.4k vps)",
+      "n_viewpoints": 2877,
+      "m0_coverage_pct": 32.3464,
+      "viewpoint_efficiency": 0.466806
+    },
+    {
+      "model_key": "qwen2_5_1_5b_instruct",
+      "budget_tier": "Unconstrained High-Volume (10k-18k vps)",
+      "n_viewpoints": 14209,
+      "m0_coverage_pct": 80.3939,
+      "viewpoint_efficiency": 0.265958
+    },
+    {
+      "model_key": "qwen2_5_32b_instruct",
+      "budget_tier": "Unconstrained High-Volume (10k-18k vps)",
+      "n_viewpoints": 18630,
+      "m0_coverage_pct": 81.4134,
+      "viewpoint_efficiency": 0.211165
+    },
+    {
+      "model_key": "qwen2_5_3b_instruct",
+      "budget_tier": "Unconstrained High-Volume (10k-18k vps)",
+      "n_viewpoints": 11021,
+      "m0_coverage_pct": 78.9874,
+      "viewpoint_efficiency": 0.333908
+    },
+    {
+      "model_key": "qwen2_5_3b_instruct_p2",
+      "budget_tier": "Truncated / Partial Budget (<4.4k vps)",
+      "n_viewpoints": 1541,
+      "m0_coverage_pct": 23.9284,
+      "viewpoint_efficiency": 0.58793
+    },
+    {
+      "model_key": "qwen2_5_7b_instruct",
+      "budget_tier": "Standardized 5 Viewpoints/Claim (~4.5k vps)",
+      "n_viewpoints": 4536,
+      "m0_coverage_pct": 45.8496,
+      "viewpoint_efficiency": 0.445106
+    },
+    {
+      "model_key": "qwen2_5_7b_instruct_p2",
+      "budget_tier": "Standardized 5 Viewpoints/Claim (~4.5k vps)",
+      "n_viewpoints": 4534,
+      "m0_coverage_pct": 31.1331,
+      "viewpoint_efficiency": 0.305249
+    },
+    {
+      "model_key": "smollm2_135m_instruct",
+      "budget_tier": "Unconstrained High-Volume (10k-18k vps)",
+      "n_viewpoints": 16827,
+      "m0_coverage_pct": 62.4516,
+      "viewpoint_efficiency": 0.169846
+    },
+    {
+      "model_key": "smollm2_1_7b_instruct",
+      "budget_tier": "Standardized 5 Viewpoints/Claim (~4.5k vps)",
+      "n_viewpoints": 4464,
+      "m0_coverage_pct": 41.2647,
+      "viewpoint_efficiency": 0.415995
+    },
+    {
+      "model_key": "smollm2_360m_instruct",
+      "budget_tier": "Elevated Budget (5k-8k vps)",
+      "n_viewpoints": 7557,
+      "m0_coverage_pct": 61.6684,
+      "viewpoint_efficiency": 0.358079
+    }
+  ],
+  "item7_complexity_performance": [
+    {
+      "Complexity Tier": "Low (1-3 clusters)",
+      "Claims": 346,
+      "Model": "qwen2_5_32b_instruct",
+      "Macro Coverage": 82.36994393063584,
+      "Micro Coverage": 83.23863636363636,
+      "Efficiency": 0.08491522967685843
+    },
+    {
+      "Complexity Tier": "Low (1-3 clusters)",
+      "Claims": 346,
+      "Model": "qwen2_5_1_5b_instruct",
+      "Macro Coverage": 82.46628352601157,
+      "Micro Coverage": 82.95454545454545,
+      "Efficiency": 0.1089755551408845
+    },
+    {
+      "Complexity Tier": "Low (1-3 clusters)",
+      "Claims": 346,
+      "Model": "qwen2_5_3b_instruct",
+      "Macro Coverage": 80.58767052023123,
+      "Micro Coverage": 81.39204545454545,
+      "Efficiency": 0.13928050559066601
+    },
+    {
+      "Complexity Tier": "Low (1-3 clusters)",
+      "Claims": 346,
+      "Model": "llama_3_2_3b_instruct",
+      "Macro Coverage": 61.99422023121387,
+      "Micro Coverage": 61.07954545454546,
+      "Efficiency": 0.24855491329479767
+    },
+    {
+      "Complexity Tier": "Low (1-3 clusters)",
+      "Claims": 346,
+      "Model": "olmo_2_1124_7b_instruct",
+      "Macro Coverage": 60.163776589595386,
+      "Micro Coverage": 60.51136363636363,
+      "Efficiency": 0.24624277456647398
+    },
+    {
+      "Complexity Tier": "Low (1-3 clusters)",
+      "Claims": 346,
+      "Model": "olmo_2_1124_13b_instruct",
+      "Macro Coverage": 55.25048236994219,
+      "Micro Coverage": 55.11363636363637,
+      "Efficiency": 0.22427745664739884
+    },
+    {
+      "Complexity Tier": "Low (1-3 clusters)",
+      "Claims": 346,
+      "Model": "gemma_2_27b_it",
+      "Macro Coverage": 56.1175352601156,
+      "Micro Coverage": 55.25568181818182,
+      "Efficiency": 0.22485549132947977
+    },
+    {
+      "Complexity Tier": "Low (1-3 clusters)",
+      "Claims": 346,
+      "Model": "gemma_2_9b_it",
+      "Macro Coverage": 57.22543439306358,
+      "Micro Coverage": 57.38636363636363,
+      "Efficiency": 0.23352601156069364
+    },
+    {
+      "Complexity Tier": "Low (1-3 clusters)",
+      "Claims": 346,
+      "Model": "llama_3_1_8b_instruct",
+      "Macro Coverage": 51.34874768786128,
+      "Micro Coverage": 50.42613636363637,
+      "Efficiency": 0.20520231213872833
+    },
+    {
+      "Complexity Tier": "Low (1-3 clusters)",
+      "Claims": 346,
+      "Model": "qwen2_5_7b_instruct",
+      "Macro Coverage": 51.10790202312139,
+      "Micro Coverage": 51.13636363636363,
+      "Efficiency": 0.20809248554913296
+    },
+    {
+      "Complexity Tier": "Medium (4-6 clusters)",
+      "Claims": 313,
+      "Model": "qwen2_5_32b_instruct",
+      "Macro Coverage": 82.5559089456869,
+      "Micro Coverage": 82.5886990801577,
+      "Efficiency": 0.19680601221230626
+    },
+    {
+      "Complexity Tier": "Medium (4-6 clusters)",
+      "Claims": 313,
+      "Model": "qwen2_5_1_5b_instruct",
+      "Macro Coverage": 82.1991466453674,
+      "Micro Coverage": 82.1287779237845,
+      "Efficiency": 0.2541683611224075
+    },
+    {
+      "Complexity Tier": "Medium (4-6 clusters)",
+      "Claims": 313,
+      "Model": "qwen2_5_3b_instruct",
+      "Macro Coverage": 81.61874249201277,
+      "Micro Coverage": 81.34034165571616,
+      "Efficiency": 0.32467873065827435
+    },
+    {
+      "Complexity Tier": "Medium (4-6 clusters)",
+      "Claims": 313,
+      "Model": "llama_3_2_3b_instruct",
+      "Macro Coverage": 57.337592012779545,
+      "Micro Coverage": 56.767411300919846,
+      "Efficiency": 0.552076677316294
+    },
+    {
+      "Complexity Tier": "Medium (4-6 clusters)",
+      "Claims": 313,
+      "Model": "olmo_2_1124_7b_instruct",
+      "Macro Coverage": 52.94994824281151,
+      "Micro Coverage": 52.693823915900126,
+      "Efficiency": 0.5124600638977636
+    },
+    {
+      "Complexity Tier": "Medium (4-6 clusters)",
+      "Claims": 313,
+      "Model": "olmo_2_1124_13b_instruct",
+      "Macro Coverage": 49.39829776357828,
+      "Micro Coverage": 49.14586070959264,
+      "Efficiency": 0.4779552715654952
+    },
+    {
+      "Complexity Tier": "Medium (4-6 clusters)",
+      "Claims": 313,
+      "Model": "gemma_2_27b_it",
+      "Macro Coverage": 46.37380159744408,
+      "Micro Coverage": 46.057818659658345,
+      "Efficiency": 0.44792332268370605
+    },
+    {
+      "Complexity Tier": "Medium (4-6 clusters)",
+      "Claims": 313,
+      "Model": "gemma_2_9b_it",
+      "Macro Coverage": 51.203407667731625,
+      "Micro Coverage": 50.85413929040736,
+      "Efficiency": 0.49456869009584664
+    },
+    {
+      "Complexity Tier": "Medium (4-6 clusters)",
+      "Claims": 313,
+      "Model": "llama_3_1_8b_instruct",
+      "Macro Coverage": 46.82641054313099,
+      "Micro Coverage": 46.583442838370566,
+      "Efficiency": 0.45303514376996806
+    },
+    {
+      "Complexity Tier": "Medium (4-6 clusters)",
+      "Claims": 313,
+      "Model": "qwen2_5_7b_instruct",
+      "Macro Coverage": 45.7188482428115,
+      "Micro Coverage": 45.466491458607095,
+      "Efficiency": 0.44217252396166135
+    },
+    {
+      "Complexity Tier": "High (>=7 clusters)",
+      "Claims": 248,
+      "Model": "qwen2_5_32b_instruct",
+      "Macro Coverage": 78.63689637096775,
+      "Micro Coverage": 72.88253746950157,
+      "Efficiency": 0.3914264320479221
+    },
+    {
+      "Complexity Tier": "High (>=7 clusters)",
+      "Claims": 248,
+      "Model": "qwen2_5_1_5b_instruct",
+      "Macro Coverage": 75.22412298387098,
+      "Micro Coverage": 67.79365632624608,
+      "Efficiency": 0.49465920651068157
+    },
+    {
+      "Complexity Tier": "High (>=7 clusters)",
+      "Claims": 248,
+      "Model": "qwen2_5_3b_instruct",
+      "Macro Coverage": 73.43366008064515,
+      "Micro Coverage": 65.14464970372951,
+      "Efficiency": 0.6040723981900452
+    },
+    {
+      "Complexity Tier": "High (>=7 clusters)",
+      "Claims": 248,
+      "Model": "llama_3_2_3b_instruct",
+      "Macro Coverage": 41.92095887096774,
+      "Micro Coverage": 35.79644475426978,
+      "Efficiency": 0.8282258064516129
+    },
+    {
+      "Complexity Tier": "High (>=7 clusters)",
+      "Claims": 248,
+      "Model": "olmo_2_1124_7b_instruct",
+      "Macro Coverage": 42.311770564516124,
+      "Micro Coverage": 36.24956430812129,
+      "Efficiency": 0.8387096774193549
+    },
+    {
+      "Complexity Tier": "High (>=7 clusters)",
+      "Claims": 248,
+      "Model": "olmo_2_1124_13b_instruct",
+      "Macro Coverage": 40.33538024193549,
+      "Micro Coverage": 34.89020564656675,
+      "Efficiency": 0.807258064516129
+    },
+    {
+      "Complexity Tier": "High (>=7 clusters)",
+      "Claims": 248,
+      "Model": "gemma_2_27b_it",
+      "Macro Coverage": 38.37668911290322,
+      "Micro Coverage": 33.147438131753226,
+      "Efficiency": 0.7669354838709678
+    },
+    {
+      "Complexity Tier": "High (>=7 clusters)",
+      "Claims": 248,
+      "Model": "gemma_2_9b_it",
+      "Macro Coverage": 39.360099193548386,
+      "Micro Coverage": 34.053677239456256,
+      "Efficiency": 0.7879032258064517
+    },
+    {
+      "Complexity Tier": "High (>=7 clusters)",
+      "Claims": 248,
+      "Model": "llama_3_1_8b_instruct",
+      "Macro Coverage": 38.99837379032258,
+      "Micro Coverage": 33.80968978738236,
+      "Efficiency": 0.782258064516129
+    },
+    {
+      "Complexity Tier": "High (>=7 clusters)",
+      "Claims": 248,
+      "Model": "qwen2_5_7b_instruct",
+      "Macro Coverage": 38.67838427419355,
+      "Micro Coverage": 33.705123736493555,
+      "Efficiency": 0.7792103142626914
+    }
+  ]
+}

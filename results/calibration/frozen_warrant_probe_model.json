@@ -1,0 +1,30 @@
+{
+  "model_name": "Stage2b_Warrant_Alignment_Probe",
+  "model_type": "LogisticRegression(C=1.0, random_state=42)",
+  "training_partition": "train (32 claims, 104 pairs: 51 class_2, 53 class_1)",
+  "input_features": [
+    "cosine_similarity",
+    "p_entail",
+    "p_neutral"
+  ],
+  "scaler_mean": [
+    0.7415326923076923,
+    0.7409269230769231,
+    0.2509807692307693
+  ],
+  "scaler_scale": [
+    0.07373349938266201,
+    0.3361869026388702,
+    0.32541366161954394
+  ],
+  "coefficients": {
+    "cosine_similarity": 0.7774028105441344,
+    "p_entail": 0.41267587180915644,
+    "p_neutral": -0.19242545918230614
+  },
+  "intercept": -0.10864866527506048,
+  "calibrated_threshold": 0.2,
+  "sensitivity_threshold": 0.35,
+  "calibration_partition": "calibration (16 claims, 69 pairs: 24 class_2, 45 class_1)",
+  "calibration_metric": "F1-optimal (Cal F1 = 0.6301)"
+}

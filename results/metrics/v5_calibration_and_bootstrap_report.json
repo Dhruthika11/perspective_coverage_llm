@@ -1,0 +1,74 @@
+{
+  "validation_calibration": {
+    "theta_star_max_f1": 0.55,
+    "theta_star_high_prec": 0.32,
+    "val_best_f1": 0.9985
+  },
+  "cluster_bootstrap": {
+    "n_bootstraps_successful": 1000,
+    "cluster_bootstrap_95_ci": {
+      "overall_auroc": {
+        "mean": 1.0,
+        "ci_95": [
+          1.0,
+          1.0
+        ]
+      },
+      "short_human_auroc": {
+        "mean": 1.0,
+        "ci_95": [
+          1.0,
+          1.0
+        ]
+      },
+      "long_llm_auroc": {
+        "mean": 1.0,
+        "ci_95": [
+          1.0,
+          1.0
+        ]
+      },
+      "operating_point_f1": {
+        "theta_star": 0.55,
+        "precision": {
+          "mean": 1.0,
+          "ci_95": [
+            1.0,
+            1.0
+          ]
+        },
+        "recall": {
+          "mean": 0.9982,
+          "ci_95": [
+            0.9939,
+            1.0
+          ]
+        },
+        "f1": {
+          "mean": 0.9991,
+          "ci_95": [
+            0.9969,
+            1.0
+          ]
+        }
+      },
+      "operating_point_high_precision": {
+        "theta_star": 0.32,
+        "precision": {
+          "mean": 0.9613,
+          "ci_95": [
+            0.9457,
+            0.9765
+          ]
+        },
+        "recall": {
+          "mean": 1.0,
+          "ci_95": [
+            1.0,
+            1.0
+          ]
+        }
+      }
+    }
+  }
+}

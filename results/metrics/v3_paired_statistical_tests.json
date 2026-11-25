@@ -1,0 +1,44 @@
+{
+  "survivors_n66": {
+    "baseline_auroc": 0.7736,
+    "v3_auroc": 0.8015,
+    "delta_auroc_mean": 0.0274,
+    "delta_auroc_95_ci": [
+      -0.1328,
+      0.2024
+    ],
+    "baseline_auprc": 0.9704,
+    "v3_auprc": 0.9728,
+    "delta_auprc_mean": 0.0021,
+    "delta_auprc_95_ci": [
+      -0.0215,
+      0.0264
+    ],
+    "mcnemar_common_theta_0_50": {
+      "b": 8,
+      "c": 13,
+      "p_value": 0.38331031799316406
+    },
+    "mcnemar_calibrated": {
+      "b": 4,
+      "c": 17,
+      "p_value": 0.007197380065917969
+    }
+  },
+  "full_benchmark_n147": {
+    "baseline_auroc": 0.6636,
+    "v3_auroc": 0.7181,
+    "delta_auroc_mean": 0.0549,
+    "delta_auroc_95_ci": [
+      -0.0544,
+      0.158
+    ],
+    "baseline_auprc": 0.6651,
+    "v3_auprc": 0.7313,
+    "delta_auprc_mean": 0.0623,
+    "delta_auprc_95_ci": [
+      -0.0617,
+      0.1824
+    ]
+  }
+}

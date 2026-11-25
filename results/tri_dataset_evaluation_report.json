@@ -1,0 +1,13 @@
+{
+  "evaluation_protocol": "Independent Tri-Dataset Bipartite Evaluation (No Pooling)",
+  "calibrated_thresholds": {
+    "tau_star": 0.75,
+    "theta_star": 0.8
+  },
+  "cluster_aggregation": "max",
+  "n_models_evaluated": 5,
+  "perspectrum_models_evaluated": 5,
+  "ibm_debater_models_evaluated": 0,
+  "kialo_models_evaluated": 0,
+  "master_comparison_path": "results\\tri_dataset_master_comparison.csv"
+}

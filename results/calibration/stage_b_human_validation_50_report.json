@@ -1,0 +1,113 @@
+{
+  "sample_size": 50,
+  "evaluation_stage": "Stage B Human Validation (N = 50)",
+  "multi_llm_jury_performance": {
+    "accuracy": 0.56,
+    "macro_f1": 0.4848,
+    "cohen_kappa_vs_human": 0.4274,
+    "unanimous_accuracy": 1.0,
+    "majority_accuracy": 0.6452
+  },
+  "heuristic_baseline_performance": {
+    "accuracy": 0.56,
+    "macro_f1": 0.6897,
+    "cohen_kappa_vs_human": 0.3799
+  },
+  "individual_judge_accuracy": {
+    "gemini_3_1_flash_lite": 0.72,
+    "gpt_oss_120b": 0.56,
+    "qwen_3_8_27b": 0.56
+  },
+  "confusion_matrix_jury_vs_human": {
+    "labels": [
+      "class_2",
+      "class_1",
+      "class_0a",
+      "class_0b",
+      "ambiguous"
+    ],
+    "matrix": [
+      [
+        5,
+        7,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        10,
+        2,
+        0,
+        6
+      ],
+      [
+        0,
+        2,
+        9,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        2,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        2
+      ]
+    ]
+  },
+  "confusion_matrix_heuristic_vs_human": {
+    "labels": [
+      "class_2",
+      "class_1",
+      "class_0a",
+      "class_0b",
+      "ambiguous"
+    ],
+    "matrix": [
+      [
+        9,
+        6,
+        0,
+        0,
+        0
+      ],
+      [
+        11,
+        7,
+        0,
+        0,
+        0
+      ],
+      [
+        3,
+        0,
+        9,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        3,
+        0
+      ],
+      [
+        2,
+        0,
+        0,
+        0,
+        0
+      ]
+    ]
+  }
+}

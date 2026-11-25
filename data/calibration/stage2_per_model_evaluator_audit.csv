@@ -1,0 +1,6 @@
+model_name,n_sampled_pairs,mean_word_count,common_tau_evaluated,precision,recall,f1,tp,fp,fn,tn
+gemma_3_12b_it,60,234.5,0.77,0.0,0.0,0.0,0,0,20,40
+mistral_7b_instruct_v0_3,60,194.7,0.77,0.0,0.0,0.0,0,0,20,40
+qwen2_5_1_5b_instruct,60,203.8,0.77,0.0,0.0,0.0,0,0,20,40
+qwen2_5_32b_instruct,60,228.9,0.77,0.0,0.0,0.0,0,0,20,40
+qwen2_5_3b_instruct,60,175.0,0.77,0.0,0.0,0.0,0,0,20,40

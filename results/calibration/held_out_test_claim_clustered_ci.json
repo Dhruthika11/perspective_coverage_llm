@@ -1,0 +1,85 @@
+{
+  "wilson_ci_95": {
+    "tau_0.55": {
+      "recall": 1.0,
+      "ci_lower": 0.8712710781407846,
+      "ci_upper": 1.0
+    },
+    "tau_0.60": {
+      "recall": 1.0,
+      "ci_lower": 0.8712710781407846,
+      "ci_upper": 1.0
+    }
+  },
+  "claim_clustered_bootstrap_ci_95": {
+    "tau_0.55": {
+      "tau": 0.55,
+      "c2_recall_ci": [
+        1.0,
+        1.0
+      ],
+      "c0b_rejection_ci": [
+        0.6667,
+        1.0
+      ],
+      "c0a_rejection_ci": [
+        0.0,
+        0.25
+      ],
+      "c1_rejection_ci": [
+        0.0,
+        0.1667
+      ],
+      "pass_rate_ci": [
+        0.7816,
+        0.9138
+      ]
+    },
+    "tau_0.60": {
+      "tau": 0.6,
+      "c2_recall_ci": [
+        1.0,
+        1.0
+      ],
+      "c0b_rejection_ci": [
+        0.6667,
+        1.0
+      ],
+      "c0a_rejection_ci": [
+        0.2187,
+        0.625
+      ],
+      "c1_rejection_ci": [
+        0.0333,
+        0.2286
+      ],
+      "pass_rate_ci": [
+        0.6493,
+        0.8286
+      ]
+    },
+    "tau_0.75": {
+      "tau": 0.75,
+      "c2_recall_ci": [
+        0.2,
+        0.625
+      ],
+      "c0b_rejection_ci": [
+        1.0,
+        1.0
+      ],
+      "c0a_rejection_ci": [
+        0.75,
+        1.0
+      ],
+      "c1_rejection_ci": [
+        0.7381,
+        0.9804
+      ],
+      "pass_rate_ci": [
+        0.0692,
+        0.2821
+      ]
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "manifest": {
+    "n_fresh_claims": 50,
+    "total_pairs": 1110,
+    "class_distribution": {
+      "full_coverage": 701,
+      "no_coverage": 336,
+      "contradiction": 73
+    },
+    "regime_distribution": {
+      "short_human": 1001,
+      "long_argument": 109
+    },
+    "category_distribution": {
+      "within_cluster_paraphrase": 653,
+      "same_stance_different_reasoning": 304,
+      "extended_discourse_positive": 48,
+      "opposite_stance_conflict": 44,
+      "extended_discourse_same_claim_neg": 32,
+      "extended_discourse_contradiction": 29
+    },
+    "contamination_check": {
+      "prior_train_overlap": 0,
+      "prior_val_overlap": 0,
+      "prior_test_overlap": 0
+    }
+  },
+  "evaluation_metrics": {
+    "overall_fresh_auroc": 0.9976,
+    "overall_precision": 0.9831,
+    "overall_recall": 0.9943,
+    "overall_f1": 0.9887,
+    "short_stratum_auroc": 0.998,
+    "contradiction_rejection_rate": 0.75
+  },
+  "scientific_conclusion": "V5 maintains robust discrimination on 100% fresh, unexposed claims (Fresh AUROC = 0.9976, Precision = 98.31%), demonstrating that the verifier's high performance is not an artifact of test-claim familiarity."
+}

@@ -1,0 +1,41 @@
+{
+  "tau_star_emp (0.60)": {
+    "tau": 0.64,
+    "recall_c2": 0.9231,
+    "precision_c2": 0.3636,
+    "f1_c2": 0.5217,
+    "rejection_c1": 0.3333,
+    "rejection_c0a": 0.6667,
+    "rejection_c0b": 0.9,
+    "rejection_all_noise": 0.5227,
+    "pass_rate": 0.5789,
+    "passed_count": 66,
+    "total_count": 114
+  },
+  "tau_star_cons (0.55)": {
+    "tau": 0.55,
+    "recall_c2": 1.0,
+    "precision_c2": 0.2653,
+    "f1_c2": 0.4194,
+    "rejection_c1": 0.0667,
+    "rejection_c0a": 0.1212,
+    "rejection_c0b": 0.9,
+    "rejection_all_noise": 0.1818,
+    "pass_rate": 0.8596,
+    "passed_count": 98,
+    "total_count": 114
+  },
+  "tau_human_human (0.75)": {
+    "tau": 0.75,
+    "recall_c2": 0.4231,
+    "precision_c2": 0.5789,
+    "f1_c2": 0.4889,
+    "rejection_c1": 0.8889,
+    "rejection_c0a": 0.9091,
+    "rejection_c0b": 1.0,
+    "rejection_all_noise": 0.9091,
+    "pass_rate": 0.1667,
+    "passed_count": 19,
+    "total_count": 114
+  }
+}

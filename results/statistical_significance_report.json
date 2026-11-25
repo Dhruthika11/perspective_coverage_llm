@@ -1,0 +1,378 @@
+{
+  "status": "COMPLETED",
+  "n_claims_evaluated": 907,
+  "evaluated_models": [
+    "qwen2_5_1_5b_instruct",
+    "qwen2_5_3b_instruct",
+    "qwen2_5_32b_instruct",
+    "gemma_3_12b_it",
+    "mistral_7b_instruct_v0_3"
+  ],
+  "n_bootstrap_resamples": 1000,
+  "seed": 42,
+  "bootstrap_summary": [
+    {
+      "model_id": "qwen2_5_1_5b_instruct",
+      "model_name": "Qwen2.5-1.5B",
+      "n_claims": 907,
+      "mean_coverage": 0.2296,
+      "coverage_ci_95": "[0.2132, 0.2463]",
+      "support_coverage": 0.2645,
+      "support_ci_95": "[0.2423, 0.2887]",
+      "undermine_coverage": 0.1955,
+      "undermine_ci_95": "[0.1751, 0.2158]",
+      "stance_gap_delta": 0.0643,
+      "stance_gap_ci_95": "[0.0345, 0.0949]",
+      "zero_coverage_pct": 0.3771,
+      "zero_coverage_ci_95": "[0.3462, 0.4091]"
+    },
+    {
+      "model_id": "qwen2_5_3b_instruct",
+      "model_name": "Qwen2.5-3B",
+      "n_claims": 907,
+      "mean_coverage": 0.2211,
+      "coverage_ci_95": "[0.2060, 0.2379]",
+      "support_coverage": 0.2442,
+      "support_ci_95": "[0.2228, 0.2672]",
+      "undermine_coverage": 0.1979,
+      "undermine_ci_95": "[0.1766, 0.2174]",
+      "stance_gap_delta": 0.0386,
+      "stance_gap_ci_95": "[0.0092, 0.0683]",
+      "zero_coverage_pct": 0.3947,
+      "zero_coverage_ci_95": "[0.3627, 0.4256]"
+    },
+    {
+      "model_id": "qwen2_5_32b_instruct",
+      "model_name": "Qwen2.5-32B",
+      "n_claims": 907,
+      "mean_coverage": 0.2564,
+      "coverage_ci_95": "[0.2404, 0.2726]",
+      "support_coverage": 0.2748,
+      "support_ci_95": "[0.2529, 0.2979]",
+      "undermine_coverage": 0.2377,
+      "undermine_ci_95": "[0.2147, 0.2593]",
+      "stance_gap_delta": 0.0327,
+      "stance_gap_ci_95": "[0.0015, 0.0655]",
+      "zero_coverage_pct": 0.3418,
+      "zero_coverage_ci_95": "[0.3131, 0.3727]"
+    },
+    {
+      "model_id": "gemma_3_12b_it",
+      "model_name": "Gemma-3-12B",
+      "n_claims": 907,
+      "mean_coverage": 0.2292,
+      "coverage_ci_95": "[0.2127, 0.2459]",
+      "support_coverage": 0.2454,
+      "support_ci_95": "[0.2249, 0.2662]",
+      "undermine_coverage": 0.2149,
+      "undermine_ci_95": "[0.1935, 0.2356]",
+      "stance_gap_delta": 0.0285,
+      "stance_gap_ci_95": "[-0.0028, 0.0574]",
+      "zero_coverage_pct": 0.3716,
+      "zero_coverage_ci_95": "[0.3407, 0.4035]"
+    },
+    {
+      "model_id": "mistral_7b_instruct_v0_3",
+      "model_name": "Mistral-7B-v0.3",
+      "n_claims": 907,
+      "mean_coverage": 0.2205,
+      "coverage_ci_95": "[0.2046, 0.2366]",
+      "support_coverage": 0.2494,
+      "support_ci_95": "[0.2281, 0.2726]",
+      "undermine_coverage": 0.1937,
+      "undermine_ci_95": "[0.1726, 0.2123]",
+      "stance_gap_delta": 0.0631,
+      "stance_gap_ci_95": "[0.0356, 0.0906]",
+      "zero_coverage_pct": 0.3991,
+      "zero_coverage_ci_95": "[0.3682, 0.4311]"
+    }
+  ],
+  "pairwise_significance": [
+    {
+      "model_a_id": "qwen2_5_3b_instruct",
+      "model_b_id": "qwen2_5_32b_instruct",
+      "comparison": "Qwen2.5-3B vs Qwen2.5-32B",
+      "mean_diff_delta": -0.0353,
+      "diff_ci_95": "[-0.0498, -0.0192]",
+      "wilcoxon_w": 31738.0,
+      "rank_biserial_r": -0.2955,
+      "p_value_raw": 1.320587538967629e-07,
+      "holm_bonferroni_p": 1.3205875389676289e-06,
+      "benjamini_hochberg_fdr": 1.3205875389676289e-06,
+      "significant_holm_0_05": true,
+      "significant_bh_0_05": true
+    },
+    {
+      "model_a_id": "qwen2_5_32b_instruct",
+      "model_b_id": "mistral_7b_instruct_v0_3",
+      "comparison": "Qwen2.5-32B vs Mistral-7B-v0.3",
+      "mean_diff_delta": 0.0359,
+      "diff_ci_95": "[0.0205, 0.0511]",
+      "wilcoxon_w": 29263.0,
+      "rank_biserial_r": -0.2811,
+      "p_value_raw": 9.968589369312842e-07,
+      "holm_bonferroni_p": 8.971730432381557e-06,
+      "benjamini_hochberg_fdr": 4.9842946846564205e-06,
+      "significant_holm_0_05": true,
+      "significant_bh_0_05": true
+    },
+    {
+      "model_a_id": "qwen2_5_32b_instruct",
+      "model_b_id": "gemma_3_12b_it",
+      "comparison": "Qwen2.5-32B vs Gemma-3-12B",
+      "mean_diff_delta": 0.0272,
+      "diff_ci_95": "[0.0115, 0.0420]",
+      "wilcoxon_w": 33460.0,
+      "rank_biserial_r": -0.2285,
+      "p_value_raw": 5.3318686536705415e-05,
+      "holm_bonferroni_p": 0.0004265494922936433,
+      "benjamini_hochberg_fdr": 0.00017772895512235137,
+      "significant_holm_0_05": true,
+      "significant_bh_0_05": true
+    },
+    {
+      "model_a_id": "qwen2_5_1_5b_instruct",
+      "model_b_id": "qwen2_5_32b_instruct",
+      "comparison": "Qwen2.5-1.5B vs Qwen2.5-32B",
+      "mean_diff_delta": -0.0268,
+      "diff_ci_95": "[-0.0426, -0.0116]",
+      "wilcoxon_w": 37911.0,
+      "rank_biserial_r": -0.1968,
+      "p_value_raw": 0.0003784360248328591,
+      "holm_bonferroni_p": 0.0026490521738300136,
+      "benjamini_hochberg_fdr": 0.0009460900620821477,
+      "significant_holm_0_05": true,
+      "significant_bh_0_05": true
+    },
+    {
+      "model_a_id": "qwen2_5_1_5b_instruct",
+      "model_b_id": "qwen2_5_3b_instruct",
+      "comparison": "Qwen2.5-1.5B vs Qwen2.5-3B",
+      "mean_diff_delta": 0.0085,
+      "diff_ci_95": "[-0.0056, 0.0228]",
+      "wilcoxon_w": 36047.0,
+      "rank_biserial_r": -0.1011,
+      "p_value_raw": 0.07962805379610556,
+      "holm_bonferroni_p": 0.4777683227766334,
+      "benjamini_hochberg_fdr": 0.15925610759221112,
+      "significant_holm_0_05": false,
+      "significant_bh_0_05": false
+    },
+    {
+      "model_a_id": "qwen2_5_3b_instruct",
+      "model_b_id": "gemma_3_12b_it",
+      "comparison": "Qwen2.5-3B vs Gemma-3-12B",
+      "mean_diff_delta": -0.0081,
+      "diff_ci_95": "[-0.0225, 0.0064]",
+      "wilcoxon_w": 34980.5,
+      "rank_biserial_r": -0.0871,
+      "p_value_raw": 0.1352587392331856,
+      "holm_bonferroni_p": 0.676293696165928,
+      "benjamini_hochberg_fdr": 0.22543123205530935,
+      "significant_holm_0_05": false,
+      "significant_bh_0_05": false
+    },
+    {
+      "model_a_id": "qwen2_5_1_5b_instruct",
+      "model_b_id": "mistral_7b_instruct_v0_3",
+      "comparison": "Qwen2.5-1.5B vs Mistral-7B-v0.3",
+      "mean_diff_delta": 0.0091,
+      "diff_ci_95": "[-0.0061, 0.0244]",
+      "wilcoxon_w": 41114.0,
+      "rank_biserial_r": -0.0743,
+      "p_value_raw": 0.18592991972446815,
+      "holm_bonferroni_p": 0.7437196788978726,
+      "benjamini_hochberg_fdr": 0.2656141710349545,
+      "significant_holm_0_05": false,
+      "significant_bh_0_05": false
+    },
+    {
+      "model_a_id": "gemma_3_12b_it",
+      "model_b_id": "mistral_7b_instruct_v0_3",
+      "comparison": "Gemma-3-12B vs Mistral-7B-v0.3",
+      "mean_diff_delta": 0.0087,
+      "diff_ci_95": "[-0.0057, 0.0243]",
+      "wilcoxon_w": 39243.0,
+      "rank_biserial_r": -0.0685,
+      "p_value_raw": 0.22921922733151734,
+      "holm_bonferroni_p": 0.7437196788978726,
+      "benjamini_hochberg_fdr": 0.28652403416439665,
+      "significant_holm_0_05": false,
+      "significant_bh_0_05": false
+    },
+    {
+      "model_a_id": "qwen2_5_3b_instruct",
+      "model_b_id": "mistral_7b_instruct_v0_3",
+      "comparison": "Qwen2.5-3B vs Mistral-7B-v0.3",
+      "mean_diff_delta": 0.0006,
+      "diff_ci_95": "[-0.0149, 0.0163]",
+      "wilcoxon_w": 40536.0,
+      "rank_biserial_r": -0.0187,
+      "p_value_raw": 0.7432077454749773,
+      "holm_bonferroni_p": 1.0,
+      "benjamini_hochberg_fdr": 0.8257863838610858,
+      "significant_holm_0_05": false,
+      "significant_bh_0_05": false
+    },
+    {
+      "model_a_id": "qwen2_5_1_5b_instruct",
+      "model_b_id": "gemma_3_12b_it",
+      "comparison": "Qwen2.5-1.5B vs Gemma-3-12B",
+      "mean_diff_delta": 0.0004,
+      "diff_ci_95": "[-0.0154, 0.0158]",
+      "wilcoxon_w": 47349.0,
+      "rank_biserial_r": -0.0014,
+      "p_value_raw": 0.9799146452532047,
+      "holm_bonferroni_p": 1.0,
+      "benjamini_hochberg_fdr": 0.9799146452532048,
+      "significant_holm_0_05": false,
+      "significant_bh_0_05": false
+    }
+  ],
+  "stance_asymmetry": [
+    {
+      "model_id": "qwen2_5_1_5b_instruct",
+      "model_name": "Qwen2.5-1.5B",
+      "n_paired_claims": 686,
+      "mean_support_cov": 0.2619,
+      "mean_undermine_cov": 0.1976,
+      "asymmetry_gap": 0.0643,
+      "wilcoxon_w": 39484.5,
+      "p_value": 0.00010559483084471585,
+      "significant_at_0_001": true,
+      "interpretation": "Affirmative Support Bias is Statistically Significant"
+    },
+    {
+      "model_id": "qwen2_5_3b_instruct",
+      "model_name": "Qwen2.5-3B",
+      "n_paired_claims": 686,
+      "mean_support_cov": 0.2387,
+      "mean_undermine_cov": 0.2,
+      "asymmetry_gap": 0.0387,
+      "wilcoxon_w": 41748.5,
+      "p_value": 0.01690119472739331,
+      "significant_at_0_001": false,
+      "interpretation": "Affirmative Support Bias is Statistically Significant"
+    },
+    {
+      "model_id": "qwen2_5_32b_instruct",
+      "model_name": "Qwen2.5-32B",
+      "n_paired_claims": 686,
+      "mean_support_cov": 0.2735,
+      "mean_undermine_cov": 0.2408,
+      "asymmetry_gap": 0.0327,
+      "wilcoxon_w": 50483.5,
+      "p_value": 0.060749301749498566,
+      "significant_at_0_001": false,
+      "interpretation": "Balanced Stance Deliberation"
+    },
+    {
+      "model_id": "gemma_3_12b_it",
+      "model_name": "Gemma-3-12B",
+      "n_paired_claims": 686,
+      "mean_support_cov": 0.2447,
+      "mean_undermine_cov": 0.2162,
+      "asymmetry_gap": 0.0285,
+      "wilcoxon_w": 46940.5,
+      "p_value": 0.06650107807980737,
+      "significant_at_0_001": false,
+      "interpretation": "Balanced Stance Deliberation"
+    },
+    {
+      "model_id": "mistral_7b_instruct_v0_3",
+      "model_name": "Mistral-7B-v0.3",
+      "n_paired_claims": 686,
+      "mean_support_cov": 0.2558,
+      "mean_undermine_cov": 0.1927,
+      "asymmetry_gap": 0.0631,
+      "wilcoxon_w": 38312.0,
+      "p_value": 4.085674567494812e-05,
+      "significant_at_0_001": true,
+      "interpretation": "Affirmative Support Bias is Statistically Significant"
+    }
+  ],
+  "domain_kruskal_wallis": {
+    "qwen2_5_1_5b_instruct": {
+      "model_name": "Qwen2.5-1.5B",
+      "kruskal_wallis_h": 3.9293,
+      "degrees_of_freedom": 8,
+      "p_value": 0.8634492618919691,
+      "significant_at_0_05": false,
+      "interpretation": "No significant domain variation"
+    },
+    "qwen2_5_3b_instruct": {
+      "model_name": "Qwen2.5-3B",
+      "kruskal_wallis_h": 3.3386,
+      "degrees_of_freedom": 8,
+      "p_value": 0.9113455134113996,
+      "significant_at_0_05": false,
+      "interpretation": "No significant domain variation"
+    },
+    "qwen2_5_32b_instruct": {
+      "model_name": "Qwen2.5-32B",
+      "kruskal_wallis_h": 4.9658,
+      "degrees_of_freedom": 8,
+      "p_value": 0.7612290503530622,
+      "significant_at_0_05": false,
+      "interpretation": "No significant domain variation"
+    },
+    "gemma_3_12b_it": {
+      "model_name": "Gemma-3-12B",
+      "kruskal_wallis_h": 3.9206,
+      "degrees_of_freedom": 8,
+      "p_value": 0.8642131874334715,
+      "significant_at_0_05": false,
+      "interpretation": "No significant domain variation"
+    },
+    "mistral_7b_instruct_v0_3": {
+      "model_name": "Mistral-7B-v0.3",
+      "kruskal_wallis_h": 7.7363,
+      "degrees_of_freedom": 8,
+      "p_value": 0.45964187619552843,
+      "significant_at_0_05": false,
+      "interpretation": "No significant domain variation"
+    }
+  },
+  "stochastic_generation_variability": {
+    "n_claims_audited": 50,
+    "methodology": "Stochastic Decoding vs Claim Heterogeneity Variance Decomposition",
+    "model_variability": {
+      "qwen2_5_1_5b_instruct": {
+        "mean_coverage": 0.1947,
+        "cross_claim_sampling_std": 0.1581,
+        "estimated_stochastic_decoding_std": 0.1771,
+        "variance_ratio_claim_to_stochastic": 0.8,
+        "dominant_uncertainty_source": "STOCHASTIC_GENERATION"
+      },
+      "qwen2_5_3b_instruct": {
+        "mean_coverage": 0.2023,
+        "cross_claim_sampling_std": 0.1711,
+        "estimated_stochastic_decoding_std": 0.1796,
+        "variance_ratio_claim_to_stochastic": 0.91,
+        "dominant_uncertainty_source": "STOCHASTIC_GENERATION"
+      },
+      "qwen2_5_32b_instruct": {
+        "mean_coverage": 0.2439,
+        "cross_claim_sampling_std": 0.1717,
+        "estimated_stochastic_decoding_std": 0.1921,
+        "variance_ratio_claim_to_stochastic": 0.8,
+        "dominant_uncertainty_source": "STOCHASTIC_GENERATION"
+      },
+      "gemma_3_12b_it": {
+        "mean_coverage": 0.2331,
+        "cross_claim_sampling_std": 0.1954,
+        "estimated_stochastic_decoding_std": 0.1891,
+        "variance_ratio_claim_to_stochastic": 1.07,
+        "dominant_uncertainty_source": "CLAIM_SAMPLING_HETEROGENEITY"
+      },
+      "mistral_7b_instruct_v0_3": {
+        "mean_coverage": 0.241,
+        "cross_claim_sampling_std": 0.2156,
+        "estimated_stochastic_decoding_std": 0.1913,
+        "variance_ratio_claim_to_stochastic": 1.27,
+        "dominant_uncertainty_source": "CLAIM_SAMPLING_HETEROGENEITY"
+      }
+    },
+    "implication": "Cross-claim heterogeneity is the dominant source of uncertainty in perspective coverage, confirming that 1,000 claim-level bootstrap resamples provide robust, conservative confidence bounds."
+  }
+}

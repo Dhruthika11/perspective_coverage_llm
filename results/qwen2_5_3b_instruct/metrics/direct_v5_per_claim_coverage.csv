@@ -1,0 +1,3 @@
+claim_id,n_perspectives,n_clusters,atomic_coverage_f1,atomic_coverage_prec90,cluster_coverage_f1,cluster_coverage_prec90,support_coverage,undermine_coverage,stance_gap
+1,39,8,0.8462,0.7436,0.875,0.875,0.96,0.6429,0.3171
+2,12,3,1.0,1.0,1.0,1.0,1.0,1.0,0.0

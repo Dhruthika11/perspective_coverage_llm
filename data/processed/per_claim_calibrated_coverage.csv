@@ -1,0 +1,908 @@
+claim_id,claim_text,domain,n_clusters,n_support_clusters,n_undermine_clusters,cov_qwen2_5_1_5b_instruct,zero_cov_qwen2_5_1_5b_instruct,sup_cov_qwen2_5_1_5b_instruct,und_cov_qwen2_5_1_5b_instruct,cov_qwen2_5_3b_instruct,zero_cov_qwen2_5_3b_instruct,sup_cov_qwen2_5_3b_instruct,und_cov_qwen2_5_3b_instruct,cov_qwen2_5_32b_instruct,zero_cov_qwen2_5_32b_instruct,sup_cov_qwen2_5_32b_instruct,und_cov_qwen2_5_32b_instruct,cov_gemma_3_12b_it,zero_cov_gemma_3_12b_it,sup_cov_gemma_3_12b_it,und_cov_gemma_3_12b_it,cov_mistral_7b_instruct_v0_3,zero_cov_mistral_7b_instruct_v0_3,sup_cov_mistral_7b_instruct_v0_3,und_cov_mistral_7b_instruct_v0_3
+1,The use of child performers should be banned,Education & Youth,8,5,3,0.125,0,0.2,0.0,0.25,0,0.4,0.0,0.375,0,0.4,0.3333,0.125,0,0.2,0.0,0.125,0,0.2,0.0
+2,Celebrities should be exempt from National Service (in South Korea),Other Controversial Topics,3,1,2,0.0,1,0.0,0.0,0.3333,0,0.0,0.5,0.3333,0,0.0,0.5,0.0,1,0.0,0.0,0.3333,0,0.0,0.5
+3,Trade is better than aid,Economics & Labor,7,3,4,0.4286,0,0.3333,0.5,0.4286,0,0.3333,0.5,0.1429,0,0.0,0.25,0.1429,0,0.0,0.25,0.4286,0,0.0,0.75
+4,It should be allowed to have military recruitment in schools,Education & Youth,7,4,3,0.4286,0,0.25,0.6667,0.2857,0,0.25,0.3333,0.2857,0,0.0,0.6667,0.4286,0,0.25,0.6667,0.2857,0,0.25,0.3333
+5,Rupert Murdoch is not a fit person to run an international media corporation,Economics & Labor,3,2,1,0.3333,0,0.5,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.3333,0,0.5,0.0,0.0,1,0.0,0.0
+6,Smoking should further be restricted,Other Controversial Topics,3,2,1,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.3333,0,0.5,0.0
+7,Animals have rights.,Social & Cultural Issues,2,2,0,0.5,0,0.5,,0.5,0,0.5,,0.5,0,0.5,,0.5,0,0.5,,0.5,0,0.5,
+8,Proportional representation is necessary.,Other Controversial Topics,8,4,4,0.375,0,0.5,0.25,0.125,0,0.25,0.0,0.25,0,0.25,0.25,0.125,0,0.0,0.25,0.0,1,0.0,0.0
+9,There must be a child curfews,Education & Youth,8,4,4,0.125,0,0.0,0.25,0.25,0,0.5,0.0,0.25,0,0.25,0.25,0.25,0,0.25,0.25,0.0,1,0.0,0.0
+10,It is important to use a graduated response to combat unauthorised file-sharing of copyrighted material,Other Controversial Topics,8,4,4,0.5,0,0.5,0.5,0.125,0,0.25,0.0,0.375,0,0.25,0.5,0.5,0,0.5,0.5,0.25,0,0.25,0.25
+11,Internet access is a human right,Science & Technology,8,2,6,0.5,0,1.0,0.3333,0.5,0,1.0,0.3333,0.5,0,1.0,0.3333,0.5,0,1.0,0.3333,0.5,0,1.0,0.3333
+12,It is important to use foreign aid funds to research and distribute software that allows bloggers and journalists in non-democratic countries to evade censorship and conceal their online activities.,Politics & Governance,4,2,2,0.25,0,0.0,0.5,0.0,1,0.0,0.0,0.25,0,0.0,0.5,0.0,1,0.0,0.0,0.25,0,0.5,0.0
+14,Governments be allowed to disrupt Internet service on grounds of national security.,Politics & Governance,2,1,1,1.0,0,1.0,1.0,1.0,0,1.0,1.0,0.5,0,0.0,1.0,1.0,0,1.0,1.0,0.5,0,0.0,1.0
+15,"A new global body, the United Nations Committee for Internet Related Policies, take over internet governance.",Politics & Governance,3,1,2,0.0,1,0.0,0.0,0.3333,0,1.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+17,There should be a presumption in favour of publication for information held by public bodies,Other Controversial Topics,9,5,4,0.0,1,0.0,0.0,0.1111,0,0.2,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+18,Goal line technology has to be adopted in football,Science & Technology,7,4,3,0.2857,0,0.5,0.0,0.0,1,0.0,0.0,0.1429,0,0.0,0.3333,0.1429,0,0.25,0.0,0.1429,0,0.25,0.0
+19,permit the use of performance enhancing drugs in professional sports,Healthcare & Bioethics,5,3,2,0.6,0,0.3333,1.0,0.4,0,0.3333,0.5,0.2,0,0.3333,0.0,0.0,1,0.0,0.0,0.4,0,0.3333,0.5
+20,All nations should ban bullfighting,Politics & Governance,8,7,1,0.25,0,0.2857,0.0,0.25,0,0.2857,0.0,0.125,0,0.1429,0.0,0.25,0,0.2857,0.0,0.125,0,0.1429,0.0
+21,Instant Replay Should Be Used in Major League Baseball,Other Controversial Topics,9,4,5,0.4444,0,0.0,0.8,0.4444,0,0.25,0.6,0.3333,0,0.25,0.4,0.4444,0,0.25,0.6,0.5556,0,0.25,0.8
+22,The music that glorifies violence against women should be banned,Social & Cultural Issues,12,7,5,0.3333,0,0.4286,0.2,0.25,0,0.2857,0.2,0.25,0,0.2857,0.2,0.25,0,0.1429,0.4,0.25,0,0.2857,0.2
+23,It is crucial to explore the universe,Other Controversial Topics,7,4,3,0.4286,0,0.5,0.3333,0.2857,0,0.25,0.3333,0.2857,0,0.25,0.3333,0.2857,0,0.25,0.3333,0.4286,0,0.5,0.3333
+24,Gay couples should be allowed to marry,Other Controversial Topics,23,14,9,0.1739,0,0.2143,0.1111,0.2174,0,0.2857,0.1111,0.2174,0,0.3571,0.0,0.1304,0,0.2143,0.0,0.2174,0,0.3571,0.0
+25,The Catholic Church is justified in forbidding the use of barrier methods of contraception,Social & Cultural Issues,6,4,2,0.3333,0,0.5,0.0,0.1667,0,0.25,0.0,0.1667,0,0.25,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+26,Atheism is the only way,Social & Cultural Issues,6,4,2,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+27,Anarchism is a valuable political ideology,Politics & Governance,5,3,2,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+28,"Democracy has to be imposed, if needed",Politics & Governance,7,3,4,0.1429,0,0.3333,0.0,0.0,1,0.0,0.0,0.1429,0,0.0,0.25,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+29,Capitalism is better than socialism,Economics & Labor,6,4,2,0.1667,0,0.0,0.5,0.1667,0,0.0,0.5,0.1667,0,0.0,0.5,0.3333,0,0.25,0.5,0.0,1,0.0,0.0
+30,The International Criminal Court is a force for good,Politics & Governance,4,0,4,0.25,0,,0.25,0.0,1,,0.0,0.0,1,,0.0,0.25,0,,0.25,0.0,1,,0.0
+31,A common EU foreign policy should be favored,Politics & Governance,3,1,2,0.6667,0,0.0,1.0,0.3333,0,0.0,0.5,0.3333,0,0.0,0.5,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+32,The United Nations Security Council should be expanded,Politics & Governance,5,4,1,0.4,0,0.5,0.0,0.0,1,0.0,0.0,0.2,0,0.25,0.0,0.0,1,0.0,0.0,0.2,0,0.25,0.0
+33,Smokers should be denied access to state healthcare,Healthcare & Bioethics,7,2,5,0.2857,0,0.0,0.4,0.2857,0,0.0,0.4,0.4286,0,0.5,0.4,0.4286,0,0.5,0.4,0.2857,0,0.0,0.4
+34,Smoking in public spaces should be banned,Other Controversial Topics,7,4,3,0.1429,0,0.25,0.0,0.1429,0,0.25,0.0,0.1429,0,0.0,0.3333,0.0,1,0.0,0.0,0.1429,0,0.25,0.0
+35,Cannabis should be legalised,"Law, Crime & Justice",7,4,3,0.1429,0,0.0,0.3333,0.1429,0,0.25,0.0,0.1429,0,0.0,0.3333,0.0,1,0.0,0.0,0.5714,0,0.75,0.3333
+37,Music containing lyrics that glorify violent and criminal lifestyles should be banned,"Law, Crime & Justice",12,7,5,0.1667,0,0.2857,0.0,0.1667,0,0.1429,0.2,0.25,0,0.1429,0.4,0.1667,0,0.1429,0.2,0.3333,0,0.2857,0.4
+38,The leaking of military documents by Anat Kamm was justified,Other Controversial Topics,2,1,1,0.0,1,0.0,0.0,0.5,0,1.0,0.0,0.5,0,0.0,1.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+39,Users of extremist websites should be punished,"Law, Crime & Justice",6,3,3,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+40,India’s Ban on the Satanic Verses is justified,"Law, Crime & Justice",6,3,3,0.5,0,0.3333,0.6667,0.3333,0,0.0,0.6667,0.0,1,0.0,0.0,0.1667,0,0.0,0.3333,0.1667,0,0.0,0.3333
+41,Corporations’ Use of IP Laws in Relation to Event Sponsorship Poses a Threat to Freedom of Expression,Economics & Labor,1,1,0,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,
+42,We should fear the power of government over the Internet,Politics & Governance,4,2,2,0.25,0,0.0,0.5,0.0,1,0.0,0.0,0.25,0,0.0,0.5,0.25,0,0.0,0.5,0.0,1,0.0,0.0
+43,Religious freedom abroad should be one of the primary foreign policy concerns for any country,Social & Cultural Issues,5,2,3,0.4,0,0.5,0.3333,0.0,1,0.0,0.0,0.2,0,0.0,0.3333,0.4,0,0.5,0.3333,0.2,0,0.0,0.3333
+44,The BBC should be free to blaspheme,Other Controversial Topics,3,2,1,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+45,It makes sense to drive to an out of town to a shopping centre,Other Controversial Topics,2,0,2,0.0,1,,0.0,0.0,1,,0.0,0.5,0,,0.5,0.0,1,,0.0,0.0,1,,0.0
+46,Nuclear technology must be adopted,Environment & Energy,2,1,1,0.5,0,0.0,1.0,0.5,0,0.0,1.0,0.5,0,0.0,1.0,0.5,0,0.0,1.0,0.5,0,0.0,1.0
+47,Performing tests on animals must be banned,Social & Cultural Issues,21,9,12,0.2381,0,0.0,0.4167,0.1429,0,0.0,0.25,0.1905,0,0.1111,0.25,0.1905,0,0.0,0.3333,0.0952,0,0.0,0.1667
+48,Private universities in the UK must be encouraged,Education & Youth,4,1,3,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.25,0,1.0,0.0
+49,History has no place in the classroom,Education & Youth,8,2,6,0.125,0,0.0,0.1667,0.25,0,0.0,0.3333,0.125,0,0.0,0.1667,0.25,0,0.0,0.3333,0.125,0,0.0,0.1667
+50,We must bring back corporal punishment,"Law, Crime & Justice",2,0,2,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0
+51,Hosting the Olympics is a good investment,Other Controversial Topics,8,4,4,0.25,0,0.25,0.25,0.125,0,0.25,0.0,0.125,0,0.0,0.25,0.25,0,0.25,0.25,0.125,0,0.0,0.25
+52,There should be a legally mandated ceiling on weekly working hours,"Law, Crime & Justice",7,3,4,0.4286,0,0.6667,0.25,0.4286,0,0.6667,0.25,0.5714,0,1.0,0.25,0.4286,0,0.6667,0.25,0.4286,0,0.6667,0.25
+53,Gambling must be banned,Other Controversial Topics,8,5,3,0.125,0,0.0,0.3333,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.125,0,0.0,0.3333,0.125,0,0.2,0.0
+54,The sale of violent video games/censor violent video games should be illegal,Other Controversial Topics,16,5,11,0.1875,0,0.4,0.0909,0.25,0,0.4,0.1818,0.25,0,0.2,0.2727,0.3125,0,0.2,0.3636,0.3125,0,0.6,0.1818
+55,Danish newspapers should not have published cartoons depicting the Prophet Mohammed,Other Controversial Topics,1,0,1,0.0,1,,0.0,1.0,0,,1.0,0.0,1,,0.0,1.0,0,,1.0,0.0,1,,0.0
+56,We should force feed sufferers of Anorexia Nervosa,Other Controversial Topics,4,3,1,0.5,0,0.6667,0.0,0.25,0,0.3333,0.0,0.25,0,0.3333,0.0,0.25,0,0.3333,0.0,0.25,0,0.3333,0.0
+57,English has to become the official language of the United States,Politics & Governance,4,1,3,0.25,0,1.0,0.0,0.25,0,1.0,0.0,0.5,0,1.0,0.3333,0.25,0,1.0,0.0,0.25,0,1.0,0.0
+58,Cultural property residing in museums must be returned to its place of origin,Other Controversial Topics,9,4,5,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+59,Wikipedia is a force for good,Other Controversial Topics,2,2,0,1.0,0,1.0,,0.5,0,0.5,,0.5,0,0.5,,0.5,0,0.5,,0.5,0,0.5,
+60,We must support public service broadcasters,Other Controversial Topics,4,2,2,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+61,We should restrict violent video games,Other Controversial Topics,10,4,6,0.3,0,0.5,0.1667,0.4,0,0.75,0.1667,0.3,0,0.5,0.1667,0.2,0,0.25,0.1667,0.3,0,0.5,0.1667
+62,Advertising is harmful,Other Controversial Topics,6,4,2,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.1667,0,0.25,0.0
+63,Newspapers belong to the past,Other Controversial Topics,11,4,7,0.0909,0,0.0,0.1429,0.1818,0,0.0,0.2857,0.1818,0,0.0,0.2857,0.1818,0,0.5,0.0,0.1818,0,0.25,0.1429
+64, Aboriginal culture must be protected,Social & Cultural Issues,5,3,2,0.2,0,0.3333,0.0,0.2,0,0.3333,0.0,0.2,0,0.3333,0.0,0.2,0,0.3333,0.0,0.2,0,0.3333,0.0
+65,Sexist advertising must be banned,Other Controversial Topics,6,3,3,0.3333,0,0.3333,0.3333,0.3333,0,0.3333,0.3333,0.3333,0,0.3333,0.3333,0.3333,0,0.3333,0.3333,0.3333,0,0.3333,0.3333
+66,Access to the websites that deny the Holocaust must be blocked,Other Controversial Topics,7,4,3,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.1429,0,0.0,0.3333,0.1429,0,0.25,0.0,0.1429,0,0.0,0.3333
+67,The full financial history of all candidates for political office must be posted online,Politics & Governance,6,3,3,0.3333,0,0.0,0.6667,0.1667,0,0.3333,0.0,0.3333,0,0.0,0.6667,0.0,1,0.0,0.0,0.3333,0,0.3333,0.3333
+68,Transparency is necessary for security,Other Controversial Topics,3,1,2,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+69,Western democracies should openly try to circumvent Internet censorship in oppressive regimes,Politics & Governance,2,0,2,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0
+70,Major league baseball should continue to allow collisions at home plate,Other Controversial Topics,7,4,3,0.2857,0,0.25,0.3333,0.5714,0,0.25,1.0,0.5714,0,0.5,0.6667,0.4286,0,0.25,0.6667,0.5714,0,0.5,0.6667
+71,The 2022 Football World Cup must be moved to the winter,Other Controversial Topics,5,2,3,0.0,1,0.0,0.0,0.2,0,0.0,0.3333,0.2,0,0.0,0.3333,0.2,0,0.5,0.0,0.6,0,0.5,0.6667
+72,Professional sportsmen must be required to represent their countries at the international level,Other Controversial Topics,4,3,1,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.25,0,0.3333,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+73,Positive discrimination must be used to put more women in parliament,Politics & Governance,11,5,6,0.2727,0,0.2,0.3333,0.1818,0,0.0,0.3333,0.2727,0,0.0,0.5,0.1818,0,0.2,0.1667,0.2727,0,0.2,0.3333
+74,Force has to be used to protect human rights abroad,Other Controversial Topics,5,3,2,0.2,0,0.0,0.5,0.2,0,0.0,0.5,0.4,0,0.0,1.0,0.6,0,0.6667,0.5,0.2,0,0.0,0.5
+75,Affirmative action is necessary,Other Controversial Topics,12,5,7,0.25,0,0.6,0.0,0.1667,0,0.4,0.0,0.1667,0,0.4,0.0,0.25,0,0.6,0.0,0.1667,0,0.4,0.0
+76,Illegal immigrants must be given drivers licenses,Politics & Governance,3,2,1,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+77,The people's republic of China should abandon the one-child policy,Education & Youth,3,0,3,0.6667,0,,0.6667,0.6667,0,,0.6667,0.3333,0,,0.3333,0.6667,0,,0.6667,0.6667,0,,0.6667
+78,That Zero Tolerance Policing is a Good Tactic for Fighting Crime,"Law, Crime & Justice",5,3,2,0.4,0,0.6667,0.0,0.2,0,0.3333,0.0,0.4,0,0.6667,0.0,0.2,0,0.3333,0.0,0.2,0,0.3333,0.0
+79,South Ossetia should be independent,Other Controversial Topics,2,2,0,1.0,0,1.0,,0.5,0,0.5,,0.5,0,0.5,,1.0,0,1.0,,1.0,0,1.0,
+80,The Republika Srpska must be allowed to secede from Bosnia & Herzegovina,Other Controversial Topics,5,3,2,0.2,0,0.3333,0.0,0.4,0,0.3333,0.5,0.0,1,0.0,0.0,0.4,0,0.6667,0.0,0.2,0,0.0,0.5
+81,The feminist movement should seek a ban on pornography,"Law, Crime & Justice",6,4,2,0.1667,0,0.0,0.5,0.3333,0,0.25,0.5,0.3333,0,0.5,0.0,0.3333,0,0.25,0.5,0.3333,0,0.25,0.5
+82,Developing nations should place restrictions on rural-urban migration,Politics & Governance,5,2,3,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+83,Gender quotas in the EU are advantageous for the economies of member states,Politics & Governance,9,5,4,0.3333,0,0.2,0.5,0.1111,0,0.0,0.25,0.2222,0,0.2,0.25,0.3333,0,0.2,0.5,0.1111,0,0.0,0.25
+84,Governments should prioritise spending money on youth,Politics & Governance,3,1,2,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.3333,0,1.0,0.0
+85,The EU should offer asylum to women from countries which have legislation that discriminates against women,Social & Cultural Issues,6,3,3,0.3333,0,0.6667,0.0,0.0,1,0.0,0.0,0.3333,0,0.6667,0.0,0.1667,0,0.3333,0.0,0.1667,0,0.3333,0.0
+86,Teachers should be armed,Education & Youth,3,1,2,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.3333,0,0.0,0.5,0.0,1,0.0,0.0,0.3333,0,0.0,0.5
+87,Women should be allowed to take part in combat,Social & Cultural Issues,5,2,3,0.4,0,0.5,0.3333,0.2,0,0.5,0.0,0.4,0,1.0,0.0,0.6,0,1.0,0.3333,0.2,0,0.5,0.0
+88,Arranged marriages in EU countries should be banned.,Politics & Governance,6,3,3,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.1667,0,0.0,0.3333,0.3333,0,0.0,0.6667,0.0,1,0.0,0.0
+89,The Reproductive Health Bill will undermine families and values,Healthcare & Bioethics,1,0,1,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0
+90,Human Cloning has to be banned,Healthcare & Bioethics,4,3,1,0.5,0,0.6667,0.0,0.5,0,0.6667,0.0,0.5,0,0.6667,0.0,0.5,0,0.6667,0.0,0.5,0,0.6667,0.0
+91,Israel should recognise the Palestinian right of return,Other Controversial Topics,4,1,3,0.25,0,1.0,0.0,0.75,0,1.0,0.6667,0.75,0,1.0,0.6667,0.75,0,1.0,0.6667,0.75,0,1.0,0.6667
+93,Prostitution has to be legalised,"Law, Crime & Justice",20,10,10,0.15,0,0.2,0.1,0.15,0,0.1,0.2,0.15,0,0.2,0.1,0.1,0,0.2,0.0,0.1,0,0.1,0.1
+94,The right to asylum should not be absolute,Other Controversial Topics,1,0,1,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0
+95,Anti-Social Behaviour Orders (UK) must be scraped,Other Controversial Topics,4,4,0,0.25,0,0.25,,0.25,0,0.25,,0.25,0,0.25,,0.0,1,0.0,,0.25,0,0.25,
+96,Positive discrimination has to be used to increase diversity in university,Education & Youth,9,2,7,0.3333,0,0.5,0.2857,0.2222,0,0.5,0.1429,0.2222,0,0.0,0.2857,0.2222,0,0.0,0.2857,0.2222,0,0.0,0.2857
+99,The sale of children’s toys as part of fast food meals must be prohobited.,Education & Youth,5,2,3,0.0,1,0.0,0.0,0.2,0,0.0,0.3333,0.6,0,0.5,0.6667,0.2,0,0.0,0.3333,0.4,0,0.5,0.3333
+100,Nations of the world should increase protection of the economic and social rights of migrants,Politics & Governance,10,6,4,0.0,1,0.0,0.0,0.1,0,0.1667,0.0,0.3,0,0.5,0.0,0.1,0,0.1667,0.0,0.2,0,0.3333,0.0
+101,Children in developing countries should be sponsored,Education & Youth,1,1,0,0.0,1,0.0,,1.0,0,1.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,
+102,You should never have children,Education & Youth,2,0,2,0.5,0,,0.5,0.5,0,,0.5,0.5,0,,0.5,0.5,0,,0.5,0.5,0,,0.5
+103,Housewives should be paid for their work,Other Controversial Topics,6,3,3,0.1667,0,0.3333,0.0,0.3333,0,0.3333,0.3333,0.3333,0,0.3333,0.3333,0.5,0,0.6667,0.3333,0.3333,0,0.6667,0.0
+104,The USA's social security schemes should be privatized,Other Controversial Topics,14,5,9,0.1429,0,0.2,0.1111,0.2857,0,0.4,0.2222,0.2143,0,0.0,0.3333,0.2143,0,0.0,0.3333,0.2143,0,0.2,0.2222
+105,Security profiling at airports is justified,Other Controversial Topics,2,1,1,0.0,1,0.0,0.0,0.5,0,1.0,0.0,0.5,0,1.0,0.0,0.5,0,1.0,0.0,0.5,0,1.0,0.0
+106,Cohabiting couples who wish to end their relationships should be allowed to request that the courts supervise the division of their property,Politics & Governance,1,0,1,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0
+107,Hate crime 'enhancements' are unjust,"Law, Crime & Justice",4,2,2,0.75,0,1.0,0.5,0.25,0,0.0,0.5,0.5,0,0.5,0.5,0.5,0,0.5,0.5,0.5,0,0.5,0.5
+108,The age of consent laws should be lowered,Other Controversial Topics,1,0,1,0.0,1,,0.0,1.0,0,,1.0,1.0,0,,1.0,1.0,0,,1.0,1.0,0,,1.0
+109,Partial birth abortions should be banned,Healthcare & Bioethics,7,4,3,0.4286,0,0.5,0.3333,0.2857,0,0.25,0.3333,0.5714,0,0.5,0.6667,0.2857,0,0.25,0.3333,0.2857,0,0.0,0.6667
+110,Marriage is an outdated institution,Social & Cultural Issues,4,1,3,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.25,0,0.0,0.3333,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+111,It is be ok to use racial profiling as part of airport security checks,Social & Cultural Issues,6,3,3,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+112,Feminism Is Still Needed,Other Controversial Topics,3,2,1,0.6667,0,0.5,1.0,0.0,1,0.0,0.0,0.3333,0,0.5,0.0,0.3333,0,0.0,1.0,0.6667,0,0.5,1.0
+114,Parents should be allowed to genetically screen foetuses for heritable diseases,Healthcare & Bioethics,5,3,2,0.4,0,0.3333,0.5,0.4,0,0.3333,0.5,0.2,0,0.3333,0.0,0.2,0,0.3333,0.0,0.4,0,0.3333,0.5
+115,Hate speech on campus has to censored,Social & Cultural Issues,5,1,4,0.0,1,0.0,0.0,0.4,0,0.0,0.5,0.0,1,0.0,0.0,0.2,0,0.0,0.25,0.0,1,0.0,0.0
+116,Parents should be able to choose the sex of their children,Education & Youth,6,3,3,0.1667,0,0.3333,0.0,0.1667,0,0.3333,0.0,0.0,1,0.0,0.0,0.1667,0,0.0,0.3333,0.1667,0,0.3333,0.0
+117,It should be allowed to patent genes,Other Controversial Topics,3,2,1,0.0,1,0.0,0.0,0.3333,0,0.5,0.0,0.3333,0,0.5,0.0,0.0,1,0.0,0.0,0.3333,0,0.5,0.0
+118,Homosexuals should be able to adopt,Other Controversial Topics,3,2,1,0.3333,0,0.5,0.0,0.0,1,0.0,0.0,0.3333,0,0.5,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+119,All illegal immigrants must be repatriated,Politics & Governance,4,1,3,0.25,0,1.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+120,Racial quotas must be set in South African rugby,Social & Cultural Issues,2,0,2,0.5,0,,0.5,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0,0.5,0,,0.5
+121,South Africa should host an Olympics,Other Controversial Topics,3,3,0,0.3333,0,0.3333,,0.6667,0,0.6667,,0.3333,0,0.3333,,0.3333,0,0.3333,,0.3333,0,0.3333,
+122,Gabon hosting the Africa Cup of Nations was a good thing,Politics & Governance,5,3,2,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.2,0,0.0,0.5,0.0,1,0.0,0.0
+123,Restrictions must be imposed on overseas players in football,Other Controversial Topics,1,1,0,0.0,1,0.0,,1.0,0,1.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,
+124,Playoffs must be implemented in collegiate level american football,Other Controversial Topics,6,2,4,0.3333,0,0.5,0.25,0.1667,0,0.0,0.25,0.3333,0,0.5,0.25,0.0,1,0.0,0.0,0.5,0,1.0,0.25
+125,Boycott the Euro 2012 in Ukraine unless Yulia Timoshenko is released from prison,"Law, Crime & Justice",3,1,2,0.6667,0,1.0,0.5,0.6667,0,1.0,0.5,0.6667,0,1.0,0.5,0.3333,0,1.0,0.0,0.6667,0,1.0,0.5
+126,Countries with very harsh training methods from participating in international competitions should be banned.,Other Controversial Topics,4,2,2,0.25,0,0.0,0.5,0.25,0,0.5,0.0,0.5,0,0.5,0.5,0.5,0,0.5,0.5,0.0,1,0.0,0.0
+127,"Force the media to display, promote and report women’s sport equally to men’s sport.",Social & Cultural Issues,8,4,4,0.375,0,0.5,0.25,0.25,0,0.25,0.25,0.375,0,0.5,0.25,0.125,0,0.0,0.25,0.25,0,0.25,0.25
+128,Chess must be at the Olympics,Other Controversial Topics,7,4,3,0.2857,0,0.5,0.0,0.1429,0,0.25,0.0,0.2857,0,0.25,0.3333,0.2857,0,0.25,0.3333,0.2857,0,0.25,0.3333
+129,Allow women to compete in the same leagues as men,Social & Cultural Issues,6,4,2,0.3333,0,0.5,0.0,0.5,0,0.75,0.0,0.3333,0,0.5,0.0,0.1667,0,0.25,0.0,0.3333,0,0.5,0.0
+130,Subsidise the translation of academic work in the languages of developing countries,Education & Youth,6,3,3,0.1667,0,0.3333,0.0,0.1667,0,0.0,0.3333,0.3333,0,0.3333,0.3333,0.1667,0,0.0,0.3333,0.1667,0,0.3333,0.0
+131,Any work that is not released under a creative commons license shouldn't be funded,Other Controversial Topics,2,1,1,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.5,0,1.0,0.0,0.0,1,0.0,0.0
+132,Force think tanks to reveal all of their sources of funding,Other Controversial Topics,7,3,4,0.2857,0,0.3333,0.25,0.2857,0,0.3333,0.25,0.2857,0,0.3333,0.25,0.0,1,0.0,0.0,0.1429,0,0.3333,0.0
+134,You have nothing to worry about surveillance if you have done nothing wrong,"Law, Crime & Justice",7,3,4,0.2857,0,0.0,0.5,0.1429,0,0.0,0.25,0.4286,0,0.0,0.75,0.2857,0,0.0,0.5,0.2857,0,0.3333,0.25
+135,Indiscriminate NSA surveillance of the rest of the world hurts the United States,Politics & Governance,2,1,1,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.5,0,0.0,1.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+136,You should join Facebook,Other Controversial Topics,5,3,2,0.4,0,0.6667,0.0,0.2,0,0.3333,0.0,0.2,0,0.3333,0.0,0.2,0,0.0,0.5,0.2,0,0.3333,0.0
+137,I believe in the Right to be forgotten,Other Controversial Topics,2,1,1,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+138,During riots it might make sense to block access to social messaging networks,Other Controversial Topics,4,3,1,0.25,0,0.0,1.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+139,Western companies have to incentivised to build software that provides anonymity to those involved in uprisings,Other Controversial Topics,3,3,0,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,
+140,State funding to universities have to be conditioned upon all academic work being made available to the general public,Education & Youth,4,2,2,0.5,0,1.0,0.0,0.0,1,0.0,0.0,0.25,0,0.5,0.0,0.25,0,0.5,0.0,0.0,1,0.0,0.0
+141,Online gambling has to be banned,Other Controversial Topics,6,4,2,0.3333,0,0.5,0.0,0.5,0,0.5,0.5,0.5,0,0.5,0.5,0.8333,0,0.75,1.0,0.5,0,0.5,0.5
+142,"Universities should make all academic work they produce, including scholarly articles, course handbooks and recorded lectures, available to the general public",Education & Youth,9,5,4,0.2222,0,0.4,0.0,0.2222,0,0.2,0.25,0.3333,0,0.4,0.25,0.3333,0,0.6,0.0,0.2222,0,0.4,0.0
+143,Actively circumventing Internet censorship is a legitimate foreign policy tool,Politics & Governance,5,2,3,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.2,0,0.0,0.3333,0.4,0,0.5,0.3333,0.4,0,0.5,0.3333
+144,Targeted sanctions have to be used to respond to cyber-attacks,Science & Technology,6,3,3,0.3333,0,0.3333,0.3333,0.5,0,0.3333,0.6667,0.3333,0,0.3333,0.3333,0.0,1,0.0,0.0,0.1667,0,0.3333,0.0
+145,Parents have to be allowed to monitor their children's online and mobile communications,Education & Youth,4,4,0,0.5,0,0.5,,0.25,0,0.25,,0.5,0,0.5,,0.25,0,0.25,,0.25,0,0.25,
+147,politicians have no right to privacy,Politics & Governance,4,2,2,0.25,0,0.0,0.5,0.5,0,0.5,0.5,0.5,0,0.0,1.0,0.5,0,0.5,0.5,0.25,0,0.0,0.5
+148,We have to offer amnesty to bloggers currently prosecuted by their native states,Politics & Governance,4,2,2,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+149,We have to cut the length of copyright protection,Other Controversial Topics,2,1,1,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+151,Targeted online advertising on the basis of user profiles and demographics must be banned,Other Controversial Topics,3,2,1,0.6667,0,1.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+152,The state should provide broadband internet through nationalized companies,Politics & Governance,4,3,1,0.0,1,0.0,0.0,0.5,0,0.3333,1.0,0.5,0,0.3333,1.0,0.25,0,0.3333,0.0,0.25,0,0.3333,0.0
+153,Internet service providers should be allowed to block access to extremist websites,Science & Technology,7,3,4,0.1429,0,0.3333,0.0,0.0,1,0.0,0.0,0.1429,0,0.3333,0.0,0.0,1,0.0,0.0,0.2857,0,0.3333,0.25
+154,Do not allow companies to collect/sell the personal data of their clients,Other Controversial Topics,3,1,2,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+155,"All literature, art, photography, film and music should be released under Creative Commons licenses",Other Controversial Topics,2,1,1,0.5,0,1.0,0.0,0.5,0,1.0,0.0,0.5,0,1.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+157,Forced evictions are necessary for African cities to become global players.,Other Controversial Topics,7,4,3,0.4286,0,0.25,0.6667,0.2857,0,0.25,0.3333,0.2857,0,0.25,0.3333,0.2857,0,0.25,0.3333,0.1429,0,0.0,0.3333
+159,The government of Uganda has failed its citizens over LGBT rights,Politics & Governance,2,2,0,0.5,0,0.5,,0.0,1,0.0,,0.5,0,0.5,,0.0,1,0.0,,0.5,0,0.5,
+160,We have to teach creationism in schools,Education & Youth,11,7,4,0.0909,0,0.1429,0.0,0.0,1,0.0,0.0,0.0909,0,0.0,0.25,0.0,1,0.0,0.0,0.0909,0,0.1429,0.0
+161,Domestic intelligence agencies have a legitimate role to play in democracy,Politics & Governance,5,2,3,0.4,0,0.5,0.3333,0.4,0,0.5,0.3333,0.8,0,0.5,1.0,0.6,0,0.5,0.6667,0.4,0,0.5,0.3333
+162,Wire-tapped and ‘intercepted’ evidence must be allowed as admissible in court,Politics & Governance,6,3,3,0.3333,0,0.6667,0.0,0.0,1,0.0,0.0,0.3333,0,0.6667,0.0,0.1667,0,0.0,0.3333,0.0,1,0.0,0.0
+163,The right to anonymous posting on the internet should be protected by law,Science & Technology,6,3,3,0.1667,0,0.3333,0.0,0.1667,0,0.0,0.3333,0.0,1,0.0,0.0,0.5,0,0.6667,0.3333,0.3333,0,0.3333,0.3333
+164,There must be a ban the sale of 3D printers to households,"Law, Crime & Justice",5,2,3,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.4,0,0.5,0.3333,0.2,0,0.5,0.0,0.0,1,0.0,0.0
+165,The new technologies will make entrepreneurs of Africa’s youth,Science & Technology,4,0,4,0.0,1,,0.0,0.0,1,,0.0,0.25,0,,0.25,0.25,0,,0.25,0.25,0,,0.25
+166,We have to consider a large scale cyber attack an act of war,Science & Technology,1,0,1,0.0,1,,0.0,0.0,1,,0.0,1.0,0,,1.0,0.0,1,,0.0,1.0,0,,1.0
+167,Male infant circumcision is tantamount to child abuse,Healthcare & Bioethics,1,0,1,0.0,1,,0.0,1.0,0,,1.0,1.0,0,,1.0,0.0,1,,0.0,0.0,1,,0.0
+168,Keep the Sabbath as a Day of Rest,Other Controversial Topics,2,1,1,0.5,0,1.0,0.0,0.5,0,1.0,0.0,0.5,0,1.0,0.0,0.5,0,1.0,0.0,0.5,0,1.0,0.0
+169,The niqab and other face coverings in schools must be banned,Education & Youth,7,3,4,0.1429,0,0.0,0.25,0.1429,0,0.0,0.25,0.0,1,0.0,0.0,0.1429,0,0.0,0.25,0.1429,0,0.0,0.25
+170,Religion does more harm than good,Social & Cultural Issues,5,0,5,0.0,1,,0.0,0.2,0,,0.2,0.2,0,,0.2,0.2,0,,0.2,0.0,1,,0.0
+171,Religious symbols in public buildings must be banned,Social & Cultural Issues,4,2,2,0.5,0,0.0,1.0,0.5,0,0.0,1.0,0.5,0,0.0,1.0,0.25,0,0.5,0.0,0.25,0,0.0,0.5
+172,Belief in God is irrational,Social & Cultural Issues,1,1,0,1.0,0,1.0,,1.0,0,1.0,,1.0,0,1.0,,1.0,0,1.0,,1.0,0,1.0,
+174,The Church of England should be separated from the British state.,Social & Cultural Issues,6,3,3,0.5,0,0.6667,0.3333,0.3333,0,0.3333,0.3333,0.5,0,0.6667,0.3333,0.3333,0,0.3333,0.3333,0.3333,0,0.6667,0.0
+175,It is fine to kill one to save many,Other Controversial Topics,3,1,2,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+176,Make all museums free of charge,Other Controversial Topics,6,4,2,0.3333,0,0.25,0.5,0.1667,0,0.0,0.5,0.3333,0,0.25,0.5,0.5,0,0.5,0.5,0.5,0,0.5,0.5
+177,Remove the requirement for Catholic Priests to take a vow of celibacy,Other Controversial Topics,2,2,0,0.0,1,0.0,,0.0,1,0.0,,0.5,0,0.5,,0.0,1,0.0,,0.0,1,0.0,
+178,"Remove the words ""under God"" from the American Pledge of Allegiance",Social & Cultural Issues,6,4,2,0.1667,0,0.25,0.0,0.3333,0,0.25,0.5,0.3333,0,0.25,0.5,0.3333,0,0.5,0.0,0.3333,0,0.25,0.5
+179,(as a Christian Church) allow the ordination of gay and lesbian priests,Social & Cultural Issues,2,1,1,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+180,Traditional university has to be replaced by online learning,Education & Youth,8,4,4,0.125,0,0.25,0.0,0.125,0,0.25,0.0,0.125,0,0.25,0.0,0.375,0,0.25,0.5,0.25,0,0.5,0.0
+181,Tanzania’s taxation on mobile phones is a good model,Economics & Labor,1,0,1,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0
+182,We have to produce high quality generic drugs for Africa,Healthcare & Bioethics,5,2,3,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.2,0,0.0,0.3333,0.4,0,0.5,0.3333,0.0,1,0.0,0.0
+183,German prosecutors should investigate NSA surveillance of Angela Merkel,"Law, Crime & Justice",1,0,1,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0
+184,Animal testing should be banned.,Social & Cultural Issues,20,10,10,0.15,0,0.1,0.2,0.2,0,0.1,0.3,0.1,0,0.0,0.2,0.1,0,0.0,0.2,0.2,0,0.0,0.4
+185,Every child should have a mobile phone.,Education & Youth,8,4,4,0.625,0,0.75,0.5,0.5,0,0.5,0.5,0.625,0,0.5,0.75,0.5,0,0.5,0.5,0.625,0,0.5,0.75
+186,We must colonize moon,Other Controversial Topics,3,2,1,0.3333,0,0.5,0.0,0.3333,0,0.5,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+187,We must legalize the use of cell phones in cars,"Law, Crime & Justice",3,1,2,0.6667,0,0.0,1.0,0.6667,0,0.0,1.0,0.6667,0,0.0,1.0,0.3333,0,0.0,0.5,0.3333,0,0.0,0.5
+188,We must grant those diagnosed with terminal illnesses the right to access treatments that have not completed clinical testing,Other Controversial Topics,6,2,4,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.3333,0,0.5,0.25,0.3333,0,0.5,0.25
+189,It is crucial to support the development of a missile defence system,Other Controversial Topics,7,4,3,0.1429,0,0.0,0.3333,0.1429,0,0.25,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.1429,0,0.0,0.3333
+190,Downloading music without permission is morally equivalent to theft,Social & Cultural Issues,2,1,1,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.5,0,0.0,1.0,0.0,1,0.0,0.0
+191,Teachers must be banned from interacting with students via social networking websites.,Education & Youth,8,6,2,0.375,0,0.3333,0.5,0.125,0,0.1667,0.0,0.0,1,0.0,0.0,0.125,0,0.1667,0.0,0.25,0,0.1667,0.5
+192,governments should choose open source software in order to encourage its use,Politics & Governance,5,3,2,0.6,0,0.6667,0.5,0.6,0,0.3333,1.0,0.8,0,0.6667,1.0,0.8,0,0.6667,1.0,0.8,0,0.6667,1.0
+193,The Internet must be censored,Science & Technology,7,4,3,0.1429,0,0.0,0.3333,0.1429,0,0.0,0.3333,0.1429,0,0.0,0.3333,0.2857,0,0.25,0.3333,0.2857,0,0.25,0.3333
+194,I believe in manned space flight,Science & Technology,6,3,3,0.1667,0,0.0,0.3333,0.1667,0,0.0,0.3333,0.3333,0,0.0,0.6667,0.1667,0,0.0,0.3333,0.1667,0,0.0,0.3333
+195,Intellectual property rights have to be abolished,Other Controversial Topics,7,4,3,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+196,The development of genetically modified organisms have to be banned,Healthcare & Bioethics,6,3,3,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.1667,0,0.0,0.3333
+197,Evolution has Disproved Creationism,Other Controversial Topics,6,3,3,0.1667,0,0.3333,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+198,Google shouldn’t censor its search results in China,Other Controversial Topics,8,4,4,0.125,0,0.25,0.0,0.0,1,0.0,0.0,0.125,0,0.25,0.0,0.125,0,0.25,0.0,0.125,0,0.0,0.25
+199,It is necessary to offer increased aid to developing world countries that encourage and accept large influxes of immigrants,Politics & Governance,1,1,0,0.0,1,0.0,,1.0,0,1.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,
+200,The Gulf States should take in more Syrian refugees,Politics & Governance,5,3,2,0.2,0,0.3333,0.0,0.0,1,0.0,0.0,0.2,0,0.3333,0.0,0.4,0,0.3333,0.5,0.2,0,0.3333,0.0
+201,Cyberbullies must be punished with prison even if under 18,"Law, Crime & Justice",4,1,3,0.0,1,0.0,0.0,0.25,0,1.0,0.0,0.5,0,1.0,0.3333,0.5,0,1.0,0.3333,0.25,0,1.0,0.0
+203,Cut aid to African states that criminalise homosexuality,Politics & Governance,4,3,1,0.0,1,0.0,0.0,0.25,0,0.3333,0.0,0.25,0,0.3333,0.0,0.25,0,0.3333,0.0,0.25,0,0.3333,0.0
+204,We must enable free movement of labour across Africa to alleviate poverty disparities.,Economics & Labor,5,5,0,0.6,0,0.6,,0.6,0,0.6,,0.6,0,0.6,,0.6,0,0.6,,0.4,0,0.4,
+205,African cities need to invest more in housing to replace slums,Other Controversial Topics,1,1,0,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,
+207,Poverty is the most important security issue facing Africa,Economics & Labor,2,2,0,0.5,0,0.5,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,
+208,Civil society should be granted a wider participation in Africa’s political life,Politics & Governance,2,1,1,0.5,0,1.0,0.0,0.5,0,1.0,0.0,0.0,1,0.0,0.0,0.5,0,1.0,0.0,0.5,0,1.0,0.0
+209,Legal empowerment is provided for women through land titling,"Law, Crime & Justice",7,4,3,0.1429,0,0.25,0.0,0.0,1,0.0,0.0,0.1429,0,0.0,0.3333,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+210,We must hold a referendum on UK membership in the EU,Politics & Governance,10,5,5,0.3,0,0.4,0.2,0.2,0,0.4,0.0,0.4,0,0.4,0.4,0.3,0,0.4,0.2,0.3,0,0.4,0.2
+211,The Arab Spring revolutions can create stable democracies.,Politics & Governance,2,1,1,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+212,All nations have a right to nuclear weapons,Politics & Governance,27,13,14,0.1481,0,0.1538,0.1429,0.1481,0,0.2308,0.0714,0.0741,0,0.1538,0.0,0.1111,0,0.2308,0.0,0.1481,0,0.0769,0.2143
+213,The House of Lords should be reformed,Other Controversial Topics,4,3,1,0.5,0,0.6667,0.0,0.75,0,0.6667,1.0,0.75,0,1.0,0.0,0.75,0,0.6667,1.0,0.75,0,0.6667,1.0
+214,We have to employ mercenaries,Other Controversial Topics,6,5,1,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+215,We should use torture to obtain information from suspected terrorists,"Law, Crime & Justice",6,3,3,0.0,1,0.0,0.0,0.1667,0,0.3333,0.0,0.1667,0,0.3333,0.0,0.1667,0,0.3333,0.0,0.3333,0,0.3333,0.3333
+216,We should limit the right to bear arms,Other Controversial Topics,3,2,1,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+217,We must disband NATO,Other Controversial Topics,5,2,3,0.4,0,0.5,0.3333,0.4,0,0.5,0.3333,0.4,0,0.5,0.3333,0.4,0,0.5,0.3333,0.4,0,0.5,0.3333
+218,Government must be Big and Beefy,Politics & Governance,1,1,0,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,
+219,Turkey should be let join the European Union,Economics & Labor,9,3,6,0.1111,0,0.0,0.1667,0.2222,0,0.0,0.3333,0.2222,0,0.0,0.3333,0.2222,0,0.0,0.3333,0.2222,0,0.0,0.3333
+220,Faith schools must be banned,Education & Youth,1,0,1,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0
+221,Handguns must be banned in Washington D.C.,Other Controversial Topics,9,6,3,0.3333,0,0.5,0.0,0.1111,0,0.1667,0.0,0.1111,0,0.1667,0.0,0.0,1,0.0,0.0,0.1111,0,0.1667,0.0
+222,We must use Unmanned Aerial Vehicles to strike terrorist targets,Other Controversial Topics,1,0,1,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0
+223,Does campaign finance in the United States need to be fixed?,Politics & Governance,3,3,0,0.3333,0,0.3333,,0.3333,0,0.3333,,0.3333,0,0.3333,,0.3333,0,0.3333,,0.3333,0,0.3333,
+224,Should the United States scale back the War on Drugs?,Healthcare & Bioethics,5,4,1,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+225,Should the United States increase the foreign aid budget?,Politics & Governance,3,2,1,0.3333,0,0.5,0.0,0.3333,0,0.5,0.0,0.6667,0,1.0,0.0,0.3333,0,0.5,0.0,0.6667,0,1.0,0.0
+226,"Film stars, music stars and other popular entertainers should not be participating in party-political campaigns",Politics & Governance,4,2,2,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+228,We must let Catalan hold an independence referendum,Other Controversial Topics,3,2,1,0.0,1,0.0,0.0,0.3333,0,0.0,1.0,0.6667,0,1.0,0.0,0.3333,0,0.5,0.0,0.3333,0,0.5,0.0
+229,It is worth voting,Politics & Governance,7,4,3,0.2857,0,0.5,0.0,0.2857,0,0.5,0.0,0.2857,0,0.5,0.0,0.1429,0,0.25,0.0,0.1429,0,0.0,0.3333
+231,Greece should default on its debt and return to the Drachma,Other Controversial Topics,2,1,1,0.5,0,1.0,0.0,0.0,1,0.0,0.0,0.5,0,1.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+232,We support the New START Treaty,Other Controversial Topics,3,1,2,1.0,0,1.0,1.0,0.6667,0,0.0,1.0,0.6667,0,0.0,1.0,0.6667,0,0.0,1.0,0.6667,0,0.0,1.0
+233,The Dalai Lama’s ‘third way’ in Tibet,Other Controversial Topics,2,1,1,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.5,0,1.0,0.0,0.5,0,0.0,1.0,0.0,1,0.0,0.0
+234,Puerto Rico should seek American statehood,Politics & Governance,4,3,1,0.75,0,0.6667,1.0,0.75,0,0.6667,1.0,1.0,0,1.0,1.0,0.75,0,0.6667,1.0,0.75,0,0.6667,1.0
+235,We should directly elect city mayors,Politics & Governance,7,5,2,0.1429,0,0.0,0.5,0.2857,0,0.2,0.5,0.2857,0,0.2,0.5,0.4286,0,0.4,0.5,0.1429,0,0.0,0.5
+236,Abolish the Superdelegate System for Democratic Party Conventions,Politics & Governance,3,3,0,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,
+237,Quebec should secede from Canada,Other Controversial Topics,2,1,1,0.5,0,1.0,0.0,0.0,1,0.0,0.0,0.5,0,0.0,1.0,0.5,0,0.0,1.0,1.0,0,1.0,1.0
+238,Opinion polls harm the democratic process,Politics & Governance,2,0,2,0.5,0,,0.5,0.5,0,,0.5,1.0,0,,1.0,0.5,0,,0.5,0.0,1,,0.0
+239,Recognise Kosovo as an independent state,Other Controversial Topics,7,3,4,0.7143,0,0.6667,0.75,0.4286,0,0.3333,0.5,0.7143,0,0.6667,0.75,0.2857,0,0.3333,0.25,0.5714,0,0.3333,0.75
+240,"The EU, USA and other western donors should not fund any Palestinian government in which terrorist organisations participate",Politics & Governance,6,3,3,0.3333,0,0.3333,0.3333,0.1667,0,0.3333,0.0,0.1667,0,0.3333,0.0,0.0,1,0.0,0.0,0.1667,0,0.3333,0.0
+241,University education should be free,Education & Youth,8,3,5,0.25,0,0.3333,0.2,0.25,0,0.3333,0.2,0.375,0,0.6667,0.2,0.5,0,0.3333,0.6,0.375,0,0.3333,0.4
+242,Grant politicians immunity from prosecution,Politics & Governance,8,3,5,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+243,The UN should recognize a Palestinian state,Politics & Governance,3,1,2,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+244,Restrict the right to Habeas Corpus as part of efforts to combat terrorism,Other Controversial Topics,6,3,3,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+246,The northern Ireland would be better off if united with the Republic of Ireland,Other Controversial Topics,5,2,3,0.0,1,0.0,0.0,0.2,0,0.0,0.3333,0.0,1,0.0,0.0,0.4,0,0.5,0.3333,0.4,0,0.0,0.6667
+247,Abolish all collective bargaining rights claimed by trades unions,Economics & Labor,7,3,4,0.7143,0,0.6667,0.75,0.5714,0,1.0,0.25,0.5714,0,0.6667,0.5,0.4286,0,0.6667,0.25,0.4286,0,0.6667,0.25
+248,We must support the use of truth and reconciliation commissions,Other Controversial Topics,3,2,1,0.3333,0,0.5,0.0,0.6667,0,0.5,1.0,0.6667,0,1.0,0.0,0.6667,0,0.5,1.0,0.3333,0,0.5,0.0
+249,We must ban negative advertising in political campaigns,Politics & Governance,4,4,0,0.25,0,0.25,,0.5,0,0.5,,0.5,0,0.5,,0.25,0,0.25,,0.5,0,0.5,
+250,We should encourage increased use of referendums,Other Controversial Topics,6,5,1,0.1667,0,0.2,0.0,0.0,1,0.0,0.0,0.1667,0,0.2,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+252,We must hold all U.S. presidential primaries on the same day,Politics & Governance,1,1,0,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,
+254,"The US intervention in Libya, lacking congressional approval, was illegal",Politics & Governance,6,2,4,0.1667,0,0.5,0.0,0.3333,0,0.5,0.25,0.1667,0,0.5,0.0,0.1667,0,0.5,0.0,0.1667,0,0.5,0.0
+255,Socialism is Dead,Economics & Labor,6,4,2,0.1667,0,0.0,0.5,0.1667,0,0.0,0.5,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+256,The use of atomic bombs against Hiroshima and Nagasaki was justified,Other Controversial Topics,6,3,3,0.1667,0,0.0,0.3333,0.3333,0,0.0,0.6667,0.3333,0,0.0,0.6667,0.1667,0,0.0,0.3333,0.6667,0,0.3333,1.0
+257,The republican party has lost its way,Other Controversial Topics,4,3,1,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+258,Abolish the monarchy.,Other Controversial Topics,7,6,1,0.0,1,0.0,0.0,0.1429,0,0.1667,0.0,0.2857,0,0.3333,0.0,0.2857,0,0.1667,1.0,0.0,1,0.0,0.0
+259,The United States’ individual health insurance mandate is unconstitutional,Healthcare & Bioethics,2,1,1,1.0,0,1.0,1.0,1.0,0,1.0,1.0,1.0,0,1.0,1.0,1.0,0,1.0,1.0,1.0,0,1.0,1.0
+260,Abolish the US Electoral College,Politics & Governance,10,6,4,0.3,0,0.5,0.0,0.0,1,0.0,0.0,0.3,0,0.1667,0.5,0.0,1,0.0,0.0,0.3,0,0.3333,0.25
+261,We must support the Scottish Independence,Other Controversial Topics,5,3,2,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.2,0,0.3333,0.0
+262,There must be compulsory identity cards,Social & Cultural Issues,6,3,3,0.3333,0,0.6667,0.0,0.3333,0,0.3333,0.3333,0.5,0,1.0,0.0,0.3333,0,0.3333,0.3333,0.1667,0,0.3333,0.0
+263,The War in Iraq was Worth the Cost,Other Controversial Topics,5,2,3,0.0,1,0.0,0.0,0.2,0,0.5,0.0,0.2,0,0.5,0.0,0.2,0,0.5,0.0,0.4,0,1.0,0.0
+264,Bribery is sometimes acceptable,Other Controversial Topics,7,4,3,0.2857,0,0.25,0.3333,0.4286,0,0.75,0.0,0.2857,0,0.5,0.0,0.2857,0,0.5,0.0,0.1429,0,0.25,0.0
+265,We must extend NATO membership to Georgia and Ukraine,Other Controversial Topics,3,3,0,0.3333,0,0.3333,,0.3333,0,0.3333,,0.3333,0,0.3333,,0.3333,0,0.3333,,0.3333,0,0.3333,
+266,We must invade and forcibly reunify the Korean peninsula,Other Controversial Topics,3,0,3,0.0,1,,0.0,0.0,1,,0.0,0.3333,0,,0.3333,0.3333,0,,0.3333,0.3333,0,,0.3333
+267,The U.S. Should Ban The Use of Cluster Bombs,"Law, Crime & Justice",2,2,0,0.5,0,0.5,,0.5,0,0.5,,0.5,0,0.5,,0.5,0,0.5,,1.0,0,1.0,
+268,USA must sign the Ottawa Convention banning landmines,"Law, Crime & Justice",3,1,2,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.3333,0,0.0,0.5,0.3333,0,0.0,0.5
+269,"We must be a libertarian; right or left, right or wrong",Other Controversial Topics,3,0,3,0.0,1,,0.0,0.3333,0,,0.3333,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0
+270,The US is Justified in Using Force to Prevent States From Acquiring Nuclear Weapons,Politics & Governance,19,11,8,0.1579,0,0.1818,0.125,0.1579,0,0.1818,0.125,0.0526,0,0.0,0.125,0.0526,0,0.0,0.125,0.0526,0,0.0,0.125
+271,Open primaries are the most effective method of selecting candidates for elections,Politics & Governance,8,4,4,0.625,0,0.5,0.75,0.625,0,0.5,0.75,0.625,0,0.5,0.75,0.625,0,0.5,0.75,0.625,0,0.5,0.75
+272,Russia needs strong leadership,Other Controversial Topics,3,2,1,0.6667,0,0.5,1.0,0.3333,0,0.5,0.0,0.6667,0,0.5,1.0,0.6667,0,0.5,1.0,0.6667,0,0.5,1.0
+273,Abolish congressional earmarks,Politics & Governance,7,5,2,0.4286,0,0.6,0.0,0.4286,0,0.4,0.5,0.4286,0,0.6,0.0,0.4286,0,0.6,0.0,0.2857,0,0.4,0.0
+274,Terrorists Should Be Subject to the Geneva Conventions,Other Controversial Topics,8,5,3,0.25,0,0.0,0.6667,0.25,0,0.2,0.3333,0.375,0,0.4,0.3333,0.375,0,0.4,0.3333,0.125,0,0.2,0.0
+275,Israel's 2008-2009 military operations against Gaza were justified,Other Controversial Topics,5,3,2,0.8,0,1.0,0.5,0.8,0,0.6667,1.0,0.6,0,0.6667,0.5,0.8,0,1.0,0.5,0.8,0,0.6667,1.0
+276,There must be a single European Union army,Economics & Labor,4,3,1,0.5,0,0.6667,0.0,0.5,0,0.6667,0.0,0.5,0,0.3333,1.0,0.25,0,0.3333,0.0,0.25,0,0.3333,0.0
+277,The West should invade Syria,Other Controversial Topics,4,2,2,0.0,1,0.0,0.0,0.25,0,0.0,0.5,0.0,1,0.0,0.0,0.25,0,0.0,0.5,0.25,0,0.5,0.0
+279,Terrorism can be justified,Other Controversial Topics,3,3,0,0.0,1,0.0,,0.6667,0,0.6667,,0.3333,0,0.3333,,0.3333,0,0.3333,,0.6667,0,0.6667,
+280,There must be referendums held on any new EU treaty,Politics & Governance,4,1,3,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.25,0,0.0,0.3333
+281,There is a need for developing tactical nuclear weapons,Environment & Energy,26,13,13,0.1538,0,0.1538,0.1538,0.0769,0,0.0769,0.0769,0.1154,0,0.0769,0.1538,0.1154,0,0.1538,0.0769,0.1154,0,0.1538,0.0769
+282,Abolish nuclear weapons,Environment & Energy,27,14,13,0.0741,0,0.0714,0.0769,0.1111,0,0.1429,0.0769,0.0741,0,0.0,0.1538,0.0741,0,0.0,0.1538,0.1111,0,0.0714,0.1538
+283,We can trust Republicans with the economy,Economics & Labor,1,0,1,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0
+284,Britain should join the Euro currency,Other Controversial Topics,5,3,2,0.2,0,0.3333,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+285,We must enforce term limits on the legislative branch of government,Politics & Governance,9,4,5,0.3333,0,0.5,0.2,0.2222,0,0.25,0.2,0.3333,0,0.25,0.4,0.3333,0,0.5,0.2,0.2222,0,0.25,0.2
+286,Voting should become compulsory,Politics & Governance,15,6,9,0.2,0,0.3333,0.1111,0.2667,0,0.3333,0.2222,0.1333,0,0.1667,0.1111,0.2,0,0.3333,0.1111,0.2667,0,0.6667,0.0
+287,Self-determination of peoples is a human right,Other Controversial Topics,7,4,3,0.4286,0,0.5,0.3333,0.0,1,0.0,0.0,0.2857,0,0.5,0.0,0.2857,0,0.0,0.6667,0.2857,0,0.0,0.6667
+288,Federal States are better than unitary nations,Politics & Governance,5,3,2,0.2,0,0.0,0.5,0.2,0,0.3333,0.0,0.6,0,0.6667,0.5,0.4,0,0.6667,0.0,0.0,1,0.0,0.0
+289,Create a UN standing army,Politics & Governance,7,3,4,0.4286,0,0.3333,0.5,0.4286,0,0.3333,0.5,0.5714,0,0.3333,0.75,0.5714,0,0.3333,0.75,0.1429,0,0.0,0.25
+290,We should support enforcing term limits on the executive branch of government,Politics & Governance,9,4,5,0.1111,0,0.0,0.2,0.3333,0,0.25,0.4,0.5556,0,0.5,0.6,0.3333,0,0.5,0.2,0.4444,0,0.5,0.4
+291,We should detain terror suspects without trial,Other Controversial Topics,7,2,5,0.1429,0,0.0,0.2,0.1429,0,0.0,0.2,0.0,1,0.0,0.0,0.1429,0,0.5,0.0,0.1429,0,0.0,0.2
+292,The world has to ignore North Korean provocations,Other Controversial Topics,3,1,2,0.0,1,0.0,0.0,0.6667,0,1.0,0.5,0.3333,0,0.0,0.5,0.3333,0,0.0,0.5,0.0,1,0.0,0.0
+293,Allow voting at 16 in European Parliament elections,Politics & Governance,11,5,6,0.3636,0,0.6,0.1667,0.3636,0,0.8,0.0,0.4545,0,0.6,0.3333,0.3636,0,0.6,0.1667,0.4545,0,0.8,0.1667
+294,Have no elections rather than sham elections,Politics & Governance,5,2,3,0.2,0,0.5,0.0,0.2,0,0.5,0.0,0.6,0,0.5,0.6667,0.4,0,0.5,0.3333,0.0,1,0.0,0.0
+295,US must help in fighting terrorist organisations in Africa,Other Controversial Topics,2,1,1,0.5,0,1.0,0.0,0.5,0,1.0,0.0,0.0,1,0.0,0.0,0.5,0,1.0,0.0,0.0,1,0.0,0.0
+296,The Western intervention in Libya has been a success,Other Controversial Topics,6,4,2,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.1667,0,0.0,0.5,0.1667,0,0.0,0.5,0.3333,0,0.25,0.5
+297,Lesotho should be annexed by South Africa,Other Controversial Topics,5,3,2,0.4,0,0.3333,0.5,0.6,0,0.6667,0.5,0.2,0,0.0,0.5,0.2,0,0.0,0.5,0.4,0,0.3333,0.5
+298,A move to the left is good for Labour,Other Controversial Topics,2,1,1,0.0,1,0.0,0.0,0.5,0,0.0,1.0,0.5,0,1.0,0.0,0.5,0,1.0,0.0,0.0,1,0.0,0.0
+299,Islamic State/Daesh is the most significant threat to the west,Other Controversial Topics,3,1,2,0.3333,0,0.0,0.5,0.3333,0,0.0,0.5,0.3333,0,0.0,0.5,0.3333,0,0.0,0.5,0.3333,0,0.0,0.5
+300,Death penalty is justified,"Law, Crime & Justice",11,5,6,0.4545,0,0.2,0.6667,0.4545,0,0.4,0.5,0.3636,0,0.4,0.3333,0.4545,0,0.4,0.5,0.4545,0,0.6,0.3333
+301,We must believe in the woman's right to choose,Other Controversial Topics,6,2,4,0.1667,0,0.5,0.0,0.1667,0,0.5,0.0,0.1667,0,0.5,0.0,0.5,0,0.5,0.5,0.1667,0,0.5,0.0
+302,It is sometimes right for the government to restrict freedom of speech,Politics & Governance,6,3,3,0.5,0,0.3333,0.6667,0.5,0,0.6667,0.3333,0.3333,0,0.3333,0.3333,0.0,1,0.0,0.0,0.1667,0,0.0,0.3333
+303,It is a good idea to have a system of  participatory democracy,Politics & Governance,4,3,1,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.25,0,0.3333,0.0,0.25,0,0.3333,0.0,0.25,0,0.3333,0.0
+304,People should have the right to die,Other Controversial Topics,4,3,1,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+305,Allow donations of vital organs even at the expense of the donor's life,Other Controversial Topics,4,1,3,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+307,Kill One to Save Many,Other Controversial Topics,5,0,5,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0
+308,Capital punishment should be abolished in Africa,"Law, Crime & Justice",3,1,2,0.0,1,0.0,0.0,0.3333,0,1.0,0.0,0.0,1,0.0,0.0,0.3333,0,1.0,0.0,0.0,1,0.0,0.0
+309,Neo-functionalism explains the integration of the European Union,Economics & Labor,2,2,0,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.5,0,0.5,,0.0,1,0.0,
+310,We must all believe in fundamental human rights,Other Controversial Topics,1,1,0,1.0,0,1.0,,1.0,0,1.0,,1.0,0,1.0,,1.0,0,1.0,,1.0,0,1.0,
+311,Everyone should go vegetarian,Other Controversial Topics,38,22,16,0.0789,0,0.1364,0.0,0.1053,0,0.1364,0.0625,0.1053,0,0.0909,0.125,0.0789,0,0.0909,0.0625,0.0789,0,0.0909,0.0625
+312,Governments should introduce a flat tax,Politics & Governance,3,1,2,1.0,0,1.0,1.0,1.0,0,1.0,1.0,1.0,0,1.0,1.0,1.0,0,1.0,1.0,0.6667,0,1.0,0.5
+313,Suicide should be a criminal offence,"Law, Crime & Justice",5,4,1,0.4,0,0.25,1.0,0.0,1,0.0,0.0,0.2,0,0.25,0.0,0.4,0,0.25,1.0,0.4,0,0.25,1.0
+314,Remove Bush tax cuts for the wealthy,Economics & Labor,2,1,1,0.5,0,1.0,0.0,0.5,0,1.0,0.0,0.5,0,1.0,0.0,0.5,0,1.0,0.0,0.5,0,1.0,0.0
+316,Assisted suicide should be legalized,"Law, Crime & Justice",2,0,2,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0
+317,Civil liberties should be sacrificed for the greater good,Other Controversial Topics,4,1,3,0.0,1,0.0,0.0,0.25,0,1.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+318,The right to trial can be limited by jury in some criminal cases,"Law, Crime & Justice",7,5,2,0.1429,0,0.2,0.0,0.1429,0,0.2,0.0,0.4286,0,0.4,0.5,0.4286,0,0.4,0.5,0.4286,0,0.4,0.5
+319,UK would have more influence outside the EU,Politics & Governance,3,2,1,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.3333,0,0.5,0.0,0.6667,0,0.5,1.0,0.0,1,0.0,0.0
+320,Leaving the EU would increase British security,Politics & Governance,4,2,2,0.25,0,0.0,0.5,0.75,0,0.5,1.0,0.75,0,0.5,1.0,0.5,0,0.0,1.0,0.5,0,0.5,0.5
+321,UK should have a second Brexit referendum before leaving the EU,Politics & Governance,10,5,5,0.2,0,0.4,0.0,0.4,0,0.2,0.6,0.1,0,0.0,0.2,0.3,0,0.2,0.4,0.4,0,0.6,0.2
+322,We must have weapons inspectors leave Syria,Other Controversial Topics,2,1,1,0.0,1,0.0,0.0,0.5,0,1.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+323,African leaders should be transparent about their health,Healthcare & Bioethics,3,3,0,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.3333,0,0.3333,,0.3333,0,0.3333,
+324,Launching a military coup against a democratic government can be justified,Politics & Governance,2,0,2,0.0,1,,0.0,0.0,1,,0.0,0.5,0,,0.5,0.5,0,,0.5,0.0,1,,0.0
+325,Russia has the right to send troops into Crimea,"Law, Crime & Justice",4,2,2,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+326,Throw Russia out of the G8,Other Controversial Topics,2,1,1,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+327,It is a good idea to lease Crimea to Russia,"Law, Crime & Justice",5,3,2,0.0,1,0.0,0.0,0.2,0,0.3333,0.0,0.0,1,0.0,0.0,0.2,0,0.3333,0.0,0.0,1,0.0,0.0
+328,The African Union can meet its pledge to end all war on the continent by 2020,Economics & Labor,5,2,3,0.6,0,1.0,0.3333,0.8,0,1.0,0.6667,0.4,0,1.0,0.0,0.8,0,1.0,0.6667,0.6,0,1.0,0.3333
+330,Eritrea is responsible for its isolation,Other Controversial Topics,1,0,1,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0,1.0,0,,1.0
+332,The Egyptian army was right to depose Morsi,Other Controversial Topics,4,3,1,0.25,0,0.3333,0.0,0.5,0,0.3333,1.0,0.5,0,0.6667,0.0,0.25,0,0.0,1.0,0.5,0,0.3333,1.0
+333,Put taxes/revenue from oil into a trust fund independent of politicians influence,Politics & Governance,2,0,2,0.5,0,,0.5,0.5,0,,0.5,0.5,0,,0.5,0.5,0,,0.5,0.5,0,,0.5
+334,The prevalence of ‘African mercenaries’ is decreasing,Other Controversial Topics,4,2,2,0.25,0,0.5,0.0,0.25,0,0.5,0.0,0.25,0,0.5,0.0,0.25,0,0.5,0.0,0.0,1,0.0,0.0
+335,We must negotiate with terrorists,Other Controversial Topics,8,3,5,0.25,0,0.3333,0.2,0.125,0,0.0,0.2,0.25,0,0.0,0.4,0.25,0,0.0,0.4,0.125,0,0.0,0.2
+336,Individuals who have committed atrocities in the Syrian Civil War should be investigated by the ICC,Other Controversial Topics,4,2,2,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.25,0,0.5,0.0,0.0,1,0.0,0.0
+337,European Parliament elections should involve only one voting district: all of Europe and not separate country seats,Politics & Governance,3,0,3,0.6667,0,,0.6667,0.0,1,,0.0,0.6667,0,,0.6667,0.3333,0,,0.3333,0.0,1,,0.0
+338,The best way to protect Scottish interests in the EU is to vote for independence,Politics & Governance,8,5,3,0.125,0,0.0,0.3333,0.125,0,0.2,0.0,0.25,0,0.2,0.3333,0.25,0,0.2,0.3333,0.375,0,0.4,0.3333
+339,Turkey is not a democracy,Politics & Governance,2,2,0,0.5,0,0.5,,0.0,1,0.0,,1.0,0,1.0,,0.5,0,0.5,,0.0,1,0.0,
+340,NATO has succeeded in Afghanistan,Other Controversial Topics,7,3,4,0.1429,0,0.3333,0.0,0.1429,0,0.3333,0.0,0.1429,0,0.0,0.25,0.1429,0,0.3333,0.0,0.1429,0,0.0,0.25
+341,France is right to intervene in Mali,Other Controversial Topics,5,4,1,0.4,0,0.5,0.0,0.6,0,0.75,0.0,0.0,1,0.0,0.0,0.4,0,0.5,0.0,0.6,0,0.5,1.0
+342,"The world has to intervene in Syria to prevent, or respond to, the use of chemical weapons",Other Controversial Topics,2,2,0,0.5,0,0.5,,0.5,0,0.5,,0.5,0,0.5,,0.5,0,0.5,,0.5,0,0.5,
+343,We must limit anonymous contributions from corporations and individuals to super PACs,Economics & Labor,4,1,3,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+344,Governments should lower the voting age to 16,Politics & Governance,7,3,4,0.4286,0,0.6667,0.25,0.4286,0,0.6667,0.25,0.5714,0,0.6667,0.5,0.2857,0,0.6667,0.0,0.5714,0,0.6667,0.5
+345,We must have a criminal DNA database,"Law, Crime & Justice",3,2,1,0.3333,0,0.5,0.0,0.0,1,0.0,0.0,0.3333,0,0.5,0.0,0.3333,0,0.5,0.0,0.3333,0,0.5,0.0
+346,US must get rid of the double jeopardy rule,Other Controversial Topics,2,1,1,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.5,0,0.0,1.0,0.0,1,0.0,0.0,0.5,0,1.0,0.0
+347,We should legalize drugs,Healthcare & Bioethics,8,4,4,0.125,0,0.25,0.0,0.5,0,0.75,0.25,0.25,0,0.5,0.0,0.375,0,0.5,0.25,0.375,0,0.5,0.25
+348,Mandatory sentencing is fine.,"Law, Crime & Justice",8,4,4,0.25,0,0.25,0.25,0.125,0,0.25,0.0,0.25,0,0.25,0.25,0.25,0,0.25,0.25,0.25,0,0.25,0.25
+349,Hold students legally responsible for bullying if it resulted in the victim's death,"Law, Crime & Justice",4,0,4,0.0,1,,0.0,0.25,0,,0.25,0.25,0,,0.25,0.0,1,,0.0,0.0,1,,0.0
+351,Fund needle exchanges,Other Controversial Topics,4,2,2,0.0,1,0.0,0.0,0.5,0,0.5,0.5,0.25,0,0.0,0.5,0.75,0,0.5,1.0,0.75,0,1.0,0.5
+353,Criminal justice should focus more on rehabilitation,"Law, Crime & Justice",5,1,4,0.4,0,1.0,0.25,0.0,1,0.0,0.0,0.2,0,0.0,0.25,0.2,0,0.0,0.25,0.2,0,0.0,0.25
+354,Disclose previous convictions in court,Politics & Governance,7,2,5,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.1429,0,0.5,0.0,0.1429,0,0.0,0.2,0.0,1,0.0,0.0
+355,Treat the desecration and destruction of high-value sites and property of cultural heritage as a crime against humanity,"Law, Crime & Justice",2,2,0,0.5,0,0.5,,1.0,0,1.0,,1.0,0,1.0,,1.0,0,1.0,,1.0,0,1.0,
+356,Military action to intervene during atrocities without United Nations Security Council approval can be legal,Politics & Governance,2,1,1,0.5,0,0.0,1.0,0.5,0,0.0,1.0,0.5,0,0.0,1.0,0.5,0,0.0,1.0,0.5,0,0.0,1.0
+357,Create an African Criminal Court,Politics & Governance,3,2,1,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.3333,0,0.5,0.0
+358,"Guinea-Bissau should not let itself be turned in to a front of the US’ ""war on drugs""",Healthcare & Bioethics,2,2,0,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,
+359,Send Yanukovych to The Hague,Other Controversial Topics,5,2,3,0.6,0,0.5,0.6667,0.2,0,0.0,0.3333,0.0,1,0.0,0.0,0.4,0,0.0,0.6667,0.6,0,0.5,0.6667
+360,The ICC is not an effective deterrent,Other Controversial Topics,6,3,3,0.1667,0,0.0,0.3333,0.0,1,0.0,0.0,0.3333,0,0.0,0.6667,0.0,1,0.0,0.0,0.1667,0,0.0,0.3333
+361,The ICC is biased against Africa,Other Controversial Topics,4,2,2,0.5,0,1.0,0.0,0.0,1,0.0,0.0,0.5,0,1.0,0.0,0.75,0,1.0,0.5,0.5,0,1.0,0.0
+362,The Uhuru Kenyatta indictment was an unwelcome interference by the ICC,Other Controversial Topics,1,0,1,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0,1.0,0,,1.0,0.0,1,,0.0
+363,Prosecutions help the healing process,Other Controversial Topics,5,2,3,0.4,0,0.5,0.3333,0.2,0,0.5,0.0,0.2,0,0.5,0.0,0.2,0,0.5,0.0,0.2,0,0.5,0.0
+364,Post conflict peace cannot be sustained without impartial justice,Other Controversial Topics,4,3,1,0.5,0,0.3333,1.0,0.25,0,0.3333,0.0,0.5,0,0.6667,0.0,0.0,1,0.0,0.0,0.25,0,0.3333,0.0
+365,African states should withdraw from the ICC,Politics & Governance,6,3,3,0.3333,0,0.6667,0.0,0.1667,0,0.3333,0.0,0.3333,0,0.3333,0.3333,0.1667,0,0.3333,0.0,0.1667,0,0.3333,0.0
+366,We should allow death penalty for the worst of the worst criminals,"Law, Crime & Justice",11,5,6,0.3636,0,0.6,0.1667,0.3636,0,0.4,0.3333,0.4545,0,0.2,0.6667,0.4545,0,0.4,0.5,0.3636,0,0.2,0.5
+367,Government should be required to obtain warrants to access data that can be used to track an individual,Politics & Governance,2,1,1,0.5,0,0.0,1.0,0.5,0,0.0,1.0,1.0,0,1.0,1.0,0.5,0,0.0,1.0,0.5,0,1.0,0.0
+368,Immunity for head of state is a good idea,Other Controversial Topics,2,2,0,0.5,0,0.5,,0.0,1,0.0,,0.5,0,0.5,,0.5,0,0.5,,0.0,1,0.0,
+369,"Criminal trials should not be televised, and the ICC is no exception","Law, Crime & Justice",4,2,2,0.25,0,0.0,0.5,0.25,0,0.0,0.5,0.25,0,0.0,0.5,0.5,0,0.5,0.5,0.25,0,0.0,0.5
+370,The United States should ban assault weapons,Politics & Governance,26,13,13,0.1154,0,0.0,0.2308,0.1154,0,0.1538,0.0769,0.1154,0,0.0769,0.1538,0.1154,0,0.1538,0.0769,0.0769,0,0.0,0.1538
+371,We should pull out of the Article 98 Agreements that prevent US soldiers from being sent to the ICC for trial,Other Controversial Topics,3,1,2,0.6667,0,0.0,1.0,0.0,1,0.0,0.0,0.3333,0,0.0,0.5,1.0,0,1.0,1.0,0.0,1,0.0,0.0
+372,The ICC should have its own enforcement arm,Other Controversial Topics,8,4,4,0.625,0,0.5,0.75,0.625,0,0.5,0.75,0.625,0,0.25,1.0,0.625,0,0.5,0.75,0.625,0,0.75,0.5
+374,Media reporting on violent crimes should be restricted,"Law, Crime & Justice",6,2,4,0.1667,0,0.0,0.25,0.1667,0,0.0,0.25,0.1667,0,0.5,0.0,0.1667,0,0.0,0.25,0.1667,0,0.0,0.25
+375,Fines should be made relative to income,Economics & Labor,4,2,2,0.25,0,0.0,0.5,0.25,0,0.0,0.5,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.25,0,0.0,0.5
+376,Social disgust is legitimate grounds for restriction of artistic expression,Other Controversial Topics,3,0,3,0.6667,0,,0.6667,0.3333,0,,0.3333,0.6667,0,,0.6667,0.6667,0,,0.6667,0.6667,0,,0.6667
+377,Social deprivation causes crime,"Law, Crime & Justice",1,1,0,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,
+378,A legal qualification is worth the cost,"Law, Crime & Justice",2,0,2,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0
+379,It is fine to do random drug-testing in schools,Healthcare & Bioethics,4,3,1,0.25,0,0.3333,0.0,0.5,0,0.3333,1.0,0.5,0,0.3333,1.0,0.5,0,0.3333,1.0,0.5,0,0.3333,1.0
+380,The European Union should lift its ban on member states selling arms to China,Politics & Governance,4,1,3,0.0,1,0.0,0.0,0.25,0,0.0,0.3333,0.5,0,0.0,0.6667,0.25,0,0.0,0.3333,0.5,0,0.0,0.6667
+381,We should ban the depiction of smoking in films,"Law, Crime & Justice",6,3,3,0.1667,0,0.0,0.3333,0.1667,0,0.3333,0.0,0.1667,0,0.0,0.3333,0.1667,0,0.3333,0.0,0.1667,0,0.0,0.3333
+382,We should legalise the growing of coca leaf,"Law, Crime & Justice",6,3,3,0.1667,0,0.0,0.3333,0.1667,0,0.3333,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+383,Beauty contests should be banned,Other Controversial Topics,3,3,0,0.6667,0,0.6667,,0.6667,0,0.6667,,0.6667,0,0.6667,,0.6667,0,0.6667,,1.0,0,1.0,
+384,War criminals should be prosecuted,"Law, Crime & Justice",6,4,2,0.0,1,0.0,0.0,0.1667,0,0.25,0.0,0.1667,0,0.25,0.0,0.1667,0,0.0,0.5,0.1667,0,0.25,0.0
+385,The Schengen Agreement must be dissolved,Other Controversial Topics,6,1,5,0.0,1,0.0,0.0,0.1667,0,0.0,0.2,0.1667,0,0.0,0.2,0.0,1,0.0,0.0,0.1667,0,0.0,0.2
+386,The US should have done more for Darfur,Other Controversial Topics,3,0,3,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0
+387,The Guantanamo Bay detention centre should be closed,Other Controversial Topics,6,5,1,0.1667,0,0.2,0.0,0.3333,0,0.4,0.0,0.3333,0,0.4,0.0,0.1667,0,0.2,0.0,0.5,0,0.6,0.0
+388,Sadomasochism must be decriminalized,Other Controversial Topics,5,3,2,0.2,0,0.3333,0.0,0.0,1,0.0,0.0,0.2,0,0.3333,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+389,That Israel’s West Bank Settlements are an Obstacle to Peace,Other Controversial Topics,4,4,0,0.0,1,0.0,,0.25,0,0.25,,0.25,0,0.25,,0.0,1,0.0,,0.25,0,0.25,
+390,The Tibet should be an independent state,Other Controversial Topics,4,2,2,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+391,We should believe in corporal punishment for adult offenders,"Law, Crime & Justice",2,0,2,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0
+392,Attorney-client privilege should be abolished,Other Controversial Topics,2,2,0,0.5,0,0.5,,0.5,0,0.5,,0.5,0,0.5,,0.5,0,0.5,,0.0,1,0.0,
+393,Arming the police is a good idea,"Law, Crime & Justice",9,5,4,0.4444,0,0.4,0.5,0.3333,0,0.2,0.5,0.4444,0,0.2,0.75,0.2222,0,0.0,0.5,0.3333,0,0.2,0.5
+394,Place Cameras in Courtrooms to Televise Court Cases,Politics & Governance,3,0,3,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0,0.3333,0,,0.3333,0.0,1,,0.0
+395,The United Nations has a responsibility to protect.,Politics & Governance,6,3,3,0.1667,0,0.3333,0.0,0.1667,0,0.3333,0.0,0.1667,0,0.3333,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+396,Sanctions should be used to promote democracy,Politics & Governance,2,0,2,0.5,0,,0.5,0.5,0,,0.5,0.0,1,,0.0,1.0,0,,1.0,0.0,1,,0.0
+397,Abolish the security council veto,Other Controversial Topics,1,0,1,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0
+398,Long term cooperation between Russia and the United States is possible.,Politics & Governance,5,1,4,0.0,1,0.0,0.0,0.4,0,1.0,0.25,0.0,1,0.0,0.0,0.4,0,0.0,0.5,0.6,0,0.0,0.75
+399,NATO countries and the government of Afghanistan should negotiate a power-sharing deal with the Taliban,Politics & Governance,7,3,4,0.2857,0,0.3333,0.25,0.2857,0,0.3333,0.25,0.2857,0,0.0,0.5,0.2857,0,0.0,0.5,0.2857,0,0.0,0.5
+400,The world should re-engage with Myanmar,Other Controversial Topics,5,3,2,0.0,1,0.0,0.0,0.4,0,0.3333,0.5,0.0,1,0.0,0.0,0.2,0,0.0,0.5,0.2,0,0.0,0.5
+402,Europe should be federal,Other Controversial Topics,8,5,3,0.375,0,0.6,0.0,0.25,0,0.4,0.0,0.25,0,0.4,0.0,0.375,0,0.6,0.0,0.375,0,0.6,0.0
+404,We should support the creation of a Free Trade Area of the Americas,Economics & Labor,6,2,4,0.3333,0,0.5,0.25,0.1667,0,0.5,0.0,0.1667,0,0.0,0.25,0.3333,0,1.0,0.0,0.3333,0,0.5,0.25
+405,The Palestinian Statehood should be recognised by the United Nations General Assembly,Politics & Governance,1,1,0,1.0,0,1.0,,1.0,0,1.0,,1.0,0,1.0,,0.0,1,0.0,,0.0,1,0.0,
+406,The integration of Africa through the African Union can succeed,Economics & Labor,4,2,2,0.25,0,0.5,0.0,0.5,0,1.0,0.0,0.5,0,1.0,0.0,0.25,0,0.5,0.0,0.25,0,0.5,0.0
+407,We should give cash to the poor to reduce poverty,Economics & Labor,2,1,1,0.5,0,1.0,0.0,0.5,0,1.0,0.0,0.0,1,0.0,0.0,0.5,0,1.0,0.0,0.0,1,0.0,0.0
+408,Take a visit the Yasukuni Shrine,Other Controversial Topics,3,1,2,0.3333,0,0.0,0.5,0.6667,0,1.0,0.5,0.3333,0,0.0,0.5,0.3333,0,0.0,0.5,0.3333,0,0.0,0.5
+409,Dictatorship is the best path to development,Other Controversial Topics,17,11,6,0.1765,0,0.0909,0.3333,0.1765,0,0.0909,0.3333,0.0588,0,0.0909,0.0,0.1765,0,0.1818,0.1667,0.1176,0,0.0909,0.1667
+410,Build the Grand Inga Dam,Other Controversial Topics,4,2,2,0.5,0,0.0,1.0,0.5,0,0.0,1.0,0.75,0,0.5,1.0,0.75,0,0.5,1.0,0.5,0,0.5,0.5
+411,The African Union should create a standing army,Economics & Labor,4,2,2,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.25,0,0.0,0.5,0.0,1,0.0,0.0,0.25,0,0.0,0.5
+412,Ethiopia is right to build a dam on the River Nile,Other Controversial Topics,3,2,1,0.3333,0,0.5,0.0,0.6667,0,0.5,1.0,0.3333,0,0.5,0.0,0.3333,0,0.5,0.0,0.3333,0,0.5,0.0
+413,Africa is really rising,Other Controversial Topics,6,4,2,0.3333,0,0.5,0.0,0.1667,0,0.25,0.0,0.3333,0,0.5,0.0,0.1667,0,0.25,0.0,0.3333,0,0.5,0.0
+414,Create an international treaty/ban on cyber-attacks,"Law, Crime & Justice",5,3,2,0.4,0,0.6667,0.0,0.0,1,0.0,0.0,0.4,0,0.6667,0.0,0.2,0,0.3333,0.0,0.2,0,0.3333,0.0
+415,The US and Israel should join the International Criminal Court,Politics & Governance,3,2,1,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+416,The EU should abandon the Common Agricultural Policy,Politics & Governance,5,2,3,0.4,0,0.0,0.6667,0.4,0,0.0,0.6667,0.2,0,0.0,0.3333,0.2,0,0.0,0.3333,0.4,0,0.0,0.6667
+417,All veto powers of individual EU member states must be lifted,Politics & Governance,1,1,0,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,
+418,The European Union should be a trade bloc rather than a political union,Economics & Labor,5,3,2,0.2,0,0.3333,0.0,0.2,0,0.3333,0.0,0.2,0,0.3333,0.0,0.6,0,0.6667,0.5,0.4,0,0.6667,0.0
+419,Stop sending development aid to India,Other Controversial Topics,2,1,1,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.5,0,0.0,1.0,0.0,1,0.0,0.0,0.5,0,0.0,1.0
+420,The world must arm the Syrian rebels,Other Controversial Topics,9,5,4,0.2222,0,0.0,0.5,0.3333,0,0.4,0.25,0.3333,0,0.2,0.5,0.1111,0,0.0,0.25,0.1111,0,0.2,0.0
+421,News organisations should be free to exclude news of homosexuality where it causes offence to their viewers,Other Controversial Topics,3,1,2,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+423,The EU should engage in further enlargement,Politics & Governance,8,4,4,0.125,0,0.0,0.25,0.0,1,0.0,0.0,0.125,0,0.25,0.0,0.125,0,0.0,0.25,0.125,0,0.0,0.25
+424,Israel should return to its pre-1967 borders,Politics & Governance,1,1,0,1.0,0,1.0,,1.0,0,1.0,,1.0,0,1.0,,1.0,0,1.0,,1.0,0,1.0,
+425,The world should intervene to prevent the collapse of the state in other countries,Politics & Governance,4,3,1,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+426,The United Nations has failed,Politics & Governance,2,1,1,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+427,Former colonial powers should pay reparations to former colonies,Other Controversial Topics,7,3,4,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.1429,0,0.3333,0.0,0.1429,0,0.3333,0.0
+428,We should expand NATO,Other Controversial Topics,4,1,3,0.25,0,1.0,0.0,0.25,0,1.0,0.0,0.25,0,1.0,0.0,0.75,0,1.0,0.6667,0.25,0,1.0,0.0
+429,Europe still needs a constitution,Politics & Governance,2,2,0,0.0,1,0.0,,0.5,0,0.5,,0.5,0,0.5,,0.0,1,0.0,,0.0,1,0.0,
+430,We believe in world government,Politics & Governance,5,1,4,0.6,0,1.0,0.5,0.6,0,1.0,0.5,0.8,0,1.0,0.75,0.6,0,1.0,0.5,0.8,0,1.0,0.75
+431,Jerusalem should be divided,Other Controversial Topics,2,1,1,1.0,0,1.0,1.0,0.5,0,0.0,1.0,0.5,0,1.0,0.0,0.5,0,1.0,0.0,0.5,0,1.0,0.0
+432,Offshoring is a good idea,Other Controversial Topics,3,1,2,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+433,It is a good idea to build the Keystone XL pipeline,Other Controversial Topics,4,2,2,0.5,0,0.5,0.5,0.5,0,0.5,0.5,0.5,0,0.5,0.5,0.25,0,0.0,0.5,0.5,0,0.5,0.5
+434,We should drop the sanctions against Cuba.,Other Controversial Topics,19,9,10,0.1579,0,0.1111,0.2,0.2105,0,0.3333,0.1,0.1579,0,0.2222,0.1,0.2105,0,0.3333,0.1,0.2105,0,0.3333,0.1
+435,Britain should give up its EU rebate,Politics & Governance,2,1,1,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.5,0,0.0,1.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+436,Switzerland and Norway should apply to join the EU,Politics & Governance,1,1,0,1.0,0,1.0,,1.0,0,1.0,,1.0,0,1.0,,1.0,0,1.0,,1.0,0,1.0,
+437,The European Union should adopt a single working language through which to operate.,Economics & Labor,3,2,1,0.6667,0,0.5,1.0,0.3333,0,0.0,1.0,0.3333,0,0.0,1.0,0.3333,0,0.0,1.0,0.3333,0,0.0,1.0
+439,"In the conflict between Israel and Palestine, a two-state solution is better justified than a one-state solution",Other Controversial Topics,2,2,0,0.5,0,0.5,,0.5,0,0.5,,1.0,0,1.0,,0.5,0,0.5,,1.0,0,1.0,
+440,You should always suspend directly delivered foreign development aid,Other Controversial Topics,4,4,0,0.25,0,0.25,,0.0,1,0.0,,0.0,1,0.0,,0.25,0,0.25,,0.0,1,0.0,
+441,The United States is a ‘benign’ hegemon,Politics & Governance,1,0,1,1.0,0,,1.0,1.0,0,,1.0,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0
+442,The United Nations budget must be frozen,Politics & Governance,3,3,0,0.3333,0,0.3333,,0.0,1,0.0,,0.0,1,0.0,,0.3333,0,0.3333,,0.0,1,0.0,
+443,Grant the EU a permanent seat on the UN Security Council,Politics & Governance,4,4,0,0.25,0,0.25,,0.25,0,0.25,,0.5,0,0.5,,0.0,1,0.0,,0.25,0,0.25,
+444,"As the developed world, we must fund African climate adaptation",Environment & Energy,2,2,0,0.5,0,0.5,,0.5,0,0.5,,0.5,0,0.5,,0.0,1,0.0,,0.5,0,0.5,
+447,The UN intervention in the Democratic Republic of Congo has been a success,Politics & Governance,4,1,3,0.25,0,1.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.25,0,0.0,0.3333,0.25,0,1.0,0.0
+448,Men are the key to family planning in Uganda,Other Controversial Topics,2,1,1,0.5,0,1.0,0.0,0.5,0,1.0,0.0,0.5,0,1.0,0.0,0.5,0,1.0,0.0,0.5,0,1.0,0.0
+450,Ghana’s ban on smoking in public places is a model for Africa,"Law, Crime & Justice",9,2,7,0.4444,0,1.0,0.2857,0.2222,0,0.5,0.1429,0.4444,0,1.0,0.2857,0.3333,0,0.5,0.2857,0.5556,0,1.0,0.4286
+451,The outcome of the Paris Climate Conference needs to be an international treaty with binding emission cuts,Environment & Energy,3,1,2,0.3333,0,1.0,0.0,0.3333,0,1.0,0.0,0.3333,0,1.0,0.0,0.6667,0,1.0,0.5,0.3333,0,1.0,0.0
+452,Deny Organs to Non-Donors,Other Controversial Topics,4,2,2,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+453,Promote safe sex through education at schools,Education & Youth,9,5,4,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.1111,0,0.0,0.25,0.1111,0,0.0,0.25,0.0,1,0.0,0.0
+455,Labels on food must be mandated to encourage people to eat better,Other Controversial Topics,6,3,3,0.3333,0,0.3333,0.3333,0.1667,0,0.0,0.3333,0.1667,0,0.0,0.3333,0.5,0,0.6667,0.3333,0.3333,0,0.3333,0.3333
+456,A “fat tax” should be introduced.,Economics & Labor,9,4,5,0.3333,0,0.5,0.2,0.3333,0,0.25,0.4,0.4444,0,0.25,0.6,0.3333,0,0.5,0.2,0.2222,0,0.5,0.0
+457,Provide breakfast for all school students,Education & Youth,7,5,2,0.2857,0,0.2,0.5,0.2857,0,0.2,0.5,0.4286,0,0.4,0.5,0.2857,0,0.4,0.0,0.2857,0,0.4,0.0
+458,Airbrushing of women’s bodies in the media be banned,Social & Cultural Issues,5,3,2,0.4,0,0.3333,0.5,0.2,0,0.3333,0.0,0.0,1,0.0,0.0,0.2,0,0.3333,0.0,0.2,0,0.3333,0.0
+459,New York City has the right to regulate the size of sodas bought on the market,Economics & Labor,5,2,3,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.2,0,0.5,0.0
+460,We must ban the promotion of diets,"Law, Crime & Justice",3,0,3,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0
+461,Alternative medicine poses a threat to public health,Healthcare & Bioethics,1,1,0,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,
+462,There must be a system of universal healthcare,Healthcare & Bioethics,3,2,1,0.6667,0,0.5,1.0,0.3333,0,0.5,0.0,0.6667,0,0.5,1.0,0.6667,0,0.5,1.0,0.3333,0,0.5,0.0
+463,Ban the use of trans fats in food stuffs,"Law, Crime & Justice",4,2,2,0.75,0,1.0,0.5,0.5,0,0.5,0.5,0.75,0,1.0,0.5,0.75,0,1.0,0.5,0.75,0,1.0,0.5
+464,Allow pharmaceutical companies to advertise directly to consumers,Healthcare & Bioethics,5,4,1,0.2,0,0.25,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+465,Employees Should Be Compelled To Disclose Their HIV Status to Employers,Other Controversial Topics,3,2,1,0.6667,0,0.5,1.0,0.3333,0,0.0,1.0,0.6667,0,0.5,1.0,0.3333,0,0.5,0.0,0.0,1,0.0,0.0
+466,Receiving multiple vaccines are safe,Healthcare & Bioethics,5,3,2,0.2,0,0.3333,0.0,0.2,0,0.0,0.5,0.2,0,0.0,0.5,0.4,0,0.3333,0.5,0.4,0,0.3333,0.5
+467,Alcohol should be banned.,Other Controversial Topics,3,3,0,0.6667,0,0.6667,,0.6667,0,0.6667,,0.6667,0,0.6667,,0.6667,0,0.6667,,0.6667,0,0.6667,
+468,A fat tax should be implemented.,Economics & Labor,9,4,5,0.2222,0,0.25,0.2,0.3333,0,0.25,0.4,0.4444,0,0.5,0.4,0.3333,0,0.5,0.2,0.2222,0,0.0,0.4
+469,Ban junk food from schools,"Law, Crime & Justice",10,7,3,0.4,0,0.4286,0.3333,0.2,0,0.1429,0.3333,0.5,0,0.4286,0.6667,0.3,0,0.2857,0.3333,0.3,0,0.2857,0.3333
+470,A ‘wall’ on the shared USA and Mexico border would be ineffective,Politics & Governance,1,0,1,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0
+471,"African nations should ban the sale of skin whitening creams, and similar products",Politics & Governance,2,1,1,0.0,1,0.0,0.0,0.5,0,1.0,0.0,0.5,0,1.0,0.0,0.5,0,1.0,0.0,0.5,0,1.0,0.0
+472,Women are the key to Africa’s economic future,Economics & Labor,4,3,1,1.0,0,1.0,1.0,0.5,0,0.3333,1.0,0.75,0,0.6667,1.0,0.25,0,0.0,1.0,0.5,0,0.3333,1.0
+474,The Seychelles should buy territory and relocate due to climate change,Environment & Energy,2,2,0,0.0,1,0.0,,0.0,1,0.0,,0.5,0,0.5,,0.5,0,0.5,,0.0,1,0.0,
+476,Sao Tome would drop relations with Taiwan in favour of Mainland China,Other Controversial Topics,3,2,1,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+477,Widen the East African Community,Other Controversial Topics,2,2,0,0.5,0,0.5,,0.0,1,0.0,,0.5,0,0.5,,0.0,1,0.0,,0.0,1,0.0,
+478,Spain should cede Ceuta and Melilla to Morocco,Other Controversial Topics,3,0,3,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0,0.3333,0,,0.3333
+479,Implent the Virtual Doctor Project in Zambia,Healthcare & Bioethics,6,4,2,0.0,1,0.0,0.0,0.1667,0,0.0,0.5,0.1667,0,0.0,0.5,0.3333,0,0.0,1.0,0.0,1,0.0,0.0
+480,Tunisia should not rely on tourism for economic growth,Economics & Labor,1,0,1,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0
+482,The lack of investment in teachers is the greatest barrier to achieving universal primary education,Education & Youth,3,3,0,0.3333,0,0.3333,,0.3333,0,0.3333,,0.3333,0,0.3333,,0.3333,0,0.3333,,0.3333,0,0.3333,
+483,Nollywood could be an effective instrument to change perceptions of Africa,Other Controversial Topics,3,3,0,0.3333,0,0.3333,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,
+484,African governments must implement tougher protections for animals,Politics & Governance,3,2,1,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+485,Africans are worse off due to natural resources,Other Controversial Topics,5,3,2,0.2,0,0.0,0.5,0.2,0,0.3333,0.0,0.6,0,0.6667,0.5,0.6,0,0.3333,1.0,0.6,0,0.6667,0.5
+486,African borders must be redefined to reflect ethnic groups,Politics & Governance,2,1,1,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+487,A permanent UNSC seat with veto power must be reserved to an African country,Other Controversial Topics,4,3,1,0.25,0,0.3333,0.0,0.25,0,0.3333,0.0,0.25,0,0.3333,0.0,0.0,1,0.0,0.0,0.25,0,0.3333,0.0
+488,Legalize sex work in order to make controls more feasible and effective to combat HIV/AIDS,"Law, Crime & Justice",3,3,0,0.6667,0,0.6667,,1.0,0,1.0,,1.0,0,1.0,,0.6667,0,0.6667,,0.6667,0,0.6667,
+489,Julian Assange is a journalist,Other Controversial Topics,4,2,2,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+491,A nation's history and mythology is part of its national security,Politics & Governance,1,1,0,0.0,1,0.0,,0.0,1,0.0,,1.0,0,1.0,,0.0,1,0.0,,0.0,1,0.0,
+492,The expenditure of money should be protected as speech,Economics & Labor,2,1,1,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.5,0,1.0,0.0,0.5,0,1.0,0.0
+493,Store nuclear waste underground,Environment & Energy,4,2,2,1.0,0,1.0,1.0,1.0,0,1.0,1.0,1.0,0,1.0,1.0,0.5,0,0.0,1.0,1.0,0,1.0,1.0
+494,A cap-and-trade system is preferable to a carbon tax in reducing carbon emissions,Environment & Energy,4,2,2,0.5,0,1.0,0.0,0.5,0,1.0,0.0,0.75,0,1.0,0.5,0.5,0,1.0,0.0,0.75,0,1.0,0.5
+496,Adaptation should be the most urgent response to Climate Change,Environment & Energy,3,1,2,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+497,School uniforms must be banned,Education & Youth,4,2,2,0.25,0,0.0,0.5,0.25,0,0.0,0.5,0.75,0,0.5,1.0,0.25,0,0.5,0.0,0.75,0,0.5,1.0
+498,The payment of welfare benefits to parents should be tied to their children's school attendance records,Education & Youth,4,2,2,0.0,1,0.0,0.0,0.25,0,0.0,0.5,0.25,0,0.0,0.5,0.25,0,0.0,0.5,0.0,1,0.0,0.0
+499,Vaccination must be made compulsory,Healthcare & Bioethics,6,3,3,0.1667,0,0.3333,0.0,0.3333,0,0.6667,0.0,0.1667,0,0.0,0.3333,0.1667,0,0.3333,0.0,0.0,1,0.0,0.0
+500,Introduce year round schooling,Other Controversial Topics,6,3,3,0.1667,0,0.3333,0.0,0.0,1,0.0,0.0,0.3333,0,0.6667,0.0,0.3333,0,0.6667,0.0,0.0,1,0.0,0.0
+501,Abolish standardized tests for University Admission,Education & Youth,8,7,1,0.125,0,0.1429,0.0,0.125,0,0.1429,0.0,0.125,0,0.1429,0.0,0.25,0,0.2857,0.0,0.25,0,0.2857,0.0
+502,Degrees in the creative arts are luxuries society can no longer afford,Other Controversial Topics,5,2,3,0.0,1,0.0,0.0,0.2,0,0.5,0.0,0.2,0,0.5,0.0,0.0,1,0.0,0.0,0.2,0,0.5,0.0
+503,Raise the school leaving age to 18,Education & Youth,14,7,7,0.2857,0,0.4286,0.1429,0.2143,0,0.4286,0.0,0.1429,0,0.2857,0.0,0.2857,0,0.4286,0.1429,0.2143,0,0.2857,0.1429
+504,Encourage fewer people to go to university,Education & Youth,28,11,17,0.0,1,0.0,0.0,0.0357,0,0.0,0.0588,0.0,1,0.0,0.0,0.0357,0,0.0,0.0588,0.0,1,0.0,0.0
+506,Homework is a waste of time,Education & Youth,12,6,6,0.25,0,0.1667,0.3333,0.3333,0,0.1667,0.5,0.4167,0,0.5,0.3333,0.3333,0,0.1667,0.5,0.3333,0,0.1667,0.5
+507,Poetry should not be taught in schools,Education & Youth,4,1,3,0.0,1,0.0,0.0,0.25,0,0.0,0.3333,0.75,0,0.0,1.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+508,Provision of higher education must be funded by taxing graduates,Education & Youth,7,3,4,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.1429,0,0.3333,0.0,0.1429,0,0.3333,0.0,0.1429,0,0.3333,0.0
+509,Fund education using a voucher scheme,Education & Youth,4,2,2,0.25,0,0.0,0.5,0.5,0,0.5,0.5,0.5,0,0.5,0.5,0.5,0,0.5,0.5,0.75,0,0.5,1.0
+510,Parents should be held responsible for their school-going children's discipline problems,Education & Youth,3,1,2,1.0,0,1.0,1.0,0.6667,0,1.0,0.5,1.0,0,1.0,1.0,1.0,0,1.0,1.0,1.0,0,1.0,1.0
+511,Make lessons in a foreign language compulsory for school pupils,Education & Youth,8,5,3,0.25,0,0.2,0.3333,0.25,0,0.2,0.3333,0.125,0,0.2,0.0,0.25,0,0.4,0.0,0.0,1,0.0,0.0
+512,People should have a right to private education,Education & Youth,12,6,6,0.25,0,0.3333,0.1667,0.1667,0,0.1667,0.1667,0.4167,0,0.3333,0.5,0.25,0,0.1667,0.3333,0.25,0,0.3333,0.1667
+513,Raise The School Leaving Age To 18,Education & Youth,14,7,7,0.2857,0,0.4286,0.1429,0.2143,0,0.4286,0.0,0.2143,0,0.2857,0.1429,0.2143,0,0.4286,0.0,0.2143,0,0.2857,0.1429
+514,Make sex education mandatory in schools,Education & Youth,9,5,4,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.1111,0,0.2,0.0,0.2222,0,0.2,0.25,0.0,1,0.0,0.0
+515,Homework should be banned.,Education & Youth,11,5,6,0.3636,0,0.2,0.5,0.3636,0,0.2,0.5,0.3636,0,0.2,0.5,0.2727,0,0.2,0.3333,0.3636,0,0.2,0.5
+516,Build a third Heathrow runway to maintain its position as a hub airport,Other Controversial Topics,2,0,2,0.5,0,,0.5,0.5,0,,0.5,0.0,1,,0.0,0.5,0,,0.5,0.0,1,,0.0
+517,We should not slaughter animals which have not been stunned first.,Social & Cultural Issues,2,1,1,0.5,0,1.0,0.0,0.5,0,1.0,0.0,1.0,0,1.0,1.0,1.0,0,1.0,1.0,1.0,0,1.0,1.0
+518,Cease the exploitation of the Arctic Region,Other Controversial Topics,1,1,0,1.0,0,1.0,,1.0,0,1.0,,1.0,0,1.0,,1.0,0,1.0,,1.0,0,1.0,
+519,The use of animals as objects of sport and entertainment should be banned.,Social & Cultural Issues,8,7,1,0.25,0,0.2857,0.0,0.25,0,0.2857,0.0,0.25,0,0.2857,0.0,0.375,0,0.4286,0.0,0.25,0,0.2857,0.0
+520,Build hydroelectric dams,Other Controversial Topics,6,3,3,0.3333,0,0.3333,0.3333,0.5,0,0.3333,0.6667,0.3333,0,0.3333,0.3333,0.5,0,0.3333,0.6667,0.3333,0,0.3333,0.3333
+521,Wind power should be a primary focus of future energy supply.,Environment & Energy,7,3,4,0.2857,0,0.6667,0.0,0.1429,0,0.3333,0.0,0.4286,0,1.0,0.0,0.1429,0,0.3333,0.0,0.2857,0,0.6667,0.0
+522,Store nuclear waste underground,Environment & Energy,5,2,3,0.4,0,0.5,0.3333,0.6,0,0.5,0.6667,0.6,0,0.5,0.6667,0.4,0,0.5,0.3333,0.0,1,0.0,0.0
+523,Invest in Renewable Technologies rather than Nuclear Power,Environment & Energy,5,1,4,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+524,Endangered species should be protected,Other Controversial Topics,3,1,2,0.3333,0,1.0,0.0,0.3333,0,1.0,0.0,0.3333,0,1.0,0.0,0.3333,0,1.0,0.0,0.3333,0,1.0,0.0
+525,Community radio is good for democracy,Politics & Governance,4,2,2,0.25,0,0.0,0.5,0.25,0,0.0,0.5,0.25,0,0.0,0.5,0.25,0,0.0,0.5,0.25,0,0.0,0.5
+526,‘The Spear’ should have remained on public display.,Other Controversial Topics,1,0,1,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0
+527,Tennessee is correct to protect teachers who wish to explore the merits of creationism,Education & Youth,12,7,5,0.1667,0,0.2857,0.0,0.0,1,0.0,0.0,0.0833,0,0.1429,0.0,0.0833,0,0.0,0.2,0.25,0,0.4286,0.0
+528,Allow biased versions of history to be taught in schools,Education & Youth,2,1,1,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.5,0,1.0,0.0
+529,Show the darker side of the formation of the nation,Politics & Governance,3,2,1,0.0,1,0.0,0.0,0.3333,0,0.5,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+531,The imprisoned members of Pussy Riot should be considered political prisoners,Politics & Governance,2,1,1,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+532,Limit the free speech rights of corporations that are granted legal personhood,"Law, Crime & Justice",3,1,2,0.3333,0,0.0,0.5,0.3333,0,0.0,0.5,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.3333,0,0.0,0.5
+533,Western universities should only place satellites in states that respect free speech,Politics & Governance,1,0,1,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0,1.0,0,,1.0
+534,The decision of the state of Bavaria to publish Mein Kampf,Politics & Governance,1,0,1,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0
+535,Protect braille out of respect for free speech,Social & Cultural Issues,4,2,2,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+536,Penalise religious hate speech,Social & Cultural Issues,1,0,1,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0
+537,Allow celebrities to switch off the limelight,Other Controversial Topics,5,1,4,0.2,0,0.0,0.25,0.0,1,0.0,0.0,0.4,0,0.0,0.5,0.2,0,0.0,0.25,0.2,0,0.0,0.25
+538,Defending the enemies of one's nation is legitimate free speech,Politics & Governance,1,1,0,1.0,0,1.0,,1.0,0,1.0,,1.0,0,1.0,,1.0,0,1.0,,1.0,0,1.0,
+539,We believe in the right to reply,Other Controversial Topics,3,2,1,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+540,Blasphemy has no place on the statute books,Other Controversial Topics,3,1,2,0.3333,0,1.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+541,Christians should be allowed to wear the Cross at work,Other Controversial Topics,7,5,2,0.1429,0,0.2,0.0,0.0,1,0.0,0.0,0.2857,0,0.4,0.0,0.0,1,0.0,0.0,0.2857,0,0.4,0.0
+542,University education should be free,Education & Youth,8,3,5,0.375,0,0.3333,0.4,0.375,0,0.3333,0.4,0.25,0,0.3333,0.2,0.375,0,0.3333,0.4,0.375,0,0.6667,0.2
+543,Prohibit retailers from selling certain items at a loss as a marketing device.,Other Controversial Topics,5,3,2,0.2,0,0.3333,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.4,0,0.6667,0.0,0.2,0,0.3333,0.0
+544,Pay state school teachers based on merit,Education & Youth,6,3,3,0.1667,0,0.3333,0.0,0.0,1,0.0,0.0,0.1667,0,0.3333,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+545,Prioritize eliminating the budget deficit over increasing domestic spending,Other Controversial Topics,1,1,0,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,
+546,Institute a mandatory retirement age,Other Controversial Topics,1,0,1,0.0,1,,0.0,0.0,1,,0.0,1.0,0,,1.0,0.0,1,,0.0,0.0,1,,0.0
+547,Abolish collective bargaining rights for unions,Economics & Labor,7,3,4,0.4286,0,0.6667,0.25,0.4286,0,0.6667,0.25,0.5714,0,0.6667,0.5,0.4286,0,0.6667,0.25,0.4286,0,0.6667,0.25
+548,Replace aid with remittances,Other Controversial Topics,5,3,2,0.4,0,0.3333,0.5,0.0,1,0.0,0.0,0.2,0,0.3333,0.0,0.0,1,0.0,0.0,0.2,0,0.3333,0.0
+549,EU member states should guarantee people under 25 a temporary workplace when they have been unemployed for six months,Politics & Governance,5,2,3,0.2,0,0.0,0.3333,0.2,0,0.0,0.3333,0.4,0,0.0,0.6667,0.2,0,0.0,0.3333,0.4,0,0.0,0.6667
+550,The UK would be better off economically outside the European Union,Economics & Labor,9,5,4,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.1111,0,0.2,0.0
+551,Make the raising of business and labour standards a prerequisite for developmental aid,Other Controversial Topics,1,1,0,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,
+552,We should encourage building the Hyperloop,Other Controversial Topics,4,3,1,0.25,0,0.3333,0.0,0.25,0,0.3333,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+553,Subsidize poor communities,Other Controversial Topics,6,4,2,0.1667,0,0.25,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.1667,0,0.0,0.5,0.0,1,0.0,0.0
+554,Any society must have a national minimum wage,Economics & Labor,7,4,3,0.0,1,0.0,0.0,0.2857,0,0.5,0.0,0.2857,0,0.25,0.3333,0.2857,0,0.25,0.3333,0.1429,0,0.25,0.0
+555,The American Jobs Act should pass,Economics & Labor,5,3,2,0.6,0,0.6667,0.5,0.6,0,0.6667,0.5,0.2,0,0.3333,0.0,0.6,0,0.6667,0.5,0.8,0,0.6667,1.0
+556,Create a National High Speed Rail System in the U.S.,Other Controversial Topics,6,3,3,0.5,0,0.6667,0.3333,0.5,0,0.3333,0.6667,0.6667,0,0.6667,0.6667,0.6667,0,0.6667,0.6667,0.5,0,0.6667,0.3333
+557,Act to regulate the activities of Sovereign Wealth Funds,Economics & Labor,4,3,1,0.25,0,0.3333,0.0,0.5,0,0.6667,0.0,0.75,0,1.0,0.0,0.5,0,0.6667,0.0,0.75,0,1.0,0.0
+558,There must be a progressive tax rate,Economics & Labor,9,4,5,0.3333,0,0.75,0.0,0.3333,0,0.5,0.2,0.2222,0,0.25,0.2,0.2222,0,0.25,0.2,0.2222,0,0.5,0.0
+559,"Allow retailers to import for resale ""grey"" goods from abroad.",Other Controversial Topics,4,2,2,0.25,0,0.5,0.0,0.5,0,0.5,0.5,0.25,0,0.5,0.0,0.5,0,0.5,0.5,0.25,0,0.5,0.0
+560,We should make education compulsory to degree level,Education & Youth,14,7,7,0.1429,0,0.2857,0.0,0.0714,0,0.1429,0.0,0.1429,0,0.2857,0.0,0.0714,0,0.1429,0.0,0.0714,0,0.0,0.1429
+561,Compensation should be paid for those who have had their culture appropriated,Social & Cultural Issues,5,3,2,0.2,0,0.3333,0.0,0.0,1,0.0,0.0,0.2,0,0.3333,0.0,0.2,0,0.3333,0.0,0.2,0,0.3333,0.0
+562,Violent Video Games Contribute to Youth Violence,Other Controversial Topics,10,4,6,0.2,0,0.5,0.0,0.3,0,0.75,0.0,0.4,0,0.75,0.1667,0.3,0,0.5,0.1667,0.5,0,0.75,0.3333
+563,Golf is a Sport,Other Controversial Topics,17,7,10,0.0588,0,0.1429,0.0,0.0,1,0.0,0.0,0.1176,0,0.1429,0.1,0.1176,0,0.0,0.2,0.2353,0,0.1429,0.3
+564,The United States should continue Its use of drone strikes abroad,Politics & Governance,21,12,9,0.2381,0,0.0833,0.4444,0.1429,0,0.1667,0.1111,0.2381,0,0.1667,0.3333,0.1429,0,0.1667,0.1111,0.2381,0,0.25,0.2222
+565,Abortion should be legal,Healthcare & Bioethics,28,14,14,0.0714,0,0.0714,0.0714,0.0714,0,0.0714,0.0714,0.0714,0,0.1429,0.0,0.0714,0,0.1429,0.0,0.1429,0,0.2143,0.0714
+566,Any vaccines should be required for children,Healthcare & Bioethics,16,10,6,0.125,0,0.2,0.0,0.125,0,0.2,0.0,0.1875,0,0.1,0.3333,0.125,0,0.1,0.1667,0.125,0,0.1,0.1667
+567,Social Security should be privatized ,Other Controversial Topics,14,5,9,0.1429,0,0.0,0.2222,0.1429,0,0.0,0.2222,0.1429,0,0.0,0.2222,0.2857,0,0.4,0.2222,0.3571,0,0.2,0.4444
+568,Gay marriage should be legal,"Law, Crime & Justice",23,13,10,0.1304,0,0.2308,0.0,0.1739,0,0.3077,0.0,0.1304,0,0.2308,0.0,0.087,0,0.1538,0.0,0.1739,0,0.2308,0.1
+569,The D.A.R.E. program is good for America's kids (K-12) ,Other Controversial Topics,12,5,7,0.25,0,0.0,0.4286,0.25,0,0.0,0.4286,0.3333,0,0.4,0.2857,0.3333,0,0.4,0.2857,0.3333,0,0.2,0.4286
+570,It is appropriate to build a muslim community center (aka the ''Ground Zero Mosque'') near the World Trade Center site ,Economics & Labor,16,7,9,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0625,0,0.1429,0.0
+571,Teachers should get tenure,Education & Youth,3,2,1,0.0,1,0.0,0.0,0.3333,0,0.5,0.0,0.0,1,0.0,0.0,0.3333,0,0.5,0.0,0.0,1,0.0,0.0
+572,Prescription drugs should be advertised directly to consumers,Healthcare & Bioethics,13,6,7,0.0,1,0.0,0.0,0.0769,0,0.0,0.1429,0.1538,0,0.1667,0.1429,0.2308,0,0.1667,0.2857,0.0,1,0.0,0.0
+574,All Americans should have the right (be entitled) to health care,Healthcare & Bioethics,19,10,9,0.0526,0,0.1,0.0,0.1579,0,0.2,0.1111,0.1579,0,0.2,0.1111,0.1579,0,0.3,0.0,0.0526,0,0.1,0.0
+575,Obesity is a disease,Healthcare & Bioethics,1,1,0,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,1.0,0,1.0,,0.0,1,0.0,
+576,The federal minimum wage should be increased,Economics & Labor,21,10,11,0.1905,0,0.2,0.1818,0.2381,0,0.3,0.1818,0.1905,0,0.3,0.0909,0.2381,0,0.1,0.3636,0.1905,0,0.3,0.0909
+577,Lowering the federal corporate income tax rate does create jobs,Economics & Labor,10,4,6,0.3,0,0.25,0.3333,0.2,0,0.5,0.0,0.3,0,0.5,0.1667,0.2,0,0.25,0.1667,0.3,0,0.5,0.1667
+578, College education is worth it,Education & Youth,28,17,11,0.0714,0,0.1176,0.0,0.0714,0,0.1176,0.0,0.0714,0,0.1176,0.0,0.0714,0,0.1176,0.0,0.1071,0,0.1765,0.0
+579,Animals should be used for scientific or commercial testing,Social & Cultural Issues,22,11,11,0.2273,0,0.2727,0.1818,0.1364,0,0.1818,0.0909,0.1818,0,0.2727,0.0909,0.1364,0,0.1818,0.0909,0.1818,0,0.1818,0.1818
+580,Adults should have the right to carry a concealed handgun,Other Controversial Topics,7,2,5,0.2857,0,0.5,0.2,0.2857,0,0.5,0.2,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+581,People should become vegetarian,Other Controversial Topics,38,22,16,0.0789,0,0.0909,0.0625,0.0789,0,0.1364,0.0,0.1053,0,0.1364,0.0625,0.0526,0,0.0455,0.0625,0.1053,0,0.1818,0.0
+582,"Churches should (defined as churches, temples, mosques, synagogues, etc.) remain tax-exempt",Social & Cultural Issues,10,6,4,0.0,1,0.0,0.0,0.1,0,0.1667,0.0,0.2,0,0.1667,0.25,0.1,0,0.0,0.25,0.0,1,0.0,0.0
+584,Tablets should replace textbooks in K-12 schools,Education & Youth,29,14,15,0.1034,0,0.1429,0.0667,0.1724,0,0.1429,0.2,0.069,0,0.0714,0.0667,0.1034,0,0.0714,0.1333,0.1379,0,0.0714,0.2
+585,Social networking sites are good for our society,Other Controversial Topics,40,21,19,0.075,0,0.0952,0.0526,0.025,0,0.0,0.0526,0.05,0,0.0476,0.0526,0.025,0,0.0476,0.0,0.025,0,0.0,0.0526
+586,Students should have to wear school uniforms,Education & Youth,24,12,12,0.125,0,0.0833,0.1667,0.1667,0,0.1667,0.1667,0.1667,0,0.1667,0.1667,0.0833,0,0.0,0.1667,0.1667,0,0.1667,0.1667
+587,Recreational marijuana should be legal,"Law, Crime & Justice",10,6,4,0.3,0,0.5,0.0,0.1,0,0.1667,0.0,0.2,0,0.1667,0.25,0.1,0,0.1667,0.0,0.2,0,0.1667,0.25
+589,More gun control laws should be enacted,"Law, Crime & Justice",23,11,12,0.087,0,0.1818,0.0,0.0435,0,0.0909,0.0,0.1739,0,0.1818,0.1667,0.087,0,0.0909,0.0833,0.1304,0,0.0909,0.1667
+590,The United States return to a gold standard,Politics & Governance,24,10,14,0.0833,0,0.1,0.0714,0.1667,0,0.1,0.2143,0.0417,0,0.0,0.0714,0.2083,0,0.1,0.2857,0.125,0,0.2,0.0714
+591,The drinking age should be lowered from 21 to a younger age,Other Controversial Topics,22,10,12,0.0909,0,0.0,0.1667,0.1364,0,0.1,0.1667,0.1364,0,0.1,0.1667,0.1364,0,0.1,0.1667,0.1364,0,0.1,0.1667
+592,College football should replace the bowl championship series (BCS),Education & Youth,3,1,2,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+593,The United States should maintain its embargo against Cuba,Politics & Governance,19,10,9,0.1053,0,0.0,0.2222,0.1053,0,0.1,0.1111,0.2105,0,0.1,0.3333,0.1053,0,0.1,0.1111,0.1053,0,0.2,0.0
+594,Human activity is primarily responsible for global climate change,Environment & Energy,18,7,11,0.0556,0,0.0,0.0909,0.1111,0,0.1429,0.0909,0.1111,0,0.1429,0.0909,0.1111,0,0.1429,0.0909,0.0,1,0.0,0.0
+595,Cell phone radiation is safe,Science & Technology,11,6,5,0.0909,0,0.1667,0.0,0.1818,0,0.3333,0.0,0.1818,0,0.3333,0.0,0.0909,0,0.1667,0.0,0.1818,0,0.3333,0.0
+596,We should support universal basic income,Economics & Labor,1,0,1,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0
+597,Student loan debt should be easier to discharge in bankruptcy,Education & Youth,1,0,1,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0
+598,School vouchers should be encouraged,Education & Youth,7,4,3,0.2857,0,0.25,0.3333,0.2857,0,0.5,0.0,0.4286,0,0.5,0.3333,0.5714,0,0.75,0.3333,0.4286,0,0.25,0.6667
+599,The penny should stay in circulation,Other Controversial Topics,5,3,2,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+600,Net neutrality should be restored,Other Controversial Topics,10,5,5,0.4,0,0.4,0.4,0.2,0,0.2,0.2,0.3,0,0.4,0.2,0.3,0,0.4,0.2,0.4,0,0.6,0.2
+601,Homework is beneficial,Education & Youth,11,6,5,0.2727,0,0.3333,0.2,0.3636,0,0.5,0.2,0.4545,0,0.6667,0.2,0.2727,0,0.3333,0.2,0.4545,0,0.3333,0.6
+602,Bottled water should be banned,Other Controversial Topics,10,4,6,0.5,0,0.75,0.3333,0.5,0,0.75,0.3333,0.5,0,0.5,0.5,0.4,0,0.5,0.3333,0.5,0,0.75,0.3333
+603,Sanctuary cities are beneficial,Other Controversial Topics,6,3,3,0.0,1,0.0,0.0,0.3333,0,0.0,0.6667,0.6667,0,0.6667,0.6667,0.3333,0,0.0,0.6667,0.5,0,0.6667,0.3333
+604,Police body cameras should be allowed,"Law, Crime & Justice",6,3,3,0.5,0,0.6667,0.3333,0.6667,0,0.6667,0.6667,0.5,0,0.6667,0.3333,0.5,0,0.6667,0.3333,0.5,0,0.6667,0.3333
+605,Hosting the Olympic Games is beneficial,Other Controversial Topics,8,6,2,0.125,0,0.1667,0.0,0.125,0,0.1667,0.0,0.25,0,0.1667,0.5,0.125,0,0.1667,0.0,0.25,0,0.3333,0.0
+606,Refusing to stand for the National Anthem is an appropriate form of protest.,Other Controversial Topics,6,3,3,0.3333,0,0.0,0.6667,0.1667,0,0.0,0.3333,0.3333,0,0.3333,0.3333,0.5,0,0.3333,0.6667,0.3333,0,0.3333,0.3333
+607,Fighting should be allowed in hockey.,Other Controversial Topics,5,2,3,0.2,0,0.0,0.3333,0.2,0,0.0,0.3333,0.2,0,0.0,0.3333,0.2,0,0.0,0.3333,0.2,0,0.0,0.3333
+608,The United States should use the electoral college in presidential elections.,Politics & Governance,10,4,6,0.1,0,0.0,0.1667,0.1,0,0.25,0.0,0.4,0,0.5,0.3333,0.3,0,0.25,0.3333,0.1,0,0.0,0.1667
+609,The United States should keep daylight saving time.,Politics & Governance,3,1,2,1.0,0,1.0,1.0,1.0,0,1.0,1.0,0.6667,0,1.0,0.5,0.6667,0,0.0,1.0,1.0,0,1.0,1.0
+610,Corporal punishment be used in K-12 schools.,"Law, Crime & Justice",8,3,5,0.375,0,0.0,0.6,0.25,0,0.0,0.4,0.375,0,0.3333,0.4,0.0,1,0.0,0.0,0.125,0,0.0,0.2
+611,Parents or other adults should be able to ban books from schools and libraries.,"Law, Crime & Justice",5,1,4,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.2,0,0.0,0.25,0.0,1,0.0,0.0
+612,There Should be a Minimum Weight Limit For Professional Models,Other Controversial Topics,1,1,0,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,
+613,Commercialization of Festivals and Holidays Has Eroded Their Real Significance,Other Controversial Topics,4,3,1,0.25,0,0.0,1.0,0.25,0,0.0,1.0,0.0,1,0.0,0.0,0.25,0,0.0,1.0,0.0,1,0.0,0.0
+614,The money we spend on our Olympic medal count is money well spent,Economics & Labor,8,4,4,0.25,0,0.25,0.25,0.125,0,0.25,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.25,0,0.25,0.25
+615,Google is the extremely reliable source of information,Other Controversial Topics,3,2,1,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.3333,0,0.5,0.0
+616,Companies should provide alternative interview methods,Other Controversial Topics,2,1,1,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+617,Use and Misuse of Internet,Science & Technology,1,1,0,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,
+619,Women should be allowed on the front line,Social & Cultural Issues,9,3,6,0.3333,0,0.6667,0.1667,0.3333,0,0.6667,0.1667,0.3333,0,0.6667,0.1667,0.3333,0,0.6667,0.1667,0.2222,0,0.6667,0.0
+620,Genetics is a defence to murder,Healthcare & Bioethics,2,0,2,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0
+621,A government has the obligation to lessen the economic gap between its rich and poor citizens,Politics & Governance,2,2,0,0.0,1,0.0,,0.0,1,0.0,,0.5,0,0.5,,0.5,0,0.5,,0.5,0,0.5,
+622,Hillary Clinton would make a better president for America,Politics & Governance,9,5,4,0.1111,0,0.2,0.0,0.0,1,0.0,0.0,0.1111,0,0.2,0.0,0.1111,0,0.2,0.0,0.0,1,0.0,0.0
+623,Public Transport Should Be Free,Other Controversial Topics,4,1,3,0.25,0,0.0,0.3333,0.5,0,0.0,0.6667,0.5,0,0.0,0.6667,0.25,0,0.0,0.3333,0.5,0,1.0,0.3333
+624,The health benefits of genetically modified foods outweigh their risks,Healthcare & Bioethics,4,1,3,0.25,0,0.0,0.3333,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+625,Affirmative Action in South Africa does more harm than good,Other Controversial Topics,12,7,5,0.3333,0,0.1429,0.6,0.0833,0,0.0,0.2,0.1667,0,0.0,0.4,0.25,0,0.1429,0.4,0.0833,0,0.1429,0.0
+626,1-child policy for every single country in the world!,Education & Youth,5,3,2,0.2,0,0.0,0.5,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.2,0,0.0,0.5
+627,It is morally permissible for victims to use deadly force as a deliberate response to repeated domestic violence,Social & Cultural Issues,3,1,2,0.6667,0,1.0,0.5,0.6667,0,1.0,0.5,0.6667,0,1.0,0.5,0.3333,0,1.0,0.0,0.3333,0,1.0,0.0
+628,We should build new nuclear power plants,Environment & Energy,2,2,0,1.0,0,1.0,,0.5,0,0.5,,0.5,0,0.5,,0.5,0,0.5,,0.5,0,0.5,
+629,All patents should be removed on anti-retroviral drugs to fight AIDS,Healthcare & Bioethics,1,1,0,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,
+630,University education needs to be capped and more selective,Education & Youth,6,3,3,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+631,Civil Disobedience Can Be Justified,Other Controversial Topics,4,3,1,0.25,0,0.0,1.0,0.0,1,0.0,0.0,0.25,0,0.0,1.0,0.0,1,0.0,0.0,0.25,0,0.0,1.0
+632,The Falklands should be given back to Argentina,Other Controversial Topics,2,0,2,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0
+633,States ought not possess nuclear weapons,Politics & Governance,16,10,6,0.1875,0,0.2,0.1667,0.125,0,0.2,0.0,0.25,0,0.3,0.1667,0.1875,0,0.3,0.0,0.1875,0,0.3,0.0
+634,The voting age should be lowered to 16,Politics & Governance,6,3,3,0.5,0,0.6667,0.3333,0.1667,0,0.3333,0.0,0.5,0,0.3333,0.6667,0.3333,0,0.6667,0.0,0.6667,0,0.6667,0.6667
+635,Should Turkey Be Accepted In The EU,Politics & Governance,9,3,6,0.1111,0,0.0,0.1667,0.2222,0,0.0,0.3333,0.2222,0,0.0,0.3333,0.1111,0,0.0,0.1667,0.2222,0,0.3333,0.1667
+636,Persistent Bullies Should be Expelled,Other Controversial Topics,4,2,2,0.25,0,0.5,0.0,0.25,0,0.5,0.0,0.25,0,0.5,0.0,0.0,1,0.0,0.0,0.5,0,0.5,0.5
+637,Strict parenting works best,Other Controversial Topics,7,1,6,0.2857,0,1.0,0.1667,0.2857,0,1.0,0.1667,0.4286,0,1.0,0.3333,0.2857,0,0.0,0.3333,0.2857,0,0.0,0.3333
+638,Should the Cell Phones Be Allowed in Schools,Education & Youth,7,3,4,0.5714,0,0.0,1.0,0.5714,0,0.0,1.0,0.7143,0,0.3333,1.0,0.4286,0,0.0,0.75,0.5714,0,0.0,1.0
+640,Examinations are a fair way of testing our knowledge,Other Controversial Topics,3,0,3,0.6667,0,,0.6667,0.3333,0,,0.3333,0.6667,0,,0.6667,0.6667,0,,0.6667,0.3333,0,,0.3333
+641,School Uniforms Should Be Mandatory,Education & Youth,24,12,12,0.2083,0,0.25,0.1667,0.2083,0,0.3333,0.0833,0.2083,0,0.25,0.1667,0.1667,0,0.1667,0.1667,0.2083,0,0.25,0.1667
+642,People should lose their jobs for saying the wrong thing,Economics & Labor,6,4,2,0.3333,0,0.5,0.0,0.1667,0,0.25,0.0,0.1667,0,0.25,0.0,0.0,1,0.0,0.0,0.3333,0,0.5,0.0
+643,Wikileaks is not and has never been a non-profit organization,Other Controversial Topics,2,2,0,0.0,1,0.0,,0.0,1,0.0,,0.5,0,0.5,,0.5,0,0.5,,0.0,1,0.0,
+647,We should be investing in public transport,Other Controversial Topics,5,4,1,0.2,0,0.25,0.0,0.6,0,0.5,1.0,0.4,0,0.25,1.0,0.4,0,0.5,0.0,0.2,0,0.25,0.0
+648,Power only has two dimensions,Other Controversial Topics,2,2,0,0.5,0,0.5,,1.0,0,1.0,,0.0,1,0.0,,0.5,0,0.5,,0.0,1,0.0,
+649,Same sex relationships should have the same legal status as heterosexual relationships under EU law,Politics & Governance,22,14,8,0.0909,0,0.1429,0.0,0.0909,0,0.1429,0.0,0.0455,0,0.0714,0.0,0.1364,0,0.1429,0.125,0.0909,0,0.0714,0.125
+650,The Spread of Nuclear Weapons: More may be better,Environment & Energy,21,11,10,0.1429,0,0.0909,0.2,0.0476,0,0.0,0.1,0.0952,0,0.1818,0.0,0.0952,0,0.0,0.2,0.1905,0,0.0909,0.3
+651,We should abolish speed cameras,Other Controversial Topics,7,6,1,0.2857,0,0.1667,1.0,0.2857,0,0.1667,1.0,0.2857,0,0.1667,1.0,0.2857,0,0.1667,1.0,0.1429,0,0.1667,0.0
+652,16 year olds should be able to vote at presidental elections,Politics & Governance,12,5,7,0.4167,0,0.6,0.2857,0.3333,0,0.4,0.2857,0.4167,0,0.6,0.2857,0.4167,0,0.4,0.4286,0.4167,0,0.4,0.4286
+653,Mossad should carry out extrajudicial killings,Other Controversial Topics,1,0,1,1.0,0,,1.0,0.0,1,,0.0,0.0,1,,0.0,1.0,0,,1.0,1.0,0,,1.0
+656,Positive Discrimination Towards Women in Society Is Justified,Social & Cultural Issues,11,5,6,0.3636,0,0.2,0.5,0.2727,0,0.2,0.3333,0.2727,0,0.2,0.3333,0.2727,0,0.2,0.3333,0.2727,0,0.2,0.3333
+657,Gorbachev Was Responsible for The Collapse Of The USSR,Other Controversial Topics,3,0,3,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0
+658,Hacking Can Be Justified,Other Controversial Topics,6,4,2,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+659,Less time outdoors is severely detrimental to the physical and emotional wellbeing of children,Education & Youth,4,4,0,0.5,0,0.5,,0.75,0,0.75,,0.5,0,0.5,,0.5,0,0.5,,0.25,0,0.25,
+660,China should be allowed more control over its own seas,Other Controversial Topics,1,1,0,1.0,0,1.0,,1.0,0,1.0,,1.0,0,1.0,,1.0,0,1.0,,1.0,0,1.0,
+661,The breeding of white tigers in captivity should be banned,Other Controversial Topics,2,2,0,0.5,0,0.5,,0.0,1,0.0,,0.5,0,0.5,,0.5,0,0.5,,0.0,1,0.0,
+662,Children should be allowed to have facebook accounts,Education & Youth,7,2,5,0.2857,0,0.5,0.2,0.1429,0,0.0,0.2,0.2857,0,1.0,0.0,0.0,1,0.0,0.0,0.1429,0,0.0,0.2
+663,Animals should be kept in zoos,Social & Cultural Issues,5,2,3,0.2,0,0.5,0.0,0.2,0,0.0,0.3333,0.6,0,0.5,0.6667,0.6,0,0.5,0.6667,0.4,0,0.0,0.6667
+664,We should allow military recruiting in schools,Education & Youth,6,2,4,0.1667,0,0.5,0.0,0.0,1,0.0,0.0,0.3333,0,0.0,0.5,0.0,1,0.0,0.0,0.3333,0,0.5,0.25
+665,International students are charged unfairly high tuition fees at UK universities,Education & Youth,9,3,6,0.3333,0,0.0,0.5,0.3333,0,0.0,0.5,0.5556,0,0.0,0.8333,0.2222,0,0.0,0.3333,0.3333,0,0.0,0.5
+666,Science can determine human values,Science & Technology,5,2,3,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+667,All evidence gathered by intelligence agencies should be admissible in courts of law,Politics & Governance,2,2,0,0.5,0,0.5,,0.5,0,0.5,,0.5,0,0.5,,0.5,0,0.5,,0.0,1,0.0,
+668,Historical Artefacts Should Be Repatriated to Their Country of Origin,Other Controversial Topics,9,4,5,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+669,Music should be free for all,Other Controversial Topics,6,2,4,0.5,0,0.5,0.5,0.5,0,0.5,0.5,0.3333,0,0.5,0.25,0.3333,0,0.5,0.25,0.3333,0,0.5,0.25
+670,The teaching of Shakespeare should be compulsory,Education & Youth,7,4,3,0.4286,0,0.5,0.3333,0.5714,0,0.5,0.6667,0.1429,0,0.0,0.3333,0.2857,0,0.25,0.3333,0.5714,0,0.5,0.6667
+672,Books should have content warnings,Other Controversial Topics,4,3,1,0.25,0,0.0,1.0,0.25,0,0.0,1.0,0.25,0,0.0,1.0,0.25,0,0.0,1.0,0.25,0,0.0,1.0
+673,Mexican culture was incurably damaged by the introduction of Christianity,Social & Cultural Issues,1,0,1,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0
+674,The Death Penalty Should Be Imposed For Acts Of Terror That Cause Death,"Law, Crime & Justice",11,5,6,0.2727,0,0.2,0.3333,0.2727,0,0.2,0.3333,0.4545,0,0.4,0.5,0.3636,0,0.4,0.3333,0.4545,0,0.4,0.5
+675,Housewives Are More Responsible Mothers Than Working Women,Social & Cultural Issues,2,1,1,0.0,1,0.0,0.0,0.5,0,1.0,0.0,0.5,0,1.0,0.0,0.5,0,1.0,0.0,0.0,1,0.0,0.0
+676,Public high school students in the United States ought not be required to pass standardized exit exams to graduate,Education & Youth,7,6,1,0.1429,0,0.1667,0.0,0.1429,0,0.1667,0.0,0.2857,0,0.3333,0.0,0.1429,0,0.1667,0.0,0.0,1,0.0,0.0
+677,Prescription drugs are overpriced,Healthcare & Bioethics,9,7,2,0.2222,0,0.1429,0.5,0.1111,0,0.0,0.5,0.1111,0,0.0,0.5,0.1111,0,0.1429,0.0,0.1111,0,0.1429,0.0
+678,Terrorists should be subject to the Geneva Conventions,Other Controversial Topics,2,0,2,0.5,0,,0.5,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0
+679,Mixed Martial Arts (UFC) is a form of human cockfighting,Other Controversial Topics,2,2,0,0.5,0,0.5,,0.5,0,0.5,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,
+680,Socialism is a failed government subdomain,Politics & Governance,2,1,1,0.5,0,1.0,0.0,0.0,1,0.0,0.0,0.5,0,1.0,0.0,0.5,0,1.0,0.0,0.5,0,1.0,0.0
+682,Inheritance tax should be raised to 100% for everyone born in the UK,Economics & Labor,8,3,5,0.25,0,0.3333,0.2,0.375,0,0.6667,0.2,0.25,0,0.0,0.4,0.375,0,0.3333,0.4,0.25,0,0.3333,0.2
+684,America should have universal healthcare,Healthcare & Bioethics,3,2,1,0.6667,0,0.5,1.0,0.3333,0,0.5,0.0,0.6667,0,0.5,1.0,0.6667,0,0.5,1.0,0.3333,0,0.5,0.0
+685,Reality TV has gone too far,Other Controversial Topics,7,5,2,0.0,1,0.0,0.0,0.4286,0,0.4,0.5,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+686,Parents should have the right to do background checks on those looking after their children,Education & Youth,3,1,2,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+687,Unilateral nuclear disarmament is the best way to create a safer world,Environment & Energy,16,10,6,0.0625,0,0.1,0.0,0.125,0,0.2,0.0,0.125,0,0.2,0.0,0.125,0,0.2,0.0,0.125,0,0.2,0.0
+688,Any job is better than no job,Economics & Labor,2,0,2,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0
+689,The world should go vegan,Social & Cultural Issues,34,19,15,0.0294,0,0.0526,0.0,0.0588,0,0.0526,0.0667,0.0588,0,0.0526,0.0667,0.0294,0,0.0526,0.0,0.0588,0,0.0526,0.0667
+690,Capitalism is creating an expanding gap between the rich and the poor,Economics & Labor,1,1,0,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,
+691,Maths should be a compulsory subject at GCSE,Other Controversial Topics,4,0,4,0.25,0,,0.25,0.25,0,,0.25,0.25,0,,0.25,0.0,1,,0.0,0.25,0,,0.25
+692,There should be video replays for refs in football,Other Controversial Topics,4,2,2,0.0,1,0.0,0.0,0.25,0,0.0,0.5,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+693,Aid is killing Africa,Other Controversial Topics,4,3,1,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+694,It is time to stop buying bottled water,Other Controversial Topics,10,4,6,0.3,0,0.5,0.1667,0.2,0,0.5,0.0,0.2,0,0.5,0.0,0.3,0,0.5,0.1667,0.3,0,0.5,0.1667
+695,Money Is the Root of All Evil,Economics & Labor,1,0,1,1.0,0,,1.0,1.0,0,,1.0,1.0,0,,1.0,1.0,0,,1.0,1.0,0,,1.0
+696,The civil procedure rules allow for a ‘fair trial’,Other Controversial Topics,1,1,0,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,
+697,Illegal downloaders should be cut off from the internet,Science & Technology,8,6,2,0.125,0,0.0,0.5,0.25,0,0.1667,0.5,0.25,0,0.1667,0.5,0.125,0,0.0,0.5,0.375,0,0.3333,0.5
+698,A celebrity would make a good minister,Other Controversial Topics,2,1,1,0.5,0,1.0,0.0,0.5,0,1.0,0.0,0.5,0,1.0,0.0,0.5,0,1.0,0.0,0.0,1,0.0,0.0
+699,Children should be banned from watching shows that contain violence and other adult contents,Education & Youth,4,2,2,0.25,0,0.5,0.0,0.5,0,0.5,0.5,0.25,0,0.5,0.0,0.5,0,0.5,0.5,0.25,0,0.5,0.0
+700,Voting should be compulsory in the UK,Politics & Governance,15,6,9,0.2,0,0.3333,0.1111,0.1333,0,0.3333,0.0,0.2,0,0.1667,0.2222,0.2667,0,0.3333,0.2222,0.1333,0,0.3333,0.0
+701,The Catholic Church needs reform,Social & Cultural Issues,4,4,0,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,
+704,Accessing your spouse’s email account hacking,Other Controversial Topics,1,1,0,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,
+705,Animals have a right to privacy,Social & Cultural Issues,4,2,2,0.5,0,0.5,0.5,0.5,0,0.5,0.5,0.25,0,0.0,0.5,0.25,0,0.0,0.5,0.5,0,0.5,0.5
+707,Man made climate change is a myth,Environment & Energy,2,1,1,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.5,0,0.0,1.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+708,Swearing should be illegal,Other Controversial Topics,2,0,2,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0
+709,Everyone Should Automatically Be Opted into an Organ Donation Scheme,Healthcare & Bioethics,8,4,4,0.25,0,0.25,0.25,0.0,1,0.0,0.0,0.25,0,0.25,0.25,0.125,0,0.0,0.25,0.125,0,0.25,0.0
+710,Sports initiations should be banned,Other Controversial Topics,1,1,0,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,
+711,Britain should scrap the monarchy,Other Controversial Topics,7,6,1,0.0,1,0.0,0.0,0.1429,0,0.1667,0.0,0.1429,0,0.0,1.0,0.2857,0,0.1667,1.0,0.0,1,0.0,0.0
+712,Improving access to contraception will lower the number of teenage pregnancies,Other Controversial Topics,5,0,5,0.2,0,,0.2,0.4,0,,0.4,0.2,0,,0.2,0.2,0,,0.2,0.2,0,,0.2
+713,Too much importance is placed upon correct spelling and grammar,Other Controversial Topics,2,2,0,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,
+714,Liberal democracies are better at providing people’s needs than non-democracies.,Politics & Governance,6,2,4,0.3333,0,0.5,0.25,0.0,1,0.0,0.0,0.1667,0,0.5,0.0,0.3333,0,0.5,0.25,0.1667,0,0.5,0.0
+715,Does Mother Nature rule the world,Other Controversial Topics,3,2,1,0.3333,0,0.5,0.0,0.3333,0,0.5,0.0,0.6667,0,1.0,0.0,0.6667,0,0.5,1.0,0.6667,0,1.0,0.0
+716,We should ban the church of scientology,"Law, Crime & Justice",7,4,3,0.1429,0,0.0,0.3333,0.1429,0,0.0,0.3333,0.1429,0,0.0,0.3333,0.2857,0,0.0,0.6667,0.0,1,0.0,0.0
+717,The US and its allies were justified in taking military action against Iraq following Iraq’s invasion of Kuwait,Other Controversial Topics,6,4,2,0.0,1,0.0,0.0,0.1667,0,0.25,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+719,"G20 protests – at best a waste of time, at worst a dangerous disruption",Other Controversial Topics,1,0,1,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0
+720,It is selfish to have more than two children,Education & Youth,5,3,2,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+721,Only buildings that are historically important should be preserved,Other Controversial Topics,1,0,1,0.0,1,,0.0,0.0,1,,0.0,1.0,0,,1.0,0.0,1,,0.0,0.0,1,,0.0
+722,Tuition Fees Should Be Increased,Education & Youth,6,2,4,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+724,The EU should return power to national governments,Politics & Governance,3,1,2,0.3333,0,1.0,0.0,0.3333,0,1.0,0.0,0.0,1,0.0,0.0,0.3333,0,0.0,0.5,0.0,1,0.0,0.0
+725,The United States was correct in going to war against North Korea in support of their territory of South Korea.,Politics & Governance,2,1,1,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.5,0,1.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+726,Discipline In Schools Needs To Be Improved,Education & Youth,1,1,0,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,
+730,Rail travel is the best mode of transport for the future,Other Controversial Topics,7,3,4,0.2857,0,0.6667,0.0,0.2857,0,0.6667,0.0,0.2857,0,0.6667,0.0,0.4286,0,0.6667,0.25,0.4286,0,0.6667,0.25
+731,The national curriculum should be scrapped,Education & Youth,6,3,3,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+733,Wind farms are a good solution to the energy crisis,Environment & Energy,2,2,0,0.5,0,0.5,,0.5,0,0.5,,0.5,0,0.5,,0.5,0,0.5,,0.5,0,0.5,
+734,All our actions are determined in some way,Other Controversial Topics,2,1,1,0.5,0,1.0,0.0,0.5,0,1.0,0.0,0.5,0,1.0,0.0,0.5,0,1.0,0.0,0.0,1,0.0,0.0
+735,It should be compulsory for all mothers to breastfeed for the first six months of their babies lives,Other Controversial Topics,6,5,1,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+736,The grammar school system should be reintroduced in the UK,Education & Youth,1,1,0,1.0,0,1.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,
+737,Slang prevent young people from being able to communicate properly,Other Controversial Topics,1,1,0,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,
+738,The EU should significantly reduce the amount it spends on agricultural production subsidies,Politics & Governance,4,2,2,0.5,0,0.5,0.5,0.25,0,0.0,0.5,0.5,0,0.0,1.0,0.25,0,0.0,0.5,0.0,1,0.0,0.0
+739,Sikh school pupils should be allowed to carry ceremonial daggers,Education & Youth,6,2,4,0.1667,0,0.0,0.25,0.1667,0,0.0,0.25,0.1667,0,0.5,0.0,0.1667,0,0.0,0.25,0.3333,0,0.5,0.25
+740,Joe Calzaghe deserves to be recognized as one of the greatest boxers of all time,Other Controversial Topics,3,1,2,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+741,PHILOSOPHY – Utilitarianism isn’t as fair as it initially seems,Other Controversial Topics,1,1,0,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,1.0,0,1.0,,0.0,1,0.0,
+743,National service should be re-introduced,Other Controversial Topics,8,4,4,0.125,0,0.25,0.0,0.25,0,0.5,0.0,0.25,0,0.5,0.0,0.0,1,0.0,0.0,0.25,0,0.5,0.0
+744,The glass ceiling for women still exists,Social & Cultural Issues,3,1,2,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+745,Religion is not necessary,Social & Cultural Issues,4,1,3,0.25,0,1.0,0.0,0.25,0,1.0,0.0,0.25,0,1.0,0.0,0.25,0,1.0,0.0,0.5,0,1.0,0.3333
+746,Parents of obese children be prosecuted with neglect,Education & Youth,3,1,2,0.3333,0,0.0,0.5,0.3333,0,0.0,0.5,0.3333,0,0.0,0.5,0.3333,0,0.0,0.5,0.3333,0,0.0,0.5
+747,Romeo and Juliet do promote knife crime,"Law, Crime & Justice",4,2,2,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.25,0,0.5,0.0,0.0,1,0.0,0.0,0.25,0,0.5,0.0
+748,The use of mobile phones has lowered active social life and has become an addiction,Other Controversial Topics,4,1,3,0.25,0,0.0,0.3333,0.5,0,0.0,0.6667,0.25,0,0.0,0.3333,0.25,0,0.0,0.3333,0.25,0,0.0,0.3333
+749,Winning the Champions League Is Better Than Winning the Premier League,Other Controversial Topics,3,2,1,1.0,0,1.0,1.0,0.3333,0,0.5,0.0,0.6667,0,1.0,0.0,0.3333,0,0.5,0.0,0.3333,0,0.5,0.0
+750,Books will be replaced at some point,Other Controversial Topics,6,3,3,0.0,1,0.0,0.0,0.1667,0,0.0,0.3333,0.1667,0,0.3333,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+751,Parents should not allow young people to live at home again after graduating,Other Controversial Topics,1,1,0,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,
+752,A Ban on Shark Fin Soup Is Necessary to Protect the Shark from Extinction,"Law, Crime & Justice",7,3,4,0.1429,0,0.0,0.25,0.1429,0,0.0,0.25,0.0,1,0.0,0.0,0.1429,0,0.0,0.25,0.0,1,0.0,0.0
+753,We should show more compassion to drug addicts,Healthcare & Bioethics,3,2,1,0.0,1,0.0,0.0,0.3333,0,0.5,0.0,0.3333,0,0.5,0.0,0.3333,0,0.5,0.0,0.0,1,0.0,0.0
+754,Working from home is better for companies than maintaining an office,Other Controversial Topics,3,2,1,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.3333,0,0.0,1.0,0.3333,0,0.5,0.0,0.0,1,0.0,0.0
+755,Celebrities who commit drug-related offences should be punished more harshly than non-celebrities.,Healthcare & Bioethics,5,1,4,0.6,0,1.0,0.5,0.4,0,0.0,0.5,0.6,0,1.0,0.5,0.2,0,1.0,0.0,0.6,0,1.0,0.5
+756,Global Warming is not an issue,Environment & Energy,5,4,1,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+757,Personality is more important than ability,Other Controversial Topics,2,2,0,0.5,0,0.5,,0.5,0,0.5,,0.5,0,0.5,,0.5,0,0.5,,0.5,0,0.5,
+758,World War III is inevitable,Other Controversial Topics,1,0,1,0.0,1,,0.0,0.0,1,,0.0,1.0,0,,1.0,0.0,1,,0.0,0.0,1,,0.0
+759,Football does unify us,Other Controversial Topics,3,2,1,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.3333,0,0.5,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+760,Adding artificial happy endings to a story completely ruins it,Other Controversial Topics,2,0,2,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0,0.5,0,,0.5,0.0,1,,0.0
+761,Atheist countries are more benevolent,Social & Cultural Issues,3,3,0,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,
+762,We should ban the muslim veil,"Law, Crime & Justice",7,3,4,0.0,1,0.0,0.0,0.1429,0,0.3333,0.0,0.1429,0,0.3333,0.0,0.1429,0,0.3333,0.0,0.1429,0,0.3333,0.0
+763,Most people are a little bit gay,Other Controversial Topics,3,0,3,0.3333,0,,0.3333,0.0,1,,0.0,0.3333,0,,0.3333,0.0,1,,0.0,0.0,1,,0.0
+766,People should be allowed to sell their own organs,Other Controversial Topics,4,2,2,0.0,1,0.0,0.0,0.5,0,0.5,0.5,0.25,0,0.5,0.0,0.25,0,0.5,0.0,0.25,0,0.5,0.0
+767,The People’s Republic of China should invade North Korea,Other Controversial Topics,3,1,2,0.0,1,0.0,0.0,0.3333,0,0.0,0.5,0.6667,0,1.0,0.5,0.6667,0,1.0,0.5,0.3333,0,0.0,0.5
+768,Increased taxes are good for America,Economics & Labor,4,2,2,0.5,0,0.5,0.5,0.0,1,0.0,0.0,0.25,0,0.0,0.5,0.25,0,0.5,0.0,0.0,1,0.0,0.0
+769,Healthy eating should be made mandatory,Healthcare & Bioethics,3,1,2,0.3333,0,0.0,0.5,0.3333,0,0.0,0.5,0.3333,0,0.0,0.5,0.3333,0,0.0,0.5,0.3333,0,0.0,0.5
+771,High taxes are necessary for an effective state,Economics & Labor,4,2,2,0.25,0,0.5,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.5,0,0.5,0.5,0.0,1,0.0,0.0
+772,Corporations are a threat to Democracy and society.,Politics & Governance,3,2,1,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+773,Make-up is bad for us,Other Controversial Topics,1,1,0,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,
+774,We should be trying to avoid contact with aliens.,Other Controversial Topics,3,1,2,0.3333,0,0.0,0.5,0.3333,0,0.0,0.5,0.3333,0,0.0,0.5,0.3333,0,0.0,0.5,0.0,1,0.0,0.0
+775,The welfare system should be replaced with a negative income-tax model,Economics & Labor,5,2,3,0.4,0,0.5,0.3333,0.2,0,0.5,0.0,0.4,0,0.5,0.3333,0.2,0,0.5,0.0,0.2,0,0.5,0.0
+776,We should give money to beggars,Economics & Labor,4,1,3,0.5,0,1.0,0.3333,0.5,0,1.0,0.3333,0.25,0,1.0,0.0,0.25,0,0.0,0.3333,0.25,0,0.0,0.3333
+777,Sunbeds should be banned,Other Controversial Topics,1,1,0,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,
+778,Governments Should Put Wealth Redistribution Ahead Of Wealth Creation,Economics & Labor,1,0,1,1.0,0,,1.0,1.0,0,,1.0,1.0,0,,1.0,1.0,0,,1.0,0.0,1,,0.0
+779,physical fitness is better than mental fitness,Other Controversial Topics,3,1,2,0.3333,0,0.0,0.5,0.3333,0,0.0,0.5,0.3333,0,0.0,0.5,0.3333,0,0.0,0.5,0.3333,0,0.0,0.5
+780,Speed limits should be reduced,Other Controversial Topics,4,2,2,0.5,0,1.0,0.0,0.25,0,0.5,0.0,0.25,0,0.5,0.0,0.5,0,1.0,0.0,0.25,0,0.5,0.0
+781,It is wrong to tolerate unjust laws,Other Controversial Topics,1,1,0,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,
+782,Representative Democracy Is a Better Form of Government Than Direct Democracy,Politics & Governance,1,1,0,1.0,0,1.0,,1.0,0,1.0,,1.0,0,1.0,,0.0,1,0.0,,1.0,0,1.0,
+783,Hosting the world cup is beneficial,Other Controversial Topics,2,0,2,0.5,0,,0.5,0.0,1,,0.0,0.5,0,,0.5,0.0,1,,0.0,0.0,1,,0.0
+784,Those affected by climate change should get compensation,Environment & Energy,1,0,1,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0
+785,Neil Armstrong did actually walk on the Moon,Other Controversial Topics,2,0,2,0.5,0,,0.5,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0
+786,Music That Glorifies Crime Should Be Banned,"Law, Crime & Justice",10,6,4,0.2,0,0.1667,0.25,0.3,0,0.3333,0.25,0.3,0,0.3333,0.25,0.2,0,0.1667,0.25,0.2,0,0.1667,0.25
+787,The UK is truly a democracy,Politics & Governance,4,2,2,0.25,0,0.0,0.5,0.25,0,0.0,0.5,0.25,0,0.0,0.5,0.25,0,0.0,0.5,0.0,1,0.0,0.0
+788,Taking food thrown out by supermarkets should not be illegal,Other Controversial Topics,4,2,2,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.25,0,0.0,0.5,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+789,Forced marriage should be banned,Social & Cultural Issues,6,3,3,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+791,The media’s selective coverage of certain issues works to worsen problems in society and create problems,Other Controversial Topics,4,3,1,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+792,Teachers Should Have The Right To Punish Pupils Physically If The Parents Consent,"Law, Crime & Justice",8,3,5,0.25,0,0.0,0.4,0.125,0,0.0,0.2,0.125,0,0.0,0.2,0.0,1,0.0,0.0,0.125,0,0.0,0.2
+794,Sports Have Became More About Making Money Than Playing Well,Economics & Labor,2,2,0,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.5,0,0.5,,0.0,1,0.0,
+795,Junk Food Should Be Banned,Other Controversial Topics,10,7,3,0.3,0,0.4286,0.0,0.2,0,0.1429,0.3333,0.3,0,0.4286,0.0,0.2,0,0.1429,0.3333,0.2,0,0.2857,0.0
+796,Lack of Parental Guidance Is Mainly Responsible for Children Being Violent and Aggressive in School,Education & Youth,1,1,0,1.0,0,1.0,,1.0,0,1.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,
+797,Fast Food Advertising Should Be Banned,Other Controversial Topics,5,2,3,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.6,0,0.5,0.6667,0.4,0,0.0,0.6667,0.0,1,0.0,0.0
+798,Using Rewards to Motivate Students,Education & Youth,1,0,1,1.0,0,,1.0,1.0,0,,1.0,1.0,0,,1.0,1.0,0,,1.0,1.0,0,,1.0
+799,Religious education Should be a part of the School curriculum,Education & Youth,3,3,0,0.6667,0,0.6667,,0.6667,0,0.6667,,0.3333,0,0.3333,,0.3333,0,0.3333,,0.6667,0,0.6667,
+801,Reality TV shows are an important part of popular culture today.,Social & Cultural Issues,8,3,5,0.0,1,0.0,0.0,0.25,0,0.3333,0.2,0.0,1,0.0,0.0,0.125,0,0.3333,0.0,0.125,0,0.3333,0.0
+802,Developed Countries Should Accept More Refugees,Politics & Governance,5,4,1,0.0,1,0.0,0.0,0.2,0,0.25,0.0,0.0,1,0.0,0.0,0.2,0,0.25,0.0,0.0,1,0.0,0.0
+803,There is a world Water crisis,Other Controversial Topics,5,2,3,0.2,0,0.0,0.3333,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.2,0,0.0,0.3333
+804,Competition in the long run is healthy rather than harmful for the community: GRE issue,Healthcare & Bioethics,4,3,1,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+806,Wikileaks is a threat to national security,Other Controversial Topics,4,1,3,0.25,0,1.0,0.0,0.0,1,0.0,0.0,0.25,0,1.0,0.0,0.25,0,1.0,0.0,0.25,0,1.0,0.0
+807,The iPhone is better than the Blackberry,Other Controversial Topics,3,2,1,0.6667,0,1.0,0.0,0.6667,0,1.0,0.0,0.3333,0,0.5,0.0,0.3333,0,0.5,0.0,0.6667,0,1.0,0.0
+808,Television is one of the most effective mediums through which to teach and inspire youngsters,Education & Youth,1,1,0,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,
+809,DNA testing is worth the money,Economics & Labor,5,2,3,0.0,1,0.0,0.0,0.2,0,0.0,0.3333,0.2,0,0.0,0.3333,0.2,0,0.0,0.3333,0.2,0,0.0,0.3333
+810,Social Media should be part of the curriculum,Education & Youth,6,4,2,0.1667,0,0.25,0.0,0.0,1,0.0,0.0,0.1667,0,0.25,0.0,0.3333,0,0.5,0.0,0.1667,0,0.25,0.0
+811,Individuals have a moral obligation to assist people in need,Social & Cultural Issues,4,2,2,0.25,0,0.0,0.5,0.25,0,0.0,0.5,0.25,0,0.0,0.5,0.25,0,0.0,0.5,0.25,0,0.0,0.5
+812,Chocolate is good for you,Other Controversial Topics,4,1,3,0.5,0,1.0,0.3333,0.5,0,1.0,0.3333,0.5,0,1.0,0.3333,0.5,0,1.0,0.3333,0.75,0,1.0,0.6667
+813,Britain should become a republic,Other Controversial Topics,5,5,0,0.2,0,0.2,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,
+814,People should be allowed to do what they want to their own bodies,Other Controversial Topics,3,1,2,0.3333,0,1.0,0.0,0.3333,0,0.0,0.5,0.3333,0,1.0,0.0,0.3333,0,1.0,0.0,0.3333,0,1.0,0.0
+816,We have lost the true meaning of Christmas,Other Controversial Topics,5,4,1,0.4,0,0.25,1.0,0.2,0,0.25,0.0,0.4,0,0.5,0.0,0.2,0,0.25,0.0,0.2,0,0.25,0.0
+817,Electronic tags are a good idea,Politics & Governance,1,1,0,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,
+818,The law on self defence should cover ‘grossly disproportionate’ actions,Other Controversial Topics,3,1,2,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+819,Gender equality will not happen anytime soon,Social & Cultural Issues,2,2,0,0.0,1,0.0,,0.0,1,0.0,,0.5,0,0.5,,0.0,1,0.0,,0.0,1,0.0,
+820,"Use of goal line technology in football is overdue, and can only lead to benefits.",Science & Technology,4,3,1,0.25,0,0.3333,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.25,0,0.3333,0.0
+821,German unification has been a success,Other Controversial Topics,1,0,1,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0
+822,Reheat tea in the microwave,Other Controversial Topics,1,1,0,1.0,0,1.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,
+823,The UN should impose sanctions on countries that destroy their rainforests,Politics & Governance,3,2,1,0.0,1,0.0,0.0,0.3333,0,0.0,1.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+825,All countries should have the right to pursue a nuclear defence,Environment & Energy,21,9,12,0.0952,0,0.1111,0.0833,0.0952,0,0.1111,0.0833,0.0952,0,0.1111,0.0833,0.0952,0,0.2222,0.0,0.1429,0,0.1111,0.1667
+826,Stop the Olympic Games,Other Controversial Topics,8,2,6,0.25,0,0.0,0.3333,0.25,0,0.5,0.1667,0.125,0,0.0,0.1667,0.125,0,0.0,0.1667,0.125,0,0.0,0.1667
+827,ID cards and the National Identity Register should be scrapped,Social & Cultural Issues,11,3,8,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.1818,0,0.3333,0.125,0.0,1,0.0,0.0,0.0909,0,0.3333,0.0
+828,Governments Should Try To Reduce The Gap Between Their Richest And Poorest Citizens,Politics & Governance,3,3,0,0.6667,0,0.6667,,0.3333,0,0.3333,,0.6667,0,0.6667,,0.3333,0,0.3333,,0.3333,0,0.3333,
+829,Governments Should Actively Promote Multiculturalism,Politics & Governance,6,4,2,0.1667,0,0.25,0.0,0.1667,0,0.25,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.1667,0,0.25,0.0
+830,University Fees Should Be Scrapped,Education & Youth,9,3,6,0.3333,0,0.3333,0.3333,0.4444,0,0.3333,0.5,0.5556,0,0.3333,0.6667,0.3333,0,0.0,0.5,0.4444,0,0.3333,0.5
+831,The Private Education System Should Be Abolished,Education & Youth,12,6,6,0.3333,0,0.3333,0.3333,0.3333,0,0.3333,0.3333,0.4167,0,0.5,0.3333,0.3333,0,0.3333,0.3333,0.4167,0,0.5,0.3333
+832,The United States is justified in using private military firms abroad to pursue its military objectives,Politics & Governance,13,6,7,0.0769,0,0.1667,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+833,Eliminate All Nuclear Weapons,Environment & Energy,15,9,6,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0667,0,0.0,0.1667,0.0,1,0.0,0.0
+834,Constitutions Should Not Give Special Recognition To Minority Groups,Politics & Governance,2,0,2,0.5,0,,0.5,0.0,1,,0.0,0.0,1,,0.0,0.5,0,,0.5,0.5,0,,0.5
+835,Co2 Does Not Cause Global Warming,Environment & Energy,7,5,2,0.1429,0,0.2,0.0,0.1429,0,0.2,0.0,0.1429,0,0.2,0.0,0.1429,0,0.2,0.0,0.1429,0,0.2,0.0
+836,The Minimum Driving Age Should Be Raised to 18,Other Controversial Topics,2,0,2,0.0,1,,0.0,0.0,1,,0.0,0.5,0,,0.5,0.5,0,,0.5,0.0,1,,0.0
+837,Cars Should Be Banned From City Centres,Other Controversial Topics,1,0,1,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0,1.0,0,,1.0
+838,Prostitution should be legalised to protect sex workers from HIV/AIDS,"Law, Crime & Justice",11,4,7,0.1818,0,0.25,0.1429,0.1818,0,0.0,0.2857,0.2727,0,0.0,0.4286,0.0909,0,0.0,0.1429,0.0909,0,0.0,0.1429
+839,Governments Should Pay Compensation For Terrorist Atrocities Carried Out By Their Citizens,Politics & Governance,1,1,0,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,
+840,The ‘war on terror’ is winnable,Other Controversial Topics,4,2,2,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.25,0,0.0,0.5,0.0,1,0.0,0.0,0.25,0,0.0,0.5
+841,Violent video games cause violent crime,"Law, Crime & Justice",16,5,11,0.3125,0,0.6,0.1818,0.3125,0,0.6,0.1818,0.3125,0,0.4,0.2727,0.3125,0,0.2,0.3636,0.3125,0,0.4,0.2727
+842,Prostitution Should Be Legal,"Law, Crime & Justice",20,10,10,0.1,0,0.1,0.1,0.1,0,0.2,0.0,0.2,0,0.2,0.2,0.1,0,0.2,0.0,0.1,0,0.2,0.0
+843,There should be no permanent members of the UN Security Council,Politics & Governance,4,4,0,0.25,0,0.25,,0.25,0,0.25,,0.25,0,0.25,,0.0,1,0.0,,0.0,1,0.0,
+844,Physical Chastisement of Children Should Be Illegal,Education & Youth,4,2,2,0.0,1,0.0,0.0,0.5,0,0.5,0.5,0.25,0,0.5,0.0,0.25,0,0.0,0.5,0.25,0,0.0,0.5
+845,The human genome should be patented,Other Controversial Topics,4,3,1,0.0,1,0.0,0.0,0.25,0,0.3333,0.0,0.25,0,0.3333,0.0,0.25,0,0.3333,0.0,0.0,1,0.0,0.0
+846,Britain should adopt Sharia law,Other Controversial Topics,7,3,4,0.2857,0,0.0,0.5,0.2857,0,0.0,0.5,0.2857,0,0.0,0.5,0.2857,0,0.0,0.5,0.4286,0,0.3333,0.5
+847,Smoking should be banned in public places,Other Controversial Topics,9,2,7,0.5556,0,0.5,0.5714,0.5556,0,1.0,0.4286,0.5556,0,1.0,0.4286,0.5556,0,1.0,0.4286,0.5556,0,1.0,0.4286
+848,The USA Legal Drinking Age Should Be Lowered to 18 From 21,"Law, Crime & Justice",22,10,12,0.1364,0,0.1,0.1667,0.1818,0,0.1,0.25,0.1364,0,0.1,0.1667,0.0909,0,0.1,0.0833,0.2273,0,0.1,0.3333
+849,There Should be an English Parliament,Politics & Governance,3,2,1,0.3333,0,0.5,0.0,0.3333,0,0.5,0.0,0.3333,0,0.5,0.0,0.3333,0,0.5,0.0,0.3333,0,0.5,0.0
+850,Christianity is the greatest deception of today,Other Controversial Topics,3,1,2,0.0,1,0.0,0.0,0.6667,0,1.0,0.5,0.6667,0,1.0,0.5,0.6667,0,1.0,0.5,0.6667,0,1.0,0.5
+851,Resources have a negative influence on foreign policy in the Middle East,Other Controversial Topics,1,1,0,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,
+852,Governments should ban the media from reporting hostage-taking,Politics & Governance,5,5,0,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,
+853,Terrorism should not be allowed publicity,Other Controversial Topics,9,5,4,0.3333,0,0.2,0.5,0.0,1,0.0,0.0,0.2222,0,0.4,0.0,0.0,1,0.0,0.0,0.1111,0,0.0,0.25
+854,Physical Education In Schools Should Be Compulsory,Education & Youth,2,1,1,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.5,0,0.0,1.0,0.0,1,0.0,0.0
+855,Plastic Bags should be banned,Other Controversial Topics,6,2,4,0.1667,0,0.0,0.25,0.5,0,0.5,0.5,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+856,Basic income tax should be abolished,Economics & Labor,5,3,2,0.2,0,0.3333,0.0,0.6,0,0.6667,0.5,0.6,0,0.6667,0.5,0.2,0,0.3333,0.0,0.4,0,0.6667,0.0
+857,The UK Should Leave the European Union,Economics & Labor,11,6,5,0.1818,0,0.0,0.4,0.2727,0,0.1667,0.4,0.2727,0,0.1667,0.4,0.0909,0,0.1667,0.0,0.2727,0,0.1667,0.4
+858,Remotely Controlled Weapons Systems Should Not Be Used In Combat,Other Controversial Topics,1,0,1,1.0,0,,1.0,1.0,0,,1.0,0.0,1,,0.0,1.0,0,,1.0,1.0,0,,1.0
+859,Smoking should be made Illegal,Other Controversial Topics,4,3,1,0.25,0,0.3333,0.0,0.25,0,0.3333,0.0,0.5,0,0.6667,0.0,0.5,0,0.6667,0.0,0.0,1,0.0,0.0
+860,Creationism should be discussed in school science lessons,Education & Youth,9,4,5,0.3333,0,0.0,0.6,0.3333,0,0.0,0.6,0.3333,0,0.25,0.4,0.2222,0,0.0,0.4,0.4444,0,0.25,0.6
+861,Religion In Itself Is A Purely Positive Force In The World,Social & Cultural Issues,5,5,0,0.2,0,0.2,,0.2,0,0.2,,0.4,0,0.4,,0.2,0,0.2,,0.2,0,0.2,
+862,Free press is vital in democracy,Politics & Governance,1,1,0,1.0,0,1.0,,1.0,0,1.0,,1.0,0,1.0,,1.0,0,1.0,,1.0,0,1.0,
+863,All third world debt should be dropped,Other Controversial Topics,4,2,2,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.5,0,0.5,0.5,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+864,HIV/AIDS: There Should Be Compulsory Testing and Labeling of People with HIV,Other Controversial Topics,2,1,1,0.5,0,0.0,1.0,0.5,0,0.0,1.0,0.5,0,0.0,1.0,0.5,0,0.0,1.0,0.5,0,0.0,1.0
+865,India should give up Kashmir,Other Controversial Topics,1,1,0,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,
+867,People on job seekers allowance who refuse a job should lose their benefits,Economics & Labor,2,0,2,0.0,1,,0.0,0.0,1,,0.0,0.5,0,,0.5,0.0,1,,0.0,0.0,1,,0.0
+868,Democracy Is the Best Form of Government,Politics & Governance,4,3,1,0.5,0,0.6667,0.0,0.25,0,0.3333,0.0,0.5,0,0.6667,0.0,0.0,1,0.0,0.0,0.5,0,0.6667,0.0
+869,Children Should Have The Right To Vote In Elections,Politics & Governance,5,3,2,0.4,0,0.6667,0.0,0.4,0,0.6667,0.0,0.8,0,0.6667,1.0,0.2,0,0.3333,0.0,0.2,0,0.3333,0.0
+870,CCTV is a threat to freedom,Other Controversial Topics,6,3,3,0.3333,0,0.6667,0.0,0.5,0,0.6667,0.3333,0.3333,0,0.3333,0.3333,0.1667,0,0.3333,0.0,0.3333,0,0.6667,0.0
+871,Boys should go to boys only schools,Education & Youth,2,1,1,0.5,0,1.0,0.0,0.5,0,1.0,0.0,0.5,0,1.0,0.0,0.5,0,1.0,0.0,0.5,0,1.0,0.0
+872,Parents should introduce children to alcohol (in moderation) at an early age,Education & Youth,4,3,1,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.25,0,0.0,1.0,0.25,0,0.3333,0.0,0.0,1,0.0,0.0
+873,We Should Question Authorities,Other Controversial Topics,1,1,0,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,
+874,Space should not be used for military purposes,Science & Technology,1,0,1,1.0,0,,1.0,1.0,0,,1.0,0.0,1,,0.0,1.0,0,,1.0,0.0,1,,0.0
+875,Ten Commandments:  Display in Schools,Education & Youth,3,0,3,0.0,1,,0.0,0.6667,0,,0.6667,0.3333,0,,0.3333,0.6667,0,,0.6667,0.6667,0,,0.6667
+876,Visitors to museums should be “encouraged” to pay a voluntary entrance fee,Other Controversial Topics,2,0,2,0.5,0,,0.5,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0
+878,Newspapers Are a Thing of the Past,Other Controversial Topics,11,4,7,0.3636,0,0.0,0.5714,0.1818,0,0.0,0.2857,0.1818,0,0.0,0.2857,0.0909,0,0.0,0.1429,0.1818,0,0.25,0.1429
+879,Governments should spend their way out of the recession,Politics & Governance,1,1,0,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,
+880,Christmas is a scam,Other Controversial Topics,5,4,1,0.4,0,0.25,1.0,0.6,0,0.75,0.0,0.2,0,0.25,0.0,0.2,0,0.25,0.0,0.4,0,0.5,0.0
+881,Russia is a land of democracy (not autocracy),Politics & Governance,3,1,2,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.3333,0,0.0,0.5,0.0,1,0.0,0.0,0.3333,0,0.0,0.5
+882,Money undermines sport’s values,Economics & Labor,2,1,1,0.5,0,0.0,1.0,0.5,0,0.0,1.0,0.5,0,0.0,1.0,0.5,0,0.0,1.0,0.5,0,0.0,1.0
+884,Rain Man is such a bad image of autism,Other Controversial Topics,4,3,1,0.5,0,0.3333,1.0,0.5,0,0.3333,1.0,0.75,0,0.6667,1.0,0.25,0,0.3333,0.0,0.0,1,0.0,0.0
+885,Post Office Should Be Privatized,Other Controversial Topics,2,1,1,0.5,0,1.0,0.0,0.5,0,1.0,0.0,0.5,0,1.0,0.0,0.5,0,1.0,0.0,0.0,1,0.0,0.0
+886,Taxes on smoothies and fruit juices should be reduced,Economics & Labor,1,1,0,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,
+888,We should make new years resolutions,Other Controversial Topics,4,1,3,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.5,0,0.0,0.6667,0.25,0,0.0,0.3333,0.25,0,0.0,0.3333
+890,Online education does more good than harm,Education & Youth,2,1,1,0.5,0,1.0,0.0,0.5,0,1.0,0.0,0.5,0,1.0,0.0,0.5,0,1.0,0.0,0.5,0,1.0,0.0
+891,Police Service Should Be Armed (UK),"Law, Crime & Justice",9,5,4,0.2222,0,0.0,0.5,0.3333,0,0.2,0.5,0.3333,0,0.4,0.25,0.2222,0,0.0,0.5,0.3333,0,0.4,0.25
+892,"the teacher is always right, even when s/he is not.",Education & Youth,2,0,2,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0,0.5,0,,0.5
+893,Experience is the key success for entrepreneurship.,Other Controversial Topics,1,1,0,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,
+894,"Mind Sports Such as Chess, Quizzing and Debating Should Be Olympic Sports",Other Controversial Topics,7,4,3,0.4286,0,0.5,0.3333,0.1429,0,0.0,0.3333,0.2857,0,0.25,0.3333,0.4286,0,0.5,0.3333,0.1429,0,0.0,0.3333
+897,Children should not be allowed to inherit vast wealth as this damages them and society,Education & Youth,7,3,4,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+900,Valentines Day is just a Hallmark ploy,Other Controversial Topics,1,0,1,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0
+901,Catcher in the Rye is a bad book,Other Controversial Topics,2,2,0,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,
+902,The Illegality Of Recreational Drugs Does More Harm Than Good,Healthcare & Bioethics,8,4,4,0.375,0,0.75,0.0,0.25,0,0.5,0.0,0.5,0,0.75,0.25,0.25,0,0.5,0.0,0.125,0,0.25,0.0
+904,The threat of Climate Change is exaggerated,Environment & Energy,17,7,10,0.0588,0,0.0,0.1,0.0,1,0.0,0.0,0.0588,0,0.0,0.1,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+905,The EU does have a future,Politics & Governance,3,1,2,0.3333,0,0.0,0.5,0.3333,0,0.0,0.5,0.0,1,0.0,0.0,0.3333,0,0.0,0.5,0.3333,0,0.0,0.5
+906,Technological advancement promotes materialistic society,Science & Technology,1,0,1,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0
+907,Barbie Dolls are affecting the mental image we create for ourselves,Other Controversial Topics,2,2,0,0.0,1,0.0,,0.5,0,0.5,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,
+908,Governments of resource-rich nations should impose high taxes on mining and extraction,Politics & Governance,10,6,4,0.2,0,0.3333,0.0,0.2,0,0.3333,0.0,0.3,0,0.5,0.0,0.2,0,0.3333,0.0,0.3,0,0.5,0.0
+909,Scotland should cede from the union.,Economics & Labor,7,4,3,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.2857,0,0.25,0.3333,0.1429,0,0.0,0.3333,0.1429,0,0.0,0.3333
+910,Euthanasia or mercy killing is justified,Healthcare & Bioethics,4,2,2,0.25,0,0.0,0.5,0.5,0,0.0,1.0,0.0,1,0.0,0.0,0.25,0,0.0,0.5,0.25,0,0.0,0.5
+911,Patents on life-saving drugs should be bypassed,Healthcare & Bioethics,3,3,0,0.0,1,0.0,,0.3333,0,0.3333,,0.0,1,0.0,,0.3333,0,0.3333,,0.0,1,0.0,
+912,Deregulation and tax cuts should be embraced to lead the world out of economic crisis.,Economics & Labor,6,3,3,0.1667,0,0.0,0.3333,0.3333,0,0.6667,0.0,0.5,0,0.6667,0.3333,0.3333,0,0.6667,0.0,0.1667,0,0.3333,0.0
+913,Anti-Bribery Laws On Corporations Should Be Abolished,Economics & Labor,6,2,4,0.1667,0,0.0,0.25,0.1667,0,0.0,0.25,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+915,There is life on other planets,Other Controversial Topics,10,4,6,0.2,0,0.25,0.1667,0.1,0,0.0,0.1667,0.1,0,0.0,0.1667,0.1,0,0.0,0.1667,0.2,0,0.25,0.1667
+916,"Unemployment benefit should be paid in the form of vouchers for food, shelter and the basics of life",Other Controversial Topics,2,1,1,0.5,0,1.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+917,Prisoners Should Be Used For Medical Experiments Without Consent,Healthcare & Bioethics,6,2,4,0.0,1,0.0,0.0,0.1667,0,0.0,0.25,0.1667,0,0.0,0.25,0.1667,0,0.0,0.25,0.0,1,0.0,0.0
+918,The Police Should Use Racial Profiling To Tackle The Problems Of Illegal Immigration.,Politics & Governance,5,1,4,0.2,0,0.0,0.25,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+919,The UN Human Rights Council should be abolished,Politics & Governance,1,0,1,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0,1.0,0,,1.0
+920,"Financial Assistance for the Poor Should Be the Responsibility of Charities, Not Government",Politics & Governance,6,3,3,0.6667,0,1.0,0.3333,0.5,0,0.6667,0.3333,0.6667,0,0.6667,0.6667,0.3333,0,0.3333,0.3333,0.5,0,0.6667,0.3333
+921,Animal testing for medical research should be allowed.,Healthcare & Bioethics,21,12,9,0.1905,0,0.1667,0.2222,0.2381,0,0.3333,0.1111,0.2381,0,0.4167,0.0,0.2381,0,0.4167,0.0,0.1905,0,0.25,0.1111
+922,Macs are better than PCs,Other Controversial Topics,7,6,1,0.2857,0,0.3333,0.0,0.2857,0,0.3333,0.0,0.4286,0,0.3333,1.0,0.4286,0,0.5,0.0,0.1429,0,0.1667,0.0
+923,Minors Should Be Able to Obtain Abortions Without Parental Consent,Healthcare & Bioethics,5,1,4,0.2,0,0.0,0.25,0.2,0,1.0,0.0,0.4,0,1.0,0.25,0.6,0,1.0,0.5,0.6,0,1.0,0.5
+924,We should dramatically increase the rate of income tax paid by the rich,Economics & Labor,4,2,2,0.25,0,0.0,0.5,0.25,0,0.0,0.5,0.75,0,0.5,1.0,0.5,0,0.5,0.5,0.0,1,0.0,0.0
+925,The EU should impose a special Europe-wide tax on meat consumption to help save the planet,Politics & Governance,4,3,1,0.25,0,0.3333,0.0,0.5,0,0.3333,1.0,0.25,0,0.3333,0.0,0.5,0,0.3333,1.0,0.25,0,0.3333,0.0
+926,The agreement between Russia and Great Britain in 1907 was inevitable,Other Controversial Topics,4,1,3,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.25,0,0.0,0.3333
+927,Homework should have a limit,Education & Youth,11,5,6,0.4545,0,0.4,0.5,0.3636,0,0.2,0.5,0.4545,0,0.6,0.3333,0.4545,0,0.4,0.5,0.4545,0,0.6,0.3333
+929,We should be free to express our religion as we wish,Social & Cultural Issues,3,2,1,0.6667,0,1.0,0.0,0.3333,0,0.5,0.0,0.6667,0,1.0,0.0,0.3333,0,0.5,0.0,0.6667,0,1.0,0.0
+930,Climate Change is the end of the world,Environment & Energy,3,2,1,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+931,Aid Should Be Tied To Human Rights,Other Controversial Topics,2,1,1,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+932,In a democracy all votes should be equal.,Politics & Governance,1,1,0,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,
+933,History as a subject in school is needed,Education & Youth,8,6,2,0.125,0,0.1667,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.25,0,0.3333,0.0,0.125,0,0.1667,0.0
+934,The internet’s anonymity is beneficial,Science & Technology,1,0,1,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0
+935,It is good to gossip,Other Controversial Topics,5,2,3,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+936,There is life after death,Other Controversial Topics,2,2,0,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.5,0,0.5,,0.5,0,0.5,
+938,"Obese people, in countries with a national health service, should face higher taxes",Healthcare & Bioethics,1,1,0,0.0,1,0.0,,1.0,0,1.0,,0.0,1,0.0,,1.0,0,1.0,,0.0,1,0.0,
+939,Cramming before exams is a bad idea,Other Controversial Topics,2,1,1,0.5,0,1.0,0.0,0.5,0,1.0,0.0,0.5,0,1.0,0.0,0.5,0,1.0,0.0,0.5,0,1.0,0.0
+941,Romeo and Juliet is unsuccessful as a tragedy,Other Controversial Topics,2,1,1,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+942,Children should do part time and summer work,Education & Youth,6,4,2,0.5,0,0.5,0.5,0.5,0,0.5,0.5,0.3333,0,0.25,0.5,0.3333,0,0.5,0.0,0.5,0,0.5,0.5
+943,School Day Should Be Extended,Education & Youth,5,4,1,0.4,0,0.5,0.0,0.2,0,0.25,0.0,0.4,0,0.5,0.0,0.2,0,0.25,0.0,0.2,0,0.25,0.0
+944,punishment should fit the criminal,"Law, Crime & Justice",2,1,1,0.5,0,0.0,1.0,0.5,0,1.0,0.0,1.0,0,1.0,1.0,1.0,0,1.0,1.0,0.5,0,0.0,1.0
+945,Privacy Online is Important,Other Controversial Topics,3,1,2,0.3333,0,1.0,0.0,0.0,1,0.0,0.0,0.6667,0,1.0,0.5,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+947,Teachers should get merit pay,Education & Youth,1,1,0,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,
+948,social networking sites should be banned at the workplaces,Other Controversial Topics,36,17,19,0.1111,0,0.1765,0.0526,0.1389,0,0.2353,0.0526,0.0833,0,0.1765,0.0,0.0833,0,0.1765,0.0,0.0556,0,0.1176,0.0
+951,Polls are accurate predictors of election results,Politics & Governance,4,2,2,0.25,0,0.0,0.5,0.0,1,0.0,0.0,0.25,0,0.5,0.0,0.25,0,0.0,0.5,0.0,1,0.0,0.0
+952,Online Shopping Is Better Than Offline Shopping,Other Controversial Topics,3,2,1,0.6667,0,0.5,1.0,0.6667,0,0.5,1.0,0.6667,0,0.5,1.0,0.6667,0,0.5,1.0,0.6667,0,0.5,1.0
+954,Lady Macbeth is the real driving force behind King Duncan’s murder in Shakespeare’s Macbeth,Other Controversial Topics,1,1,0,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,
+955,Gorbachev was a key player in the fall of the Berlin Wall,Other Controversial Topics,2,1,1,0.0,1,0.0,0.0,0.5,0,0.0,1.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+956,Gender Equality is Treating Men and Women in the Same Way,Social & Cultural Issues,5,3,2,0.2,0,0.3333,0.0,0.2,0,0.3333,0.0,0.2,0,0.3333,0.0,0.2,0,0.3333,0.0,0.2,0,0.3333,0.0
+957,Paparazzi and press intrude too much into celebrities lives,Other Controversial Topics,5,4,1,0.0,1,0.0,0.0,0.2,0,0.0,1.0,0.2,0,0.0,1.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+958,Language does control thought,Other Controversial Topics,3,2,1,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.3333,0,0.5,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+959,There Is a Mathematical Miracle in the Quran That Proves It Is the Word of God,Social & Cultural Issues,4,2,2,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+960,Space Exploration Is a Waste of Money,Economics & Labor,4,1,3,0.25,0,1.0,0.0,0.0,1,0.0,0.0,0.25,0,0.0,0.3333,0.25,0,1.0,0.0,0.25,0,1.0,0.0
+961,Oil Companies Should Not Be Allowed To Drill Offshore,Environment & Energy,2,1,1,0.5,0,1.0,0.0,0.5,0,1.0,0.0,0.5,0,1.0,0.0,0.0,1,0.0,0.0,0.5,0,1.0,0.0
+962,Antarctica Should Be Opened Up For Resource Exploitation,Other Controversial Topics,4,4,0,0.0,1,0.0,,0.25,0,0.25,,0.25,0,0.25,,0.5,0,0.5,,0.0,1,0.0,
+963,Humans should eat meat,Social & Cultural Issues,7,4,3,0.1429,0,0.25,0.0,0.2857,0,0.5,0.0,0.1429,0,0.0,0.3333,0.4286,0,0.5,0.3333,0.4286,0,0.75,0.0
+964,Workers in the Transport Sectors Should Be Banned From Going On Strike,Economics & Labor,7,2,5,0.0,1,0.0,0.0,0.1429,0,0.5,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.2857,0,0.5,0.2
+965,Polygamous Marriage Should Be Recognised,Social & Cultural Issues,2,0,2,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0,0.5,0,,0.5,0.5,0,,0.5
+966,Music that glorifies violence against women should be banned,Social & Cultural Issues,11,7,4,0.2727,0,0.2857,0.25,0.3636,0,0.4286,0.25,0.4545,0,0.5714,0.25,0.0909,0,0.0,0.25,0.2727,0,0.1429,0.5
+967,Foreign workers should be given the right to vote in local elections where they work,Politics & Governance,1,1,0,0.0,1,0.0,,0.0,1,0.0,,1.0,0,1.0,,0.0,1,0.0,,0.0,1,0.0,
+968,"In Parliamentary Democracies, A Change Of Prime Minister Should Automatically Trigger A General Election.",Politics & Governance,2,0,2,0.5,0,,0.5,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0
+969,An international ban should be placed on the export of nuclear reactor technology,"Law, Crime & Justice",22,11,11,0.0455,0,0.0909,0.0,0.0,1,0.0,0.0,0.0909,0,0.0909,0.0909,0.0909,0,0.1818,0.0,0.0455,0,0.0909,0.0
+970,Adolf Hitler Does Not Deserve His Reputation as Evil,Other Controversial Topics,1,0,1,0.0,1,,0.0,1.0,0,,1.0,0.0,1,,0.0,0.0,1,,0.0,0.0,1,,0.0
+971,The US should immediately close Guantanamo Bay.,Other Controversial Topics,6,5,1,0.1667,0,0.2,0.0,0.1667,0,0.2,0.0,0.1667,0,0.2,0.0,0.1667,0,0.2,0.0,0.1667,0,0.2,0.0
+972,Water Should Be Owned And Supplied By The State,Politics & Governance,4,1,3,0.25,0,1.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+973,Individuals should be able to legally bypass copyright protection technologies for fair use reasons.,"Law, Crime & Justice",2,1,1,0.5,0,0.0,1.0,0.5,0,0.0,1.0,0.5,0,0.0,1.0,0.5,0,0.0,1.0,0.5,0,0.0,1.0
+974,Pensions should be privatised,Other Controversial Topics,6,4,2,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.1667,0,0.25,0.0,0.0,1,0.0,0.0
+975,A Doping Cheat’s Entire Olympic Team Should Be Stripped Of Their Medals,Other Controversial Topics,4,1,3,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+976,Corporal Punishment Should Be Reintroduced,"Law, Crime & Justice",9,5,4,0.1111,0,0.0,0.25,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.1111,0,0.0,0.25,0.0,1,0.0,0.0
+978,Co-Educational Schools Should Be Supported,Education & Youth,1,0,1,0.0,1,,0.0,0.0,1,,0.0,1.0,0,,1.0,0.0,1,,0.0,1.0,0,,1.0
+979,The UN should be reformed or replaced,Politics & Governance,3,1,2,0.0,1,0.0,0.0,0.3333,0,0.0,0.5,0.3333,0,0.0,0.5,0.3333,0,0.0,0.5,0.0,1,0.0,0.0
+980,The environment is being sacrificed for the economy,Economics & Labor,1,1,0,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,
+982,New prisons need to be built to ease overcrowding,"Law, Crime & Justice",5,1,4,0.2,0,0.0,0.25,0.2,0,0.0,0.25,0.4,0,1.0,0.25,0.6,0,1.0,0.5,0.4,0,1.0,0.25
+983,It does matter where you go to university or college,Education & Youth,1,1,0,1.0,0,1.0,,1.0,0,1.0,,1.0,0,1.0,,1.0,0,1.0,,1.0,0,1.0,
+985,Job applicants should have to disclose their spent criminal convictions,"Law, Crime & Justice",1,1,0,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,
+988,Roger Federer Is Not the Greatest Tennis Player of All Time,Other Controversial Topics,9,5,4,0.4444,0,0.2,0.75,0.2222,0,0.0,0.5,0.2222,0,0.0,0.5,0.2222,0,0.2,0.25,0.3333,0,0.0,0.75
+989,Home Schooling Should Be Banned,Other Controversial Topics,4,1,3,1.0,0,1.0,1.0,0.75,0,1.0,0.6667,0.5,0,1.0,0.3333,0.25,0,0.0,0.3333,0.5,0,1.0,0.3333
+991,Democracies should ban the display of communist and Nazi symbols,Politics & Governance,5,1,4,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.2,0,0.0,0.25,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+992,We should prize freedom over security and abolish anti-terrorism legislation,Other Controversial Topics,5,4,1,1.0,0,1.0,1.0,0.6,0,0.5,1.0,0.8,0,0.75,1.0,0.6,0,0.5,1.0,0.6,0,0.5,1.0
+993,All drugs should be decriminalised,Healthcare & Bioethics,4,4,0,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,
+994,Poorer Countries Should Abandon Free Trade Agreements,Economics & Labor,10,6,4,0.3,0,0.5,0.0,0.2,0,0.1667,0.25,0.3,0,0.5,0.0,0.2,0,0.3333,0.0,0.2,0,0.3333,0.0
+995,Heavy drinkers should be denied liver transplants,Other Controversial Topics,1,0,1,0.0,1,,0.0,1.0,0,,1.0,1.0,0,,1.0,0.0,1,,0.0,1.0,0,,1.0
+996,There is a good case for stating that there is a God,Social & Cultural Issues,7,3,4,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+997,Pre-nuptial agreements should not be recognised in divorce courts,Politics & Governance,7,5,2,0.1429,0,0.0,0.5,0.1429,0,0.0,0.5,0.2857,0,0.2,0.5,0.1429,0,0.0,0.5,0.2857,0,0.2,0.5
+998,Same-Sex Marriage Should Be Legal,"Law, Crime & Justice",5,4,1,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0
+999,Leaders of countries that use extra-territorial rendition should be tried for war crimes,"Law, Crime & Justice",1,1,0,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,
+1000,Public health concerns justify compulsory immunization,Healthcare & Bioethics,2,2,0,0.0,1,0.0,,0.0,1,0.0,,0.5,0,0.5,,0.0,1,0.0,,0.5,0,0.5,
+1001,Rich countries should actively recruit medical personnel from poorer countries,Healthcare & Bioethics,8,2,6,0.125,0,0.0,0.1667,0.125,0,0.0,0.1667,0.25,0,0.0,0.3333,0.125,0,0.0,0.1667,0.25,0,0.0,0.3333
+1002,Dictatorship Is the Best Path to Development,Other Controversial Topics,16,11,5,0.25,0,0.2727,0.2,0.125,0,0.0909,0.2,0.125,0,0.0909,0.2,0.1875,0,0.1818,0.2,0.1875,0,0.0909,0.4
+1003,Religions Should Not Qualify as Charities,Social & Cultural Issues,1,1,0,1.0,0,1.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,
+1004,Net Neutrality – All Internet Traffic Should Be Treated Equally,Science & Technology,11,6,5,0.2727,0,0.1667,0.4,0.2727,0,0.3333,0.2,0.2727,0,0.3333,0.2,0.3636,0,0.3333,0.4,0.2727,0,0.3333,0.2
+1005,Drones Should Be Used to Take Out Enemy Combatants,Other Controversial Topics,21,12,9,0.1429,0,0.0833,0.2222,0.0476,0,0.0833,0.0,0.1905,0,0.25,0.1111,0.1905,0,0.25,0.1111,0.2381,0,0.0833,0.4444
+1006,We Should Have a Quota for Women on Corporate Boards,Economics & Labor,1,1,0,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,,0.0,1,0.0,

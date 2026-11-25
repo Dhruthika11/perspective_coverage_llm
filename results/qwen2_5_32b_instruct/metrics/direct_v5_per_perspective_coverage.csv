@@ -1,0 +1,181 @@
+claim_id,perspective_id,cluster_id,stance,max_v5_probability,covered_f1,covered_prec90,best_supporting_argument
+1,3,2214,support,0.7524,True,False,"**Ethical Perspective:** 
+From an ethical standpoint, the use of child performers raises serious concerns about exploitation and the right to childhood. Children have the inherent right to a protected"
+1,20807,2214,support,0.8149,True,False,"**Ethical Perspective:** 
+From an ethical standpoint, the use of child performers raises serious concerns about exploitation and the right to childhood. Children have the inherent right to a protected"
+1,20808,2214,support,0.8385,True,True,"**Ethical Perspective:** 
+From an ethical standpoint, the use of child performers raises serious concerns about exploitation and the right to childhood. Children have the inherent right to a protected"
+1,20809,2214,support,0.9275,True,True,"### Legal, Institutional, or Policy Perspective
+
+**Legal Perspective:**
+From a legal standpoint, the use of child performers can be regulated rather than completely banned to ensure their rights and w"
+1,20810,2214,support,0.8504,True,True,"**Ethical Perspective:** 
+From an ethical standpoint, the use of child performers raises serious concerns about exploitation and the right to childhood. Children have the inherent right to a protected"
+1,9,2215,undermine,0.2588,False,False,"### Legal, Institutional, or Policy Perspective
+
+**Legal Perspective:**
+From a legal standpoint, the use of child performers can be regulated rather than completely banned to ensure their rights and w"
+1,20827,2215,undermine,0.5482,True,False,"**Ethical Perspective:** 
+From an ethical standpoint, the use of child performers raises serious concerns about exploitation and the right to childhood. Children have the inherent right to a protected"
+1,20828,2215,undermine,0.8466,True,True,"### Practical, Pragmatic, or Implementation Perspective
+
+**Practical Perspective:**
+Banning child performers outright may not be feasible due to the logistical challenges involved in enforcement and t"
+1,20829,2215,undermine,0.3093,False,False,"### Practical, Pragmatic, or Implementation Perspective
+
+**Practical Perspective:**
+Banning child performers outright may not be feasible due to the logistical challenges involved in enforcement and t"
+1,2,2216,support,0.9293,True,True,"### Legal, Institutional, or Policy Perspective
+
+**Legal Perspective:**
+From a legal standpoint, the use of child performers can be regulated rather than completely banned to ensure their rights and w"
+1,20803,2216,support,0.9463,True,True,"### Practical, Pragmatic, or Implementation Perspective
+
+**Practical Perspective:**
+Banning child performers outright may not be feasible due to the logistical challenges involved in enforcement and t"
+1,20804,2216,support,0.789,True,False,"### Legal, Institutional, or Policy Perspective
+
+**Legal Perspective:**
+From a legal standpoint, the use of child performers can be regulated rather than completely banned to ensure their rights and w"
+1,20805,2216,support,0.9333,True,True,"### Legal, Institutional, or Policy Perspective
+
+**Legal Perspective:**
+From a legal standpoint, the use of child performers can be regulated rather than completely banned to ensure their rights and w"
+1,20806,2216,support,0.9456,True,True,"### Practical, Pragmatic, or Implementation Perspective
+
+**Practical Perspective:**
+Banning child performers outright may not be feasible due to the logistical challenges involved in enforcement and t"
+1,1,2217,support,0.921,True,True,"### Legal, Institutional, or Policy Perspective
+
+**Legal Perspective:**
+From a legal standpoint, the use of child performers can be regulated rather than completely banned to ensure their rights and w"
+1,20799,2217,support,0.9149,True,True,"### Practical, Pragmatic, or Implementation Perspective
+
+**Practical Perspective:**
+Banning child performers outright may not be feasible due to the logistical challenges involved in enforcement and t"
+1,20800,2217,support,0.9374,True,True,"### Legal, Institutional, or Policy Perspective
+
+**Legal Perspective:**
+From a legal standpoint, the use of child performers can be regulated rather than completely banned to ensure their rights and w"
+1,20801,2217,support,0.9228,True,True,"### Practical, Pragmatic, or Implementation Perspective
+
+**Practical Perspective:**
+Banning child performers outright may not be feasible due to the logistical challenges involved in enforcement and t"
+1,20802,2217,support,0.8898,True,True,"### Legal, Institutional, or Policy Perspective
+
+**Legal Perspective:**
+From a legal standpoint, the use of child performers can be regulated rather than completely banned to ensure their rights and w"
+1,5,2218,support,0.8752,True,True,"### Practical, Pragmatic, or Implementation Perspective
+
+**Practical Perspective:**
+Banning child performers outright may not be feasible due to the logistical challenges involved in enforcement and t"
+1,20815,2218,support,0.862,True,True,"### Practical, Pragmatic, or Implementation Perspective
+
+**Practical Perspective:**
+Banning child performers outright may not be feasible due to the logistical challenges involved in enforcement and t"
+1,20816,2218,support,0.8901,True,True,"### Legal, Institutional, or Policy Perspective
+
+**Legal Perspective:**
+From a legal standpoint, the use of child performers can be regulated rather than completely banned to ensure their rights and w"
+1,20817,2218,support,0.8633,True,True,"### Legal, Institutional, or Policy Perspective
+
+**Legal Perspective:**
+From a legal standpoint, the use of child performers can be regulated rather than completely banned to ensure their rights and w"
+1,20818,2218,support,0.8497,True,True,"### Practical, Pragmatic, or Implementation Perspective
+
+**Practical Perspective:**
+Banning child performers outright may not be feasible due to the logistical challenges involved in enforcement and t"
+1,7,2219,undermine,0.9189,True,True,"### Practical, Pragmatic, or Implementation Perspective
+
+**Practical Perspective:**
+Banning child performers outright may not be feasible due to the logistical challenges involved in enforcement and t"
+1,20819,2219,undermine,0.2407,False,False,"### Practical, Pragmatic, or Implementation Perspective
+
+**Practical Perspective:**
+Banning child performers outright may not be feasible due to the logistical challenges involved in enforcement and t"
+1,20820,2219,undermine,0.8703,True,True,"### Legal, Institutional, or Policy Perspective
+
+**Legal Perspective:**
+From a legal standpoint, the use of child performers can be regulated rather than completely banned to ensure their rights and w"
+1,20822,2219,undermine,0.8441,True,True,"### Legal, Institutional, or Policy Perspective
+
+**Legal Perspective:**
+From a legal standpoint, the use of child performers can be regulated rather than completely banned to ensure their rights and w"
+1,20821,2219,undermine,0.9138,True,True,"### Legal, Institutional, or Policy Perspective
+
+**Legal Perspective:**
+From a legal standpoint, the use of child performers can be regulated rather than completely banned to ensure their rights and w"
+1,8,2220,undermine,0.9042,True,True,"### Practical, Pragmatic, or Implementation Perspective
+
+**Practical Perspective:**
+Banning child performers outright may not be feasible due to the logistical challenges involved in enforcement and t"
+1,20823,2220,undermine,0.861,True,True,"### Practical, Pragmatic, or Implementation Perspective
+
+**Practical Perspective:**
+Banning child performers outright may not be feasible due to the logistical challenges involved in enforcement and t"
+1,20825,2220,undermine,0.9238,True,True,"### Practical, Pragmatic, or Implementation Perspective
+
+**Practical Perspective:**
+Banning child performers outright may not be feasible due to the logistical challenges involved in enforcement and t"
+1,20826,2220,undermine,0.9165,True,True,"### Practical, Pragmatic, or Implementation Perspective
+
+**Practical Perspective:**
+Banning child performers outright may not be feasible due to the logistical challenges involved in enforcement and t"
+1,20824,2220,undermine,0.8976,True,True,"### Practical, Pragmatic, or Implementation Perspective
+
+**Practical Perspective:**
+Banning child performers outright may not be feasible due to the logistical challenges involved in enforcement and t"
+1,4,2221,support,0.9067,True,True,"### Practical, Pragmatic, or Implementation Perspective
+
+**Practical Perspective:**
+Banning child performers outright may not be feasible due to the logistical challenges involved in enforcement and t"
+1,20811,2221,support,0.8993,True,True,"### Practical, Pragmatic, or Implementation Perspective
+
+**Practical Perspective:**
+Banning child performers outright may not be feasible due to the logistical challenges involved in enforcement and t"
+1,20812,2221,support,0.8966,True,True,"### Practical, Pragmatic, or Implementation Perspective
+
+**Practical Perspective:**
+Banning child performers outright may not be feasible due to the logistical challenges involved in enforcement and t"
+1,20813,2221,support,0.9153,True,True,"**Ethical Perspective:** 
+From an ethical standpoint, the use of child performers raises serious concerns about exploitation and the right to childhood. Children have the inherent right to a protected"
+1,20814,2221,support,0.9378,True,True,"### Practical, Pragmatic, or Implementation Perspective
+
+**Practical Perspective:**
+Banning child performers outright may not be feasible due to the logistical challenges involved in enforcement and t"
+2,15,5032,undermine,0.8818,True,True,"### Social Perspective
+
+From a social perspective, exempting celebrities from national service could create a divisive social dynamic. While celebrities serve as influential figures and role models, t"
+2,20839,5032,undermine,0.9163,True,True,"### Practical Perspective
+
+From a practical standpoint, exempting celebrities from national service could lead to logistical challenges and resource reallocations. Ensuring that celebrities, who often"
+2,20840,5032,undermine,0.9369,True,True,"### Legal Perspective
+
+From a legal standpoint, exempting celebrities from national service would require clear and justifiable criteria embedded in the law. The principle of equal application of the "
+2,14,5033,undermine,0.8988,True,True,"### Social Perspective
+
+From a social perspective, exempting celebrities from national service could create a divisive social dynamic. While celebrities serve as influential figures and role models, t"
+2,20835,5033,undermine,0.8744,True,True,"### Legal Perspective
+
+From a legal standpoint, exempting celebrities from national service would require clear and justifiable criteria embedded in the law. The principle of equal application of the "
+2,20836,5033,undermine,0.8484,True,True,"### Practical Perspective
+
+From a practical standpoint, exempting celebrities from national service could lead to logistical challenges and resource reallocations. Ensuring that celebrities, who often"
+2,20837,5033,undermine,0.9345,True,True,"### Practical Perspective
+
+From a practical standpoint, exempting celebrities from national service could lead to logistical challenges and resource reallocations. Ensuring that celebrities, who often"
+2,20838,5033,undermine,0.9319,True,True,"### Practical Perspective
+
+From a practical standpoint, exempting celebrities from national service could lead to logistical challenges and resource reallocations. Ensuring that celebrities, who often"
+2,10,5034,support,0.9142,True,True,"### Social Perspective
+
+From a social perspective, exempting celebrities from national service could create a divisive social dynamic. While celebrities serve as influential figures and role models, t"
+2,20832,5034,support,0.918,True,True,"### Practical Perspective
+
+From a practical standpoint, exempting celebrities from national service could lead to logistical challenges and resource reallocations. Ensuring that celebrities, who often"
+2,20833,5034,support,0.9285,True,True,"### Practical Perspective
+
+From a practical standpoint, exempting celebrities from national service could lead to logistical challenges and resource reallocations. Ensuring that celebrities, who often"
+2,20834,5034,support,0.9351,True,True,"### Practical Perspective
+
+From a practical standpoint, exempting celebrities from national service could lead to logistical challenges and resource reallocations. Ensuring that celebrities, who often"

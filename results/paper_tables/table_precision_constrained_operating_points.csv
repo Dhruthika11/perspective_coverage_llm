@@ -1,0 +1,9 @@
+Objective,Model,Selected_Theta,Cal_Precision,Cal_Recall,Cal_F1,Test_TP,Test_FP,Test_Cond_Prec,Test_Cond_Rec,Test_Pipeline_Rec,Test_Pipeline_Rec_95CI,Test_Pipeline_F1
+Primary: Precision >= 90%,Baseline DeBERTa,0.72,0.9104,0.2877,0.4373,35,0,1.0,0.5932,0.5833,0.4573–0.6994,0.7368
+Primary: Precision >= 90%,Version 3 (Coverage-Aware),0.95,0.9091,0.283,0.4317,22,0,1.0,0.3729,0.3667,0.2562–0.4932,0.5366
+High-Precision Target: Precision >= 95%,Baseline DeBERTa,0.72,,,,35,0,1.0,0.5932,0.5833,0.4573–0.6994,0.7368
+High-Precision Target: Precision >= 95%,Version 3 (Coverage-Aware),0.95,,,,22,0,1.0,0.3729,0.3667,0.2562–0.4932,0.5366
+Ultra-High-Precision Target: Precision >= 98%,Baseline DeBERTa,0.72,,,,35,0,1.0,0.5932,0.5833,0.4573–0.6994,0.7368
+Ultra-High-Precision Target: Precision >= 98%,Version 3 (Coverage-Aware),0.95,,,,22,0,1.0,0.3729,0.3667,0.2562–0.4932,0.5366
+Secondary: Maximum F1,Baseline DeBERTa,0.01,0.8571,0.4528,0.5926,39,1,0.975,0.661,0.65,0.5236–0.7583,0.78
+Secondary: Maximum F1,Version 3 (Coverage-Aware),0.01,0.841,0.7736,0.8059,40,1,0.9756,0.678,0.6667,0.5406–0.7727,0.7921

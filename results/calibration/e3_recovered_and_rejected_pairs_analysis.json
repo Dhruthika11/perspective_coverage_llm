@@ -1,0 +1,49 @@
+{
+  "recovered_class_2": [
+    {
+      "pair_id": 1365,
+      "claim_id": 585,
+      "claim_text": "Social networking sites are good for our society",
+      "gold_perspective_text": "People can improve relationships and make new friends with social media.",
+      "generated_viewpoint_text": "Social networking sites enhance social connections and community engagement among marginalized groups, fostering a sense of belonging and empowerment. By providing a platform for marginalized individuals to connect with others who share similar experiences, social networking sites can help reduce feelings of isolation and promote collective action, ultimately leading to increased social cohesion and community mobilization.",
+      "m0_prob": 0.1568177913710358,
+      "m4_prob": 0.1746474019226823,
+      "cosine_similarity": 0.7128,
+      "claim_cosine": 0.7553,
+      "reasoning_cosine": 0.7603,
+      "warrant_cosine": 0.9232,
+      "p_entail": 0.045
+    }
+  ],
+  "lost_class_2": [
+    {
+      "pair_id": 168,
+      "claim_id": 809,
+      "claim_text": "DNA testing is worth the money",
+      "gold_perspective_text": "DNA testing can find things that a regular visit to your Dr. can not.",
+      "generated_viewpoint_text": "DNA testing provides invaluable information that can lead to crucial medical diagnoses and treatments, making it worth the investment for individuals seeking personal health optimization.",
+      "m0_prob": 0.3758851691555081,
+      "m4_prob": 0.05251649526622385,
+      "cosine_similarity": 0.7382,
+      "claim_cosine": 0.736,
+      "reasoning_cosine": 0.321,
+      "warrant_cosine": 0.791
+    }
+  ],
+  "newly_rejected_class_1": [],
+  "newly_accepted_class_1": [
+    {
+      "pair_id": 1414,
+      "claim_id": 82,
+      "claim_text": "Developing nations should place restrictions on rural-urban migration",
+      "gold_perspective_text": "If developing nations place restrictions on rural-urban migration, the potential for poor rural citizens to improve their quality of life will be lost in these regulations.",
+      "generated_viewpoint_text": "Restricting rural-urban migration impedes the natural flow of labor and innovation, stifling economic dynamism and cultural interaction. Restrictions on migration hinder the spontaneous exchange of ideas, skills, and innovation that are crucial for the development of both rural and urban areas, limiting the benefits of cultural and economic integration.",
+      "m0_prob": 0.1589141605371179,
+      "m4_prob": 0.1392119751126254,
+      "cosine_similarity": 0.7036,
+      "claim_cosine": 0.7067,
+      "reasoning_cosine": 0.7189,
+      "warrant_cosine": 0.9137
+    }
+  ]
+}

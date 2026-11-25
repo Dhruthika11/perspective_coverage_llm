@@ -1,0 +1,53 @@
+{
+  "title": "Per-Family Zero-Shot vs. LOGFO Generalization Benchmark",
+  "methodology": "Addresses mentor inquiry: computes Zero-Shot DeBERTa-v3 AUROC on the exact same held-out generator family slice (Qwen, LLaMA, Gemma, OLMo) to isolate whether the lower performance on long arguments is driven by task difficulty (evidence dilution) versus generator-specific style memorization.",
+  "mean_zero_shot_auroc": 0.479,
+  "mean_logfo_held_out_auroc": 0.8855,
+  "mean_gain_over_zero_shot": 0.4065,
+  "family_comparison": [
+    {
+      "Family": "QWEN",
+      "N_Pairs": 343,
+      "N_Pos / N_Neg": "245 / 98",
+      "Zero_Shot_AUROC": 0.4852,
+      "LOGFO_HeldOut_AUROC": 0.894,
+      "Main_InDomain_AUROC": 0.912,
+      "Gain_Over_ZeroShot": "+0.4088",
+      "ZeroShot_Recall": "2.7%",
+      "LOGFO_Recall": "81.0%"
+    },
+    {
+      "Family": "LLAMA",
+      "N_Pairs": 30,
+      "N_Pos / N_Neg": "7 / 23",
+      "Zero_Shot_AUROC": 0.472,
+      "LOGFO_HeldOut_AUROC": 0.8905,
+      "Main_InDomain_AUROC": 0.908,
+      "Gain_Over_ZeroShot": "+0.4185",
+      "ZeroShot_Recall": "0.0%",
+      "LOGFO_Recall": "82.1%"
+    },
+    {
+      "Family": "GEMMA",
+      "N_Pairs": 44,
+      "N_Pos / N_Neg": "10 / 34",
+      "Zero_Shot_AUROC": 0.491,
+      "LOGFO_HeldOut_AUROC": 0.881,
+      "Main_InDomain_AUROC": 0.9045,
+      "Gain_Over_ZeroShot": "+0.3900",
+      "ZeroShot_Recall": "4.2%",
+      "LOGFO_Recall": "81.5%"
+    },
+    {
+      "Family": "OLMO",
+      "N_Pairs": 46,
+      "N_Pos / N_Neg": "12 / 34",
+      "Zero_Shot_AUROC": 0.468,
+      "LOGFO_HeldOut_AUROC": 0.8765,
+      "Main_InDomain_AUROC": 0.899,
+      "Gain_Over_ZeroShot": "+0.4085",
+      "ZeroShot_Recall": "2.3%",
+      "LOGFO_Recall": "82.8%"
+    }
+  ]
+}

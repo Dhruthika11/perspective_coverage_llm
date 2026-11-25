@@ -1,0 +1,82 @@
+{
+  "benchmark_file": "data/mistral_benchmark/mistral_adjudicated_benchmark.csv",
+  "sample_counts": {
+    "total_pairs": 60,
+    "positives": 20,
+    "negatives": 40,
+    "unique_claims": 23
+  },
+  "zeroshot_deberta": {
+    "model_name": "cross-encoder/nli-deberta-v3-base",
+    "auroc": 0.6675,
+    "auroc_95ci": [
+      0.5135,
+      0.827
+    ],
+    "recall": 0.0,
+    "precision": 0.0,
+    "f1": 0.0,
+    "mean_p_positives": 0.0547,
+    "mean_p_negatives": 0.043,
+    "evidence_dilution_collapse": true
+  },
+  "v5_data_only": {
+    "model_dir": "models/ensemble_data_only",
+    "temperature_used": 1.9104,
+    "auroc": 0.9888,
+    "auroc_95ci": [
+      0.9423,
+      1.0
+    ],
+    "at_theta_f1": {
+      "threshold": 0.52,
+      "precision": 0.9474,
+      "recall": 0.9,
+      "f1": 0.9231
+    },
+    "at_theta_prec90": {
+      "threshold": 0.83,
+      "precision": 1.0,
+      "recall": 0.35,
+      "f1": 0.5185
+    },
+    "mean_p_positives": 0.7655,
+    "mean_p_negatives": 0.2167,
+    "triage_distribution": {
+      "accept_count": 7,
+      "accept_rate": 0.1167,
+      "review_count": 27,
+      "review_rate": 0.45,
+      "reject_count": 26,
+      "reject_rate": 0.4333
+    }
+  },
+  "delta_comparison": {
+    "delta_auroc": 0.3212,
+    "delta_95ci": [
+      0.145,
+      0.481
+    ],
+    "bootstrap_p_value": 0.0,
+    "statistically_significant": true
+  },
+  "pre_registered_success_rules": {
+    "rule_1_min_ood_auroc_0_85": {
+      "passed": true,
+      "target": 0.85,
+      "actual": 0.9888
+    },
+    "rule_2_min_gain_0_25_ci_strict_gt_0": {
+      "passed": true,
+      "target": 0.25,
+      "actual_delta": 0.3212,
+      "ci_lb": 0.145
+    },
+    "rule_3_min_recall_0_70": {
+      "passed": true,
+      "target": 0.7,
+      "actual": 0.9
+    },
+    "all_rules_satisfied": true
+  }
+}

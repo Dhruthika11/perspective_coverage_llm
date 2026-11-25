@@ -1,0 +1,1 @@
+{"stance": "support", "perspective_summary": "Vaccination mandates may generate significant economic benefits through increased vaccine uptake and subsequent revenue generation from healthcare.", "core_reasoning": "The economic benefits of vaccination mandates can be attributed to increased vaccine sales, which in turn boost healthcare revenue and stimulate local economies."}

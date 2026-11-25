@@ -1,0 +1,11 @@
+fixture_name,filename,model_key,claim_id,sample_id,text_length,words
+browser_error,browser_error.txt,olmo_2_0425_1b,710,3,1192,210
+numbered_viewpoints,numbered_viewpoints.txt,qwen2_5_32b_instruct,499,0,1026,139
+markdown_viewpoints,markdown_viewpoints.txt,qwen2_5_32b_instruct,499,1,2303,324
+multi_json,multi_json.txt,olmo_2_1124_13b,499,1,1004,151
+nested_json,nested_json.txt,olmo_2_0325_32b,274,4,1526,223
+missing_stance,missing_stance.txt,llama_3_2_1b_instruct,499,0,378,44
+duplicate_viewpoints,duplicate_viewpoints.txt,smollm2_135m_instruct,499,1,2446,431
+unrelated_topic,unrelated_topic.txt,olmo_2_0425_1b,499,1,334,52
+merged_viewpoints,merged_viewpoints.txt,olmo_2_0325_32b,662,4,2670,427
+truncated_generation,truncated_generation.txt,llama_3_2_1b_instruct,29,2,165,20

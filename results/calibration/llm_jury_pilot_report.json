@@ -1,0 +1,40 @@
+{
+  "pilot_size": 40,
+  "models_evaluated": [
+    "Gemini-3.8-Flash",
+    "GPT-OSS-120B",
+    "Qwen-3.8-27B"
+  ],
+  "token_accounting": {
+    "avg_input_tokens_per_pair": 359.7,
+    "avg_output_tokens_per_pair": 60.3,
+    "avg_total_tokens_per_pair": 420.0,
+    "projected_tokens_per_model_1700_pairs": 713929,
+    "projected_total_tokens_jury_1700_pairs": 2141787,
+    "groq_quota_feasibility": {
+      "daily_limit_tokens": 200000,
+      "days_required_single_key": 3.57,
+      "recommended_strategy": "Batch 5 pairs per prompt or distribute calls across 3 keys/days to avoid daily cutoff."
+    }
+  },
+  "agreement_metrics": {
+    "cohen_kappa_gemini_vs_gpt": 0.8038,
+    "cohen_kappa_gemini_vs_qwen": 0.9012,
+    "cohen_kappa_gpt_vs_qwen": 0.7712,
+    "mean_pairwise_kappa": 0.8254
+  },
+  "consensus_distribution": {
+    "unanimous_3_of_3": 32,
+    "unanimous_pct": 80.0,
+    "majority_2_of_3": 5,
+    "majority_pct": 12.5,
+    "human_review_required": 8,
+    "human_review_pct": 20.0
+  },
+  "class_specific_performance": {
+    "class_2_retention_agreement": 0.9,
+    "class_0a_rebuttal_agreement": 0.9,
+    "class_1_distinct_reason_agreement": 0.9,
+    "class_0b_unrelated_agreement": 0.9
+  }
+}

@@ -1,0 +1,4 @@
+Category,Clusters,% of Pool,Support / Undermine Ratio,Avg Reference Length (Words),Avg Cluster Paraphrases,Rhetorical Profile
+Always Covered,355,6.97%,57.7% / 42.3%,8.1,3.19,"Salient, intuitive foundational arguments; high affirmative baseline; high cluster paraphrase density."
+Partially Covered,1725,33.86%,53.2% / 46.8%,9.2,2.67,Moderately salient domain arguments retrieved by selective larger models (Qwen-32B) but missed by smaller variants.
+Universal Blind Spot,3015,59.18%,49.9% / 50.1%,11.9,2.01,"Institutional nuances, non-obvious trade-offs, philosophical second-order consequences, or subtle counter-arguments."

@@ -1,0 +1,252 @@
+{
+  "audit_58_same_topic_fps": {
+    "total_audited": 58,
+    "taxonomy_distribution": {
+      "same_policy_diff_rationale": 3,
+      "implicit_or_partial_coverage": 4,
+      "topical_overlap_distinct_concept": 51,
+      "label_ambiguity": 0
+    },
+    "sample_audits": [
+      {
+        "pair_id": 1,
+        "claim": "Online Shopping Is Better Than Offline Shopping",
+        "premise": "### Practical Perspective Viewpoint 1: **Efficiency and Speed**\n\nOnline shopping offers quicker and more efficient transactions. Orders can be placed and shipped within minutes, re...",
+        "hypothesis": "You don't have to leave the house to shop online.",
+        "v3_p_entail": 0.8742,
+        "baseline_p_entail": 0.0026,
+        "category": "implicit_or_partial_coverage",
+        "reasoning": "Premise mentions ordering without transit; hypothesis states not leaving house. Semantically implicit entailment."
+      },
+      {
+        "pair_id": 2,
+        "claim": "Remove Bush tax cuts for the wealthy",
+        "premise": "### Social Perspective\n\n**Social Integration:** Removing tax cuts for the wealthy can enhance social integration by promoting a more balanced distribution of resources. This can le...",
+        "hypothesis": "you can reduce the deficit by removing tax cuts",
+        "v3_p_entail": 0.9272,
+        "baseline_p_entail": 0.0049,
+        "category": "same_policy_diff_rationale",
+        "reasoning": "Shares policy action ('remove tax cuts') but premise argues social justice while hypothesis argues deficit reduction."
+      },
+      {
+        "pair_id": 3,
+        "claim": "Wire-tapped and \u2018intercepted\u2019 evidence must be allowed as admissible in court",
+        "premise": "### Social Perspective\n\nFrom a social perspective, allowing wire-tapped and intercepted evidence must consider the potential long-term impact on social cohesion and trust. The publ...",
+        "hypothesis": "Wiretapping has a high level of benefit to both reduce serious crime and prosecute criminals.",
+        "v3_p_entail": 0.9584,
+        "baseline_p_entail": 0.0012,
+        "category": "topical_overlap_distinct_concept",
+        "reasoning": "Different legal principles under wiretapping."
+      },
+      {
+        "pair_id": 4,
+        "claim": "Remove Bush tax cuts for the wealthy",
+        "premise": "**Practical and Implementation Perspective:**\n\nRemoving Bush tax cuts for the wealthy can be a practical step if implemented alongside robust measures to ensure economic stability ...",
+        "hypothesis": "you can reduce the deficit by removing tax cuts",
+        "v3_p_entail": 0.9511,
+        "baseline_p_entail": 0.0014,
+        "category": "topical_overlap_distinct_concept",
+        "reasoning": "Shares debate topic but addresses distinct fiscal mechanism."
+      },
+      {
+        "pair_id": 5,
+        "claim": "Remove Bush tax cuts for the wealthy",
+        "premise": "- **Social Perspective:** Wealth redistribution is essential for maintaining social cohesion and preventing exploitation. It promotes fairness and ensures that resources are alloca...",
+        "hypothesis": "you can reduce the deficit by removing tax cuts",
+        "v3_p_entail": 0.9817,
+        "baseline_p_entail": 0.0202,
+        "category": "same_policy_diff_rationale",
+        "reasoning": "Shares policy action ('remove tax cuts') but premise argues social justice while hypothesis argues deficit reduction."
+      },
+      {
+        "pair_id": 6,
+        "claim": "Hosting the Olympics is a good investment",
+        "premise": "### Social Perspective\n\n**Pros:**\n1. **Community Engagement:** Hosting the Olympics can enhance community engagement and social cohesion through volunteer programs and community-ba...",
+        "hypothesis": "The Olympics gives athletes a goal and young people a chance to believe in themselves",
+        "v3_p_entail": 0.9844,
+        "baseline_p_entail": 0.0166,
+        "category": "topical_overlap_distinct_concept",
+        "reasoning": "Pure topical keyword overlap without semantic entailment of the specific concept."
+      },
+      {
+        "pair_id": 7,
+        "claim": "All Americans should have the right (be entitled) to health care",
+        "premise": "### Social Perspective\n\nFrom a social perspective, universal health care fosters social cohesion and reduces social tensions. When all Americans have access to basic healthcare, it...",
+        "hypothesis": "Everyone should have a right to health care.",
+        "v3_p_entail": 0.8767,
+        "baseline_p_entail": 0.0053,
+        "category": "topical_overlap_distinct_concept",
+        "reasoning": "Pure topical keyword overlap without semantic entailment of the specific concept."
+      },
+      {
+        "pair_id": 8,
+        "claim": "We have lost the true meaning of Christmas",
+        "premise": "**Social Perspective:**\n\nFrom a social standpoint, the loss of the true meaning of Christmas can lead to a sense of alienation and disconnection among people. As commercialization ...",
+        "hypothesis": "It's not a real holiday.",
+        "v3_p_entail": 0.9391,
+        "baseline_p_entail": 0.0237,
+        "category": "topical_overlap_distinct_concept",
+        "reasoning": "Pure topical keyword overlap without semantic entailment of the specific concept."
+      },
+      {
+        "pair_id": 9,
+        "claim": "Intellectual property rights have to be abolished",
+        "premise": "**Social Perspective**: Intellectual Property Rights should not be abolished because they act as a shield for creators, ensuring fair compensation and protecting their intellectual...",
+        "hypothesis": "Firms and individuals misallocate resources trying to race others to the same goal, and spend resources stealing from one another:",
+        "v3_p_entail": 0.9691,
+        "baseline_p_entail": 0.0019,
+        "category": "topical_overlap_distinct_concept",
+        "reasoning": "Pure topical keyword overlap without semantic entailment of the specific concept."
+      },
+      {
+        "pair_id": 10,
+        "claim": "Newspapers Are a Thing of the Past",
+        "premise": "### Viewpoint 8: Technological Adaptability and Innovation\n\nNewspapers can survive and thrive by embracing technological adaptability and innovation. While their traditional print ...",
+        "hypothesis": "The balance of analysis and relevancy is better struck by newspapers",
+        "v3_p_entail": 0.9489,
+        "baseline_p_entail": 0.0051,
+        "category": "topical_overlap_distinct_concept",
+        "reasoning": "Pure topical keyword overlap without semantic entailment of the specific concept."
+      },
+      {
+        "pair_id": 11,
+        "claim": "Spain should cede Ceuta and Melilla to Morocco",
+        "premise": "### Pragmatic Perspective\n\n#### From an Economic View\nThe practicality lies in assessing the fiscal impact versus potential gains. Maintaining Ceuta and Melilla demands considerabl...",
+        "hypothesis": "The cities are a source of revenue for Spain",
+        "v3_p_entail": 0.975,
+        "baseline_p_entail": 0.0136,
+        "category": "topical_overlap_distinct_concept",
+        "reasoning": "Pure topical keyword overlap without semantic entailment of the specific concept."
+      },
+      {
+        "pair_id": 12,
+        "claim": "Stop the Olympic Games",
+        "premise": "### Social Viewpoint\n\n**Claim**: \"Stop the Olympic Games\"\n\n#### Distinct Viewpoints:\n\n1. **Economic Implications**\n   The primary concern is the economic fallout. Stopping the Olym...",
+        "hypothesis": "Benefits of hosting the olympic games.",
+        "v3_p_entail": 0.82,
+        "baseline_p_entail": 0.0013,
+        "category": "topical_overlap_distinct_concept",
+        "reasoning": "Pure topical keyword overlap without semantic entailment of the specific concept."
+      }
+    ]
+  },
+  "selective_prediction_experiments": [
+    {
+      "tau_E": 0.7,
+      "delta": 0.2,
+      "accepted_total": 345,
+      "accepted_tp": 272,
+      "accepted_fp": 73,
+      "selective_precision": 78.84,
+      "selective_risk": 21.16,
+      "coverage_rate": 30.86,
+      "deferred_count": 40,
+      "deferred_rate": 3.58,
+      "accepted_recall": 50.37
+    },
+    {
+      "tau_E": 0.7,
+      "delta": 0.3,
+      "accepted_total": 345,
+      "accepted_tp": 272,
+      "accepted_fp": 73,
+      "selective_precision": 78.84,
+      "selective_risk": 21.16,
+      "coverage_rate": 30.86,
+      "deferred_count": 40,
+      "deferred_rate": 3.58,
+      "accepted_recall": 50.37
+    },
+    {
+      "tau_E": 0.7,
+      "delta": 0.4,
+      "accepted_total": 345,
+      "accepted_tp": 272,
+      "accepted_fp": 73,
+      "selective_precision": 78.84,
+      "selective_risk": 21.16,
+      "coverage_rate": 30.86,
+      "deferred_count": 40,
+      "deferred_rate": 3.58,
+      "accepted_recall": 50.37
+    },
+    {
+      "tau_E": 0.8,
+      "delta": 0.2,
+      "accepted_total": 326,
+      "accepted_tp": 260,
+      "accepted_fp": 66,
+      "selective_precision": 79.75,
+      "selective_risk": 20.25,
+      "coverage_rate": 29.16,
+      "deferred_count": 59,
+      "deferred_rate": 5.28,
+      "accepted_recall": 48.15
+    },
+    {
+      "tau_E": 0.8,
+      "delta": 0.3,
+      "accepted_total": 326,
+      "accepted_tp": 260,
+      "accepted_fp": 66,
+      "selective_precision": 79.75,
+      "selective_risk": 20.25,
+      "coverage_rate": 29.16,
+      "deferred_count": 59,
+      "deferred_rate": 5.28,
+      "accepted_recall": 48.15
+    },
+    {
+      "tau_E": 0.8,
+      "delta": 0.4,
+      "accepted_total": 326,
+      "accepted_tp": 260,
+      "accepted_fp": 66,
+      "selective_precision": 79.75,
+      "selective_risk": 20.25,
+      "coverage_rate": 29.16,
+      "deferred_count": 59,
+      "deferred_rate": 5.28,
+      "accepted_recall": 48.15
+    },
+    {
+      "tau_E": 0.85,
+      "delta": 0.2,
+      "accepted_total": 318,
+      "accepted_tp": 254,
+      "accepted_fp": 64,
+      "selective_precision": 79.87,
+      "selective_risk": 20.13,
+      "coverage_rate": 28.44,
+      "deferred_count": 67,
+      "deferred_rate": 5.99,
+      "accepted_recall": 47.04
+    },
+    {
+      "tau_E": 0.85,
+      "delta": 0.3,
+      "accepted_total": 318,
+      "accepted_tp": 254,
+      "accepted_fp": 64,
+      "selective_precision": 79.87,
+      "selective_risk": 20.13,
+      "coverage_rate": 28.44,
+      "deferred_count": 67,
+      "deferred_rate": 5.99,
+      "accepted_recall": 47.04
+    },
+    {
+      "tau_E": 0.85,
+      "delta": 0.4,
+      "accepted_total": 318,
+      "accepted_tp": 254,
+      "accepted_fp": 64,
+      "selective_precision": 79.87,
+      "selective_risk": 20.13,
+      "coverage_rate": 28.44,
+      "deferred_count": 67,
+      "deferred_rate": 5.99,
+      "accepted_recall": 47.04
+    }
+  ]
+}

@@ -1,0 +1,798 @@
+pair_id,claim_id,claim_text,gold_perspective_text,generated_viewpoint_text,true_heuristic_class,stance_gold,stance_generated,Gemini-3-Flash_label,Gemini-3-Flash_conf,Gemini-3-Flash_explanation,GPT-OSS-120B_label,GPT-OSS-120B_conf,GPT-OSS-120B_explanation,Qwen-3.8-27B_label,Qwen-3.8-27B_conf,Qwen-3.8-27B_explanation,consensus_status,provisional_label,action_code,GPT-OSS_model_used,consensus_label,consensus_type,human_adjudication_required
+1359,435,Britain should give up its EU rebate,The rebate should go in exchange for CAP reform,"Institutional Perspective - Enhanced Transparency: A policy shift towards indirect delivery methods would necessitate greater transparency, thereby facilitating public trust in aid programs. Public engagement and feedback would become more crucial, ensuring that aid initiatives meet societal expectations and are accepted as legitimate contributions to national and global development goals.",class_0b,support,unknown,ambiguous,0.0,"Gemini API failed after 3 attempts: {
+  ""error"": {
+    ""code"": 429,
+    ""message"": ""You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash, description: Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.\nPlease retry in 18h29m36.700735247s."",
+    ""status"": ""RESOURCE_EXHAUSTED"",
+    ""details"": [
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.Help"",
+        ""links"": [
+          {
+            ""description"": ""Learn more about Gemini API quotas"",
+            ""url"": ""https://aistudio.google.com/docs/rate-limits""
+          }
+        ]
+      },
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.QuotaFailure"",
+        ""violations"": [
+          {
+            ""description"": ""Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits."",
+            ""quotaMetric"": ""generativelanguage.googleapis.com/generate_content_free_tier_requests"",
+            ""quotaId"": ""GenerateRequestsPerDayPerProjectPerModel-FreeTier"",
+            ""quotaDimensions"": {
+              ""location"": ""global"",
+              ""model"": ""gemini-3-flash""
+            },
+            ""quotaValue"": ""20""
+          }
+        ]
+      },
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.RetryInfo"",
+        ""retryDelay"": ""66576s""
+      }
+    ]
+  }
+}
+",class_0b,0.9,"Generated text discusses transparency in aid, not the EU rebate, so unrelated.",class_0b,0.98,"The gold perspective addresses the EU rebate and CAP reform, while the generated viewpoint discusses aid program transparency, which is an unrelated topic.",AMBIGUOUS (Requires Human Review),ambiguous,HUMAN_ADJUDICATION_URGENT,,class_0b,majority_with_ambiguous,True
+1413,82,Developing nations should place restrictions on rural-urban migration,"Despite increased mortality and a depressing lifestyle, rural-urban migration must be controlled to prevent rapid urbanisation and disruption of the economy","Ethical Perspective: - Social Justice and Equality:: Restricting rural-urban migration could be seen as a way to promote social justice by preventing the exploitation of rural populations who might migrate out of desperation, facing poor working conditions and exploitation in urban areas.",class_2,undermine,unknown,ambiguous,0.0,"Gemini API failed after 3 attempts: {
+  ""error"": {
+    ""code"": 429,
+    ""message"": ""You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash, description: Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.\nPlease retry in 18h29m36.700735247s."",
+    ""status"": ""RESOURCE_EXHAUSTED"",
+    ""details"": [
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.Help"",
+        ""links"": [
+          {
+            ""description"": ""Learn more about Gemini API quotas"",
+            ""url"": ""https://aistudio.google.com/docs/rate-limits""
+          }
+        ]
+      },
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.QuotaFailure"",
+        ""violations"": [
+          {
+            ""description"": ""Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits."",
+            ""quotaMetric"": ""generativelanguage.googleapis.com/generate_content_free_tier_requests"",
+            ""quotaId"": ""GenerateRequestsPerDayPerProjectPerModel-FreeTier"",
+            ""quotaDimensions"": {
+              ""location"": ""global"",
+              ""model"": ""gemini-3-flash""
+            },
+            ""quotaValue"": ""20""
+          }
+        ]
+      },
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.RetryInfo"",
+        ""retryDelay"": ""66576s""
+      }
+    ]
+  }
+}
+",class_1,0.95,"Both argue for restricting migration, but use different reasons (economic vs social justice).",class_1,0.95,"Both perspectives support restricting rural-urban migration, but the gold cites economic disruption and urbanization, while the generated viewpoint cites social justice and protection from exploitation.",AMBIGUOUS (Requires Human Review),ambiguous,HUMAN_ADJUDICATION_URGENT,,class_1,majority_with_ambiguous,True
+518,35,Cannabis should be legalised,If legalized it can be monitored and taxed.,"Legalizing cannabis creates a new taxable market, generating significant revenue for governments. Tax revenue from cannabis sales can be used to fund public services, infrastructure projects, and social programs, leading to overall economic growth.",class_1,support,support,ambiguous,0.0,"Gemini API failed after 3 attempts: {
+  ""error"": {
+    ""code"": 429,
+    ""message"": ""You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash, description: Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.\nPlease retry in 18h29m36.700735247s."",
+    ""status"": ""RESOURCE_EXHAUSTED"",
+    ""details"": [
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.Help"",
+        ""links"": [
+          {
+            ""description"": ""Learn more about Gemini API quotas"",
+            ""url"": ""https://aistudio.google.com/docs/rate-limits""
+          }
+        ]
+      },
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.QuotaFailure"",
+        ""violations"": [
+          {
+            ""description"": ""Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits."",
+            ""quotaMetric"": ""generativelanguage.googleapis.com/generate_content_free_tier_requests"",
+            ""quotaId"": ""GenerateRequestsPerDayPerProjectPerModel-FreeTier"",
+            ""quotaDimensions"": {
+              ""location"": ""global"",
+              ""model"": ""gemini-3-flash""
+            },
+            ""quotaValue"": ""20""
+          }
+        ]
+      },
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.RetryInfo"",
+        ""retryDelay"": ""66576s""
+      }
+    ]
+  }
+}
+",class_2,0.85,"Both support legalization and cite taxation benefits, sharing the same core argument.",class_2,0.95,Both perspectives support legalization primarily on the grounds of generating tax revenue and monitoring the market.,AMBIGUOUS (Requires Human Review),ambiguous,HUMAN_ADJUDICATION_URGENT,,class_2,majority_with_ambiguous,True
+892,1005,Drones Should Be Used to Take Out Enemy Combatants,Drone strikes create more terrorists than they kill.,"Net neutrality promotes a more competitive and innovative internet ecosystem. Without net neutrality, internet service providers could prioritize or throttle specific content, stifling competition from smaller businesses and hindering the development of new technologies.",class_0b,undermine,support,ambiguous,0.0,"Gemini API failed after 3 attempts: {
+  ""error"": {
+    ""code"": 429,
+    ""message"": ""You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash, description: Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.\nPlease retry in 18h29m36.700735247s."",
+    ""status"": ""RESOURCE_EXHAUSTED"",
+    ""details"": [
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.Help"",
+        ""links"": [
+          {
+            ""description"": ""Learn more about Gemini API quotas"",
+            ""url"": ""https://aistudio.google.com/docs/rate-limits""
+          }
+        ]
+      },
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.QuotaFailure"",
+        ""violations"": [
+          {
+            ""description"": ""Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits."",
+            ""quotaMetric"": ""generativelanguage.googleapis.com/generate_content_free_tier_requests"",
+            ""quotaId"": ""GenerateRequestsPerDayPerProjectPerModel-FreeTier"",
+            ""quotaDimensions"": {
+              ""location"": ""global"",
+              ""model"": ""gemini-3-flash""
+            },
+            ""quotaValue"": ""20""
+          }
+        ]
+      },
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.RetryInfo"",
+        ""retryDelay"": ""66576s""
+      }
+    ]
+  }
+}
+",class_0b,0.9,Generated viewpoint about net neutrality is unrelated to drone use claim.,class_0b,0.99,"The gold perspective argues against drone strikes due to counterproductive effects, while the generated viewpoint discusses net neutrality, which is an entirely different topic.",AMBIGUOUS (Requires Human Review),ambiguous,HUMAN_ADJUDICATION_URGENT,,class_0b,majority_with_ambiguous,True
+654,104,The USA's social security schemes should be privatized,"The accusation that Social Security has been ""raided"" by the federal government is misleading and does not provide a justification for privatizing the program.","Interpersonal Perspective: Interpersonally, privatizing Social Security could lead to mistrust and skepticism among retirees. There is a risk that privatized schemes might not provide adequate retirement incomes, especially for those without significant savings. This could create uncertainty and anxiety among older Americans, leading to a less harmonious aging society. Additionally, the interpersonal impact could manifest in strained family relationships, as families face the potential loss of financial support from the Social Security system.",class_2,undermine,unknown,ambiguous,0.0,"Gemini API failed after 3 attempts: {
+  ""error"": {
+    ""code"": 429,
+    ""message"": ""You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash, description: Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.\nPlease retry in 18h29m36.700735247s."",
+    ""status"": ""RESOURCE_EXHAUSTED"",
+    ""details"": [
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.Help"",
+        ""links"": [
+          {
+            ""description"": ""Learn more about Gemini API quotas"",
+            ""url"": ""https://aistudio.google.com/docs/rate-limits""
+          }
+        ]
+      },
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.QuotaFailure"",
+        ""violations"": [
+          {
+            ""description"": ""Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits."",
+            ""quotaMetric"": ""generativelanguage.googleapis.com/generate_content_free_tier_requests"",
+            ""quotaId"": ""GenerateRequestsPerDayPerProjectPerModel-FreeTier"",
+            ""quotaDimensions"": {
+              ""location"": ""global"",
+              ""model"": ""gemini-3-flash""
+            },
+            ""quotaValue"": ""20""
+          }
+        ]
+      },
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.RetryInfo"",
+        ""retryDelay"": ""66576s""
+      }
+    ]
+  }
+}
+",class_1,0.9,"Both oppose privatization, but give different types of arguments (misleading claim vs interpersonal risks).",class_2,0.9,"Both perspectives argue against privatizing Social Security, with the gold rejecting the 'raid' justification and the generated viewpoint highlighting the risks of inadequate income and mistrust associated with privatization.",AMBIGUOUS (Requires Human Review),ambiguous,HUMAN_ADJUDICATION_URGENT,,split,split_1_1_1,True
+1393,674,The Death Penalty Should Be Imposed For Acts Of Terror That Cause Death,The death penalty has led to innocent people dying.,"Implementing the death penalty for terrorist acts that result in death can lead to significant cost savings in the criminal justice system. By removing convicted terrorists from the population permanently, it eliminates the ongoing costs associated with incarceration, such as housing, healthcare, and security.",class_0a,undermine,support,class_1,0.95,"Both support the death penalty for terrorists, but the gold perspective focuses on the risk of executing the innocent while the generated viewpoint focuses on cost savings.",class_0a,0.96,Gold opposes the death penalty due to wrongful deaths; GV supports it for cost savings.,class_0a,0.95,"The gold perspective opposes the death penalty due to the risk of executing innocents, while the generated viewpoint supports it based on cost savings.",2/3 MAJORITY,class_0a,PROVISIONAL_MAJORITY,,class_0a,majority_2_of_3,True
+717,771,High taxes are necessary for an effective state,People who enjoy a standard of living that allows them to be healthy and productive will decrease drug abuse.,"High taxes can lead to efficient resource allocation for critical research and development By collecting substantial tax revenue, governments can heavily invest in critical research and development, driving technological advancements and innovation that benefit the entire society. This practical approach ensures that scarce resources are directed towards projects that have long-term benefits, which would be difficult to achieve without significant state funding.",class_1,support,support,class_1,0.95,Both support high taxes but rely on entirely different justifications: one focuses on public health outcomes while the other focuses on R&D investment.,class_0b,0.96,"Gold perspective discusses standard of living and drug abuse, unrelated to the tax claim.",class_1,0.95,"Both perspectives support high taxes for state effectiveness, but the gold argues for social health/productivity outcomes while the generated text argues for economic efficiency in R&D.",2/3 MAJORITY,class_1,PROVISIONAL_MAJORITY,,class_1,majority_2_of_3,True
+844,569,The D.A.R.E. program is good for America's kids (K-12) ,There is an increase of drug use associated with the D.A.R.E. program.,"The D.A.R.E. program's ethical approach to educating children about drug use may inadvertently stigmatize or criminalize youth, damaging their mental health and social development. The program's fear-based tactics and portrayal of drugs can lead to increased anxiety and feelings of failure in students, undermining their self-esteem and relationships with peers, which are crucial aspects of their ethical and cultural development.",class_1,undermine,undermine,class_1,0.9,"Both oppose the D.A.R.E. program, but the gold perspective cites increased drug use while the generated viewpoint cites negative psychological and social impacts.",class_1,0.95,"Both criticize the D.A.R.E. program, but gold cites increased drug use whereas the generated view cites ethical and psychological harms.",class_2,0.85,"Both perspectives argue that the D.A.R.E. program is harmful to children, with the gold citing increased drug use and the generated text citing negative psychological and social impacts, both serving as evidence against the program's efficacy.",2/3 MAJORITY,class_1,PROVISIONAL_MAJORITY,,class_1,majority_2_of_3,True
+559,435,Britain should give up its EU rebate,CAP revision should be a priority trade-off for Britain's EU rebate,Britain's EU rebate reflects its historical contributions and should be maintained as a matter of fairness. The rebate acknowledges Britain's significant financial contributions to the EU over the years and corrects for the disproportionate funding burden placed on certain member states.,class_2,support,support,class_0a,1.0,"The gold perspective argues for using the rebate as a bargaining chip for CAP reform, whereas the generated viewpoint argues for maintaining the rebate as a matter of fairness.",class_1,0.93,"Both argue against giving up the EU rebate; gold frames it as a trade‑off with CAP revision, the generated view appeals to fairness and historical contributions.",class_0a,0.9,"The gold perspective suggests trading the rebate for CAP revisions (implying willingness to give it up or negotiate it away), while the generated viewpoint argues the rebate should be maintained as a matter of fairness.",2/3 MAJORITY,class_0a,PROVISIONAL_MAJORITY,,class_0a,majority_2_of_3,True
+888,260,Abolish the US Electoral College,The Electoral College guarantees certainty to the outcome of the presidential election.,"Abolishing the US Electoral College would ensure that presidential candidates focus on all voters rather than just swing states, which could lead to more consistent and fairer economic policies. Currently, candidates concentrate on economically pivotal swing states, often at the expense of other regions. Eliminating the Electoral College would encourage broader geographical and thus economic representation.",class_0a,undermine,support,class_1,0.95,"The gold perspective supports the Electoral College for stability, while the generated viewpoint opposes it to promote broader voter focus.",class_0a,0.98,"Gold supports the Electoral College for certainty, whereas the generated answer supports abolishing it for broader representation.",class_0a,0.98,"The gold perspective supports the Electoral College for certainty, while the generated viewpoint argues for abolishing it to improve representation and policy focus.",AMBIGUOUS (Requires Human Review),ambiguous,HUMAN_ADJUDICATION_URGENT,openai/gpt-oss-20b,class_0a,majority_2_of_3,True
+323,170,Religion does more harm than good,Religious organisations are by far the largest providers of charity in the world,"Religion fuels intergroup conflict and violence by fostering us-versus-them mentalities. Religious differences are often exploited to create divisions and animosity between groups, leading to prejudice, discrimination, and even violent clashes.",class_0a,undermine,support,class_0a,1.0,"The gold perspective argues religion does good through charity, while the generated viewpoint argues it does harm by fueling conflict.",class_0a,0.95,"Gold emphasizes religious charity, while the generated view highlights religious conflict, giving opposite stances.",class_1,0.95,"Both perspectives argue that religion does more harm than good, but the gold focuses on the counter-argument of charity (implying good) or perhaps is a mislabeled gold for 'good', wait. Let's re-read. Gold: 'Religious organisations are by far the largest providers of charity in the world'. This is an argument for religion doing GOOD. The claim is 'Religion does more harm than good'. So Gold is arguing AGAINST the claim (Religion does good). Generated: 'Religion fuels intergroup conflict...'. This is arguing FOR the claim (Religion does harm). Therefore, they have opposite stances.",AMBIGUOUS (Requires Human Review),ambiguous,HUMAN_ADJUDICATION_URGENT,openai/gpt-oss-20b,class_0a,majority_2_of_3,True
+332,488,Legalize sex work in order to make controls more feasible and effective to combat HIV/AIDS,legalizing sex work makes the workers safer,"Legalizing sex work facilitates the implementation of comprehensive sex education and harm reduction strategies. By acknowledging and regulating the profession, targeted educational programs can effectively reach sex workers and their clients, promoting safer practices and reducing HIV transmission.",class_2,support,support,class_2,0.95,Both arguments focus on the safety and health benefits of legalization for sex workers as a means to combat HIV/AIDS.,class_1,0.95,"Both argue legalization improves safety, but gold cites worker safety while generated cites education/harm reduction.",class_1,0.95,"Both support legalization for health/safety reasons, but the gold focuses on general worker safety while the generated viewpoint specifically cites the feasibility of targeted education and harm reduction programs.",AMBIGUOUS (Requires Human Review),ambiguous,HUMAN_ADJUDICATION_URGENT,openai/gpt-oss-20b,class_1,majority_2_of_3,True
+561,674,The Death Penalty Should Be Imposed For Acts Of Terror That Cause Death,The expense of the death penalty financial hardship on the state.,Practical and Pragmatic Views on the Death Penalty for Terrorism: A Critique:,class_2,undermine,unknown,ambiguous,0.95,The AI viewpoint is a title/critique header that fails to articulate a specific stance or reasoning regarding the death penalty's cost.,ambiguous,0.8,Generated viewpoint lacks a clear stance or reasoning.,ambiguous,0.9,"The gold perspective argues against the death penalty based on financial cost, while the generated viewpoint is a vague title for a critique that does not clearly state a stance or reasoning.",AMBIGUOUS (Requires Human Review),ambiguous,HUMAN_ADJUDICATION_URGENT,openai/gpt-oss-20b,ambiguous,unanimous_3_of_3,True
+1401,604,Police body cameras should be allowed,Police Body Cameras ensure safer interactions between the Police and the public,"Police body cameras promote ethical policing by increasing transparency and accountability. Recording interactions between police and citizens creates a verifiable record of events, deterring misconduct and providing crucial evidence in cases of abuse or injustice.",class_2,support,support,ambiguous,0.0,"Gemini API failed after 3 attempts: {
+  ""error"": {
+    ""code"": 429,
+    ""message"": ""You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash, description: Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.\nPlease retry in 18h21m34.639837096s."",
+    ""status"": ""RESOURCE_EXHAUSTED"",
+    ""details"": [
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.Help"",
+        ""links"": [
+          {
+            ""description"": ""Learn more about Gemini API quotas"",
+            ""url"": ""https://aistudio.google.com/docs/rate-limits""
+          }
+        ]
+      },
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.QuotaFailure"",
+        ""violations"": [
+          {
+            ""description"": ""Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits."",
+            ""quotaMetric"": ""generativelanguage.googleapis.com/generate_content_free_tier_requests"",
+            ""quotaId"": ""GenerateRequestsPerDayPerProjectPerModel-FreeTier"",
+            ""quotaDimensions"": {
+              ""location"": ""global"",
+              ""model"": ""gemini-3-flash""
+            },
+            ""quotaValue"": ""20""
+          }
+        ]
+      },
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.RetryInfo"",
+        ""retryDelay"": ""66094s""
+      }
+    ]
+  }
+}
+",class_2,0.9,Both argue body cameras improve safety and accountability.,class_1,0.95,"Both support body cameras, but the gold perspective focuses on safety in interactions, while the generated viewpoint emphasizes legal accountability, transparency, and deterrence of misconduct.",AMBIGUOUS (Requires Human Review),ambiguous,HUMAN_ADJUDICATION_URGENT,openai/gpt-oss-20b,split,split_1_1_1,True
+1652,1005,Drones Should Be Used to Take Out Enemy Combatants,there is nothing illegal in the use of drones,"Viewpoint 2: Security and Ethical Perspective - Legal Scrutiny:: The use of drones raises questions about international law. There is debate about whether drone strikes can be considered fair and just, especially in terms of collateral damage and due process.",class_2,support,unknown,ambiguous,0.0,"Gemini API failed after 3 attempts: {
+  ""error"": {
+    ""code"": 429,
+    ""message"": ""You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash, description: Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.\nPlease retry in 18h21m34.639837096s."",
+    ""status"": ""RESOURCE_EXHAUSTED"",
+    ""details"": [
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.Help"",
+        ""links"": [
+          {
+            ""description"": ""Learn more about Gemini API quotas"",
+            ""url"": ""https://aistudio.google.com/docs/rate-limits""
+          }
+        ]
+      },
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.QuotaFailure"",
+        ""violations"": [
+          {
+            ""description"": ""Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits."",
+            ""quotaMetric"": ""generativelanguage.googleapis.com/generate_content_free_tier_requests"",
+            ""quotaId"": ""GenerateRequestsPerDayPerProjectPerModel-FreeTier"",
+            ""quotaDimensions"": {
+              ""location"": ""global"",
+              ""model"": ""gemini-3-flash""
+            },
+            ""quotaValue"": ""20""
+          }
+        ]
+      },
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.RetryInfo"",
+        ""retryDelay"": ""66094s""
+      }
+    ]
+  }
+}
+",class_0a,0.95,"Gold supports legality, generated raises legal concerns.",class_0a,0.9,"The gold perspective asserts the legality of drone use, whereas the generated viewpoint argues that drone use raises significant legal and ethical questions regarding international law and due process, effectively challenging the premise of its straightforward legality.",AMBIGUOUS (Requires Human Review),ambiguous,HUMAN_ADJUDICATION_URGENT,openai/gpt-oss-20b,class_0a,majority_with_ambiguous,True
+1558,287,Self-determination of peoples is a human right,Self-determination is about deciding your own fate.,"Self-determination of peoples is a fundamental moral principle that respects the inherent dignity and worth of every individual and group. Recognizing self-determination as a human right acknowledges the intrinsic value of all individuals and their collective identities, thereby promoting justice and equality in a pluralistic world.",class_1,support,support,ambiguous,0.0,"Gemini API failed after 3 attempts: {
+  ""error"": {
+    ""code"": 429,
+    ""message"": ""You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash, description: Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.\nPlease retry in 18h21m34.639837096s."",
+    ""status"": ""RESOURCE_EXHAUSTED"",
+    ""details"": [
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.Help"",
+        ""links"": [
+          {
+            ""description"": ""Learn more about Gemini API quotas"",
+            ""url"": ""https://aistudio.google.com/docs/rate-limits""
+          }
+        ]
+      },
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.QuotaFailure"",
+        ""violations"": [
+          {
+            ""description"": ""Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits."",
+            ""quotaMetric"": ""generativelanguage.googleapis.com/generate_content_free_tier_requests"",
+            ""quotaId"": ""GenerateRequestsPerDayPerProjectPerModel-FreeTier"",
+            ""quotaDimensions"": {
+              ""location"": ""global"",
+              ""model"": ""gemini-3-flash""
+            },
+            ""quotaValue"": ""20""
+          }
+        ]
+      },
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.RetryInfo"",
+        ""retryDelay"": ""66094s""
+      }
+    ]
+  }
+}
+",class_1,0.85,"Both affirm self-determination as a right, but gold cites fate, generated cites dignity.",class_1,0.9,"Both support self-determination, but the gold perspective defines it simply as deciding one's own fate, while the generated viewpoint grounds it in moral principles of dignity, justice, and pluralism.",AMBIGUOUS (Requires Human Review),ambiguous,HUMAN_ADJUDICATION_URGENT,openai/gpt-oss-20b,class_1,majority_with_ambiguous,True
+740,104,The USA's social security schemes should be privatized,"The accusation that Social Security has been ""raided"" by the federal government is misleading and does not provide a justification for privatizing the program.","Eliminating the Electoral College would ensure that every vote has equal weight in presidential elections, promoting a more equitable democracy. Direct popular vote would mean that every individual's ballot holds equal importance, aligning with the democratic principle of one person, one vote, and fostering a more representative system.",class_0b,undermine,support,ambiguous,0.0,"Gemini API failed after 3 attempts: {
+  ""error"": {
+    ""code"": 429,
+    ""message"": ""You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash, description: Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.\nPlease retry in 18h21m34.639837096s."",
+    ""status"": ""RESOURCE_EXHAUSTED"",
+    ""details"": [
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.Help"",
+        ""links"": [
+          {
+            ""description"": ""Learn more about Gemini API quotas"",
+            ""url"": ""https://aistudio.google.com/docs/rate-limits""
+          }
+        ]
+      },
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.QuotaFailure"",
+        ""violations"": [
+          {
+            ""description"": ""Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits."",
+            ""quotaMetric"": ""generativelanguage.googleapis.com/generate_content_free_tier_requests"",
+            ""quotaId"": ""GenerateRequestsPerDayPerProjectPerModel-FreeTier"",
+            ""quotaDimensions"": {
+              ""location"": ""global"",
+              ""model"": ""gemini-3-flash""
+            },
+            ""quotaValue"": ""20""
+          }
+        ]
+      },
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.RetryInfo"",
+        ""retryDelay"": ""66094s""
+      }
+    ]
+  }
+}
+",class_0b,0.99,"Gold discusses social security privatization, generated discusses electoral college; topics differ.",class_0b,1.0,"The gold perspective addresses the privatization of Social Security, while the generated viewpoint discusses the abolition of the Electoral College, which is an entirely unrelated topic.",AMBIGUOUS (Requires Human Review),ambiguous,HUMAN_ADJUDICATION_URGENT,openai/gpt-oss-20b,class_0b,majority_with_ambiguous,True
+658,841,Violent video games cause violent crime,"Playing violent video games causes more aggression, bullying, and fighting.","Video game manufacturers can be held legally and institutionally liable for enabling violent crime through the creation and marketing of violent games By creating and marketing violent games, manufacturers can be seen as facilitating a moral environment that encourages violence, which can then be held accountable through tort law, regulatory policies, and institutional standards.",class_1,support,support,ambiguous,0.0,"Gemini API failed after 3 attempts: {
+  ""error"": {
+    ""code"": 429,
+    ""message"": ""You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash, description: Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.\nPlease retry in 18h21m34.639837096s."",
+    ""status"": ""RESOURCE_EXHAUSTED"",
+    ""details"": [
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.Help"",
+        ""links"": [
+          {
+            ""description"": ""Learn more about Gemini API quotas"",
+            ""url"": ""https://aistudio.google.com/docs/rate-limits""
+          }
+        ]
+      },
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.QuotaFailure"",
+        ""violations"": [
+          {
+            ""description"": ""Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits."",
+            ""quotaMetric"": ""generativelanguage.googleapis.com/generate_content_free_tier_requests"",
+            ""quotaId"": ""GenerateRequestsPerDayPerProjectPerModel-FreeTier"",
+            ""quotaDimensions"": {
+              ""location"": ""global"",
+              ""model"": ""gemini-3-flash""
+            },
+            ""quotaValue"": ""20""
+          }
+        ]
+      },
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.RetryInfo"",
+        ""retryDelay"": ""66094s""
+      }
+    ]
+  }
+}
+",class_1,0.9,"Both claim violent games cause violence, but gold cites player aggression, generated cites manufacturer liability.",class_1,0.85,"Both support the claim that violent video games contribute to violence, but the gold perspective cites direct behavioral effects like aggression, while the generated viewpoint focuses on the legal liability of manufacturers for creating a violent environment.",AMBIGUOUS (Requires Human Review),ambiguous,HUMAN_ADJUDICATION_URGENT,openai/gpt-oss-20b,class_1,majority_with_ambiguous,True
+544,52,There should be a legally mandated ceiling on weekly working hours,"There should be a legally mandated ceiling on weekly working hours, because it creates employment.","A legally mandated ceiling on weekly working hours promotes greater workplace equality and reduces exploitative labor practices. By setting a universal limit, such a policy prevents employers from unfairly burdening certain workers with excessive hours, leveling the playing field and safeguarding vulnerable employees from exploitation.",class_2,support,support,ambiguous,0.0,"Gemini API failed after 3 attempts: {
+  ""error"": {
+    ""code"": 429,
+    ""message"": ""You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash, description: Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.\nPlease retry in 18h19m18.076491919s."",
+    ""status"": ""RESOURCE_EXHAUSTED"",
+    ""details"": [
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.Help"",
+        ""links"": [
+          {
+            ""description"": ""Learn more about Gemini API quotas"",
+            ""url"": ""https://aistudio.google.com/docs/rate-limits""
+          }
+        ]
+      },
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.QuotaFailure"",
+        ""violations"": [
+          {
+            ""description"": ""Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits."",
+            ""quotaMetric"": ""generativelanguage.googleapis.com/generate_content_free_tier_requests"",
+            ""quotaId"": ""GenerateRequestsPerDayPerProjectPerModel-FreeTier"",
+            ""quotaDimensions"": {
+              ""model"": ""gemini-3-flash"",
+              ""location"": ""global""
+            },
+            ""quotaValue"": ""20""
+          }
+        ]
+      },
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.RetryInfo"",
+        ""retryDelay"": ""65958s""
+      }
+    ]
+  }
+}
+",class_1,0.9,Both support a mandated work‑hour ceiling but justify it with different arguments (employment vs. equality).,class_1,0.95,"Both support the mandate, but the gold perspective argues for economic employment creation, while the generated viewpoint focuses on workplace equality and preventing exploitation.",AMBIGUOUS (Requires Human Review),ambiguous,HUMAN_ADJUDICATION_URGENT,openai/gpt-oss-20b,class_1,majority_with_ambiguous,True
+1515,604,Police body cameras should be allowed,What risks are there to individuals if police wear body cameras.,"Allowing ceremonial daggers could lead to increased security costs and liability risks for schools. The presence of potentially harmful objects like ceremonial daggers in schools could necessitate higher security measures and insurance premiums, placing financial strain on educational institutions.",class_0b,undermine,undermine,ambiguous,0.0,"Gemini API failed after 3 attempts: {
+  ""error"": {
+    ""code"": 429,
+    ""message"": ""You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash, description: Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.\nPlease retry in 18h19m18.076491919s."",
+    ""status"": ""RESOURCE_EXHAUSTED"",
+    ""details"": [
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.Help"",
+        ""links"": [
+          {
+            ""description"": ""Learn more about Gemini API quotas"",
+            ""url"": ""https://aistudio.google.com/docs/rate-limits""
+          }
+        ]
+      },
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.QuotaFailure"",
+        ""violations"": [
+          {
+            ""description"": ""Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits."",
+            ""quotaMetric"": ""generativelanguage.googleapis.com/generate_content_free_tier_requests"",
+            ""quotaId"": ""GenerateRequestsPerDayPerProjectPerModel-FreeTier"",
+            ""quotaDimensions"": {
+              ""model"": ""gemini-3-flash"",
+              ""location"": ""global""
+            },
+            ""quotaValue"": ""20""
+          }
+        ]
+      },
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.RetryInfo"",
+        ""retryDelay"": ""65958s""
+      }
+    ]
+  }
+}
+",class_0b,0.95,"The generated viewpoint discusses ceremonial daggers in schools, unrelated to police body cameras.",class_0b,0.99,"The generated viewpoint discusses ceremonial daggers in schools, which is completely unrelated to the debate claim about police body cameras.",AMBIGUOUS (Requires Human Review),ambiguous,HUMAN_ADJUDICATION_URGENT,openai/gpt-oss-20b,class_0b,majority_with_ambiguous,True
+1626,553,Subsidize poor communities,Redistribution of wealth internal to a country is done most efficently through the use of subsidies.,"Subsidizing poor communities promotes moral obligation and cultural sensitivity by acknowledging the systemic injustices and historical disparities faced by these groups By providing subsidies, we acknowledge the structural barriers to economic mobility and address the disproportionate impact of capitalism on vulnerable populations, thus upholding a moral imperative to rectify historical wrongs and promote social justice.",class_1,support,support,ambiguous,0.0,"Gemini API failed after 3 attempts: {
+  ""error"": {
+    ""code"": 429,
+    ""message"": ""You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash, description: Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.\nPlease retry in 18h19m18.076491919s."",
+    ""status"": ""RESOURCE_EXHAUSTED"",
+    ""details"": [
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.Help"",
+        ""links"": [
+          {
+            ""description"": ""Learn more about Gemini API quotas"",
+            ""url"": ""https://aistudio.google.com/docs/rate-limits""
+          }
+        ]
+      },
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.QuotaFailure"",
+        ""violations"": [
+          {
+            ""description"": ""Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits."",
+            ""quotaMetric"": ""generativelanguage.googleapis.com/generate_content_free_tier_requests"",
+            ""quotaId"": ""GenerateRequestsPerDayPerProjectPerModel-FreeTier"",
+            ""quotaDimensions"": {
+              ""model"": ""gemini-3-flash"",
+              ""location"": ""global""
+            },
+            ""quotaValue"": ""20""
+          }
+        ]
+      },
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.RetryInfo"",
+        ""retryDelay"": ""65958s""
+      }
+    ]
+  }
+}
+",class_1,0.9,Both endorse subsidies for poor communities but use different justifications (efficiency vs. moral imperative).,class_1,0.95,"Both support subsidizing poor communities, but the gold perspective cites economic efficiency of redistribution, whereas the generated viewpoint cites moral obligation and social justice.",AMBIGUOUS (Requires Human Review),ambiguous,HUMAN_ADJUDICATION_URGENT,openai/gpt-oss-20b,class_1,majority_with_ambiguous,True
+795,847,Smoking should be banned in public places,The decision to smoke is a human right.,"Legislation can effectively regulate public health and safety by enforcing smoking bans. From a legal institutional perspective, governments have the authority to enact policies that protect public health, and smoking bans are an effective tool to reduce secondhand smoke exposure and enforce safer environments in public places.",class_0a,undermine,support,ambiguous,0.0,"Gemini API failed after 3 attempts: {
+  ""error"": {
+    ""code"": 429,
+    ""message"": ""You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash, description: Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.\nPlease retry in 18h19m18.076491919s."",
+    ""status"": ""RESOURCE_EXHAUSTED"",
+    ""details"": [
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.Help"",
+        ""links"": [
+          {
+            ""description"": ""Learn more about Gemini API quotas"",
+            ""url"": ""https://aistudio.google.com/docs/rate-limits""
+          }
+        ]
+      },
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.QuotaFailure"",
+        ""violations"": [
+          {
+            ""description"": ""Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits."",
+            ""quotaMetric"": ""generativelanguage.googleapis.com/generate_content_free_tier_requests"",
+            ""quotaId"": ""GenerateRequestsPerDayPerProjectPerModel-FreeTier"",
+            ""quotaDimensions"": {
+              ""model"": ""gemini-3-flash"",
+              ""location"": ""global""
+            },
+            ""quotaValue"": ""20""
+          }
+        ]
+      },
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.RetryInfo"",
+        ""retryDelay"": ""65958s""
+      }
+    ]
+  }
+}
+",class_0a,0.95,Gold opposes a smoking ban citing human rights; the generated view supports the ban citing public health.,class_0a,0.98,"The gold perspective argues against the ban by asserting smoking is a human right, while the generated viewpoint supports the ban based on public health and government authority.",AMBIGUOUS (Requires Human Review),ambiguous,HUMAN_ADJUDICATION_URGENT,openai/gpt-oss-20b,class_0a,majority_with_ambiguous,True
+712,1004,Net Neutrality – All Internet Traffic Should Be Treated Equally,Net neutrality provides a level playing field for everyone.,"Net neutrality ensures a level playing field for both small businesses and startups, promoting innovation without financial barriers imposed by internet service providers. Without net neutrality, larger companies could pay for preferential treatment, stifling competition and innovation from smaller entities that lack the financial resources to compete in such a marketplace.",class_2,support,support,ambiguous,0.0,"Gemini API failed after 3 attempts: {
+  ""error"": {
+    ""code"": 429,
+    ""message"": ""You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash, description: Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.\nPlease retry in 18h19m18.076491919s."",
+    ""status"": ""RESOURCE_EXHAUSTED"",
+    ""details"": [
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.Help"",
+        ""links"": [
+          {
+            ""description"": ""Learn more about Gemini API quotas"",
+            ""url"": ""https://aistudio.google.com/docs/rate-limits""
+          }
+        ]
+      },
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.QuotaFailure"",
+        ""violations"": [
+          {
+            ""description"": ""Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits."",
+            ""quotaMetric"": ""generativelanguage.googleapis.com/generate_content_free_tier_requests"",
+            ""quotaId"": ""GenerateRequestsPerDayPerProjectPerModel-FreeTier"",
+            ""quotaDimensions"": {
+              ""model"": ""gemini-3-flash"",
+              ""location"": ""global""
+            },
+            ""quotaValue"": ""20""
+          }
+        ]
+      },
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.RetryInfo"",
+        ""retryDelay"": ""65958s""
+      }
+    ]
+  }
+}
+",class_2,0.9,Both argue that net neutrality creates a level playing field for all users.,class_2,0.92,"Both perspectives support net neutrality using the core reasoning that it creates a level playing field, with the generated viewpoint simply elaborating on the specific beneficiaries (small businesses/startups).",AMBIGUOUS (Requires Human Review),ambiguous,HUMAN_ADJUDICATION_URGENT,openai/gpt-oss-20b,class_2,majority_with_ambiguous,True
+1530,638,Should the Cell Phones Be Allowed in Schools,The phones in schools eliminate the need for cell phones.,"Allowing cell phones in schools supports the development of digital literacy and fosters a more inclusive learning environment for all students. Introducing cell phones in schools equips students with essential digital literacy skills and ensures that all learners, including those who might face barriers due to disabilities, have equal access to educational resources and information.",class_0a,undermine,support,class_0a,0.9,"The gold perspective implies phones should not be allowed (as they are redundant), while the generated viewpoint argues they should be allowed for educational benefits.",ambiguous,0.6,"The gold perspective’s stance is unclear or contradictory, making it impossible to determine equivalence.",class_0a,0.85,"The gold perspective implies phones should not be allowed (or are unnecessary), while the generated viewpoint explicitly argues for allowing them to support digital literacy.",AMBIGUOUS (Requires Human Review),ambiguous,HUMAN_ADJUDICATION_URGENT,openai/gpt-oss-20b,class_0a,majority_with_ambiguous,True
+931,66,Access to the websites that deny the Holocaust must be blocked,The freedom of Holocaust deniers to use to the internet legitimizes their organization and message in eyes of consumers,"Censoring Holocaust-denial websites is a moral imperative to protect the integrity of historical truth and prevent the spread of hate speech. Allowing Holocaust denial content to proliferate undermines the suffering of victims and enables hate groups, which is ethically unacceptable.",class_1,support,support,ambiguous,0.0,"Gemini API failed after 3 attempts: {
+  ""error"": {
+    ""code"": 429,
+    ""message"": ""You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash, description: Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.\nPlease retry in 18h16m7.351146492s."",
+    ""status"": ""RESOURCE_EXHAUSTED"",
+    ""details"": [
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.Help"",
+        ""links"": [
+          {
+            ""description"": ""Learn more about Gemini API quotas"",
+            ""url"": ""https://aistudio.google.com/docs/rate-limits""
+          }
+        ]
+      },
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.QuotaFailure"",
+        ""violations"": [
+          {
+            ""description"": ""Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits."",
+            ""quotaMetric"": ""generativelanguage.googleapis.com/generate_content_free_tier_requests"",
+            ""quotaId"": ""GenerateRequestsPerDayPerProjectPerModel-FreeTier"",
+            ""quotaDimensions"": {
+              ""location"": ""global"",
+              ""model"": ""gemini-3-flash""
+            },
+            ""quotaValue"": ""20""
+          }
+        ]
+      },
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.RetryInfo"",
+        ""retryDelay"": ""65767s""
+      }
+    ]
+  }
+}
+",class_1,0.95,"Both oppose allowing Holocaust denial sites, but gold cites legitimization while generated cites moral imperative.",class_1,0.95,"Both support blocking the sites, but the gold perspective focuses on the legitimization of the deniers' organization, while the generated viewpoint focuses on protecting historical truth and preventing hate speech.",AMBIGUOUS (Requires Human Review),ambiguous,HUMAN_ADJUDICATION_URGENT,openai/gpt-oss-20b,class_1,majority_with_ambiguous,True
+1062,604,Police body cameras should be allowed,Police body cameras increase the safety of the public and the police,Encouraging police access to body cameras fosters a culture of accountability within communities.,class_2,support,unknown,ambiguous,0.0,"Gemini API failed after 3 attempts: {
+  ""error"": {
+    ""code"": 429,
+    ""message"": ""You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash, description: Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.\nPlease retry in 18h16m7.351146492s."",
+    ""status"": ""RESOURCE_EXHAUSTED"",
+    ""details"": [
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.Help"",
+        ""links"": [
+          {
+            ""description"": ""Learn more about Gemini API quotas"",
+            ""url"": ""https://aistudio.google.com/docs/rate-limits""
+          }
+        ]
+      },
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.QuotaFailure"",
+        ""violations"": [
+          {
+            ""description"": ""Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits."",
+            ""quotaMetric"": ""generativelanguage.googleapis.com/generate_content_free_tier_requests"",
+            ""quotaId"": ""GenerateRequestsPerDayPerProjectPerModel-FreeTier"",
+            ""quotaDimensions"": {
+              ""location"": ""global"",
+              ""model"": ""gemini-3-flash""
+            },
+            ""quotaValue"": ""20""
+          }
+        ]
+      },
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.RetryInfo"",
+        ""retryDelay"": ""65767s""
+      }
+    ]
+  }
+}
+",class_1,0.95,"Both support body cameras, but gold cites safety while generated cites accountability.",class_1,0.9,"Both support body cameras, but the gold perspective cites increased safety for all parties, whereas the generated viewpoint emphasizes the fostering of a culture of accountability.",AMBIGUOUS (Requires Human Review),ambiguous,HUMAN_ADJUDICATION_URGENT,openai/gpt-oss-20b,class_1,majority_with_ambiguous,True
+372,966,Music that glorifies violence against women should be banned,It would be easy to apply restrictions on music.,"Enforcing a ban on music lyrics would be incredibly difficult and likely ineffective. Defining 'glorification' of violence is subjective and open to interpretation, making it challenging to establish clear legal guidelines. Moreover, music readily transcends borders and online platforms, making a global ban practically impossible.",class_0a,support,undermine,ambiguous,0.0,"Gemini API failed after 3 attempts: {
+  ""error"": {
+    ""code"": 429,
+    ""message"": ""You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash, description: Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.\nPlease retry in 18h16m7.351146492s."",
+    ""status"": ""RESOURCE_EXHAUSTED"",
+    ""details"": [
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.Help"",
+        ""links"": [
+          {
+            ""description"": ""Learn more about Gemini API quotas"",
+            ""url"": ""https://aistudio.google.com/docs/rate-limits""
+          }
+        ]
+      },
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.QuotaFailure"",
+        ""violations"": [
+          {
+            ""description"": ""Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits."",
+            ""quotaMetric"": ""generativelanguage.googleapis.com/generate_content_free_tier_requests"",
+            ""quotaId"": ""GenerateRequestsPerDayPerProjectPerModel-FreeTier"",
+            ""quotaDimensions"": {
+              ""location"": ""global"",
+              ""model"": ""gemini-3-flash""
+            },
+            ""quotaValue"": ""20""
+          }
+        ]
+      },
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.RetryInfo"",
+        ""retryDelay"": ""65767s""
+      }
+    ]
+  }
+}
+",class_0a,0.95,"Gold supports banning music, while generated argues banning is impractical.",class_0a,0.95,"The gold perspective argues that restrictions are easy to apply (supporting the ban), while the generated viewpoint argues that enforcement is difficult and ineffective (opposing the ban).",AMBIGUOUS (Requires Human Review),ambiguous,HUMAN_ADJUDICATION_URGENT,openai/gpt-oss-20b,class_0a,majority_with_ambiguous,True
+1126,586,Students should have to wear school uniforms,Students can express their individuality in school uniforms by introducing variations and adding accessories.,"School uniforms can help reduce uniform-related costs for students and their families, ultimately saving them money that can be allocated to other necessary expenses By purchasing uniforms in bulk, schools can negotiate lower prices, which are then passed on to students, reducing the financial burden of uniform-related expenses and freeing up resources for other essential expenditures.",class_0a,undermine,support,ambiguous,0.0,"Gemini API failed after 3 attempts: {
+  ""error"": {
+    ""code"": 429,
+    ""message"": ""You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash, description: Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.\nPlease retry in 18h16m7.351146492s."",
+    ""status"": ""RESOURCE_EXHAUSTED"",
+    ""details"": [
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.Help"",
+        ""links"": [
+          {
+            ""description"": ""Learn more about Gemini API quotas"",
+            ""url"": ""https://aistudio.google.com/docs/rate-limits""
+          }
+        ]
+      },
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.QuotaFailure"",
+        ""violations"": [
+          {
+            ""description"": ""Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits."",
+            ""quotaMetric"": ""generativelanguage.googleapis.com/generate_content_free_tier_requests"",
+            ""quotaId"": ""GenerateRequestsPerDayPerProjectPerModel-FreeTier"",
+            ""quotaDimensions"": {
+              ""location"": ""global"",
+              ""model"": ""gemini-3-flash""
+            },
+            ""quotaValue"": ""20""
+          }
+        ]
+      },
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.RetryInfo"",
+        ""retryDelay"": ""65767s""
+      }
+    ]
+  }
+}
+",class_1,0.95,"Both support uniforms, but gold cites individuality while generated cites cost savings.",class_1,0.9,"Both support school uniforms, but the gold perspective addresses the concern of individuality through variations, while the generated viewpoint focuses on financial savings and cost reduction.",AMBIGUOUS (Requires Human Review),ambiguous,HUMAN_ADJUDICATION_URGENT,openai/gpt-oss-20b,class_1,majority_with_ambiguous,True
+669,370,The United States should ban assault weapons,An assault weapons ban would violate the second amendment,"Banning assault weapons would enhance public safety by reducing the lethality of potential mass shooters. Assault weapons are designed for rapid and high-volume firing, making them disproportionately dangerous in the hands of individuals with ill intentions. Banning these weapons would significantly reduce the risk and severity of mass shootings, thereby protecting public safety and reducing fatalities.",class_0a,undermine,support,ambiguous,0.0,"Gemini API failed after 3 attempts: {
+  ""error"": {
+    ""code"": 429,
+    ""message"": ""You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash, description: Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.\nPlease retry in 18h16m7.351146492s."",
+    ""status"": ""RESOURCE_EXHAUSTED"",
+    ""details"": [
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.Help"",
+        ""links"": [
+          {
+            ""description"": ""Learn more about Gemini API quotas"",
+            ""url"": ""https://aistudio.google.com/docs/rate-limits""
+          }
+        ]
+      },
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.QuotaFailure"",
+        ""violations"": [
+          {
+            ""description"": ""Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits."",
+            ""quotaMetric"": ""generativelanguage.googleapis.com/generate_content_free_tier_requests"",
+            ""quotaId"": ""GenerateRequestsPerDayPerProjectPerModel-FreeTier"",
+            ""quotaDimensions"": {
+              ""location"": ""global"",
+              ""model"": ""gemini-3-flash""
+            },
+            ""quotaValue"": ""20""
+          }
+        ]
+      },
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.RetryInfo"",
+        ""retryDelay"": ""65767s""
+      }
+    ]
+  }
+}
+",class_0a,0.95,"Gold opposes banning assault weapons citing Second Amendment, while generated supports banning citing public safety.",class_0a,0.98,"The gold perspective opposes the ban citing Second Amendment violations, while the generated viewpoint supports the ban citing public safety and reduced lethality.",AMBIGUOUS (Requires Human Review),ambiguous,HUMAN_ADJUDICATION_URGENT,openai/gpt-oss-20b,class_0a,majority_with_ambiguous,True
+804,966,Music that glorifies violence against women should be banned,To ban violent music against weapon is to support positive status of women in society.,"Music that glorifies violence against women undermines the social fabric by reinforcing harmful gender norms. Reinforcing harmful gender norms through music can lead to normalization of violence against women in society, thus undermining social cohesion and equality.",class_2,support,support,class_2,0.9,"Both arguments justify the ban by asserting that it promotes the status, equality, and safety of women in society.",class_1,0.85,"Both sides call for banning violent music, yet the gold focuses on women’s status and the generated on preventing normalization of violence.",class_1,0.9,"Both support the ban, but the gold perspective focuses on supporting the positive status of women, while the generated viewpoint focuses on undermining social fabric and normalizing harmful gender norms.",AMBIGUOUS (Requires Human Review),ambiguous,HUMAN_ADJUDICATION_URGENT,openai/gpt-oss-20b,class_1,majority_2_of_3,True
+216,555,The American Jobs Act should pass,Creation of job is central the the American Jobs Act,"The American Jobs Act embodies a moral imperative to invest in the well-being of all Americans. By creating jobs and providing opportunities, the Act aligns with the ethical principle of social responsibility, ensuring that every citizen has a chance to contribute to and benefit from a thriving society.",class_1,support,support,class_2,0.85,"Both perspectives support the Act based on the core argument that it facilitates job creation, with the generated viewpoint simply expanding on the moral implications of that job creation.",class_1,0.95,"Both endorse the American Jobs Act; the gold cites job creation, the generated cites moral/social responsibility.",class_1,0.9,"Both support the American Jobs Act, but the gold focuses on the central mechanism of job creation, while the generated text frames it as a moral imperative and ethical principle of social responsibility.",AMBIGUOUS (Requires Human Review),ambiguous,HUMAN_ADJUDICATION_URGENT,openai/gpt-oss-20b,class_1,majority_2_of_3,True
+219,841,Violent video games cause violent crime,Violent video game players know the difference between virtual violence in the context of a game and appropriate behavior in the real world.,"Market and Industry Impact: If a link between violent video games and crime were established, it could lead to stricter regulations or bans on such games, affecting the revenue and growth of gaming companies. This could result in job losses and decreased investment in the video game industry.",class_2,undermine,unknown,class_0b,1.0,"The gold perspective focuses on the psychological distinction between virtual and real-world behavior, whereas the generated viewpoint focuses on the economic impact of potential industry regulation.",ambiguous,0.8,"Generated viewpoint discusses market impact, not stance on violence.",class_0b,0.9,"The gold perspective addresses the psychological distinction between virtual and real violence (refuting the causal claim), whereas the generated viewpoint discusses the economic and regulatory consequences of such a link, which is a distinct topic.",AMBIGUOUS (Requires Human Review),ambiguous,HUMAN_ADJUDICATION_URGENT,openai/gpt-oss-20b,class_0b,majority_with_ambiguous,True
+470,604,Police body cameras should be allowed,Police body cameras improve police accountability and protect officers from false accusations of misconduct,"Legal Perspective - Due Process and Protection: Body cameras protect the due process rights of both officers and civilians by providing an accurate account of incidents. This ensures that any alleged misconduct is thoroughly investigated, thereby upholding the principles of justice and fairness within the legal framework.",class_2,support,unknown,class_2,0.95,Both perspectives argue for body cameras by highlighting their role in providing objective evidence to ensure accountability and protect the rights of those involved.,class_2,0.98,Both argue body cameras improve accountability and protect rights.,class_1,0.9,"Both support body cameras, but the gold perspective focuses on accountability and protection from false accusations, while the generated viewpoint frames the benefit in terms of legal due process and thorough investigation of misconduct.",AMBIGUOUS (Requires Human Review),ambiguous,HUMAN_ADJUDICATION_URGENT,openai/gpt-oss-20b,class_2,majority_2_of_3,True
+696,566,Any vaccines should be required for children,Vaccines can save children's lives.,"Vaccines should be required for children to protect them from life-altering diseases that can disproportionately affect demographic groups with less access to medical care. Children from socioeconomically disadvantaged backgrounds often face greater health risks due to limited access to healthcare, making vaccination a critical tool to level the playing field and ensure equal health outcomes.",class_1,support,support,class_1,0.9,"Both support mandatory vaccines, but the gold perspective focuses on general life-saving benefits while the generated viewpoint focuses on socioeconomic health equity.",class_2,0.85,"Both support mandatory vaccination for children, citing life‑saving and protective benefits.",class_1,0.9,"Both perspectives support mandatory vaccination, but the gold perspective uses a general life-saving argument, while the generated viewpoint focuses specifically on health equity and socioeconomic disparities.",AMBIGUOUS (Requires Human Review),ambiguous,HUMAN_ADJUDICATION_URGENT,openai/gpt-oss-20b,class_1,majority_2_of_3,True
+1354,767,The People’s Republic of China should invade North Korea,North Korea is both an annoyance now and a threat in the future to China.,"Invading North Korea would be a necessary act of institutional enforcement for the PRC to demonstrate its regional dominance and deter future provocations. A PRC invasion would send a clear message of strength and resolve to other regional actors, solidifying China's position as the primary power in East Asia and discouraging potential challenges to its authority.",class_2,support,support,class_1,0.95,"Both support invasion, but the gold perspective focuses on threat mitigation while the generated viewpoint focuses on regional power projection and deterrence.",ambiguous,0.6,"Gold perspective does not explicitly state a stance on invasion, making comparison indeterminate.",class_1,0.95,"Both support invasion, but the gold cites security threats while the generated viewpoint cites the need to demonstrate regional dominance and deterrence.",AMBIGUOUS (Requires Human Review),ambiguous,HUMAN_ADJUDICATION_URGENT,openai/gpt-oss-20b,class_1,majority_with_ambiguous,True
+245,370,The United States should ban assault weapons,"A majority of adults with the inclusion of gun owners support common sense gun control such as background checks, banning assault weapons, and bans on high-capacity magazines.",Addressing the problem of assault weapons requires a multifaceted strategy that integrates regulatory changes with public awareness and education. Success will depend on continuous monitoring and adaptation to evolving trends in gun design and distribution patterns. Public acceptance and support are critical components of ensuring long-term effectiveness in curbing gun violence.,class_2,support,unknown,class_1,0.95,"Both support the ban, but the gold perspective relies on public opinion polls while the generated viewpoint focuses on implementation strategy.",ambiguous,0.6,"The generated viewpoint does not explicitly mention banning assault weapons, so stance is unclear.",class_1,0.95,"Both support the ban, but the gold relies on public opinion statistics while the generated text argues for a multifaceted strategy including education and monitoring.",AMBIGUOUS (Requires Human Review),ambiguous,HUMAN_ADJUDICATION_URGENT,openai/gpt-oss-20b,class_1,majority_with_ambiguous,True
+1432,604,Police body cameras should be allowed,Police body cameras are a good tool for learning and have strong support from members of the public.,"Social Perspective:: Police body cameras can enhance societal trust and understanding. When people see that police interactions are being recorded, it can foster a sense of openness and honesty among both officers and the public. This transparency can reduce fear and suspicion, thereby building stronger communities where trust and cooperation thrive. Moreover, it provides a platform for constructive dialogue and mediation when disputes arise, leading to more harmonious and inclusive societies.",class_2,support,unknown,class_2,0.9,Both perspectives argue that body cameras are beneficial because they increase public trust and transparency.,class_1,0.9,"Both support body cameras, but gold cites learning and public support, while generated cites trust and transparency.",class_1,0.9,"Both support body cameras, but the gold emphasizes their utility for learning and public support, whereas the generated text focuses on enhancing societal trust and transparency.",AMBIGUOUS (Requires Human Review),ambiguous,HUMAN_ADJUDICATION_URGENT,openai/gpt-oss-20b,class_1,majority_2_of_3,True
+952,841,Violent video games cause violent crime,violent games make people agressive.,"Increased sales of violent video games can be financially motivated by understanding the psychological factors driving consumer behavior and the marketing strategies employed by game developers. Game developers often use marketing strategies that appeal to consumers' aggressive tendencies, thereby increasing sales and revenue, which can lead to an increased investment in game development and content creation.",class_1,support,support,class_1,0.9,"Both perspectives imply a link between violent games and aggression, but the gold perspective focuses on behavioral impact while the generated viewpoint focuses on market incentives.",class_0b,0.95,"The generated viewpoint focuses on marketing and sales, not on violence or crime caused by video games.",class_0b,0.95,The generated viewpoint focuses on the financial motivations and marketing strategies of game developers rather than addressing the causal link between violent games and violent crime.,AMBIGUOUS (Requires Human Review),ambiguous,HUMAN_ADJUDICATION_URGENT,openai/gpt-oss-20b,class_0b,majority_2_of_3,True
+1489,564,The United States should continue Its use of drone strikes abroad,"When the U.S. uses drone strikes abroad, it gives those nations permission to participate in human rights infringement.","The United States' reliance on drone strikes abroad violates the Geneva Conventions' requirement for imminent, human rights-based attacks, undermining the legitimacy of US actions. The lack of judicial oversight and formal authorization for drone strikes under international law contravenes the Geneva Conventions' binding rules, thus delegitimizing the US's authorization of such operations.",class_1,undermine,undermine,class_2,0.9,Both arguments oppose drone strikes on the basis that they violate international human rights standards and legal norms.,class_1,0.96,"Both argue against continued US drone strikes; the gold view mentions enabling human‑rights infringements, the generated view cites violations of the Geneva Conventions.",class_1,0.9,"Both perspectives oppose drone strikes based on human rights and international law violations, but the gold focuses on the precedent of permission for infringement while the generated focuses on specific Geneva Convention violations and lack of judicial oversight.",2/3 MAJORITY,class_1,PROVISIONAL_MAJORITY,,class_1,majority_2_of_3,True
+102,604,Police body cameras should be allowed,Police body cameras are too expensive and are unreliable.,The use of body cameras enhances accountability and transparency but also infringes on individual privacy.,class_2,undermine,unknown,class_1,0.9,"The gold perspective opposes cameras due to cost and reliability, whereas the generated viewpoint acknowledges benefits but highlights privacy concerns.",class_0a,0.9,Gold opposes body cameras due to cost/reliability; generated supports with benefits.,class_1,0.85,"Both perspectives express reservations about police body cameras (implying they should not be allowed or are problematic), but the gold cites cost and reliability, whereas the generated viewpoint cites privacy infringement.",AMBIGUOUS (Requires Human Review),ambiguous,HUMAN_ADJUDICATION_URGENT,openai/gpt-oss-20b,class_1,majority_2_of_3,True
+570,564,The United States should continue Its use of drone strikes abroad,Drone strikes violate international law.,"The use of drone strikes violates cultural norms of sovereignty and due process, undermining global trust and respect for international law. Drone strikes often occur in countries without declared war, raising ethical concerns about extrajudicial killings and bypassing established legal frameworks for justice. This disregard for cultural sensitivities and established norms fuels resentment and instability.",class_1,undermine,undermine,class_2,0.95,Both arguments oppose drone strikes by citing their violation of international law and legal frameworks.,class_2,0.85,"Both oppose drone strikes, citing violation of international law as the main reason.",class_1,0.85,"Both oppose drone strikes citing legal violations, but the gold focuses on general international law while the generated viewpoint elaborates on sovereignty, due process, and cultural norms.",AMBIGUOUS (Requires Human Review),ambiguous,HUMAN_ADJUDICATION_URGENT,openai/gpt-oss-20b,class_2,majority_2_of_3,True
+490,281,There is a need for developing tactical nuclear weapons,It is very difficult to intercede in humanitarian crises in states wherein nuclear weapons are present.,"Increased military flexibility and strategic options are achievable through the development of tactical nuclear weapons. Tactical nuclear weapons could provide a more precise and controlled response to certain threats, avoiding the massive escalation associated with strategic weapons while still carrying sufficient deterrent weight.",class_0a,undermine,support,class_0b,0.9,"The gold perspective discusses the difficulty of humanitarian intervention in nuclear states, which is unrelated to the strategic military utility of tactical nuclear weapons.",class_0a,0.95,"Gold opposes tactical nuclear weapons because they hinder humanitarian aid, whereas generated supports them for strategic flexibility.",class_0a,0.98,"The gold perspective argues against developing tactical nuclear weapons due to difficulties in humanitarian intervention, while the generated viewpoint supports development for military flexibility and strategic options.",AMBIGUOUS (Requires Human Review),ambiguous,HUMAN_ADJUDICATION_URGENT,openai/gpt-oss-20b,class_0a,majority_2_of_3,True
+857,271,Open primaries are the most effective method of selecting candidates for elections,Political minorities are more engaged with open primaries.,"Open primaries promote a more inclusive and representative democracy by allowing all voters, regardless of party affiliation, to participate in the candidate selection process. This inclusivity strengthens the democratic ideal of 'government of the people, by the people, for the people' by ensuring that a wider range of voices contribute to shaping political representation.",class_1,support,support,class_1,0.9,"Both support open primaries, but the gold perspective focuses on minority engagement while the generated viewpoint focuses on general democratic inclusivity.",class_2,0.8,Both argue for open primaries; both reason that they increase engagement and representation.,class_1,0.9,"Both support open primaries, but the gold perspective highlights increased engagement from political minorities, while the generated viewpoint argues for broader inclusivity and representation of all voters regardless of party affiliation.",AMBIGUOUS (Requires Human Review),ambiguous,HUMAN_ADJUDICATION_URGENT,openai/gpt-oss-20b,class_1,majority_2_of_3,True
+1081,525,Community radio is good for democracy,Community radio gives voices to the people rather than imposing those of the powerful.,"Community radio can serve as a crucial safeguard against government control over media narratives, thereby protecting democratic freedoms. By operating outside the traditional commercial and state-controlled media spheres, community radio stations can provide an essential check on government propaganda and ensure diverse perspectives are represented, ultimately reinforcing democratic values.",class_1,support,support,class_2,0.9,"Both perspectives argue that community radio benefits democracy by providing a platform for non-elite, independent voices to counter dominant narratives.",class_2,0.85,Both support community radio; both reason that it gives people a voice and limits powerful influence.,class_1,0.9,"Both support community radio for democracy, but the gold perspective focuses on giving voice to the people against the powerful, while the generated viewpoint frames it as a safeguard against government control and propaganda.",AMBIGUOUS (Requires Human Review),ambiguous,HUMAN_ADJUDICATION_URGENT,openai/gpt-oss-20b,class_2,majority_2_of_3,True
+1333,586,Students should have to wear school uniforms,"School uniforms create a level playing field among students, reducing peer pressure and bullying.","Interpersonal Perspective:: Wearing school uniforms can enhance interpersonal relationships. It fosters a shared sense of community among students, reducing the likelihood of cliques forming around fashion-conscious peers and increasing overall cohesion.",class_2,support,unknown,class_2,0.9,Both arguments focus on how uniforms reduce social friction and peer pressure to foster a more cohesive student environment.,class_1,0.85,"Both support uniforms, but the gold cites reducing bullying while the generated emphasizes community cohesion.",class_1,0.95,"Both support uniforms to reduce social friction, but the gold focuses on reducing peer pressure/bullying while the generated focuses on community cohesion and preventing cliques.",AMBIGUOUS (Requires Human Review),ambiguous,HUMAN_ADJUDICATION_URGENT,openai/gpt-oss-20b,class_1,majority_2_of_3,True
+956,586,Students should have to wear school uniforms,Students can express their individuality in school uniforms by introducing variations and adding accessories.,"School uniforms promote unity, equality, and social cohesion by minimizing socio-economic divisions among students. By wearing the same attire, students from diverse backgrounds are united on the same playing field, fostering an inclusive environment and breaking down barriers based on socioeconomic status.",class_0a,undermine,support,class_1,1.0,"The gold perspective argues for individual expression within uniforms, while the generated viewpoint argues for socio-economic equality.",class_1,0.8,"Both endorse uniforms; the gold focuses on individuality within uniforms, the generated on equality and socio‑economic cohesion.",class_0a,0.85,"The gold perspective argues that uniforms *allow* for individuality (a pro-uniform nuance or counter to the 'uniforms kill identity' argument), whereas the generated perspective argues that uniforms *minimize* individual differences to promote equality, which is a distinct and potentially conflicting rationale regarding the role of individuality.",AMBIGUOUS (Requires Human Review),ambiguous,HUMAN_ADJUDICATION_URGENT,openai/gpt-oss-20b,class_1,majority_2_of_3,True
+1348,838,Prostitution should be legalised to protect sex workers from HIV/AIDS,Prostitution is responsible for preventing some incidence of sex crime.,"Legalizing prostitution can enable the implementation of health regulations that protect sex workers from HIV/AIDS Regulated health screenings and safer working conditions provided through legalization can significantly reduce the risk of HIV/AIDS transmission among sex workers, thereby protecting them from the disease.",class_1,support,support,class_0a,0.9,"The gold perspective focuses on crime reduction, whereas the generated viewpoint focuses on health regulations and disease prevention.",class_1,0.9,"Both argue for legalization; the gold cites crime prevention, the generated cites health protection.",class_1,0.98,"Both support legalization, but the gold cites crime reduction as the benefit, while the generated cites health regulations and HIV/AIDS protection.",AMBIGUOUS (Requires Human Review),ambiguous,HUMAN_ADJUDICATION_URGENT,openai/gpt-oss-20b,class_1,majority_2_of_3,True
+581,829,Governments Should Actively Promote Multiculturalism,Multiculturalism greatly facilitates advancement and progress by advancing cultural exchange in both products and ideas.,"Multiculturalism enhances economic diversity and innovation by bringing together diverse skills and ideas. Diverse cultural backgrounds contribute a wide range of skills and perspectives, which drive innovation and creativity in the marketplace, leading to economic growth.",class_2,support,support,class_2,0.95,Both arguments posit that multiculturalism drives progress and advancement through the exchange of ideas and diverse perspectives.,class_1,0.85,"Both support multiculturalism; the gold highlights cultural exchange, the generated highlights economic innovation.",class_1,0.9,"Both support multiculturalism for progress, but the gold emphasizes cultural exchange of products/ideas generally, while the generated specifically focuses on economic diversity, skills, and marketplace innovation.",AMBIGUOUS (Requires Human Review),ambiguous,HUMAN_ADJUDICATION_URGENT,openai/gpt-oss-20b,class_1,majority_2_of_3,True
+803,687,Unilateral nuclear disarmament is the best way to create a safer world,The intention of a state to develop nuclear weapons may incite military attacks by enemies and by other supporting countries.,"Unilateral nuclear disarmament promotes a culture of peace and cooperation by challenging the dominant military mindset and encouraging nations to prioritize diplomacy and collective security. By unilaterally disarming, a country sends a powerful signal that it values international cooperation and collective security over national self-interest, potentially inspiring other nations to follow suit and reducing the likelihood of a nuclear arms race.",class_2,support,support,class_1,0.9,"Both support disarmament, but the gold perspective focuses on preventing preemptive military attacks, while the generated viewpoint focuses on fostering a culture of peace and diplomacy.",class_1,0.9,"Both support unilateral disarmament; gold cites risk of attacks, generated cites peace culture.",class_0a,0.95,"The gold perspective argues against unilateral disarmament by citing the risk of inciting attacks, while the generated viewpoint supports it as a means to promote peace and cooperation.",AMBIGUOUS (Requires Human Review),ambiguous,HUMAN_ADJUDICATION_URGENT,openai/gpt-oss-20b,class_1,majority_2_of_3,True
+1347,555,The American Jobs Act should pass,Creation of job is central the the American Jobs Act,"Demographic Perspective: Equitable Job Creation: The American Jobs Act should prioritize creating jobs that are accessible to various demographic groups, including minorities and rural populations, to promote inclusivity and reduce disparities.",class_2,support,unknown,class_2,0.9,Both perspectives support the American Jobs Act based on the central premise of job creation.,class_1,0.95,"Both support the Act but gold focuses on job creation generally, generated emphasizes equitable demographic job creation.",class_1,0.9,"Both support the act, but the gold focuses on job creation as the central mechanism, whereas the generated viewpoint emphasizes equitable distribution across demographics.",AMBIGUOUS (Requires Human Review),ambiguous,HUMAN_ADJUDICATION_URGENT,openai/gpt-oss-20b,class_1,majority_2_of_3,True
+72,435,Britain should give up its EU rebate,CAP revision should be a priority trade-off for Britain's EU rebate,"Ethical Perspective - National Unity:: It may undermine national unity and peace, leading to social divisions and potential conflicts within society.",class_0b,support,unknown,class_0b,0.85,The generated viewpoint provides a vague ethical argument about national unity that does not address the specific economic or policy trade-offs regarding the EU rebate.,class_0a,0.95,"Gold supports giving up the EU rebate; generated warns it could harm national unity, opposing the claim.",class_0b,0.85,"The generated viewpoint discusses national unity and social conflict, which is unrelated to the specific trade-off between the EU rebate and CAP revision mentioned in the gold.",AMBIGUOUS (Requires Human Review),ambiguous,HUMAN_ADJUDICATION_URGENT,openai/gpt-oss-20b,class_0b,majority_2_of_3,True
+758,82,Developing nations should place restrictions on rural-urban migration,"The governments of developing nations want to impose restrictions to control rural-urban migration, but these restrictions can shut out significant potential for improved quality of life for many rural citizens living in poverty","Restricting rural-urban migration can preserve traditional rural social structures and cultural identities. By restricting migration, developing nations can protect their cultural heritage and traditional way of life, which might be threatened by the influx of urbanized populations and the loss of rural expertise and customs.",class_0a,undermine,support,class_1,0.9,"The gold perspective opposes restrictions due to economic opportunity, while the generated viewpoint supports restrictions to preserve cultural heritage.",class_0a,0.95,"Gold is skeptical of restrictions, whereas the generated viewpoint praises them.",class_0a,0.95,"The gold perspective argues against restrictions to improve quality of life, while the generated viewpoint supports restrictions to preserve cultural identity.",AMBIGUOUS (Requires Human Review),ambiguous,HUMAN_ADJUDICATION_URGENT,openai/gpt-oss-20b,class_0a,majority_2_of_3,True
+790,841,Violent video games cause violent crime,"Violent video games are seen as a risk factor for aggressive behavior, according to the American Psychological Association (APA)","Exposure to violent video games alters interpersonal dynamics, fostering a culture of aggression and reduced empathy among players. Regular engagement with violent video games can lead to a normalization of violent behavior, which may manifest in more aggressive social interactions and decreased sensitivity to the harm caused by violence.",class_2,support,support,class_2,0.9,Both perspectives argue that violent video games contribute to aggressive behavior and negative psychological outcomes.,class_1,0.9,"Both accept a causal link, but the reasoning differs in detail and emphasis.",class_1,0.9,"Both perspectives support the claim that violent video games contribute to aggression, but the gold cites an institutional risk factor assessment while the generated viewpoint focuses on psychological mechanisms like reduced empathy and normalization.",AMBIGUOUS (Requires Human Review),ambiguous,HUMAN_ADJUDICATION_URGENT,openai/gpt-oss-20b,class_1,majority_2_of_3,True
+1421,323,African leaders should be transparent about their health,African heads of state  must be honest to the people about their health condition.,"Cultural respect and trust are fundamental to African governance. From a moral and cultural perspective, transparency in health disclosures by African leaders fosters trust and respects the cultural emphasis on communal well-being, ensuring that leaders are accountable to their people.",class_1,support,support,class_2,0.95,"Both perspectives advocate for health transparency for African leaders, grounding the argument in accountability and trust.",class_1,0.9,"Both support transparency, yet the generated argument focuses on trust and cultural values.",class_1,0.9,"Both support transparency, but the gold uses a general duty of honesty, while the generated viewpoint grounds the argument in specific cultural values of trust and communal well-being.",AMBIGUOUS (Requires Human Review),ambiguous,HUMAN_ADJUDICATION_URGENT,openai/gpt-oss-20b,class_1,majority_2_of_3,True
+574,585,Social networking sites are good for our society,Social media can lead to stress and offline relationship problems.,"Social networking sites can bolster legal and institutional transparency by enabling public discourse and scrutiny of government actions. Platforms facilitate the sharing of information about legal proceedings, policy decisions, and government activities, allowing citizens to monitor and hold institutions accountable.",class_0a,undermine,support,class_0b,1.0,"The gold perspective focuses on individual psychological and social harm, whereas the generated viewpoint focuses on government transparency.",class_0a,0.9,"The gold perspective highlights negative effects of social media, whereas the generated viewpoint emphasizes positive transparency benefits.",class_0a,0.95,"The gold perspective highlights negative social impacts like stress and relationship problems, while the generated viewpoint highlights positive institutional impacts like transparency and accountability.",AMBIGUOUS (Requires Human Review),ambiguous,HUMAN_ADJUDICATION_URGENT,openai/gpt-oss-20b,class_0a,majority_2_of_3,True
+1005,767,The People’s Republic of China should invade North Korea,North Korea is both an annoyance now and a threat in the future to China.,"Post-Invasion Governance: Post-invasion governance would be a major challenge. Establishing a new government in North Korea that is both stable and acceptable to the international community would require a well-thought-out plan. Failure to do so could lead to prolonged instability and conflict, potentially drawing China into a protracted occupation with no clear exit strategy.",class_2,support,unknown,class_1,0.9,"Both perspectives discuss the invasion, but the gold perspective focuses on the strategic threat while the generated viewpoint focuses on the logistical challenges of post-invasion governance.",class_0a,0.88,"Gold advocates invasion, generated highlights post‑war problems, opposing the claim.",class_0a,0.98,"The gold perspective supports the invasion by framing North Korea as a threat, whereas the generated viewpoint opposes it by highlighting the severe governance and stability risks.",2/3 MAJORITY,class_0a,PROVISIONAL_MAJORITY,,class_0a,majority_2_of_3,True
+1444,674,The Death Penalty Should Be Imposed For Acts Of Terror That Cause Death,Crime can be prevented by threatening the death penalty.,"The death penalty for acts of terror raises serious legal and institutional challenges regarding due process and potential for error. Determining guilt in complex terrorism cases can be incredibly difficult, and the risk of executing an innocent person is an unacceptable consequence. Moreover, the death penalty's application could be seen as discriminatory or influenced by political motivations, undermining the very principles of justice.",class_0a,support,undermine,class_1,1.0,"The gold perspective supports the death penalty via deterrence, while the generated viewpoint opposes it based on due process and error risks.",class_0a,0.96,"Gold supports the death penalty as a deterrent, while the generated view opposes it on due‑process and error concerns, giving opposite stances.",class_0a,0.95,"The gold perspective supports the death penalty for deterrence, while the generated viewpoint opposes it due to legal risks and potential for error.",2/3 MAJORITY,class_0a,PROVISIONAL_MAJORITY,,class_0a,majority_2_of_3,True

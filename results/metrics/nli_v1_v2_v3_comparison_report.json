@@ -1,0 +1,218 @@
+{
+  "evaluation_dataset": "data/nli_training_v3/temp_test_eval.csv",
+  "n_test_pairs": 30,
+  "comparison_table": [
+    {
+      "Version": "V1 \u2014 Base Pretrained (Legacy Inverted)",
+      "Macro_F1": 0.2105,
+      "Accuracy": 0.2667,
+      "Pipeline_Precision": 1.0,
+      "Pipeline_Recall": 0.2,
+      "Pipeline_F1": 0.3333,
+      "Entailment_F1": 0.4211,
+      "Same_Stance_Diff_Reason_Rejection": 1.0,
+      "Opposite_Stance_Rejection": 1.0
+    },
+    {
+      "Version": "V2 \u2014 Direction-Corrected (Zero-Shot)",
+      "Macro_F1": 0.1538,
+      "Accuracy": 0.3,
+      "Pipeline_Precision": 1.0,
+      "Pipeline_Recall": 0.3,
+      "Pipeline_F1": 0.4615,
+      "Entailment_F1": 0.4615,
+      "Same_Stance_Diff_Reason_Rejection": 1.0,
+      "Opposite_Stance_Rejection": 1.0
+    },
+    {
+      "Version": "V3 \u2014 Coverage-Aware",
+      "Macro_F1": 0.2016,
+      "Accuracy": 0.4333,
+      "Pipeline_Precision": 1.0,
+      "Pipeline_Recall": 0.4,
+      "Pipeline_F1": 0.5714,
+      "Entailment_F1": 0.6047,
+      "Same_Stance_Diff_Reason_Rejection": 1.0,
+      "Opposite_Stance_Rejection": 1.0
+    }
+  ],
+  "detailed_results": [
+    {
+      "model_path": "cross-encoder/nli-deberta-v3-small",
+      "input_direction": "reverse",
+      "classification_accuracy": 0.2667,
+      "classification_macro_f1": 0.2105,
+      "class_metrics": {
+        "contradiction": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "entailment": {
+          "precision": 1.0,
+          "recall": 0.2667,
+          "f1": 0.4211
+        },
+        "neutral": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "pipeline_matching_metrics_p80": {
+        "tp": 6,
+        "fp": 0,
+        "fn": 24,
+        "tn": 0,
+        "precision": 1.0,
+        "recall": 0.2,
+        "f1_score": 0.3333
+      },
+      "length_tier_recall_entailment": {
+        "short": {
+          "count": 12,
+          "accepted": 5,
+          "recall": 0.4167
+        },
+        "medium": {
+          "count": 5,
+          "accepted": 0,
+          "recall": 0.0
+        },
+        "long": {
+          "count": 9,
+          "accepted": 1,
+          "recall": 0.1111
+        },
+        "very_long": {
+          "count": 4,
+          "accepted": 0,
+          "recall": 0.0
+        }
+      },
+      "hard_negative_rejection": {
+        "same_stance_different_reasoning_rejection": 1.0,
+        "opposite_stance_conflict_rejection": 1.0
+      },
+      "version_name": "V1 \u2014 Base Pretrained (Legacy Inverted)"
+    },
+    {
+      "model_path": "cross-encoder/nli-deberta-v3-small",
+      "input_direction": "forward",
+      "classification_accuracy": 0.3,
+      "classification_macro_f1": 0.1538,
+      "class_metrics": {
+        "contradiction": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "entailment": {
+          "precision": 1.0,
+          "recall": 0.3,
+          "f1": 0.4615
+        },
+        "neutral": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "pipeline_matching_metrics_p80": {
+        "tp": 9,
+        "fp": 0,
+        "fn": 21,
+        "tn": 0,
+        "precision": 1.0,
+        "recall": 0.3,
+        "f1_score": 0.4615
+      },
+      "length_tier_recall_entailment": {
+        "short": {
+          "count": 12,
+          "accepted": 7,
+          "recall": 0.5833
+        },
+        "medium": {
+          "count": 5,
+          "accepted": 1,
+          "recall": 0.2
+        },
+        "long": {
+          "count": 9,
+          "accepted": 1,
+          "recall": 0.1111
+        },
+        "very_long": {
+          "count": 4,
+          "accepted": 0,
+          "recall": 0.0
+        }
+      },
+      "hard_negative_rejection": {
+        "same_stance_different_reasoning_rejection": 1.0,
+        "opposite_stance_conflict_rejection": 1.0
+      },
+      "version_name": "V2 \u2014 Direction-Corrected (Zero-Shot)"
+    },
+    {
+      "model_path": "C:\\Users\\dhrut\\Downloads\\perspective_coverage\\perspective_coverage\\models/argument_nli_deberta_v3_v3",
+      "input_direction": "forward",
+      "classification_accuracy": 0.4333,
+      "classification_macro_f1": 0.2016,
+      "class_metrics": {
+        "contradiction": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "entailment": {
+          "precision": 1.0,
+          "recall": 0.4333,
+          "f1": 0.6047
+        },
+        "neutral": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "pipeline_matching_metrics_p80": {
+        "tp": 12,
+        "fp": 0,
+        "fn": 18,
+        "tn": 0,
+        "precision": 1.0,
+        "recall": 0.4,
+        "f1_score": 0.5714
+      },
+      "length_tier_recall_entailment": {
+        "short": {
+          "count": 12,
+          "accepted": 7,
+          "recall": 0.5833
+        },
+        "medium": {
+          "count": 5,
+          "accepted": 1,
+          "recall": 0.2
+        },
+        "long": {
+          "count": 9,
+          "accepted": 2,
+          "recall": 0.2222
+        },
+        "very_long": {
+          "count": 4,
+          "accepted": 2,
+          "recall": 0.5
+        }
+      },
+      "hard_negative_rejection": {
+        "same_stance_different_reasoning_rejection": 1.0,
+        "opposite_stance_conflict_rejection": 1.0
+      },
+      "version_name": "V3 \u2014 Coverage-Aware"
+    }
+  ]
+}

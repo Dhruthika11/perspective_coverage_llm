@@ -1,0 +1,89 @@
+{
+  "frozen_entity": "Production_Perspective_Matching_Cascaded_Verifier",
+  "timestamp": "2026-11-20T08:15:00Z",
+  "researcher": "Dhruthika Thoutam",
+  "institution": "IIT Gandhinagar",
+  "specification": {
+    "stage_1": "BGE-Large retrieval at tau* = 0.55",
+    "stage_2a": "Stance concordance with UNKNOWN uncertainty preservation",
+    "stage_2b": "Logistic probe on cosine + entailment + neutral at T* = 0.20"
+  },
+  "files": {
+    "run_c1_full_cascade.py": {
+      "size_bytes": 7770,
+      "sha256": "2825bb1be30e3dd65b194821d741c06b4a260f11dbac1ce3ca5312b318e96656"
+    },
+    "calculate_claim_clustered_cascade_cis.py": {
+      "size_bytes": 4922,
+      "sha256": "febee796d9617c36d0774ad1a6d88bf7e073b4e4ff1abe6f8f00057cf564a7bd"
+    },
+    "run_claim_sensitivity_analysis.py": {
+      "size_bytes": 6079,
+      "sha256": "60ff2fbbcb8c0187256950293da8f084e143644e463cdf1b50afcdd9e1cf68eb"
+    },
+    "inspect_all_17_c1_fps.py": {
+      "size_bytes": 1512,
+      "sha256": "5f72aceae3396c855be0c13fece11ffe15c746c9d5525310942af4364fe79f44"
+    },
+    "run_b1_feature_ablation.py": {
+      "size_bytes": 5006,
+      "sha256": "79f31a7a66a075de7e467575a25338add89ba2dbe7336ed7291bbbe2458feabe"
+    },
+    "run_b2_calibration_and_test.py": {
+      "size_bytes": 5242,
+      "sha256": "6ab2d3db2bb48433542fed2cc2069bc52a049a79bfb043e078cf1da449693aa6"
+    },
+    "run_experiment_a_stance_and_reasoning.py": {
+      "size_bytes": 3233,
+      "sha256": "c61e3659dd1be7d30e87fa229ffcb6707f43fdac891692c45a183013a72b5cc2"
+    },
+    "data/calibration/frozen_human_ground_truth_benchmark_346.csv": {
+      "size_bytes": 392993,
+      "sha256": "9373136f6d3f057a2429c721ff3674ab20ec4d445cd3391dffb3e60fa6dd1d54"
+    },
+    "data/calibration/stage2_claim_disjoint_partitions_human_341.json": {
+      "size_bytes": 1790,
+      "sha256": "0d4cb7d649314a8f19e482d74711867d61b9b4194e43cdc54abb51800bd2369c"
+    },
+    "data/calibration/claim_disjoint_partitions_human_341.json": {
+      "size_bytes": 1485,
+      "sha256": "dad46bef12eefd8bf7980f776a962315f5bd33706de0e2de70bd380c8df20ce1"
+    },
+    "data/calibration/human_llm_benchmark_1700.csv": {
+      "size_bytes": 1130929,
+      "sha256": "7bffcb70f2d521e02462647eea4440e9da876ff1c681dfb35bcb05b55d3dd5b0"
+    },
+    "results/calibration/stage2_cross_encoder_predictions_341.csv": {
+      "size_bytes": 408042,
+      "sha256": "f39b7225c1790d861af315ec3e0288c8326b8e65ca054ca6f36baa596dfd8bfc"
+    },
+    "results/calibration/experiment_c1_cascade_report.json": {
+      "size_bytes": 2502,
+      "sha256": "8788a9e02183e7df9c913f2d6249577469951ea05fd48639d1329aeafb0f22ca"
+    },
+    "results/calibration/experiment_b1_ablation_report.json": {
+      "size_bytes": 2392,
+      "sha256": "c4a27a17af228038eba8f8a0be78004e84774bee8974d2114739de778c85f488"
+    },
+    "results/calibration/frozen_warrant_probe_model.json": {
+      "size_bytes": 891,
+      "sha256": "bbf7086407794678e70e7bd65b0d4271c9b11bee1540197c11147c22a0f68ca5"
+    },
+    "results/calibration/threshold_and_bootstrap_provenance.json": {
+      "size_bytes": 1796,
+      "sha256": "bb29adb83ba488ab5a86f3469a80f11d7c5b2683bb6227be6824867ba8370ed6"
+    },
+    "run_production_verifier.py": {
+      "size_bytes": 7735,
+      "sha256": "30c1c5d34349139ee9bb0dd8cbaa0fc2ed1edd8ca4feb3ff57ae5aff90d0662b"
+    },
+    "results/production_verifier_predictions_250.csv": {
+      "size_bytes": 186837,
+      "sha256": "0aaa6a98d0aeb1c80a66cea20671c61de2588d7c2e25dc6718e2764306c7c4d3"
+    },
+    "data/audit/production_verifier_audit_sample_50.csv": {
+      "size_bytes": 29166,
+      "sha256": "3298801a2cb9f195a5b110eff81663b1a4fb9afcf63ce0b2a08b0da7cf69b513"
+    }
+  }
+}

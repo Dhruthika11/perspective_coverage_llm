@@ -1,0 +1,70 @@
+# Environment and Secrets
+.env
+.env.*
+*.key
+*.pem
+
+# Python & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+.ipynb_checkpoints/
+.opencode/
+
+# OS Artifacts
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Scratch and Temporary Scripts/Logs
+scratch/
+*.log
+*.bak
+*.bak_*
+temp_*
+
+# Large Model Checkpoints & Binary Weights (Host on HuggingFace Hub)
+models/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.onnx
+
+# Embedding Arrays and Binary Caches
+*.npy
+*.npz
+results/*/embeddings/
+
+# Heavy Raw Generations and Viewpoint Dumps (>10MB to 100MB+)
+data/viewpoint_separated/
+data/llm_outputs/
+data/pilot_validation/
+data/pilot_validation_prefix/
+data/raw/
+data/raw_generation_manifest.csv
+
+# Large External Reference PDFs
+Perspective_Coverage_All_Materials_Combined-5-9.pdf
+perspectroscope_poster_072319.pdf

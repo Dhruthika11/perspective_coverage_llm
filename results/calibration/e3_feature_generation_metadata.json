@@ -1,0 +1,27 @@
+{
+  "experiment": "E3_Reasoning_Aware_Feature_Extraction",
+  "extraction_version": "e3-v1.0-toulmin-discourse",
+  "embedding_model": "BAAI/bge-large-en-v1.5",
+  "total_benchmark_pairs": 341,
+  "unique_gold_texts": 249,
+  "unique_gen_texts": 303,
+  "total_unique_texts": 552,
+  "total_component_embeddings": 1656,
+  "extraction_time_seconds": 0.02,
+  "embedding_time_seconds": 2.563,
+  "feature_columns": [
+    "cosine_similarity",
+    "p_entail",
+    "p_neutral",
+    "p_contra",
+    "logit_entail",
+    "claim_cosine",
+    "reasoning_cosine",
+    "warrant_cosine"
+  ],
+  "output_files": {
+    "components_cache_json": "data/calibration/e3_extracted_components_cache.json",
+    "embeddings_cache_npz": "data/calibration/e3_component_embeddings_cache.npz",
+    "pairwise_features_csv": "results/calibration/e3_pairwise_features_341.csv"
+  }
+}

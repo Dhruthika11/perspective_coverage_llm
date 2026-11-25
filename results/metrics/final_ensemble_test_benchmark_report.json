@@ -1,0 +1,35 @@
+{
+  "evaluation_dataset": "Locked 1,118 Test Benchmark (data/nli_training_v3/test.csv)",
+  "ensemble_model": "Data-Only (Random Head + Balanced Multi-Genre Data)",
+  "temperature_T_applied": 0.2323,
+  "disaggregated_auroc": {
+    "macro_combined": 0.9842,
+    "stratum_1_short_human": 0.9855,
+    "stratum_2_long_llm": 0.9807,
+    "stratum_3_stance_separation": 0.9863
+  },
+  "adversarial_robustness": {
+    "contradictions_caught": "107/120 (89.2%)"
+  },
+  "metrics_at_frozen_theta_f1": {
+    "threshold": 0.3,
+    "precision": 0.9418,
+    "recall": 0.9296,
+    "f1": 0.9357
+  },
+  "metrics_at_frozen_theta_high_precision": {
+    "threshold": 0.27,
+    "precision": 0.937,
+    "recall": 0.937,
+    "f1": 0.937
+  },
+  "three_tier_triage_evaluation": {
+    "accept_count": 540,
+    "accept_percentage": 48.3,
+    "accept_tier_precision": 93.7,
+    "review_count": 12,
+    "review_percentage": 1.07,
+    "reject_count": 566,
+    "reject_percentage": 50.63
+  }
+}

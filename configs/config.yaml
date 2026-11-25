@@ -1,0 +1,353 @@
+analysis:
+  clustering: stance_based
+  kmeans_clusters: 2
+  similarity_threshold: 0.744
+  use_calibrated_threshold: false
+  stance_method: nli
+  nli_model: cross-encoder/nli-deberta-v3-small
+  nli_batch_size: 32
+calibration:
+  mode: cluster
+  nli_model: cross-encoder/nli-deberta-v3-small
+  batch_size: 32
+  max_perspectives_per_sample: 6
+  n_llm_samples: 50
+  max_cluster_pairs: 3000
+  seed: 42
+dataset:
+  name: perspectrum
+  claims_file: perspectrum_with_answers_v1.0.json
+  dataset_split_file: dataset_split_v1.0.json
+  evidence_pool_file: evidence_pool_v1.0.json
+  perspective_pool_file: perspective_pool_v1.0.json
+  processed_dir: data/processed/
+  raw_dir: data/raw/perspectrum/
+  datasets:
+    perspectrum:
+      name: perspectrum
+      processed_dir: data/processed/
+      raw_dir: data/raw/perspectrum/
+    ibm_debater:
+      name: ibm_debater
+      processed_dir: data/processed/ibm_debater/
+      raw_dir: data/raw/ibm_debater/
+    kialo:
+      name: kialo
+      processed_dir: data/processed/kialo/
+      raw_dir: data/raw/kialo/
+embedding:
+  batch_size: 32
+  model: BAAI/bge-large-en-v1.5
+  models:
+    nomic: nomic-ai/nomic-embed-text-v1.5
+    bge-large: BAAI/bge-large-en-v1.5
+    bge-base: BAAI/bge-base-en-v1.5
+    mpnet: sentence-transformers/all-mpnet-base-v2
+  normalize: true
+  query_instruction: 'search_query: '
+generation:
+  batch_size: 10
+  checkpoint_every_n_claims: 10
+llm:
+  max_new_tokens: 512
+  model: Qwen/Qwen2.5-7B-Instruct
+  models:
+    # --- Qwen 2.5 Family (Scaling Ladder) ---
+    0.5b:
+      name: Qwen/Qwen2.5-0.5B-Instruct
+      provider: huggingface
+      temperature: 0.8
+      top_p: 0.95
+      max_new_tokens: 512
+      batch_size: 16
+    1.5b:
+      name: Qwen/Qwen2.5-1.5B-Instruct
+      provider: huggingface
+      temperature: 0.8
+      top_p: 0.95
+      max_new_tokens: 512
+      batch_size: 10
+    3b:
+      name: Qwen/Qwen2.5-3B-Instruct
+      provider: huggingface
+      temperature: 0.8
+      top_p: 0.95
+      max_new_tokens: 512
+      batch_size: 8
+    qwen-7b:
+      name: Qwen/Qwen2.5-7B-Instruct
+      provider: huggingface
+      temperature: 0.8
+      top_p: 0.95
+      max_new_tokens: 512
+      batch_size: 6
+    14b:
+      name: Qwen/Qwen2.5-14B-Instruct
+      provider: huggingface
+      temperature: 0.8
+      top_p: 0.95
+      max_new_tokens: 512
+      batch_size: 4
+    32b:
+      name: Qwen/Qwen2.5-32B-Instruct
+      provider: huggingface
+      temperature: 0.8
+      top_p: 0.95
+      max_new_tokens: 512
+      batch_size: 2
+
+    # --- Mistral Family ---
+    7b:
+      name: mistralai/Mistral-7B-Instruct-v0.3
+      provider: huggingface
+      temperature: 0.8
+      top_p: 0.95
+      max_new_tokens: 512
+      batch_size: 6
+    mistral-7b:
+      name: mistralai/Mistral-7B-Instruct-v0.3
+      provider: huggingface
+      temperature: 0.8
+      top_p: 0.95
+      max_new_tokens: 512
+      batch_size: 6
+
+    # --- Meta LLaMA 3.x Family ---
+    llama-1b:
+      name: meta-llama/Llama-3.2-1B-Instruct
+      provider: huggingface
+      temperature: 0.8
+      top_p: 0.95
+      max_new_tokens: 512
+      batch_size: 12
+    llama-3b:
+      name: meta-llama/Llama-3.2-3B-Instruct
+      provider: huggingface
+      temperature: 0.8
+      top_p: 0.95
+      max_new_tokens: 512
+      batch_size: 8
+    llama-8b:
+      name: meta-llama/Llama-3.1-8B-Instruct
+      provider: huggingface
+      temperature: 0.8
+      top_p: 0.95
+      max_new_tokens: 512
+      batch_size: 6
+
+
+    # --- Google Gemma Family ---
+    gemma-2b:
+      name: google/gemma-2-2b-it
+      provider: huggingface
+      temperature: 0.8
+      top_p: 0.95
+      max_new_tokens: 512
+      batch_size: 10
+    gemma-9b:
+      name: google/gemma-2-9b-it
+      provider: huggingface
+      temperature: 0.8
+      top_p: 0.95
+      max_new_tokens: 512
+      batch_size: 4
+    gemma-27b:
+      name: google/gemma-2-27b-it
+      provider: huggingface
+      temperature: 0.8
+      top_p: 0.95
+      max_new_tokens: 512
+      batch_size: 2
+
+    # --- SmolLM2 Family (Sub-Billion Extremes) ---
+    smollm2-135m:
+      name: HuggingFaceTB/SmolLM2-135M-Instruct
+      provider: huggingface
+      temperature: 0.8
+      top_p: 0.95
+      max_new_tokens: 512
+      batch_size: 24
+    smollm2-360m:
+      name: HuggingFaceTB/SmolLM2-360M-Instruct
+      provider: huggingface
+      temperature: 0.8
+      top_p: 0.95
+      max_new_tokens: 512
+      batch_size: 20
+    smollm2-1.7b:
+      name: HuggingFaceTB/SmolLM2-1.7B-Instruct
+      provider: huggingface
+      temperature: 0.8
+      top_p: 0.95
+      max_new_tokens: 512
+      batch_size: 12
+
+    # --- OLMoE Family (Sparse MoE 1B-7B) ---
+    olmoe-1b-7b:
+      name: allenai/OLMoE-1B-7B-0924-Instruct
+      provider: huggingface
+      temperature: 0.8
+      top_p: 0.95
+      max_new_tokens: 512
+      batch_size: 6
+
+    # --- OLMo 2 Family (Post-Training Alignment Ladder: Base -> SFT -> DPO -> Instruct) ---
+    # 1B Scale
+    olmo2-1b-base:
+      name: allenai/OLMo-2-0425-1B
+      provider: huggingface
+      temperature: 0.8
+      top_p: 0.95
+      max_new_tokens: 512
+      batch_size: 16
+    olmo2-1b-sft:
+      name: allenai/OLMo-2-0425-1B-SFT
+      provider: huggingface
+      temperature: 0.8
+      top_p: 0.95
+      max_new_tokens: 512
+      batch_size: 16
+    olmo2-1b-dpo:
+      name: allenai/OLMo-2-0425-1B-DPO
+      provider: huggingface
+      temperature: 0.8
+      top_p: 0.95
+      max_new_tokens: 512
+      batch_size: 16
+    olmo2-1b-instruct:
+      name: allenai/OLMo-2-0425-1B-Instruct
+      provider: huggingface
+      temperature: 0.8
+      top_p: 0.95
+      max_new_tokens: 512
+      batch_size: 16
+
+    # 7B Scale
+    olmo2-7b-base:
+      name: allenai/OLMo-2-1124-7B
+      provider: huggingface
+      temperature: 0.8
+      top_p: 0.95
+      max_new_tokens: 512
+      batch_size: 6
+    olmo2-7b-sft:
+      name: allenai/OLMo-2-1124-7B-SFT
+      provider: huggingface
+      temperature: 0.8
+      top_p: 0.95
+      max_new_tokens: 512
+      batch_size: 6
+    olmo2-7b-dpo:
+      name: allenai/OLMo-2-1124-7B-DPO
+      provider: huggingface
+      temperature: 0.8
+      top_p: 0.95
+      max_new_tokens: 512
+      batch_size: 6
+    olmo2-7b-instruct:
+      name: allenai/OLMo-2-1124-7B-Instruct
+      provider: huggingface
+      temperature: 0.8
+      top_p: 0.95
+      max_new_tokens: 512
+      batch_size: 6
+
+    # 13B Scale
+    olmo2-13b-base:
+      name: allenai/OLMo-2-1124-13B
+      provider: huggingface
+      temperature: 0.8
+      top_p: 0.95
+      max_new_tokens: 512
+      batch_size: 4
+    olmo2-13b-sft:
+      name: allenai/OLMo-2-1124-13B-SFT
+      provider: huggingface
+      temperature: 0.8
+      top_p: 0.95
+      max_new_tokens: 512
+      batch_size: 4
+    olmo2-13b-dpo:
+      name: allenai/OLMo-2-1124-13B-DPO
+      provider: huggingface
+      temperature: 0.8
+      top_p: 0.95
+      max_new_tokens: 512
+      batch_size: 4
+    olmo2-13b-instruct:
+      name: allenai/OLMo-2-1124-13B-Instruct
+      provider: huggingface
+      temperature: 0.8
+      top_p: 0.95
+      max_new_tokens: 512
+      batch_size: 4
+
+    # 32B Scale
+    olmo2-32b-base:
+      name: allenai/OLMo-2-0325-32B
+      provider: huggingface
+      temperature: 0.8
+      top_p: 0.95
+      max_new_tokens: 512
+      batch_size: 2
+    olmo2-32b-sft:
+      name: allenai/OLMo-2-0325-32B-SFT
+      provider: huggingface
+      temperature: 0.8
+      top_p: 0.95
+      max_new_tokens: 512
+      batch_size: 2
+    olmo2-32b-dpo:
+      name: allenai/OLMo-2-0325-32B-DPO
+      provider: huggingface
+      temperature: 0.8
+      top_p: 0.95
+      max_new_tokens: 512
+      batch_size: 2
+    olmo2-32b-instruct:
+      name: allenai/OLMo-2-0325-32B-Instruct
+      provider: huggingface
+      temperature: 0.8
+      top_p: 0.95
+      max_new_tokens: 512
+      batch_size: 2
+
+    judge-qwen:
+      max_new_tokens: 10
+      name: openai/gpt-oss-120b
+      provider: groq
+      temperature: 0.0
+      top_p: 1.0
+  num_samples_per_claim: 5
+  prompt_strategy: dynamic_aspects
+  dynamic_aspects:
+    - "Economic or Financial"
+    - "Ethical, Moral, or Cultural"
+    - "Legal, Institutional, or Policy"
+    - "Practical, Pragmatic, or Implementation"
+    - "Social, Demographic, or Interpersonal"
+    - "Scientific or Technological"
+    - "Historical or Long-term"
+    - "Global or International"
+  dynamic_prompt_template: 'You are analyzing the controversial claim: "{claim}"
+
+    Task: Provide one single, distinct, and focused argument about this claim strictly from an {aspect} perspective.
+    Do not provide a balanced overview. Take one clear, atomic stance (either SUPPORT or UNDERMINE).
+    {history_constraint}
+    Respond with ONLY a single JSON object matching this schema:
+    {{
+      "stance": "support" or "undermine",
+      "perspective_summary": "1 concise sentence stating the core claim",
+      "core_reasoning": "1-2 sentences explaining the supporting logic"
+    }}'
+  provider: huggingface
+  seed: 42
+  temperature: 0.8
+  top_p: 0.95
+paths:
+  embeddings_dir: results/embeddings/
+  figures_dir: results/figures/
+  llm_outputs_processed: data/llm_outputs/processed_generations.csv
+  llm_outputs_raw: data/llm_outputs/raw_generations/
+  metrics_dir: results/metrics/
+  summary_file: results/final_report_summary.json

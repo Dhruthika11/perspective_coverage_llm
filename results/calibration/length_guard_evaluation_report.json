@@ -1,0 +1,63 @@
+{
+  "optimal_rule": "Rule B: Fallback M0 if L <= Cutoff",
+  "optimal_L_cutoff": 14,
+  "calibration_performance": {
+    "Rule": "Rule B: Fallback M0 if L <= Cutoff",
+    "L_Cutoff": 14,
+    "Cal_Recall": 100.0,
+    "Cal_Precision": 47.06,
+    "Cal_F1": 0.64,
+    "Cal_C1_Rejection": 44.44,
+    "Cal_Total_FP": 27
+  },
+  "test_performance": [
+    {
+      "model": "M0 Baseline (T*=0.20)",
+      "recall": 0.9583333333333334,
+      "precision": 0.5476190476190477,
+      "f1": 0.696969696969697,
+      "rej_c1": 0.41379310344827586,
+      "rej_c0a": 0.9615384615384616,
+      "tot_fp": 19,
+      "fp_c1": 17,
+      "fp_c0a": 1,
+      "fp_c0b": 1
+    },
+    {
+      "model": "M2 Reasoning (T*=0.18, No Guard)",
+      "recall": 0.8333333333333334,
+      "precision": 0.5555555555555556,
+      "f1": 0.6666666666666667,
+      "rej_c1": 0.4827586206896552,
+      "rej_c0a": 1.0,
+      "tot_fp": 16,
+      "fp_c1": 15,
+      "fp_c0a": 0,
+      "fp_c0b": 1
+    },
+    {
+      "model": "M2 Reasoning (T*=0.31, No Guard)",
+      "recall": 0.7083333333333334,
+      "precision": 0.6296296296296297,
+      "f1": 0.6666666666666667,
+      "rej_c1": 0.6896551724137931,
+      "rej_c0a": 1.0,
+      "tot_fp": 10,
+      "fp_c1": 9,
+      "fp_c0a": 0,
+      "fp_c0b": 1
+    },
+    {
+      "model": "M2 + Length Guard (L*=14, T*=0.18)",
+      "recall": 0.875,
+      "precision": 0.525,
+      "f1": 0.6562500000000001,
+      "rej_c1": 0.41379310344827586,
+      "rej_c0a": 0.9615384615384616,
+      "tot_fp": 19,
+      "fp_c1": 17,
+      "fp_c0a": 1,
+      "fp_c0b": 1
+    }
+  ]
+}

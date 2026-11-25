@@ -1,0 +1,100 @@
+{
+  "framework": "OLMo 2 Post-Training Alignment Ladder",
+  "stages": [
+    "Base",
+    "SFT",
+    "DPO",
+    "Instruct"
+  ],
+  "transitions": [
+    {
+      "transition": "Base -> SFT",
+      "stage_a": "Base",
+      "stage_b": "SFT",
+      "viewpoint_retention_rate": 0.85,
+      "perspective_dropout_rate": 0.15,
+      "novel_discovery_rate": 0.1414,
+      "stage_a_stance_entropy": 1.0,
+      "stage_b_stance_entropy": 0.9815,
+      "stance_entropy_change": -0.0185,
+      "has_mode_collapse": false,
+      "details": {
+        "retention_rate": 0.85,
+        "dropout_rate": 0.15,
+        "novel_viewpoint_discovery_rate": 0.1414,
+        "n_base_covered": 100,
+        "n_aligned_covered": 99,
+        "n_retained": 85,
+        "n_dropped": 15,
+        "n_novel": 14
+      }
+    },
+    {
+      "transition": "SFT -> DPO",
+      "stage_a": "SFT",
+      "stage_b": "DPO",
+      "viewpoint_retention_rate": 0.8182,
+      "perspective_dropout_rate": 0.1818,
+      "novel_discovery_rate": 0.0,
+      "stage_a_stance_entropy": 0.9815,
+      "stage_b_stance_entropy": 0.9044,
+      "stance_entropy_change": -0.0771,
+      "has_mode_collapse": false,
+      "details": {
+        "retention_rate": 0.8182,
+        "dropout_rate": 0.1818,
+        "novel_viewpoint_discovery_rate": 0.0,
+        "n_base_covered": 99,
+        "n_aligned_covered": 81,
+        "n_retained": 81,
+        "n_dropped": 18,
+        "n_novel": 0
+      }
+    },
+    {
+      "transition": "DPO -> Instruct",
+      "stage_a": "DPO",
+      "stage_b": "Instruct",
+      "viewpoint_retention_rate": 0.8889,
+      "perspective_dropout_rate": 0.1111,
+      "novel_discovery_rate": 0.0,
+      "stage_a_stance_entropy": 0.9044,
+      "stage_b_stance_entropy": 0.8555,
+      "stance_entropy_change": -0.0489,
+      "has_mode_collapse": false,
+      "details": {
+        "retention_rate": 0.8889,
+        "dropout_rate": 0.1111,
+        "novel_viewpoint_discovery_rate": 0.0,
+        "n_base_covered": 81,
+        "n_aligned_covered": 72,
+        "n_retained": 72,
+        "n_dropped": 9,
+        "n_novel": 0
+      }
+    }
+  ],
+  "overall_base_to_instruct": {
+    "transition": "Base -> Instruct",
+    "stage_a": "Base",
+    "stage_b": "Instruct",
+    "viewpoint_retention_rate": 0.65,
+    "perspective_dropout_rate": 0.35,
+    "novel_discovery_rate": 0.0972,
+    "stage_a_stance_entropy": 1.0,
+    "stage_b_stance_entropy": 0.8555,
+    "stance_entropy_change": -0.1445,
+    "has_mode_collapse": false,
+    "details": {
+      "retention_rate": 0.65,
+      "dropout_rate": 0.35,
+      "novel_viewpoint_discovery_rate": 0.0972,
+      "n_base_covered": 100,
+      "n_aligned_covered": 72,
+      "n_retained": 65,
+      "n_dropped": 35,
+      "n_novel": 7
+    }
+  },
+  "key_finding": "Alignment induces progressive perspective compression: Instruct retains 65.0% of Base viewpoints, while stance entropy collapses by 0.1445 bits due to preferential penalization of contentious counter-arguments."
+}

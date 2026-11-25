@@ -1,0 +1,28 @@
+{
+  "dataset_name": "clean_balanced_logfo_benchmark",
+  "total_pairs": 1120,
+  "audit_results": {
+    "dataset_name": "Clean Rebuilt LOGFO Benchmark",
+    "dataset_path": "data/logfo_benchmark/clean_balanced_logfo_benchmark.csv",
+    "total_pairs": 1120,
+    "positives": {
+      "count": 560,
+      "exact_substr_rate": 0.0,
+      "mean_token_overlap": 36.67,
+      "mean_p_words": 50.1,
+      "mean_h_words": 11.9
+    },
+    "negatives": {
+      "count": 560,
+      "exact_substr_rate": 0.0,
+      "mean_token_overlap": 20.38,
+      "mean_p_words": 49.5,
+      "mean_h_words": 9.6
+    },
+    "overlap_gap_pos_minus_neg": 16.29,
+    "verbatim_containment_detected": false,
+    "clean_standard_verified": true
+  },
+  "clean_standard_verified": true,
+  "target_condition_met": true
+}

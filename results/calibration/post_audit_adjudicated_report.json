@@ -1,0 +1,158 @@
+{
+  "control_sample": {
+    "n": 35,
+    "agreement_pct": 82.85714285714286,
+    "cohen_kappa": 0.732824427480916,
+    "confusion_matrix": [
+      [
+        13,
+        2,
+        0,
+        0
+      ],
+      [
+        2,
+        11,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        3,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        2
+      ]
+    ]
+  },
+  "disagreement_sample": {
+    "n": 55,
+    "sided_with_original_human": 39,
+    "sided_with_llm": 10,
+    "other_verdict": 6,
+    "c2_vs_c1_breakdown": {
+      "class_2": 16,
+      "class_1": 8,
+      "class_0a": 1
+    }
+  },
+  "benchmark_versions_comparison": {
+    "version_C_vs_version_A": {
+      "agreement_pct": 93.54838709677419,
+      "cohen_kappa": 0.9088490091491197
+    },
+    "version_C_vs_version_B": {
+      "agreement_pct": 88.14102564102564,
+      "cohen_kappa": 0.8308571428571428
+    },
+    "class_distribution_version_C": {
+      "class_1": 136,
+      "class_2": 89,
+      "class_0a": 83,
+      "class_0b": 33
+    }
+  },
+  "eval_matrix": [
+    {
+      "Benchmark": "Version A (Human Manual)",
+      "Model": "M0 (Hard Cascade, T*=0.20)",
+      "Positives (C2)": 99,
+      "Negatives": 242,
+      "TP": 94,
+      "FP": 86,
+      "FN": 5,
+      "TN": 156,
+      "Recall (C2)": "94.95%",
+      "Precision (C2)": "52.22%",
+      "F1": "0.6738",
+      "Specificity": "64.46%",
+      "C1 Rejection": "37.80% (48/127)",
+      "C0a Rejection": "92.68% (76/82)"
+    },
+    {
+      "Benchmark": "Version A (Human Manual)",
+      "Model": "M_soft (Gated Weight, thresh=0.25)",
+      "Positives (C2)": 99,
+      "Negatives": 242,
+      "TP": 93,
+      "FP": 149,
+      "FN": 6,
+      "TN": 93,
+      "Recall (C2)": "93.94%",
+      "Precision (C2)": "38.43%",
+      "F1": "0.5455",
+      "Specificity": "38.43%",
+      "C1 Rejection": "22.05% (28/127)",
+      "C0a Rejection": "40.24% (33/82)"
+    },
+    {
+      "Benchmark": "Version B (LLM Majority)",
+      "Model": "M0 (Hard Cascade, T*=0.20)",
+      "Positives (C2)": 75,
+      "Negatives": 266,
+      "TP": 71,
+      "FP": 109,
+      "FN": 4,
+      "TN": 157,
+      "Recall (C2)": "94.67%",
+      "Precision (C2)": "39.44%",
+      "F1": "0.5569",
+      "Specificity": "59.02%",
+      "C1 Rejection": "34.01% (50/147)",
+      "C0a Rejection": "87.95% (73/83)"
+    },
+    {
+      "Benchmark": "Version B (LLM Majority)",
+      "Model": "M_soft (Gated Weight, thresh=0.25)",
+      "Positives (C2)": 75,
+      "Negatives": 266,
+      "TP": 71,
+      "FP": 171,
+      "FN": 4,
+      "TN": 95,
+      "Recall (C2)": "94.67%",
+      "Precision (C2)": "29.34%",
+      "F1": "0.4479",
+      "Specificity": "35.71%",
+      "C1 Rejection": "21.77% (32/147)",
+      "C0a Rejection": "36.14% (30/83)"
+    },
+    {
+      "Benchmark": "Version C (Final Adjudicated)",
+      "Model": "M0 (Hard Cascade, T*=0.20)",
+      "Positives (C2)": 89,
+      "Negatives": 252,
+      "TP": 85,
+      "FP": 95,
+      "FN": 4,
+      "TN": 157,
+      "Recall (C2)": "95.51%",
+      "Precision (C2)": "47.22%",
+      "F1": "0.6320",
+      "Specificity": "62.30%",
+      "C1 Rejection": "36.03% (49/136)",
+      "C0a Rejection": "91.57% (76/83)"
+    },
+    {
+      "Benchmark": "Version C (Final Adjudicated)",
+      "Model": "M_soft (Gated Weight, thresh=0.25)",
+      "Positives (C2)": 89,
+      "Negatives": 252,
+      "TP": 85,
+      "FP": 157,
+      "FN": 4,
+      "TN": 95,
+      "Recall (C2)": "95.51%",
+      "Precision (C2)": "35.12%",
+      "F1": "0.5136",
+      "Specificity": "37.70%",
+      "C1 Rejection": "21.32% (29/136)",
+      "C0a Rejection": "40.96% (34/83)"
+    }
+  ]
+}

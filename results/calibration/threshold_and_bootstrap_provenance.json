@@ -1,0 +1,60 @@
+{
+  "pipeline_architecture": "Stage 1 (Retrieval) -> Stage 2a (Stance) -> Stage 2b (Warrant Probe)",
+  "stage_1_retrieval": {
+    "model": "BAAI/bge-large-en-v1.5",
+    "pooling": "CLS",
+    "normalization": "L2",
+    "threshold": 0.55,
+    "calibration_scope": "Claims [:45] (seed=42)",
+    "objective": "Permissive candidate recall (preserves 100% of Class 2 on test claims)"
+  },
+  "stage_2a_stance": {
+    "rule": "Concordant polarity or UNKNOWN (rejects only explicit support-undermine contradiction)",
+    "handling_of_unknown": "Preserved and passed to Stage 2b",
+    "test_performance": "Rejects 17/23 surviving Class 0a pairs (73.91%) with zero Class 2 loss"
+  },
+  "stage_2b_warrant_probe": {
+    "features": [
+      "cosine_similarity",
+      "p_entail",
+      "p_neutral"
+    ],
+    "weights": {
+      "cosine_similarity": 0.7774028105441344,
+      "p_entail": 0.41267587180915644,
+      "p_neutral": -0.19242545918230614
+    },
+    "intercept": -0.10864866527506048,
+    "threshold": 0.2,
+    "calibration_loocv_mean": 0.208,
+    "calibration_loocv_std": 0.027,
+    "test_performance": {
+      "class_2_recall": 0.9583,
+      "class_2_recall_95_ci_wilson": [
+        0.7976,
+        0.9926
+      ],
+      "class_2_recall_95_ci_clustered": [
+        0.8929,
+        1.0
+      ],
+      "class_2_precision_full_cascade": 0.5476,
+      "class_2_precision_95_ci_wilson": [
+        0.3985,
+        0.6884
+      ],
+      "class_2_precision_95_ci_clustered": [
+        0.375,
+        0.75
+      ],
+      "class_2_f1": 0.697,
+      "class_2_f1_95_ci_clustered": [
+        0.5454,
+        0.8333
+      ],
+      "class_1_rejection_e2e": 0.4138,
+      "class_0a_rejection_e2e": 0.9615,
+      "class_0b_rejection_e2e": 0.8889
+    }
+  }
+}

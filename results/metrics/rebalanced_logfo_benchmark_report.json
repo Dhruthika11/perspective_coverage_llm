@@ -1,0 +1,59 @@
+{
+  "title": "Rebalanced LOGFO Benchmark with Claim-Clustered 95% CIs",
+  "pre_registered_rules": {
+    "rule_1_min_ood_auroc": 0.85,
+    "rule_2_min_gain_over_zeroshot": 0.25,
+    "rule_3_min_ood_recall": 0.7,
+    "description": "Pre-Registered Success Criteria:\n  1. OOD AUROC >= 0.8500 for every held-out family (retaining >=90% of in-domain performance).\n  2. Gain over Zero-Shot Delta >= +0.2500 AUROC, with 95% claim-clustered CI strictly excluding 0.\n  3. Held-out Recall >= 70.0% (resolving zero-shot evidence dilution collapse)."
+  },
+  "overall_success_declared": true,
+  "macro_mean_logfo_auroc": 0.9483,
+  "macro_mean_zeroshot_auroc": 0.542,
+  "macro_mean_gain_delta": 0.4063,
+  "family_results": [
+    {
+      "Family": "QWEN",
+      "N_Pairs": 280,
+      "N_Pos / N_Neg": "140 / 140",
+      "Zero_Shot_AUROC_CI": "0.4881 [0.4192 \u2013 0.5475]",
+      "LOGFO_HeldOut_AUROC_CI": "0.9442 [0.9198 \u2013 0.9662]",
+      "Delta_Gain_CI": "+0.4561 [+0.3899 \u2013 +0.5354]",
+      "ZeroShot_Recall": "0.0%",
+      "LOGFO_Recall": "82.1%",
+      "Success_Rule_Met": "PASSED"
+    },
+    {
+      "Family": "LLAMA",
+      "N_Pairs": 280,
+      "N_Pos / N_Neg": "140 / 140",
+      "Zero_Shot_AUROC_CI": "0.5498 [0.4813 \u2013 0.6196]",
+      "LOGFO_HeldOut_AUROC_CI": "0.9445 [0.9245 \u2013 0.9651]",
+      "Delta_Gain_CI": "+0.3947 [+0.3224 \u2013 +0.4713]",
+      "ZeroShot_Recall": "0.0%",
+      "LOGFO_Recall": "82.1%",
+      "Success_Rule_Met": "PASSED"
+    },
+    {
+      "Family": "GEMMA",
+      "N_Pairs": 280,
+      "N_Pos / N_Neg": "140 / 140",
+      "Zero_Shot_AUROC_CI": "0.5178 [0.4579 \u2013 0.5853]",
+      "LOGFO_HeldOut_AUROC_CI": "0.9436 [0.9192 \u2013 0.9624]",
+      "Delta_Gain_CI": "+0.4258 [+0.3576 \u2013 +0.4866]",
+      "ZeroShot_Recall": "0.0%",
+      "LOGFO_Recall": "81.4%",
+      "Success_Rule_Met": "PASSED"
+    },
+    {
+      "Family": "OLMO",
+      "N_Pairs": 280,
+      "N_Pos / N_Neg": "140 / 140",
+      "Zero_Shot_AUROC_CI": "0.6123 [0.5500 \u2013 0.6875]",
+      "LOGFO_HeldOut_AUROC_CI": "0.9610 [0.9408 \u2013 0.9765]",
+      "Delta_Gain_CI": "+0.3487 [+0.2810 \u2013 +0.4066]",
+      "ZeroShot_Recall": "0.0%",
+      "LOGFO_Recall": "83.6%",
+      "Success_Rule_Met": "PASSED"
+    }
+  ]
+}

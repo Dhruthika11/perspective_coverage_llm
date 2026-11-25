@@ -1,0 +1,6 @@
+dataset,model,n_claims_evaluated,mean_cluster_coverage,support_cluster_coverage,undermine_cluster_coverage,stance_balance_gap,zero_coverage_claims_count,zero_coverage_claims_pct,cluster_aggregation_method
+perspectrum,qwen2_5_1_5b_instruct,907,0.2296,0.2645,0.1955,0.069,342,0.3771,max
+perspectrum,qwen2_5_3b_instruct,907,0.2211,0.2442,0.1979,0.0463,358,0.3947,max
+perspectrum,qwen2_5_32b_instruct,907,0.2564,0.2748,0.2377,0.037,310,0.3418,max
+perspectrum,gemma_3_12b_it,907,0.2292,0.2454,0.2149,0.0305,337,0.3716,max
+perspectrum,mistral_7b_instruct_v0_3,907,0.2205,0.2494,0.1937,0.0557,362,0.3991,max

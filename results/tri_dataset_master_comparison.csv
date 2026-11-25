@@ -1,0 +1,6 @@
+model,perspectrum_cluster_coverage,ibm_debater_wa_quality_coverage,kialo_binary_debate_coverage,perspectrum_status,ibm_debater_status,kialo_status
+qwen2_5_1_5b_instruct,0.2296,,,EVALUATED,PENDING_GENERATION,PENDING_GENERATION
+qwen2_5_3b_instruct,0.2211,,,EVALUATED,PENDING_GENERATION,PENDING_GENERATION
+qwen2_5_32b_instruct,0.2564,,,EVALUATED,PENDING_GENERATION,PENDING_GENERATION
+gemma_3_12b_it,0.2292,,,EVALUATED,PENDING_GENERATION,PENDING_GENERATION
+mistral_7b_instruct_v0_3,0.2205,,,EVALUATED,PENDING_GENERATION,PENDING_GENERATION

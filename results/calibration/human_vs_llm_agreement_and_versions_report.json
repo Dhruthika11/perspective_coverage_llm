@@ -1,0 +1,59 @@
+{
+  "overall_agreement_definitive_n312": 86.53846153846155,
+  "kappa_definitive_n312": 0.8090408323861152,
+  "overall_agreement_all_n341": 83.87096774193549,
+  "kappa_all_n341": 0.771817551372988,
+  "disagreement_counts": {
+    "LLM missed equivalence expressed using different wording": 27,
+    "Manual label or LLM label boundary check (Stance/Noise discrepancy)": 16,
+    "Genuine ambiguity in the definition of equivalent reasoning": 9,
+    "LLM missed a difference in the underlying warrant": 3
+  },
+  "m0_comparison": [
+    {
+      "Benchmark Version": "Version A (Human Manual)",
+      "Total Positives (C2)": 99,
+      "Total Negatives (Non-C2)": 242,
+      "TP": 94,
+      "FP": 86,
+      "FN": 5,
+      "TN": 156,
+      "Recall (C2)": "94.95%",
+      "Precision (C2)": "52.22%",
+      "F1-Score": "0.6738",
+      "Specificity": "64.46%",
+      "Class 1 Rejection": "37.80% (48/127)",
+      "Class 0a Rejection": "92.68% (76/82)"
+    },
+    {
+      "Benchmark Version": "Version B (LLM Majority)",
+      "Total Positives (C2)": 75,
+      "Total Negatives (Non-C2)": 266,
+      "TP": 71,
+      "FP": 109,
+      "FN": 4,
+      "TN": 157,
+      "Recall (C2)": "94.67%",
+      "Precision (C2)": "39.44%",
+      "F1-Score": "0.5569",
+      "Specificity": "59.02%",
+      "Class 1 Rejection": "34.01% (50/147)",
+      "Class 0a Rejection": "87.95% (73/83)"
+    },
+    {
+      "Benchmark Version": "Version C (Refined Adjudicated)",
+      "Total Positives (C2)": 99,
+      "Total Negatives (Non-C2)": 242,
+      "TP": 94,
+      "FP": 86,
+      "FN": 5,
+      "TN": 156,
+      "Recall (C2)": "94.95%",
+      "Precision (C2)": "52.22%",
+      "F1-Score": "0.6738",
+      "Specificity": "64.46%",
+      "Class 1 Rejection": "37.80% (48/127)",
+      "Class 0a Rejection": "92.68% (76/82)"
+    }
+  ]
+}

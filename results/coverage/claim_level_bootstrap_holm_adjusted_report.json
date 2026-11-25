@@ -1,0 +1,462 @@
+[
+  {
+    "comparison": "OLMo-2 7B: DPO vs Base",
+    "model_a": "olmo_2_1124_7b_dpo",
+    "model_b": "olmo_2_1124_7b",
+    "delta_mean_pct": 13.4058,
+    "ci_95_percentile": [
+      11.0669,
+      15.7984
+    ],
+    "ci_95_bca": [
+      11.0491,
+      15.7835
+    ],
+    "std_err": 1.2028,
+    "p_value": 0.0001,
+    "significant_at_005": true,
+    "p_raw": 0.0001,
+    "p_raw_display": "< 0.0001",
+    "p_holm": 0.002,
+    "p_holm_display": "0.0020",
+    "significant_holm_005": true,
+    "significant_holm_001": true
+  },
+  {
+    "comparison": "OLMo-2 7B: SFT vs Base",
+    "model_a": "olmo_2_1124_7b_sft",
+    "model_b": "olmo_2_1124_7b",
+    "delta_mean_pct": 9.5671,
+    "ci_95_percentile": [
+      7.1729,
+      11.9837
+    ],
+    "ci_95_bca": [
+      7.1615,
+      11.9659
+    ],
+    "std_err": 1.217,
+    "p_value": 0.0001,
+    "significant_at_005": true,
+    "p_raw": 0.0001,
+    "p_raw_display": "< 0.0001",
+    "p_holm": 0.002,
+    "p_holm_display": "0.0020",
+    "significant_holm_005": true,
+    "significant_holm_001": true
+  },
+  {
+    "comparison": "OLMo-2 7B: DPO vs SFT",
+    "model_a": "olmo_2_1124_7b_dpo",
+    "model_b": "olmo_2_1124_7b_sft",
+    "delta_mean_pct": 3.8387,
+    "ci_95_percentile": [
+      2.0232,
+      5.6545
+    ],
+    "ci_95_bca": [
+      2.0358,
+      5.6735
+    ],
+    "std_err": 0.9176,
+    "p_value": 0.0001,
+    "significant_at_005": true,
+    "p_raw": 0.0001,
+    "p_raw_display": "< 0.0001",
+    "p_holm": 0.002,
+    "p_holm_display": "0.0020",
+    "significant_holm_005": true,
+    "significant_holm_001": true
+  },
+  {
+    "comparison": "OLMo-2 1.2B: Instruct vs Base",
+    "model_a": "olmo_2_0425_1b_instruct",
+    "model_b": "olmo_2_0425_1b",
+    "delta_mean_pct": 21.2241,
+    "ci_95_percentile": [
+      18.6873,
+      23.7501
+    ],
+    "ci_95_bca": [
+      18.6833,
+      23.7419
+    ],
+    "std_err": 1.2985,
+    "p_value": 0.0001,
+    "significant_at_005": true,
+    "p_raw": 0.0001,
+    "p_raw_display": "< 0.0001",
+    "p_holm": 0.002,
+    "p_holm_display": "0.0020",
+    "significant_holm_005": true,
+    "significant_holm_001": true
+  },
+  {
+    "comparison": "OLMo-2 1.2B: SFT vs Base",
+    "model_a": "olmo_2_0425_1b_sft",
+    "model_b": "olmo_2_0425_1b",
+    "delta_mean_pct": 17.9439,
+    "ci_95_percentile": [
+      15.4306,
+      20.4846
+    ],
+    "ci_95_bca": [
+      15.3814,
+      20.4526
+    ],
+    "std_err": 1.2856,
+    "p_value": 0.0001,
+    "significant_at_005": true,
+    "p_raw": 0.0001,
+    "p_raw_display": "< 0.0001",
+    "p_holm": 0.002,
+    "p_holm_display": "0.0020",
+    "significant_holm_005": true,
+    "significant_holm_001": true
+  },
+  {
+    "comparison": "OLMo-2 1.2B: DPO vs Base",
+    "model_a": "olmo_2_0425_1b_dpo",
+    "model_b": "olmo_2_0425_1b",
+    "delta_mean_pct": 20.0511,
+    "ci_95_percentile": [
+      17.4752,
+      22.5724
+    ],
+    "ci_95_bca": [
+      17.4578,
+      22.5451
+    ],
+    "std_err": 1.2928,
+    "p_value": 0.0001,
+    "significant_at_005": true,
+    "p_raw": 0.0001,
+    "p_raw_display": "< 0.0001",
+    "p_holm": 0.002,
+    "p_holm_display": "0.0020",
+    "significant_holm_005": true,
+    "significant_holm_001": true
+  },
+  {
+    "comparison": "OLMo-2 13B: SFT vs Base",
+    "model_a": "olmo_2_1124_13b_sft",
+    "model_b": "olmo_2_1124_13b",
+    "delta_mean_pct": 18.0247,
+    "ci_95_percentile": [
+      15.5069,
+      20.4781
+    ],
+    "ci_95_bca": [
+      15.5487,
+      20.5232
+    ],
+    "std_err": 1.2659,
+    "p_value": 0.0001,
+    "significant_at_005": true,
+    "p_raw": 0.0001,
+    "p_raw_display": "< 0.0001",
+    "p_holm": 0.002,
+    "p_holm_display": "0.0020",
+    "significant_holm_005": true,
+    "significant_holm_001": true
+  },
+  {
+    "comparison": "OLMo-2 32B: Base vs Instruct",
+    "model_a": "olmo_2_0325_32b",
+    "model_b": "olmo_2_0325_32b_instruct",
+    "delta_mean_pct": 6.4114,
+    "ci_95_percentile": [
+      4.241,
+      8.5666
+    ],
+    "ci_95_bca": [
+      4.2674,
+      8.6013
+    ],
+    "std_err": 1.1027,
+    "p_value": 0.0001,
+    "significant_at_005": true,
+    "p_raw": 0.0001,
+    "p_raw_display": "< 0.0001",
+    "p_holm": 0.002,
+    "p_holm_display": "0.0020",
+    "significant_holm_005": true,
+    "significant_holm_001": true
+  },
+  {
+    "comparison": "OLMo-2 32B: DPO vs Instruct",
+    "model_a": "olmo_2_0325_32b_dpo",
+    "model_b": "olmo_2_0325_32b_instruct",
+    "delta_mean_pct": 2.7161,
+    "ci_95_percentile": [
+      1.4587,
+      4.0128
+    ],
+    "ci_95_bca": [
+      1.5132,
+      4.0694
+    ],
+    "std_err": 0.6518,
+    "p_value": 0.0001,
+    "significant_at_005": true,
+    "p_raw": 0.0001,
+    "p_raw_display": "< 0.0001",
+    "p_holm": 0.002,
+    "p_holm_display": "0.0020",
+    "significant_holm_005": true,
+    "significant_holm_001": true
+  },
+  {
+    "comparison": "LLaMA: 3.2 3B vs 3.1 8B",
+    "model_a": "llama_3_2_3b_instruct",
+    "model_b": "llama_3_1_8b_instruct",
+    "delta_mean_pct": 8.4875,
+    "ci_95_percentile": [
+      6.7244,
+      10.3576
+    ],
+    "ci_95_bca": [
+      6.7425,
+      10.3668
+    ],
+    "std_err": 0.93,
+    "p_value": 0.0001,
+    "significant_at_005": true,
+    "p_raw": 0.0001,
+    "p_raw_display": "< 0.0001",
+    "p_holm": 0.002,
+    "p_holm_display": "0.0020",
+    "significant_holm_005": true,
+    "significant_holm_001": true
+  },
+  {
+    "comparison": "LLaMA: 3.2 3B vs 3.2 1B",
+    "model_a": "llama_3_2_3b_instruct",
+    "model_b": "llama_3_2_1b_instruct",
+    "delta_mean_pct": 11.4586,
+    "ci_95_percentile": [
+      9.5533,
+      13.3907
+    ],
+    "ci_95_bca": [
+      9.5465,
+      13.3872
+    ],
+    "std_err": 0.9813,
+    "p_value": 0.0001,
+    "significant_at_005": true,
+    "p_raw": 0.0001,
+    "p_raw_display": "< 0.0001",
+    "p_holm": 0.002,
+    "p_holm_display": "0.0020",
+    "significant_holm_005": true,
+    "significant_holm_001": true
+  },
+  {
+    "comparison": "OLMo-2 7B DPO vs LLaMA-3.1 8B",
+    "model_a": "olmo_2_1124_7b_dpo",
+    "model_b": "llama_3_1_8b_instruct",
+    "delta_mean_pct": 8.7653,
+    "ci_95_percentile": [
+      6.9081,
+      10.6851
+    ],
+    "ci_95_bca": [
+      6.8969,
+      10.6754
+    ],
+    "std_err": 0.9604,
+    "p_value": 0.0001,
+    "significant_at_005": true,
+    "p_raw": 0.0001,
+    "p_raw_display": "< 0.0001",
+    "p_holm": 0.002,
+    "p_holm_display": "0.0020",
+    "significant_holm_005": true,
+    "significant_holm_001": true
+  },
+  {
+    "comparison": "OLMo-2 7B DPO vs Gemma-2 9B",
+    "model_a": "olmo_2_1124_7b_dpo",
+    "model_b": "gemma_2_9b_it",
+    "delta_mean_pct": 4.9141,
+    "ci_95_percentile": [
+      3.2156,
+      6.6396
+    ],
+    "ci_95_bca": [
+      3.2296,
+      6.6596
+    ],
+    "std_err": 0.8708,
+    "p_value": 0.0001,
+    "significant_at_005": true,
+    "p_raw": 0.0001,
+    "p_raw_display": "< 0.0001",
+    "p_holm": 0.002,
+    "p_holm_display": "0.0020",
+    "significant_holm_005": true,
+    "significant_holm_001": true
+  },
+  {
+    "comparison": "OLMo-2 7B DPO vs Qwen-2.5 7B",
+    "model_a": "olmo_2_1124_7b_dpo",
+    "model_b": "qwen2_5_7b_instruct",
+    "delta_mean_pct": 9.3269,
+    "ci_95_percentile": [
+      7.5648,
+      11.1222
+    ],
+    "ci_95_bca": [
+      7.5764,
+      11.148
+    ],
+    "std_err": 0.9152,
+    "p_value": 0.0001,
+    "significant_at_005": true,
+    "p_raw": 0.0001,
+    "p_raw_display": "< 0.0001",
+    "p_holm": 0.002,
+    "p_holm_display": "0.0020",
+    "significant_holm_005": true,
+    "significant_holm_001": true
+  },
+  {
+    "comparison": "OLMo-2 32B: Base vs DPO",
+    "model_a": "olmo_2_0325_32b",
+    "model_b": "olmo_2_0325_32b_dpo",
+    "delta_mean_pct": 3.6952,
+    "ci_95_percentile": [
+      1.4951,
+      5.8519
+    ],
+    "ci_95_bca": [
+      1.5163,
+      5.8826
+    ],
+    "std_err": 1.1118,
+    "p_value": 0.0006,
+    "significant_at_005": true,
+    "p_raw": 0.0006,
+    "p_raw_display": "0.0006",
+    "p_holm": 0.0036,
+    "p_holm_display": "0.0036",
+    "significant_holm_005": true,
+    "significant_holm_001": true
+  },
+  {
+    "comparison": "OLMo-2 7B: DPO vs Instruct",
+    "model_a": "olmo_2_1124_7b_dpo",
+    "model_b": "olmo_2_1124_7b_instruct",
+    "delta_mean_pct": 2.3834,
+    "ci_95_percentile": [
+      0.9596,
+      3.8423
+    ],
+    "ci_95_bca": [
+      1.0067,
+      3.9007
+    ],
+    "std_err": 0.7311,
+    "p_value": 0.0008,
+    "significant_at_005": true,
+    "p_raw": 0.0008,
+    "p_raw_display": "0.0008",
+    "p_holm": 0.004,
+    "p_holm_display": "0.0040",
+    "significant_holm_005": true,
+    "significant_holm_001": true
+  },
+  {
+    "comparison": "Gemma 2: 9B vs 27B",
+    "model_a": "gemma_2_9b_it",
+    "model_b": "gemma_2_27b_it",
+    "delta_mean_pct": 2.3582,
+    "ci_95_percentile": [
+      0.8963,
+      3.8278
+    ],
+    "ci_95_bca": [
+      0.9089,
+      3.8366
+    ],
+    "std_err": 0.7481,
+    "p_value": 0.0026,
+    "significant_at_005": true,
+    "p_raw": 0.0026,
+    "p_raw_display": "0.0026",
+    "p_holm": 0.0104,
+    "p_holm_display": "0.0104",
+    "significant_holm_005": true,
+    "significant_holm_001": false
+  },
+  {
+    "comparison": "OLMo-2 13B: SFT vs Instruct",
+    "model_a": "olmo_2_1124_13b_sft",
+    "model_b": "olmo_2_1124_13b_instruct",
+    "delta_mean_pct": 2.6508,
+    "ci_95_percentile": [
+      0.6276,
+      4.663
+    ],
+    "ci_95_bca": [
+      0.6655,
+      4.7008
+    ],
+    "std_err": 1.0289,
+    "p_value": 0.0096,
+    "significant_at_005": true,
+    "p_raw": 0.0096,
+    "p_raw_display": "0.0096",
+    "p_holm": 0.0288,
+    "p_holm_display": "0.0288",
+    "significant_holm_005": true,
+    "significant_holm_001": false
+  },
+  {
+    "comparison": "Gemma 2: 9B vs 2B",
+    "model_a": "gemma_2_9b_it",
+    "model_b": "gemma_2_2b_it",
+    "delta_mean_pct": 1.4364,
+    "ci_95_percentile": [
+      -0.279,
+      3.1368
+    ],
+    "ci_95_bca": [
+      -0.2671,
+      3.149
+    ],
+    "std_err": 0.8807,
+    "p_value": 0.1004,
+    "significant_at_005": false,
+    "p_raw": 0.1004,
+    "p_raw_display": "0.1004",
+    "p_holm": 0.2008,
+    "p_holm_display": "0.2008",
+    "significant_holm_005": false,
+    "significant_holm_001": false
+  },
+  {
+    "comparison": "OLMo-2 13B: DPO vs Instruct",
+    "model_a": "olmo_2_1124_13b_dpo",
+    "model_b": "olmo_2_1124_13b_instruct",
+    "delta_mean_pct": 0.9435,
+    "ci_95_percentile": [
+      -0.7906,
+      2.6264
+    ],
+    "ci_95_bca": [
+      -0.8002,
+      2.623
+    ],
+    "std_err": 0.8722,
+    "p_value": 0.2872,
+    "significant_at_005": false,
+    "p_raw": 0.2872,
+    "p_raw_display": "0.2872",
+    "p_holm": 0.2872,
+    "p_holm_display": "0.2872",
+    "significant_holm_005": false,
+    "significant_holm_001": false
+  }
+]

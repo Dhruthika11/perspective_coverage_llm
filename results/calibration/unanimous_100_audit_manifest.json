@@ -1,0 +1,31 @@
+{
+  "total_sample_size": 100,
+  "seed": 42,
+  "sampling_subgroups": {
+    "natural_distribution_60": {
+      "class_1": 25,
+      "class_0a": 18,
+      "class_0b": 11,
+      "class_2": 4,
+      "ambiguous": 2
+    },
+    "class_coverage_booster_40": {
+      "class_2": 22,
+      "class_0b": 6,
+      "class_0a": 6,
+      "class_1": 6
+    }
+  },
+  "total_class_distribution": {
+    "class_1": 31,
+    "class_2": 26,
+    "class_0a": 24,
+    "class_0b": 17,
+    "ambiguous": 2
+  },
+  "zero_contamination_verified": true,
+  "files": {
+    "blinded_queue": "data/calibration/unanimous_100_audit_queue.csv",
+    "ground_truth_key": "data/calibration/unanimous_100_audit_ground_truth_key.csv"
+  }
+}

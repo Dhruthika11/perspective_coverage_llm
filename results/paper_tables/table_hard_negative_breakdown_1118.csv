@@ -1,0 +1,6 @@
+Challenge_Category,Total_Pairs,Baseline_Rejected,Baseline_Rejection_Rate,Baseline_95_CI,V3_Rejected,V3_Rejection_Rate,V3_95_CI,Delta_Rejection_pp
+"Same-Stance, Different-Reasoning",240,180,0.75,"[69.16, 80.06]",226,0.9417,"[90.45, 96.49]",+19.17 pp
+"Same-Topic, Different-Concept",180,142,0.7889,"[72.41, 84.18]",164,0.9111,"[86.01, 94.48]",+12.22 pp
+Opposite-Stance Conflict / Rebuttal,120,109,0.9083,"[84.34, 94.84]",118,0.9833,"[94.13, 99.54]",+7.50 pp
+Cross-Claim Unrelated,38,38,1.0,"[90.82, 100.0]",38,1.0,"[90.82, 100.0]",+0.00 pp
+TOTAL Hard Negatives,578,469,0.8114,"[77.74, 84.15]",546,0.9446,"[92.26, 96.07]",+13.32 pp

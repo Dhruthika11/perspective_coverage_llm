@@ -1,0 +1,433 @@
+{
+  "status": "BRIDGE_CALIBRATION_RECOMMENDED",
+  "n_pairs": 300,
+  "class_balance": {
+    "positive_candidates": 100,
+    "negative_candidates": 200
+  },
+  "aggregation_comparison": {
+    "sim_max": {
+      "human_tau_evaluated": 0.77,
+      "precision_at_human_tau": 0.0,
+      "recall_at_human_tau": 0.0,
+      "f1_at_human_tau": 0.0,
+      "confusion_matrix": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 100,
+        "tn": 200
+      },
+      "bridge_calibrated_tau": 0.5,
+      "length_bias_audit": {
+        "pearson_r": -0.0766,
+        "pearson_p": 0.1859,
+        "spearman_rho": -0.0505,
+        "spearman_p": 0.3837,
+        "has_significant_length_bias": false,
+        "length_tiers": {
+          "short": {
+            "count": 102,
+            "min_words": 63,
+            "max_words": 168,
+            "mean_score": 0.1151,
+            "std_score": 0.0641,
+            "tp": 0,
+            "fp": 0,
+            "fn": 34,
+            "tn": 68,
+            "false_positive_rate": 0.0,
+            "false_negative_rate": 1.0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "medium": {
+            "count": 98,
+            "min_words": 169,
+            "max_words": 235,
+            "mean_score": 0.11,
+            "std_score": 0.0578,
+            "tp": 0,
+            "fp": 0,
+            "fn": 33,
+            "tn": 65,
+            "false_positive_rate": 0.0,
+            "false_negative_rate": 1.0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "long": {
+            "count": 100,
+            "min_words": 237,
+            "max_words": 399,
+            "mean_score": 0.1062,
+            "std_score": 0.0519,
+            "tp": 0,
+            "fp": 0,
+            "fn": 33,
+            "tn": 67,
+            "false_positive_rate": 0.0,
+            "false_negative_rate": 1.0,
+            "precision": 0.0,
+            "recall": 0.0
+          }
+        }
+      },
+      "cluster_size_audit": {
+        "pearson_r_size_vs_score": 0.387,
+        "pearson_p": 0.0,
+        "spearman_rho": 0.3999,
+        "has_cluster_size_bias": true,
+        "size_tiers": {
+          "small_1_to_2": {
+            "count": 189,
+            "mean_size": 1.17,
+            "mean_score": 0.0946,
+            "std_score": 0.0554,
+            "tp": 0,
+            "fp": 0,
+            "fn": 50,
+            "tn": 139,
+            "false_positive_rate": 0.0,
+            "false_negative_rate": 1.0
+          },
+          "medium_3_to_5": {
+            "count": 109,
+            "mean_size": 3.34,
+            "mean_score": 0.1362,
+            "std_score": 0.0525,
+            "tp": 0,
+            "fp": 0,
+            "fn": 48,
+            "tn": 61,
+            "false_positive_rate": 0.0,
+            "false_negative_rate": 1.0
+          },
+          "large_gt_5": {
+            "count": 2,
+            "mean_size": 6.0,
+            "mean_score": 0.2095,
+            "std_score": 0.0032,
+            "tp": 0,
+            "fp": 0,
+            "fn": 2,
+            "tn": 0,
+            "false_positive_rate": 0.0,
+            "false_negative_rate": 1.0
+          }
+        }
+      }
+    },
+    "sim_top2": {
+      "human_tau_evaluated": 0.77,
+      "precision_at_human_tau": 0.0,
+      "recall_at_human_tau": 0.0,
+      "f1_at_human_tau": 0.0,
+      "confusion_matrix": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 100,
+        "tn": 200
+      },
+      "bridge_calibrated_tau": 0.5,
+      "length_bias_audit": {
+        "pearson_r": -0.0487,
+        "pearson_p": 0.4004,
+        "spearman_rho": -0.0216,
+        "spearman_p": 0.7089,
+        "has_significant_length_bias": false,
+        "length_tiers": {
+          "short": {
+            "count": 102,
+            "min_words": 63,
+            "max_words": 168,
+            "mean_score": 0.1047,
+            "std_score": 0.0599,
+            "tp": 0,
+            "fp": 0,
+            "fn": 34,
+            "tn": 68,
+            "false_positive_rate": 0.0,
+            "false_negative_rate": 1.0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "medium": {
+            "count": 98,
+            "min_words": 169,
+            "max_words": 235,
+            "mean_score": 0.1024,
+            "std_score": 0.0534,
+            "tp": 0,
+            "fp": 0,
+            "fn": 33,
+            "tn": 65,
+            "false_positive_rate": 0.0,
+            "false_negative_rate": 1.0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "long": {
+            "count": 100,
+            "min_words": 237,
+            "max_words": 399,
+            "mean_score": 0.1005,
+            "std_score": 0.049,
+            "tp": 0,
+            "fp": 0,
+            "fn": 33,
+            "tn": 67,
+            "false_positive_rate": 0.0,
+            "false_negative_rate": 1.0,
+            "precision": 0.0,
+            "recall": 0.0
+          }
+        }
+      },
+      "cluster_size_audit": {
+        "pearson_r_size_vs_score": 0.304,
+        "pearson_p": 0.0,
+        "spearman_rho": 0.2979,
+        "has_cluster_size_bias": true,
+        "size_tiers": {
+          "small_1_to_2": {
+            "count": 189,
+            "mean_size": 1.17,
+            "mean_score": 0.0909,
+            "std_score": 0.0535,
+            "tp": 0,
+            "fp": 0,
+            "fn": 50,
+            "tn": 139,
+            "false_positive_rate": 0.0,
+            "false_negative_rate": 1.0
+          },
+          "medium_3_to_5": {
+            "count": 109,
+            "mean_size": 3.34,
+            "mean_score": 0.121,
+            "std_score": 0.0492,
+            "tp": 0,
+            "fp": 0,
+            "fn": 48,
+            "tn": 61,
+            "false_positive_rate": 0.0,
+            "false_negative_rate": 1.0
+          },
+          "large_gt_5": {
+            "count": 2,
+            "mean_size": 6.0,
+            "mean_score": 0.197,
+            "std_score": 0.0016,
+            "tp": 0,
+            "fp": 0,
+            "fn": 2,
+            "tn": 0,
+            "false_positive_rate": 0.0,
+            "false_negative_rate": 1.0
+          }
+        }
+      }
+    },
+    "sim_mean": {
+      "human_tau_evaluated": 0.77,
+      "precision_at_human_tau": 0.0,
+      "recall_at_human_tau": 0.0,
+      "f1_at_human_tau": 0.0,
+      "confusion_matrix": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 100,
+        "tn": 200
+      },
+      "bridge_calibrated_tau": 0.5,
+      "length_bias_audit": {
+        "pearson_r": -0.0454,
+        "pearson_p": 0.4336,
+        "spearman_rho": -0.0145,
+        "spearman_p": 0.8024,
+        "has_significant_length_bias": false,
+        "length_tiers": {
+          "short": {
+            "count": 102,
+            "min_words": 63,
+            "max_words": 168,
+            "mean_score": 0.0984,
+            "std_score": 0.0585,
+            "tp": 0,
+            "fp": 0,
+            "fn": 34,
+            "tn": 68,
+            "false_positive_rate": 0.0,
+            "false_negative_rate": 1.0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "medium": {
+            "count": 98,
+            "min_words": 169,
+            "max_words": 235,
+            "mean_score": 0.0965,
+            "std_score": 0.0501,
+            "tp": 0,
+            "fp": 0,
+            "fn": 33,
+            "tn": 65,
+            "false_positive_rate": 0.0,
+            "false_negative_rate": 1.0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "long": {
+            "count": 100,
+            "min_words": 237,
+            "max_words": 399,
+            "mean_score": 0.0941,
+            "std_score": 0.0458,
+            "tp": 0,
+            "fp": 0,
+            "fn": 33,
+            "tn": 67,
+            "false_positive_rate": 0.0,
+            "false_negative_rate": 1.0,
+            "precision": 0.0,
+            "recall": 0.0
+          }
+        }
+      },
+      "cluster_size_audit": {
+        "pearson_r_size_vs_score": 0.1576,
+        "pearson_p": 0.0062,
+        "spearman_rho": 0.17,
+        "has_cluster_size_bias": false,
+        "size_tiers": {
+          "small_1_to_2": {
+            "count": 189,
+            "mean_size": 1.17,
+            "mean_score": 0.0909,
+            "std_score": 0.0535,
+            "tp": 0,
+            "fp": 0,
+            "fn": 50,
+            "tn": 139,
+            "false_positive_rate": 0.0,
+            "false_negative_rate": 1.0
+          },
+          "medium_3_to_5": {
+            "count": 109,
+            "mean_size": 3.34,
+            "mean_score": 0.1047,
+            "std_score": 0.0472,
+            "tp": 0,
+            "fp": 0,
+            "fn": 48,
+            "tn": 61,
+            "false_positive_rate": 0.0,
+            "false_negative_rate": 1.0
+          },
+          "large_gt_5": {
+            "count": 2,
+            "mean_size": 6.0,
+            "mean_score": 0.1578,
+            "std_score": 0.0163,
+            "tp": 0,
+            "fp": 0,
+            "fn": 2,
+            "tn": 0,
+            "false_positive_rate": 0.0,
+            "false_negative_rate": 1.0
+          }
+        }
+      }
+    }
+  },
+  "per_model_evaluator_performance": [
+    {
+      "model_name": "gemma_3_12b_it",
+      "n_sampled_pairs": 60,
+      "mean_word_count": 234.5,
+      "common_tau_evaluated": 0.77,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 20,
+      "tn": 40
+    },
+    {
+      "model_name": "mistral_7b_instruct_v0_3",
+      "n_sampled_pairs": 60,
+      "mean_word_count": 194.7,
+      "common_tau_evaluated": 0.77,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 20,
+      "tn": 40
+    },
+    {
+      "model_name": "qwen2_5_1_5b_instruct",
+      "n_sampled_pairs": 60,
+      "mean_word_count": 203.8,
+      "common_tau_evaluated": 0.77,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 20,
+      "tn": 40
+    },
+    {
+      "model_name": "qwen2_5_32b_instruct",
+      "n_sampled_pairs": 60,
+      "mean_word_count": 228.9,
+      "common_tau_evaluated": 0.77,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 20,
+      "tn": 40
+    },
+    {
+      "model_name": "qwen2_5_3b_instruct",
+      "n_sampled_pairs": 60,
+      "mean_word_count": 175.0,
+      "common_tau_evaluated": 0.77,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 20,
+      "tn": 40
+    }
+  ],
+  "recommendation": "Human-human calibration provides the gold-standard anchor. Use sim_max with a single common global threshold across all models. Inspect per-model precision/recall to verify no systematic length or style bias.",
+  "length_comparison": {
+    "human_references": {
+      "count": 11805,
+      "mean": 10.87,
+      "median": 10.0,
+      "std": 4.98,
+      "p25": 7.0,
+      "p75": 13.0,
+      "p95": 20.0
+    },
+    "llm_generations": {
+      "count": 22664,
+      "mean": 188.94,
+      "median": 183.0,
+      "std": 81.18,
+      "p25": 126.0,
+      "p75": 240.0,
+      "p95": 342.0
+    },
+    "length_disparity_ratio_mean": 17.38,
+    "length_disparity_ratio_median": 18.3
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "comparison": [
+    {
+      "Method": "Single-Stage Cosine (tau=0.75)",
+      "TP": 142,
+      "FP": 24,
+      "FN": 8,
+      "TN": 126,
+      "Precision": 0.8554,
+      "Recall": 0.9467,
+      "F1_Score": 0.8987,
+      "Accuracy": 0.8933,
+      "Opp_Stance_False_Accepts": 24,
+      "Opp_Stance_Total": 60,
+      "Opp_Stance_Leak_Rate": 0.4
+    },
+    {
+      "Method": "Single-Stage Cosine (tau=0.80)",
+      "TP": 94,
+      "FP": 15,
+      "FN": 56,
+      "TN": 135,
+      "Precision": 0.8624,
+      "Recall": 0.6267,
+      "F1_Score": 0.7259,
+      "Accuracy": 0.7633,
+      "Opp_Stance_False_Accepts": 15,
+      "Opp_Stance_Total": 60,
+      "Opp_Stance_Leak_Rate": 0.25
+    },
+    {
+      "Method": "Two-Stage: tau=0.75 + REAL NLI Filter",
+      "TP": 94,
+      "FP": 12,
+      "FN": 56,
+      "TN": 138,
+      "Precision": 0.8868,
+      "Recall": 0.6267,
+      "F1_Score": 0.7344,
+      "Accuracy": 0.7733,
+      "Opp_Stance_False_Accepts": 12,
+      "Opp_Stance_Total": 60,
+      "Opp_Stance_Leak_Rate": 0.2
+    },
+    {
+      "Method": "Two-Stage: tau=0.75 + ORACLE Stance Filter",
+      "TP": 142,
+      "FP": 0,
+      "FN": 8,
+      "TN": 150,
+      "Precision": 1.0,
+      "Recall": 0.9467,
+      "F1_Score": 0.9726,
+      "Accuracy": 0.9733,
+      "Opp_Stance_False_Accepts": 0,
+      "Opp_Stance_Total": 60,
+      "Opp_Stance_Leak_Rate": 0.0
+    }
+  ],
+  "nli_model": "cross-encoder/nli-deberta-v3-small",
+  "total_pairs": 300
+}

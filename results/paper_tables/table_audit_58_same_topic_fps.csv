@@ -1,0 +1,170 @@
+pair_id,claim,premise,hypothesis,v3_p_entail,baseline_p_entail,category,reasoning
+1,Online Shopping Is Better Than Offline Shopping,"### Practical Perspective Viewpoint 1: **Efficiency and Speed**
+
+Online shopping offers quicker and more efficient transactions. Orders can be placed and shipped within minutes, re...",You don't have to leave the house to shop online.,0.8742,0.0026,implicit_or_partial_coverage,Premise mentions ordering without transit; hypothesis states not leaving house. Semantically implicit entailment.
+2,Remove Bush tax cuts for the wealthy,"### Social Perspective
+
+**Social Integration:** Removing tax cuts for the wealthy can enhance social integration by promoting a more balanced distribution of resources. This can le...",you can reduce the deficit by removing tax cuts,0.9272,0.0049,same_policy_diff_rationale,Shares policy action ('remove tax cuts') but premise argues social justice while hypothesis argues deficit reduction.
+3,Wire-tapped and ‘intercepted’ evidence must be allowed as admissible in court,"### Social Perspective
+
+From a social perspective, allowing wire-tapped and intercepted evidence must consider the potential long-term impact on social cohesion and trust. The publ...",Wiretapping has a high level of benefit to both reduce serious crime and prosecute criminals.,0.9584,0.0012,topical_overlap_distinct_concept,Different legal principles under wiretapping.
+4,Remove Bush tax cuts for the wealthy,"**Practical and Implementation Perspective:**
+
+Removing Bush tax cuts for the wealthy can be a practical step if implemented alongside robust measures to ensure economic stability ...",you can reduce the deficit by removing tax cuts,0.9511,0.0014,topical_overlap_distinct_concept,Shares debate topic but addresses distinct fiscal mechanism.
+5,Remove Bush tax cuts for the wealthy,- **Social Perspective:** Wealth redistribution is essential for maintaining social cohesion and preventing exploitation. It promotes fairness and ensures that resources are alloca...,you can reduce the deficit by removing tax cuts,0.9817,0.0202,same_policy_diff_rationale,Shares policy action ('remove tax cuts') but premise argues social justice while hypothesis argues deficit reduction.
+6,Hosting the Olympics is a good investment,"### Social Perspective
+
+**Pros:**
+1. **Community Engagement:** Hosting the Olympics can enhance community engagement and social cohesion through volunteer programs and community-ba...",The Olympics gives athletes a goal and young people a chance to believe in themselves,0.9844,0.0166,topical_overlap_distinct_concept,Pure topical keyword overlap without semantic entailment of the specific concept.
+7,All Americans should have the right (be entitled) to health care,"### Social Perspective
+
+From a social perspective, universal health care fosters social cohesion and reduces social tensions. When all Americans have access to basic healthcare, it...",Everyone should have a right to health care.,0.8767,0.0053,topical_overlap_distinct_concept,Pure topical keyword overlap without semantic entailment of the specific concept.
+8,We have lost the true meaning of Christmas,"**Social Perspective:**
+
+From a social standpoint, the loss of the true meaning of Christmas can lead to a sense of alienation and disconnection among people. As commercialization ...",It's not a real holiday.,0.9391,0.0237,topical_overlap_distinct_concept,Pure topical keyword overlap without semantic entailment of the specific concept.
+9,Intellectual property rights have to be abolished,"**Social Perspective**: Intellectual Property Rights should not be abolished because they act as a shield for creators, ensuring fair compensation and protecting their intellectual...","Firms and individuals misallocate resources trying to race others to the same goal, and spend resources stealing from one another:",0.9691,0.0019,topical_overlap_distinct_concept,Pure topical keyword overlap without semantic entailment of the specific concept.
+10,Newspapers Are a Thing of the Past,"### Viewpoint 8: Technological Adaptability and Innovation
+
+Newspapers can survive and thrive by embracing technological adaptability and innovation. While their traditional print ...",The balance of analysis and relevancy is better struck by newspapers,0.9489,0.0051,topical_overlap_distinct_concept,Pure topical keyword overlap without semantic entailment of the specific concept.
+11,Spain should cede Ceuta and Melilla to Morocco,"### Pragmatic Perspective
+
+#### From an Economic View
+The practicality lies in assessing the fiscal impact versus potential gains. Maintaining Ceuta and Melilla demands considerabl...",The cities are a source of revenue for Spain,0.975,0.0136,topical_overlap_distinct_concept,Pure topical keyword overlap without semantic entailment of the specific concept.
+12,Stop the Olympic Games,"### Social Viewpoint
+
+**Claim**: ""Stop the Olympic Games""
+
+#### Distinct Viewpoints:
+
+1. **Economic Implications**
+   The primary concern is the economic fallout. Stopping the Olym...",Benefits of hosting the olympic games.,0.82,0.0013,topical_overlap_distinct_concept,Pure topical keyword overlap without semantic entailment of the specific concept.
+13,All countries should have the right to pursue a nuclear defence,"### Social Perspective
+
+From a social perspective, the notion that all countries should have the right to pursue nuclear defense is misguided. Nuclear arms contribute to social fra...",It is immoral to use the threat of nuclear annihilation in order to achieve foreign policy aims,0.9591,0.007,topical_overlap_distinct_concept,Pure topical keyword overlap without semantic entailment of the specific concept.
+14,We should detain terror suspects without trial,"### **Social Perspective:**
+
+From a social perspective, detaining terror suspects without trial can lead to widespread mistrust and instability within society. It creates an atmosp...","There is an alternative in tribunals, which would respect the rights on detainees",0.978,0.0069,topical_overlap_distinct_concept,Pure topical keyword overlap without semantic entailment of the specific concept.
+15,We have lost the true meaning of Christmas,1. **Social Perspective**: Society's focus on material wealth and commercial success overshadows the traditional values and familial bonding of Christmas. Efforts to maximize profi...,It's not a real holiday.,0.9329,0.0029,topical_overlap_distinct_concept,Pure topical keyword overlap without semantic entailment of the specific concept.
+16,Wire-tapped and ‘intercepted’ evidence must be allowed as admissible in court,"### Social Perspective
+
+**Positive Viewpoint:**
+- **Community Protection:** Wire-tapped evidence can help protect communities from dangerous criminal activities, enhancing overall ...",Wiretapping has a high level of benefit to both reduce serious crime and prosecute criminals.,0.9652,0.0348,topical_overlap_distinct_concept,Different legal principles under wiretapping.
+17,Online Shopping Is Better Than Offline Shopping,"From a Practical, Pragmatic, or Implementation perspective:
+
+1. **Convenience and Accessibility**: Online shopping offers unparalleled convenience, allowing consumers to shop anyti...",You don't have to leave the house to shop online.,0.9673,0.0713,implicit_or_partial_coverage,Premise mentions ordering without transit; hypothesis states not leaving house. Semantically implicit entailment.
+18,Eliminate All Nuclear Weapons,"Public Health and Safety
+
+**Argument**: From a social perspective, the elimination of all nuclear weapons would significantly enhance public health and safety. Nuclear weapons pose...",Iran has Israel targeted.,0.9871,0.0028,topical_overlap_distinct_concept,Pure topical keyword overlap without semantic entailment of the specific concept.
+19,Affirmative action is necessary,"### Social Perspective
+
+From a social perspective, affirmative action is necessary to foster social integration and cohesion. By promoting the participation of historically disadva...",Affirmative Action is necessary to combat racism.,0.9832,0.0816,topical_overlap_distinct_concept,Pure topical keyword overlap without semantic entailment of the specific concept.
+20,Maths should be a compulsory subject at GCSE,"### Implementation Perspective
+
+#### Pros:
+
+1. **Curriculum Integration and Support:**
+   - Integrating compulsory maths into the GCSE curriculum can facilitate the development of ...",Maths is too wide a discipline.,0.9846,0.0027,topical_overlap_distinct_concept,Pure topical keyword overlap without semantic entailment of the specific concept.
+21,Stop the Olympic Games,"### Practical Perspective:
+
+From a practical and pragmatic standpoint, the Olympic Games continue to bring significant benefits despite the costs and disruptions. The long-term eco...",Benefits of hosting the olympic games.,0.9966,0.9909,topical_overlap_distinct_concept,Pure topical keyword overlap without semantic entailment of the specific concept.
+22,All Americans should have the right (be entitled) to health care,"### Social Perspective
+
+From a social perspective, universal healthcare can significantly improve community health outcomes and reduce health disparities. By ensuring all Americans...",Everyone should have a right to health care.,0.9799,0.0046,topical_overlap_distinct_concept,Pure topical keyword overlap without semantic entailment of the specific concept.
+23,Newspapers Are a Thing of the Past,"### Practical, Pragmatic, or Implementation Perspective
+
+1. **Technological Adaptation**: The transition to digital platforms requires significant technological infrastructure and ...",The balance of analysis and relevancy is better struck by newspapers,0.9867,0.0053,topical_overlap_distinct_concept,Pure topical keyword overlap without semantic entailment of the specific concept.
+24,Online Shopping Is Better Than Offline Shopping,"### Economic Viewpoint
+
+From an economic standpoint, online shopping offers substantial advantages such as convenience (eliminating the need to leave home), reduced travel expenses...",You don't have to leave the house to shop online.,0.9928,0.0127,implicit_or_partial_coverage,Premise mentions ordering without transit; hypothesis states not leaving house. Semantically implicit entailment.
+25,All countries should have the right to pursue a nuclear defence,"Practical, Pragmatic, and Implementation Perspectives:
+
+1. **Diversity of Defense Strategies**: Countries with access to advanced technologies and materials can develop robust defe...",It is immoral to use the threat of nuclear annihilation in order to achieve foreign policy aims,0.9476,0.0067,topical_overlap_distinct_concept,Pure topical keyword overlap without semantic entailment of the specific concept.
+26,Stop the Olympic Games,"**Social Perspective:**
+
+The Olympic Games can exacerbate social inequalities. Hosting nations often prioritize the interests of their elite athletes and international spectators, ...",Benefits of hosting the olympic games.,0.9962,0.9884,topical_overlap_distinct_concept,Pure topical keyword overlap without semantic entailment of the specific concept.
+27,Refusing to stand for the National Anthem is an appropriate form of protest.,"**Practical Perspective:**
+From a practical standpoint, refusing to stand for the national anthem might seem like a bold gesture, but it has significant real-world implications. Wh...",Not standing for the anthem is counterproductive because it undermines your cause.,0.9218,0.003,same_policy_diff_rationale,Premise shares conclusion but does not contain the causal link stated in hypothesis.
+28,Eliminate All Nuclear Weapons,"**Social Perspective:** Eliminating nuclear weapons would fundamentally alter social structures, potentially leading to greater trust between nations, reduced fear-driven alliances...",Iran has Israel targeted.,0.9233,0.0031,topical_overlap_distinct_concept,Pure topical keyword overlap without semantic entailment of the specific concept.
+29,The ICC should have its own enforcement arm,"**Social Perspective:** 
+Having an independent enforcement arm for the ICC would better serve social justice, particularly by enabling prompt, effective responses to mass atrocitie...",ICC enforcement and international criminal justice are valuable to each other.,0.9254,0.0136,topical_overlap_distinct_concept,Pure topical keyword overlap without semantic entailment of the specific concept.
+30,Hosting the Olympics is a good investment,"Pragmatism Perspective:
+
+In practical terms, hosting the Olympics serves as an excellent catalyst for economic growth and cultural exchange. By drawing millions of tourists, hostin...",The Olympics gives athletes a goal and young people a chance to believe in themselves,0.987,0.0106,topical_overlap_distinct_concept,Pure topical keyword overlap without semantic entailment of the specific concept.
+31,We should directly elect city mayors,"### Social Perspective
+
+Directly electing city mayors can enhance social cohesion and community engagement. When citizens feel their vote matters, they are more likely to participa...",Directly elected mayors provide opportunities for populists.,0.9798,0.0018,topical_overlap_distinct_concept,Pure topical keyword overlap without semantic entailment of the specific concept.
+32,Hosting the Olympics is a good investment,"### Social Perspective
+
+From a social perspective, hosting the Olympics can have transformative effects on the host city and country. It provides an opportunity for communities to ...",The Olympics gives athletes a goal and young people a chance to believe in themselves,0.8614,0.0014,topical_overlap_distinct_concept,Pure topical keyword overlap without semantic entailment of the specific concept.
+33,We have lost the true meaning of Christmas,"### Practical and Implementative Viewpoint
+
+From a practical and implementational lens, the claim that we have ""lost the true meaning of Christmas"" raises significant concerns abou...",It's not a real holiday.,0.8915,0.0055,topical_overlap_distinct_concept,Pure topical keyword overlap without semantic entailment of the specific concept.
+34,We should detain terror suspects without trial,"**Practical Perspective:** 
+
+From a practical standpoint, detaining terror suspects without trial can provide immediate security benefits by preventing potential threats before a l...","There is an alternative in tribunals, which would respect the rights on detainees",0.9872,0.0018,topical_overlap_distinct_concept,Pure topical keyword overlap without semantic entailment of the specific concept.
+35,You should join Facebook,"Community Building and Isolation
+
+**Argument:** From a social perspective, joining Facebook can greatly enhance community building by connecting people with shared interests and fa...",One of the main features of Facebook is to talk to each other.,0.9753,0.0025,topical_overlap_distinct_concept,Pure topical keyword overlap without semantic entailment of the specific concept.
+36,All Americans should have the right (be entitled) to health care,"### Social Perspective
+
+From a social lens, ensuring access to quality healthcare is vital for creating a fairer society. Universal healthcare entitlement prevents the divide betwe...",Everyone should have a right to health care.,0.992,0.0103,topical_overlap_distinct_concept,Pure topical keyword overlap without semantic entailment of the specific concept.
+37,Newspapers Are a Thing of the Past,"### Social Perspective
+
+1. **Impact on Community Bonds**: Newspapers often serve as a communal gathering point, whether it's discussing headlines over morning coffee or passing aro...",The balance of analysis and relevancy is better struck by newspapers,0.9809,0.0071,topical_overlap_distinct_concept,Pure topical keyword overlap without semantic entailment of the specific concept.
+38,The ICC should have its own enforcement arm,"### From a Practical and Implementation Perspective:
+
+#### Practical Perspective:
+From a practical standpoint, establishing a dedicated enforcement arm for the ICC could complicate...",ICC enforcement and international criminal justice are valuable to each other.,0.9675,0.002,topical_overlap_distinct_concept,Pure topical keyword overlap without semantic entailment of the specific concept.
+39,Creationism should be discussed in school science lessons,Discussing Creationism in science lessons can lead to social tensions and misunderstandings. Integrating religious beliefs into science education risks marginalizing certain groups...,Science teachers should be sympathetic to each individual student,0.9837,0.0053,topical_overlap_distinct_concept,Pure topical keyword overlap without semantic entailment of the specific concept.
+40,Compensation should be paid for those who have had their culture appropriated,"### Social Perspective
+
+1. **Social Justice and Equity**: Compensation for cultural appropriation aligns with social justice principles by addressing power imbalances and inequalit...",Compensation rights a wrong,0.9284,0.0068,topical_overlap_distinct_concept,Pure topical keyword overlap without semantic entailment of the specific concept.
+41,Creationism should be discussed in school science lessons,"Practical, Pragmatic, and Implementation Perspectives:
+
+1. **Practical & Logical Approach**: From a pragmatic viewpoint, discussions on Creationism in science classes can sometimes...",Science teachers should be sympathetic to each individual student,0.9914,0.0073,topical_overlap_distinct_concept,Pure topical keyword overlap without semantic entailment of the specific concept.
+42,We should detain terror suspects without trial,"Pragmatically speaking, detaining terror suspects without immediate trial offers several benefits:
+
+1. **Public Safety**: Rapid action allows quicker detection and interception of ...","There is an alternative in tribunals, which would respect the rights on detainees",0.989,0.0219,topical_overlap_distinct_concept,Pure topical keyword overlap without semantic entailment of the specific concept.
+43,Antarctica Should Be Opened Up For Resource Exploitation,"Opening Antarctica for resource exploitation poses both opportunities and significant risks. From an Ethical Perspective, we must consider the inherent values of respect for the co...",Antartica: A common heritage to the benefit of mankind,0.973,0.0036,topical_overlap_distinct_concept,Pure topical keyword overlap without semantic entailment of the specific concept.
+44,Scotland should cede from the union.,"### Social Perspective
+
+#### Pro-Cession Social Viewpoint:
+Ceding from the union could foster a stronger sense of community and social cohesion within Scotland. With greater contro...",Scotland has different interests to rUK,0.9736,0.0107,topical_overlap_distinct_concept,Pure topical keyword overlap without semantic entailment of the specific concept.
+45,Wire-tapped and ‘intercepted’ evidence must be allowed as admissible in court,"### Practical Perspective
+
+From a practical perspective, the admissibility of wire-tapped and intercepted evidence should be guided by a clear and pragmatic approach. The goal is t...",Wiretapping has a high level of benefit to both reduce serious crime and prosecute criminals.,0.9926,0.0318,topical_overlap_distinct_concept,Different legal principles under wiretapping.
+46,Newspapers Are a Thing of the Past,Transitioning from traditional newspapers to digital platforms introduces profound ethical considerations regarding the authenticity and reliability of information disseminated. Pr...,The balance of analysis and relevancy is better struck by newspapers,0.9944,0.6517,topical_overlap_distinct_concept,Pure topical keyword overlap without semantic entailment of the specific concept.
+47,We have lost the true meaning of Christmas,"**Implementation Perspective:**
+
+To address the loss of the true meaning of Christmas, practical steps can be taken to bring it back into focus. Businesses and organizations can in...",It's not a real holiday.,0.9892,0.6456,topical_overlap_distinct_concept,Pure topical keyword overlap without semantic entailment of the specific concept.
+48,Stop the Olympic Games,"### Social Perspective
+
+#### Proponent Viewpoint:
+- **Community Displacement**: The construction of Olympic venues often leads to the displacement of local communities, particularl...",Benefits of hosting the olympic games.,0.9946,0.9804,topical_overlap_distinct_concept,Pure topical keyword overlap without semantic entailment of the specific concept.
+49,Compensation should be paid for those who have had their culture appropriated,"From a Social perspective, compensation for cultural appropriation highlights the importance of respecting and valuing diverse cultures. It underscores the ongoing struggle of marg...",Compensation rights a wrong,0.8748,0.0024,topical_overlap_distinct_concept,Pure topical keyword overlap without semantic entailment of the specific concept.
+50,Intellectual property rights have to be abolished,"### Pragmatic/Implementation Viewpoint
+
+From a practical standpoint, intellectual property rights are vital for fostering innovation, promoting investment, and safeguarding creativ...","Firms and individuals misallocate resources trying to race others to the same goal, and spend resources stealing from one another:",0.875,0.0007,topical_overlap_distinct_concept,Pure topical keyword overlap without semantic entailment of the specific concept.
+51,We should detain terror suspects without trial,"**Practical Perspective:**
+
+Implementing the practice of detaining terror suspects without trial can be seen as a pragmatic approach during urgent and critical times. However, it i...","There is an alternative in tribunals, which would respect the rights on detainees",0.9777,0.0045,topical_overlap_distinct_concept,Pure topical keyword overlap without semantic entailment of the specific concept.
+52,Chocolate is good for you,"**Practical Perspective:**
+
+From a practical standpoint, the benefits of chocolate are more evident when consumed in moderation. Studies show that dark chocolate, especially with a...",Dark chocolate has positive health benefits.,0.9569,0.0696,topical_overlap_distinct_concept,Pure topical keyword overlap without semantic entailment of the specific concept.
+53,Online Shopping Is Better Than Offline Shopping,"Here are distinct viewpoints on the claim ""Online Shopping Is Better Than Offline Shopping"" from a Social, Demographic, or Interpersonal perspective:
+
+### Social Perspective Viewpo...",You don't have to leave the house to shop online.,0.8843,0.0037,implicit_or_partial_coverage,Premise mentions ordering without transit; hypothesis states not leaving house. Semantically implicit entailment.
+54,We should directly elect city mayors,"**Practical Perspective:**
+
+Directly electing city mayors can simplify the administrative process, allowing for quicker decision-making and execution since the mayor would have a c...",Directly elected mayors provide opportunities for populists.,0.9281,0.0013,topical_overlap_distinct_concept,Pure topical keyword overlap without semantic entailment of the specific concept.
+55,Creationism should be discussed in school science lessons,"### Social Perspective
+
+From a social perspective, discussing creationism in school science lessons could exacerbate religious tensions and divisions within communities. It might f...",Science teachers should be sympathetic to each individual student,0.9809,0.0075,topical_overlap_distinct_concept,Pure topical keyword overlap without semantic entailment of the specific concept.
+56,You should join Facebook,"**Practical Perspective:**
+
+Joining Facebook should be based on practical considerations. For individuals, it offers the ease of staying connected with friends and family, but they...",One of the main features of Facebook is to talk to each other.,0.8314,0.0026,topical_overlap_distinct_concept,Pure topical keyword overlap without semantic entailment of the specific concept.
+57,Antarctica Should Be Opened Up For Resource Exploitation,"### Viewpoint 1 (Social Perspective)
+
+From a social perspective, opening Antarctica for resource exploitation raises ethical concerns about equitable distribution and cultural heri...",Antartica: A common heritage to the benefit of mankind,0.9038,0.0009,topical_overlap_distinct_concept,Pure topical keyword overlap without semantic entailment of the specific concept.
+58,Dictatorship Is the Best Path to Development,"1. **Practical and Pragmatic Perspective**  
+From a practical standpoint, democracy offers several advantages over dictatorship. Democracies facilitate checks and balances, enablin...",Dictatorships offer political stability by eliminating competition.,0.9814,0.0017,topical_overlap_distinct_concept,Pure topical keyword overlap without semantic entailment of the specific concept.

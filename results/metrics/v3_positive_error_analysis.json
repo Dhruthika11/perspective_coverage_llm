@@ -1,0 +1,109 @@
+{
+  "total_llm_positives": 188,
+  "v3_true_positives": 70,
+  "v3_false_negatives": 118,
+  "v3_recall": 0.3723,
+  "recall_by_length_tier": [
+    {
+      "length_tier": "long",
+      "total": 78,
+      "tp": 26,
+      "fn": 52,
+      "recall": 0.3333
+    },
+    {
+      "length_tier": "medium",
+      "total": 21,
+      "tp": 3,
+      "fn": 18,
+      "recall": 0.1429
+    },
+    {
+      "length_tier": "short",
+      "total": 2,
+      "tp": 0,
+      "fn": 2,
+      "recall": 0.0
+    },
+    {
+      "length_tier": "very_long",
+      "total": 87,
+      "tp": 41,
+      "fn": 46,
+      "recall": 0.4713
+    }
+  ],
+  "recall_by_model_scale": [
+    {
+      "pair_category": "long_llm_to_human_positive_qwen2_5_1_5b_instruct",
+      "total": 55,
+      "tp": 18,
+      "fn": 37,
+      "recall": 0.3273
+    },
+    {
+      "pair_category": "long_llm_to_human_positive_qwen2_5_32b_instruct",
+      "total": 71,
+      "tp": 25,
+      "fn": 46,
+      "recall": 0.3521
+    },
+    {
+      "pair_category": "long_llm_to_human_positive_qwen2_5_3b_instruct",
+      "total": 62,
+      "tp": 27,
+      "fn": 35,
+      "recall": 0.4355
+    }
+  ],
+  "sample_false_negatives": [
+    {
+      "claim_text": "Civil society should be granted a wider participation in Africa\u2019s political life",
+      "model_source": "qwen2_5_32b_instruct",
+      "length_tier": "long",
+      "p_v3": 0.0092,
+      "hypothesis": "Civil society is good for economic development",
+      "premise_excerpt": "### Legal, Institutional, or Policy Perspective\n\n#### Pros:\n1. **Legitimacy and Transparency**: Greater civil society participation can enhance the legitimacy of governmental actions by ensuring trans..."
+    },
+    {
+      "claim_text": "We should drop the sanctions against Cuba.",
+      "model_source": "qwen2_5_1_5b_instruct",
+      "length_tier": "very_long",
+      "p_v3": 0.0072,
+      "hypothesis": "Sanctions are necessary for national security",
+      "premise_excerpt": "### 1. **Practical and Implementation Viewpoint**\n\nTo effectively address the practical concerns arising from existing sanctions, policymakers must weigh several key aspects. One critical consideratio..."
+    },
+    {
+      "claim_text": "Reality TV shows are an important part of popular culture today.",
+      "model_source": "qwen2_5_1_5b_instruct",
+      "length_tier": "medium",
+      "p_v3": 0.014,
+      "hypothesis": "Reality TV shows bring out the worse in people.",
+      "premise_excerpt": "**Economic Perspective:** Reality TV shows can drive tourism and hospitality industries in host countries. The popularity of these shows often leads to increased demand for travel-related products suc..."
+    },
+    {
+      "claim_text": "Chocolate is good for you",
+      "model_source": "qwen2_5_32b_instruct",
+      "length_tier": "long",
+      "p_v3": 0.0013,
+      "hypothesis": "Chocolate, like most drugs, is addictive",
+      "premise_excerpt": "- **Cultural Identity Perspective**: In certain cultures, chocolate plays a significant role in traditional ceremonies and celebrations. Embracing chocolate as beneficial can reinforce cultural identi..."
+    },
+    {
+      "claim_text": "Britain should become a republic",
+      "model_source": "qwen2_5_1_5b_instruct",
+      "length_tier": "long",
+      "p_v3": 0.0075,
+      "hypothesis": "Most other countries in Europe have abandoned the monarch",
+      "premise_excerpt": "**Ethical Perspective**: \nThe abolition of the monarchy suggests a shift towards greater equality and meritocracy, challenging traditional hierarchies and promoting democratic values. This transition ..."
+    },
+    {
+      "claim_text": "Music containing lyrics that glorify violent and criminal lifestyles should be banned",
+      "model_source": "qwen2_5_1_5b_instruct",
+      "length_tier": "medium",
+      "p_v3": 0.0021,
+      "hypothesis": "Defending hip hop artists\u2019 right to free speech",
+      "premise_excerpt": "I agree with the practical approach to banning music containing lyrics that glorify violent and criminal lifestyles. While there are valid concerns about unintended economic effects, the overall goal ..."
+    }
+  ]
+}

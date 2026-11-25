@@ -1,0 +1,25 @@
+{
+  "population_size": 250,
+  "sample_size": 50,
+  "strata_weights": {
+    "ACCEPT_CLASS2_EQUIVALENT": 3.7,
+    "REJECT_STAGE2B_DIFFERENT_WARRANT": 4.666666666666667,
+    "REJECT_STAGE2A_STANCE": 5.6,
+    "REJECT_STAGE1": 10.0
+  },
+  "estimated_population_class_distribution": {
+    "class_2": 81.56666666666668,
+    "class_1": 44.733333333333334,
+    "class_0a": 64.36666666666667,
+    "class_0b": 59.333333333333336
+  },
+  "weighted_metrics": {
+    "class_2_precision": 0.85,
+    "class_2_recall": 0.7711,
+    "class_2_f1": 0.8087,
+    "class_1_rejection_e2e": 0.8346,
+    "class_0a_rejection_e2e": 0.9425,
+    "class_0b_rejection_e2e": 1.0,
+    "negative_class_specificity": 0.9341
+  }
+}

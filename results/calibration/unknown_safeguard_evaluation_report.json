@@ -1,0 +1,25 @@
+{
+  "total_class2_unknown_pairs": 17,
+  "class2_unknown_probe_pass_t020": 14,
+  "class2_unknown_safeguard_pass": 14,
+  "class2_unknown_retention_rate": 1.0,
+  "false_negatives_introduced_to_probe_survivors": 0,
+  "pair_403_reconciliation": {
+    "evaluation_1_gen_to_claim": {
+      "premise": "From a Legal Perspective:: While the glorification of violence against women is morally reprehensible, legal bans on music that promotes such violence face significant challenges. The First Amendment protection of free speech in many jurisdictions complicates efforts to censor music. Moreover, enforcing such bans could lead to complex legal battles, particularly if the music is distributed internationally. Instead, focusing on public awareness campaigns and educational programs to raise awareness about the harmful effects of such content may be more effective.",
+      "hypothesis": "Music that glorifies violence against women should be banned",
+      "p_contra": 0.0089,
+      "p_entail": 0.007,
+      "p_neutral": 0.984,
+      "purpose": "Direct stance classification of viewpoint against debate claim"
+    },
+    "evaluation_2_gen_to_gold_probe": {
+      "premise": "From a Legal Perspective:: While the glorification of violence against women is morally reprehensible, legal bans on music that promotes such violence face significant challenges. The First Amendment protection of free speech in many jurisdictions complicates efforts to censor music. Moreover, enforcing such bans could lead to complex legal battles, particularly if the music is distributed internationally. Instead, focusing on public awareness campaigns and educational programs to raise awareness about the harmful effects of such content may be more effective.",
+      "hypothesis": "To ban music that encourages violence against women would be done with the intention of protecting women; if it is necessary to paint them as the victims of violence that they are, that is a small price to pay. Furthermore, bans on child pornography would",
+      "p_contra": 0.001,
+      "p_entail": 0.0011,
+      "p_neutral": 0.9979,
+      "purpose": "Standard Stage 2b perspective alignment inference input into warrant probe"
+    }
+  }
+}

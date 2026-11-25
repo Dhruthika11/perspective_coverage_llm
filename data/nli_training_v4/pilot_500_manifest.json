@@ -1,0 +1,87 @@
+{
+  "dataset_name": "Argument-NLI V4 Length-Stratified Contrastive Pilot Candidates",
+  "total_pairs": 500,
+  "class_distribution": {
+    "no_coverage": 200,
+    "full_coverage": 150,
+    "partial_coverage": 100,
+    "contradiction": 50
+  },
+  "subtype_distribution": {
+    "full_coverage": 150,
+    "partial_coverage": 100,
+    "same_topic_diff_concept": 100,
+    "same_policy_diff_reason": 100,
+    "opposite_stance_conflict": 50
+  },
+  "length_tier_distribution": {
+    "medium": 126,
+    "very_long": 125,
+    "short": 125,
+    "long": 124
+  },
+  "subtype_by_length_tier": {
+    "long": {
+      "full_coverage": 37,
+      "opposite_stance_conflict": 12,
+      "partial_coverage": 25,
+      "same_policy_diff_reason": 25,
+      "same_topic_diff_concept": 25
+    },
+    "medium": {
+      "full_coverage": 38,
+      "opposite_stance_conflict": 13,
+      "partial_coverage": 25,
+      "same_policy_diff_reason": 25,
+      "same_topic_diff_concept": 25
+    },
+    "short": {
+      "full_coverage": 38,
+      "opposite_stance_conflict": 12,
+      "partial_coverage": 25,
+      "same_policy_diff_reason": 25,
+      "same_topic_diff_concept": 25
+    },
+    "very_long": {
+      "full_coverage": 37,
+      "opposite_stance_conflict": 13,
+      "partial_coverage": 25,
+      "same_policy_diff_reason": 25,
+      "same_topic_diff_concept": 25
+    }
+  },
+  "model_distribution": {
+    "olmo_2_1124_7b_instruct": 141,
+    "llama_3_1_8b_instruct": 134,
+    "gemma_2_9b_it": 121,
+    "qwen2_5_7b_instruct": 104
+  },
+  "unique_claims": 81,
+  "test_claims_excluded": 39,
+  "tier_word_count_statistics": {
+    "short": {
+      "count": 125,
+      "mean_words": 42.19,
+      "min_words": 21,
+      "max_words": 50
+    },
+    "medium": {
+      "count": 126,
+      "mean_words": 80.06,
+      "min_words": 50,
+      "max_words": 99
+    },
+    "long": {
+      "count": 124,
+      "mean_words": 126.04,
+      "min_words": 101,
+      "max_words": 159
+    },
+    "very_long": {
+      "count": 125,
+      "mean_words": 199.46,
+      "min_words": 176,
+      "max_words": 243
+    }
+  }
+}

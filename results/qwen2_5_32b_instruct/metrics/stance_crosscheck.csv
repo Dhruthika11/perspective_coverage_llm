@@ -1,0 +1,5 @@
+llm_reported_stance,predicted_stance,n
+support,support,2558
+support,undermine,1063
+undermine,support,1750
+undermine,undermine,2041

@@ -1,0 +1,28 @@
+{
+  "status": "FROZEN (DO NOT MODIFY)",
+  "tuning_set": "Validation Split Only (data/nli_training_v5/val.csv, N=800)",
+  "ensemble_checkpoints": [
+    "C:\\Users\\dhrut\\Downloads\\perspective_coverage\\perspective_coverage\\models\\ensemble_data_only\\seed_42",
+    "C:\\Users\\dhrut\\Downloads\\perspective_coverage\\perspective_coverage\\models\\ensemble_data_only\\seed_123",
+    "C:\\Users\\dhrut\\Downloads\\perspective_coverage\\perspective_coverage\\models\\ensemble_data_only\\seed_999"
+  ],
+  "temperature_scaling": {
+    "optimal_temperature_T": 0.2323,
+    "uncalibrated_nll": 0.6492,
+    "calibrated_nll": 0.2809,
+    "uncalibrated_ece": 0.3187,
+    "calibrated_ece": 0.0276,
+    "uncalibrated_brier": 0.1153,
+    "calibrated_brier": 0.0546
+  },
+  "operating_thresholds": {
+    "theta_f1_star": 0.3,
+    "theta_high_precision": 0.27,
+    "val_f1_at_theta_f1": 0.9164
+  },
+  "three_tier_triage_policy": {
+    "accept_threshold": 0.27,
+    "reject_threshold": 0.2,
+    "description": "Predictions with P(full) >= theta_accept are Accepted automatically; P(full) < theta_reject are Rejected; intermediate values are routed to Review."
+  }
+}

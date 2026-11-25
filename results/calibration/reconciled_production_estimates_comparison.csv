@@ -1,0 +1,10 @@
+model,estimator,est_population_total_predicted,est_pop_tp,est_pop_fp,est_pop_fn,est_pop_tn,est_pop_c2,est_pop_c1,est_pop_c0a,est_pop_c0b,est_fp_c1,est_fp_c0a,est_fp_c0b,weighted_recall,weighted_precision,weighted_f1,weighted_c1_rejection,weighted_c0a_rejection
+M0 Frozen Baseline (T*=0.20),7-Substrata Exact HT,74.0,62.7,11.3,13.1,162.9,75.8,71.0,63.9,39.2,10.1,1.2,0.0,82.75,84.79,0.8375,85.84,98.12
+M2 Reasoning (T*=0.18),7-Substrata Exact HT,65.9,55.8,10.1,20.0,164.1,75.8,71.0,63.9,39.2,10.1,0.0,0.0,73.62,84.73,0.7878,85.84,100.0
+M2 Reasoning (T*=0.31),7-Substrata Exact HT,49.1,42.0,7.1,33.8,167.1,75.8,71.0,63.9,39.2,7.1,0.0,0.0,55.39,85.56,0.6725,90.03,100.0
+M0 Frozen Baseline (T*=0.20),4-Strata Coarse HT,74.0,62.5,11.5,14.0,162.0,76.5,64.3,65.7,43.5,9.9,1.6,0.0,81.7,84.44,0.8305,84.65,97.5
+M2 Reasoning (T*=0.18),4-Strata Coarse HT,64.6,54.7,9.9,21.8,163.6,76.5,64.3,65.7,43.5,9.9,0.0,0.0,71.5,84.72,0.7755,84.65,100.0
+M2 Reasoning (T*=0.31),4-Strata Coarse HT,47.7,41.1,6.6,35.4,166.9,76.5,64.3,65.7,43.5,6.6,0.0,0.0,53.75,86.21,0.6621,89.77,100.0
+M0 Frozen Baseline (T*=0.20),Batch 1 Pure Stratified (n=50),74.0,62.9,11.1,18.7,157.3,81.6,44.7,64.4,59.3,7.4,3.7,0.0,77.11,85.0,0.8087,83.46,94.25
+M2 Reasoning (T*=0.18),Batch 1 Pure Stratified (n=50),61.1,53.7,7.4,27.8,161.0,81.6,44.7,64.4,59.3,7.4,0.0,0.0,65.88,87.9,0.7531,83.46,100.0
+M2 Reasoning (T*=0.31),Batch 1 Pure Stratified (n=50),40.7,37.0,3.7,44.6,164.7,81.6,44.7,64.4,59.3,3.7,0.0,0.0,45.36,90.91,0.6052,91.73,100.0

@@ -1,0 +1,31 @@
+{
+  "benchmark_name": "Frozen Human Ground-Truth Benchmark 346",
+  "version": "1.0.0-frozen",
+  "timestamp": "2026-11-19T18:15:00Z",
+  "total_pairs": 346,
+  "unique_claims": 65,
+  "class_distribution": {
+    "class_1": 127,
+    "class_2": 99,
+    "class_0a": 82,
+    "class_0b": 33,
+    "ambiguous": 5
+  },
+  "files": {
+    "frozen_csv": {
+      "path": "data/calibration/frozen_human_ground_truth_benchmark_346.csv",
+      "sha256": "9373136f6d3f057a2429c721ff3674ab20ec4d445cd3391dffb3e60fa6dd1d54"
+    },
+    "frozen_json": {
+      "path": "data/calibration/frozen_human_ground_truth_benchmark_346.json",
+      "sha256": "9562446f62e49e9c28ba5be7edad275abd28b1ee20829875d5fdac6ffb6ae53d"
+    }
+  },
+  "provenance": {
+    "clean_92_cohort": 92,
+    "unanimous_100_cohort": 100,
+    "stage_b_50_cohort": 50,
+    "stage_a_50_cohort": 50,
+    "triage_splits_pilots": 54
+  }
+}

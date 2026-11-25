@@ -1,0 +1,69 @@
+{
+  "frozen_tau": 0.55,
+  "total_test_pairs": 600,
+  "test_claims_count": 39,
+  "candidate_recall_class_2": 0.981,
+  "rejection_rate_class_1": 0.0867,
+  "rejection_rate_class_0a": 0.0733,
+  "rejection_rate_class_0b": 0.9333,
+  "pass_through_rate_class_1": 0.9133,
+  "pass_through_rate_class_0a": 0.9267,
+  "pass_through_rate_class_0b": 0.0667,
+  "candidate_reduction_rate": 0.1867,
+  "per_model_family_breakdown": {
+    "gemma_2_27b_it": {
+      "n_pairs": 76,
+      "candidate_recall": 0.9643
+    },
+    "gemma_2_9b_it": {
+      "n_pairs": 63,
+      "candidate_recall": 1.0
+    },
+    "llama_3_1_8b_instruct": {
+      "n_pairs": 56,
+      "candidate_recall": 1.0
+    },
+    "llama_3_2_3b_instruct": {
+      "n_pairs": 68,
+      "candidate_recall": 1.0
+    },
+    "olmo_2_1124_13b_instruct": {
+      "n_pairs": 65,
+      "candidate_recall": 1.0
+    },
+    "olmo_2_1124_7b_instruct": {
+      "n_pairs": 73,
+      "candidate_recall": 1.0
+    },
+    "qwen2_5_1_5b_instruct": {
+      "n_pairs": 39,
+      "candidate_recall": 0.9545
+    },
+    "qwen2_5_32b_instruct": {
+      "n_pairs": 57,
+      "candidate_recall": 0.973
+    },
+    "qwen2_5_3b_instruct": {
+      "n_pairs": 27,
+      "candidate_recall": 0.9286
+    },
+    "qwen2_5_7b_instruct": {
+      "n_pairs": 76,
+      "candidate_recall": 1.0
+    }
+  },
+  "per_length_tier_breakdown": {
+    "short": {
+      "n_pairs": 213,
+      "candidate_recall": 0.9677
+    },
+    "medium": {
+      "n_pairs": 206,
+      "candidate_recall": 0.9861
+    },
+    "long": {
+      "n_pairs": 181,
+      "candidate_recall": 1.0
+    }
+  }
+}

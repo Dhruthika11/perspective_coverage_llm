@@ -1,0 +1,21 @@
+Rule,L_Cutoff,Cal_Recall,Cal_Precision,Cal_F1,Cal_C1_Rejection,Cal_Total_FP
+Baseline M0 (No Guard),0,95.83,46.0,0.6216,46.67,27
+"Standard M2 (No Guard, T*=0.18)",0,91.67,45.83,0.6111,46.67,26
+"Rule A: Max(M2, M0) if L <= Cutoff",6,95.83,46.0,0.6216,44.44,27
+"Rule A: Max(M2, M0) if L <= Cutoff",8,95.83,46.0,0.6216,44.44,27
+"Rule A: Max(M2, M0) if L <= Cutoff",10,95.83,45.1,0.6133,42.22,28
+"Rule A: Max(M2, M0) if L <= Cutoff",12,95.83,45.1,0.6133,42.22,28
+"Rule A: Max(M2, M0) if L <= Cutoff",14,100.0,46.15,0.6316,42.22,28
+"Rule A: Max(M2, M0) if L <= Cutoff",16,100.0,46.15,0.6316,42.22,28
+Rule B: Fallback M0 if L <= Cutoff,6,95.83,46.0,0.6216,44.44,27
+Rule B: Fallback M0 if L <= Cutoff,8,95.83,46.0,0.6216,44.44,27
+Rule B: Fallback M0 if L <= Cutoff,10,95.83,45.1,0.6133,42.22,28
+Rule B: Fallback M0 if L <= Cutoff,12,95.83,45.1,0.6133,42.22,28
+Rule B: Fallback M0 if L <= Cutoff,14,100.0,47.06,0.64,44.44,27
+Rule B: Fallback M0 if L <= Cutoff,16,100.0,47.06,0.64,44.44,27
+"Rule C: Max(M2, M0) if L <= Cutoff & No Connective",6,95.83,46.0,0.6216,44.44,27
+"Rule C: Max(M2, M0) if L <= Cutoff & No Connective",8,95.83,46.0,0.6216,44.44,27
+"Rule C: Max(M2, M0) if L <= Cutoff & No Connective",10,95.83,45.1,0.6133,42.22,28
+"Rule C: Max(M2, M0) if L <= Cutoff & No Connective",12,95.83,45.1,0.6133,42.22,28
+"Rule C: Max(M2, M0) if L <= Cutoff & No Connective",14,100.0,46.15,0.6316,42.22,28
+"Rule C: Max(M2, M0) if L <= Cutoff & No Connective",16,100.0,46.15,0.6316,42.22,28

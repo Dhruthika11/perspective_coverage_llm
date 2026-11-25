@@ -1,0 +1,229 @@
+{
+  "status": "COMPLETED",
+  "total_clusters": 5095,
+  "total_claims": 907,
+  "evaluated_models": [
+    "qwen2_5_1_5b_instruct",
+    "qwen2_5_3b_instruct",
+    "qwen2_5_32b_instruct",
+    "gemma_3_12b_it",
+    "mistral_7b_instruct_v0_3"
+  ],
+  "always_covered_count": 355,
+  "partially_covered_count": 1725,
+  "universal_blind_spot_count": 3015,
+  "universal_blind_spot_pct": 59.18,
+  "zero_coverage_claims_count": 160,
+  "zero_coverage_claims_pct": 17.64,
+  "summary_table": [
+    {
+      "Category": "Always Covered",
+      "Clusters": 355,
+      "% of Pool": "6.97%",
+      "Support / Undermine Ratio": "57.7% / 42.3%",
+      "Avg Reference Length (Words)": 8.1,
+      "Avg Cluster Paraphrases": 3.19,
+      "Rhetorical Profile": "Salient, intuitive foundational arguments; high affirmative baseline; high cluster paraphrase density."
+    },
+    {
+      "Category": "Partially Covered",
+      "Clusters": 1725,
+      "% of Pool": "33.86%",
+      "Support / Undermine Ratio": "53.2% / 46.8%",
+      "Avg Reference Length (Words)": 9.2,
+      "Avg Cluster Paraphrases": 2.67,
+      "Rhetorical Profile": "Moderately salient domain arguments retrieved by selective larger models (Qwen-32B) but missed by smaller variants."
+    },
+    {
+      "Category": "Universal Blind Spot",
+      "Clusters": 3015,
+      "% of Pool": "59.18%",
+      "Support / Undermine Ratio": "49.9% / 50.1%",
+      "Avg Reference Length (Words)": 11.9,
+      "Avg Cluster Paraphrases": 2.01,
+      "Rhetorical Profile": "Institutional nuances, non-obvious trade-offs, philosophical second-order consequences, or subtle counter-arguments."
+    }
+  ],
+  "thematic_table": [
+    {
+      "Thematic Domain": "Economics & Labor",
+      "Total Clusters": 330,
+      "% of Pool": "6.5%",
+      "Always Covered": 24,
+      "Always Cov %": "7.3%",
+      "Partially Covered": 124,
+      "Partially Cov %": "37.6%",
+      "Universal Blind Spot": 182,
+      "Blind Spot %": "55.2%",
+      "Blind Spot Stance (Sup/Und)": "45% / 55%"
+    },
+    {
+      "Thematic Domain": "Education & Youth",
+      "Total Clusters": 665,
+      "% of Pool": "13.1%",
+      "Always Covered": 51,
+      "Always Cov %": "7.7%",
+      "Partially Covered": 232,
+      "Partially Cov %": "34.9%",
+      "Universal Blind Spot": 382,
+      "Blind Spot %": "57.4%",
+      "Blind Spot Stance (Sup/Und)": "49% / 51%"
+    },
+    {
+      "Thematic Domain": "Environment & Energy",
+      "Total Clusters": 222,
+      "% of Pool": "4.4%",
+      "Always Covered": 12,
+      "Always Cov %": "5.4%",
+      "Partially Covered": 44,
+      "Partially Cov %": "19.8%",
+      "Universal Blind Spot": 166,
+      "Blind Spot %": "74.8%",
+      "Blind Spot Stance (Sup/Und)": "51% / 49%"
+    },
+    {
+      "Thematic Domain": "Healthcare & Bioethics",
+      "Total Clusters": 272,
+      "% of Pool": "5.3%",
+      "Always Covered": 14,
+      "Always Cov %": "5.1%",
+      "Partially Covered": 96,
+      "Partially Cov %": "35.3%",
+      "Universal Blind Spot": 162,
+      "Blind Spot %": "59.6%",
+      "Blind Spot Stance (Sup/Und)": "57% / 43%"
+    },
+    {
+      "Thematic Domain": "Law, Crime & Justice",
+      "Total Clusters": 519,
+      "% of Pool": "10.2%",
+      "Always Covered": 41,
+      "Always Cov %": "7.9%",
+      "Partially Covered": 172,
+      "Partially Cov %": "33.1%",
+      "Universal Blind Spot": 306,
+      "Blind Spot %": "59.0%",
+      "Blind Spot Stance (Sup/Und)": "48% / 52%"
+    },
+    {
+      "Thematic Domain": "Other Controversial Topics",
+      "Total Clusters": 1741,
+      "% of Pool": "34.2%",
+      "Always Covered": 122,
+      "Always Cov %": "7.0%",
+      "Partially Covered": 599,
+      "Partially Cov %": "34.4%",
+      "Universal Blind Spot": 1020,
+      "Blind Spot %": "58.6%",
+      "Blind Spot Stance (Sup/Und)": "51% / 49%"
+    },
+    {
+      "Thematic Domain": "Politics & Governance",
+      "Total Clusters": 884,
+      "% of Pool": "17.4%",
+      "Always Covered": 59,
+      "Always Cov %": "6.7%",
+      "Partially Covered": 318,
+      "Partially Cov %": "36.0%",
+      "Universal Blind Spot": 507,
+      "Blind Spot %": "57.4%",
+      "Blind Spot Stance (Sup/Und)": "51% / 49%"
+    },
+    {
+      "Thematic Domain": "Science & Technology",
+      "Total Clusters": 95,
+      "% of Pool": "1.9%",
+      "Always Covered": 8,
+      "Always Cov %": "8.4%",
+      "Partially Covered": 33,
+      "Partially Cov %": "34.7%",
+      "Universal Blind Spot": 54,
+      "Blind Spot %": "56.8%",
+      "Blind Spot Stance (Sup/Und)": "43% / 57%"
+    },
+    {
+      "Thematic Domain": "Social & Cultural Issues",
+      "Total Clusters": 367,
+      "% of Pool": "7.2%",
+      "Always Covered": 24,
+      "Always Cov %": "6.5%",
+      "Partially Covered": 107,
+      "Partially Cov %": "29.2%",
+      "Universal Blind Spot": 236,
+      "Blind Spot %": "64.3%",
+      "Blind Spot Stance (Sup/Und)": "49% / 51%"
+    }
+  ],
+  "zero_claims_sample": [
+    {
+      "claim_id": 26,
+      "domain": "Social & Cultural Issues",
+      "claim_text": "Atheism is the only way",
+      "n_clusters": 6,
+      "example_omitted_perspective": "Entirely natural theories can adequately explain the existence and development of the Universe and all it contains, making God irrelevant to the discussion of reality:"
+    },
+    {
+      "claim_id": 27,
+      "domain": "Politics & Governance",
+      "claim_text": "Anarchism is a valuable political ideology",
+      "n_clusters": 5,
+      "example_omitted_perspective": "Anarchy has nothing to contribute but violence."
+    },
+    {
+      "claim_id": 39,
+      "domain": "Law, Crime & Justice",
+      "claim_text": "Users of extremist websites should be punished",
+      "n_clusters": 6,
+      "example_omitted_perspective": "Criminalisation will not stop radicalisation"
+    },
+    {
+      "claim_id": 41,
+      "domain": "Economics & Labor",
+      "claim_text": "Corporations\u2019 Use of IP Laws in Relation to Event Sponsorship Poses a Threat to Freedom of Expression",
+      "n_clusters": 1,
+      "example_omitted_perspective": "Governments and corporations have been complicit in an effective \u2018privatization of language\u2019."
+    },
+    {
+      "claim_id": 44,
+      "domain": "Other Controversial Topics",
+      "claim_text": "The BBC should be free to blaspheme",
+      "n_clusters": 3,
+      "example_omitted_perspective": "This was a piece of art, advertised and described as such, those likely to be offended were quite welcome not to watch it."
+    },
+    {
+      "claim_id": 50,
+      "domain": "Law, Crime & Justice",
+      "claim_text": "We must bring back corporal punishment",
+      "n_clusters": 2,
+      "example_omitted_perspective": "Social problems can be solved without resorting to physical punishments."
+    },
+    {
+      "claim_id": 58,
+      "domain": "Other Controversial Topics",
+      "claim_text": "Cultural property residing in museums must be returned to its place of origin",
+      "n_clusters": 9,
+      "example_omitted_perspective": "The historical significance of artefacts extends beyond their culture of origin"
+    },
+    {
+      "claim_id": 60,
+      "domain": "Other Controversial Topics",
+      "claim_text": "We must support public service broadcasters",
+      "n_clusters": 4,
+      "example_omitted_perspective": "PSBs bring nations and people together and are an actively positive force within the mediasphere"
+    },
+    {
+      "claim_id": 68,
+      "domain": "Other Controversial Topics",
+      "claim_text": "Transparency is necessary for security",
+      "n_clusters": 3,
+      "example_omitted_perspective": "Transparency prevents, or corrects, mistakes"
+    },
+    {
+      "claim_id": 69,
+      "domain": "Politics & Governance",
+      "claim_text": "Western democracies should openly try to circumvent Internet censorship in oppressive regimes",
+      "n_clusters": 2,
+      "example_omitted_perspective": "This policy alienates the oppressive regimes and stifles the change that discourse and positive interaction can bring"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+[
+  {
+    "LLM Model": "gemma-3-12b-it",
+    "Embedding": "bge-large-en-v1.5",
+    "Tau": 0.75,
+    "Coverage": 0.272,
+    "Support Cov": 0.3129,
+    "Undermine Cov": 0.221,
+    "JS Divergence": 0.0929,
+    "Diversity": 0.1646,
+    "Zero-Cov Claims": 234,
+    "Full-Cov Claims": 35,
+    "Path": "results\\gemma_3_12b_it\\final_report_summary.json"
+  },
+  {
+    "LLM Model": "Mistral-7B-Instruct-v0.3",
+    "Embedding": "bge-large-en-v1.5",
+    "Tau": 0.75,
+    "Coverage": 0.2885,
+    "Support Cov": 0.338,
+    "Undermine Cov": 0.2382,
+    "JS Divergence": 0.0921,
+    "Diversity": 0.168,
+    "Zero-Cov Claims": 233,
+    "Full-Cov Claims": 36,
+    "Path": "results\\mistral_7b_instruct_v0_3\\final_report_summary.json"
+  },
+  {
+    "LLM Model": "Qwen2.5-1.5B-Instruct",
+    "Embedding": "nomic-embed-text-v1.5",
+    "Tau": 0.936,
+    "Coverage": 0.0,
+    "Support Cov": 0.0,
+    "Undermine Cov": 0.0,
+    "JS Divergence": 0.1309,
+    "Diversity": 0.1731,
+    "Zero-Cov Claims": 907,
+    "Full-Cov Claims": 0,
+    "Path": "results\\qwen2_5_1_5b_instruct\\final_report_summary.json"
+  },
+  {
+    "LLM Model": "Qwen2.5-32B-Instruct",
+    "Embedding": "bge-large-en-v1.5",
+    "Tau": 0.75,
+    "Coverage": 0.235,
+    "Support Cov": 0.2796,
+    "Undermine Cov": 0.1828,
+    "JS Divergence": 0.1137,
+    "Diversity": 0.1366,
+    "Zero-Cov Claims": 284,
+    "Full-Cov Claims": 29,
+    "Path": "results\\qwen2_5_32b_instruct\\final_report_summary.json"
+  }
+]

@@ -1,0 +1,112 @@
+{
+  "title": "In-Family Generator Models: Two-Stage Perspective Coverage with Frozen V5 Verifier",
+  "verifier_configuration": {
+    "v5_model_dir": "models/ensemble_data_only",
+    "temperature_T_applied": 1.9104,
+    "frozen_theta_f1": 0.52,
+    "frozen_theta_prec90": 0.83,
+    "stage1_tau": 0.75,
+    "target_dim": 1024,
+    "embedding_model": "BAAI/bge-large-en-v1.5"
+  },
+  "models_evaluated": [
+    {
+      "model_key": "qwen2_5_7b_instruct",
+      "display_name": "Qwen2.5-7B",
+      "family": "Qwen",
+      "params_b": 7.0,
+      "evaluated_claims": 94,
+      "stage1_cosine_coverage": 0.9792,
+      "stage2_v5_coverage_f1": 0.5325,
+      "stage2_v5_coverage_prec90": 0.1072,
+      "false_match_drop_pct": "45.6%",
+      "support_coverage": 0.4869,
+      "undermine_coverage": 0.4796,
+      "stance_gap_sup_minus_und": 0.0073
+    },
+    {
+      "model_key": "llama_3_1_8b_instruct",
+      "display_name": "Llama-3.1-8B",
+      "family": "Llama",
+      "params_b": 8.0,
+      "evaluated_claims": 94,
+      "stage1_cosine_coverage": 0.9792,
+      "stage2_v5_coverage_f1": 0.563,
+      "stage2_v5_coverage_prec90": 0.1038,
+      "false_match_drop_pct": "42.5%",
+      "support_coverage": 0.5222,
+      "undermine_coverage": 0.5416,
+      "stance_gap_sup_minus_und": -0.0195
+    },
+    {
+      "model_key": "gemma_2_9b_it",
+      "display_name": "Gemma-2-9B",
+      "family": "Gemma",
+      "params_b": 9.0,
+      "evaluated_claims": 94,
+      "stage1_cosine_coverage": 0.9792,
+      "stage2_v5_coverage_f1": 0.5834,
+      "stage2_v5_coverage_prec90": 0.1198,
+      "false_match_drop_pct": "40.4%",
+      "support_coverage": 0.5474,
+      "undermine_coverage": 0.5362,
+      "stance_gap_sup_minus_und": 0.0112
+    },
+    {
+      "model_key": "olmo_2_1124_7b_instruct",
+      "display_name": "OLMo-2-7B",
+      "family": "OLMo",
+      "params_b": 7.0,
+      "evaluated_claims": 94,
+      "stage1_cosine_coverage": 0.9792,
+      "stage2_v5_coverage_f1": 0.5947,
+      "stage2_v5_coverage_prec90": 0.1141,
+      "false_match_drop_pct": "39.3%",
+      "support_coverage": 0.5399,
+      "undermine_coverage": 0.5644,
+      "stance_gap_sup_minus_und": -0.0245
+    },
+    {
+      "model_key": "qwen2_5_1_5b_instruct",
+      "display_name": "Qwen2.5-1.5B",
+      "family": "Qwen",
+      "params_b": 1.5,
+      "evaluated_claims": 94,
+      "stage1_cosine_coverage": 0.9792,
+      "stage2_v5_coverage_f1": 0.5912,
+      "stage2_v5_coverage_prec90": 0.1248,
+      "false_match_drop_pct": "39.6%",
+      "support_coverage": 0.5572,
+      "undermine_coverage": 0.5364,
+      "stance_gap_sup_minus_und": 0.0208
+    },
+    {
+      "model_key": "qwen2_5_3b_instruct",
+      "display_name": "Qwen2.5-3B",
+      "family": "Qwen",
+      "params_b": 3.0,
+      "evaluated_claims": 94,
+      "stage1_cosine_coverage": 0.9792,
+      "stage2_v5_coverage_f1": 0.5744,
+      "stage2_v5_coverage_prec90": 0.1188,
+      "false_match_drop_pct": "41.3%",
+      "support_coverage": 0.5352,
+      "undermine_coverage": 0.5195,
+      "stance_gap_sup_minus_und": 0.0156
+    },
+    {
+      "model_key": "qwen2_5_32b_instruct",
+      "display_name": "Qwen2.5-32B",
+      "family": "Qwen",
+      "params_b": 32.0,
+      "evaluated_claims": 94,
+      "stage1_cosine_coverage": 0.9792,
+      "stage2_v5_coverage_f1": 0.5487,
+      "stage2_v5_coverage_prec90": 0.0994,
+      "false_match_drop_pct": "44.0%",
+      "support_coverage": 0.4984,
+      "undermine_coverage": 0.5242,
+      "stance_gap_sup_minus_und": -0.0258
+    }
+  ]
+}

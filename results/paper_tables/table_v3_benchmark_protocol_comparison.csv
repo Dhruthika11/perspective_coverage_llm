@@ -1,0 +1,5 @@
+Protocol,Threshold,Model,AUROC,AUPRC,TP,FP,FN_cond,FN_e2e,TN_e2e,Cond_Prec,Cond_Rec,Cond_F1,Pipeline_Rec,Pipeline_F1,Opp_Rejection
+Comparison 1: Common Operating Point,theta = 0.500,Baseline DeBERTa,0.7736,0.9704,36,1,23,24,86,0.973,0.6102,0.75,0.6,0.7423,6/7
+Comparison 1: Common Operating Point,theta = 0.500,Version 3 (Coverage-Aware),0.8015,0.9728,30,0,29,30,87,1.0,0.5085,0.6742,0.5,0.6667,7/7
+Comparison 2: Separately Calibrated,theta* = 0.720,Baseline DeBERTa,0.7736,0.9704,35,0,24,25,87,1.0,0.5932,0.7447,0.5833,0.7368,7/7
+Comparison 2: Separately Calibrated,theta* = 0.950,Version 3 (Coverage-Aware),0.8015,0.9728,22,0,37,38,87,1.0,0.3729,0.5432,0.3667,0.5366,7/7

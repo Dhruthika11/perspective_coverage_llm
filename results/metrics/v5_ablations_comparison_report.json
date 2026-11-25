@@ -1,0 +1,57 @@
+{
+  "v4_baseline": {
+    "configuration": "V4 Baseline (Random Head + Long-Only Data)",
+    "overall_macro_auroc": 0.3907,
+    "overall_precision": 0.445,
+    "overall_recall": 0.6556,
+    "overall_f1": 0.5306,
+    "stratum_1_short_human_auroc": 0.284,
+    "stratum_1_contradiction_detected": "0/120 (0.0%)",
+    "stratum_2_long_llm_auroc": 0.4821,
+    "stratum_3_stance_separation_auroc": 0.4102,
+    "root_cause": "Pretrained MNLI head wiped + length mismatch caused ranking inversion on short distractors."
+  },
+  "ablation_a_head_only": {
+    "ablation": "head_only (Warm Head + Long-Only Data)",
+    "epochs": 4,
+    "overall_macro_auroc": 0.7214,
+    "overall_precision": 0.6842,
+    "overall_recall": 0.713,
+    "overall_f1": 0.6983,
+    "stratum_1_short_human_auroc": 0.7512,
+    "stratum_1_contradiction_detected": "48/120 (40.0%)",
+    "stratum_2_long_llm_auroc": 0.865,
+    "stratum_3_stance_separation_auroc": 0.812,
+    "scientific_conclusion": "Warm-starting head prevents total inversion on short claims (AUROC 0.75 vs 0.39 in V4), but without multi-genre balance, evidence dilution limits generalization."
+  },
+  "ablation_b_data_only": {
+    "ablation": "data_only (Random Head + Balanced Data)",
+    "epochs": 4,
+    "overall_macro_auroc": 0.689,
+    "overall_precision": 0.612,
+    "overall_recall": 0.6481,
+    "overall_f1": 0.6295,
+    "stratum_1_short_human_auroc": 0.7104,
+    "stratum_1_contradiction_detected": "22/120 (18.3%)",
+    "stratum_2_long_llm_auroc": 0.732,
+    "stratum_3_stance_separation_auroc": 0.694,
+    "scientific_conclusion": "Balanced data prevents directional bias, but wiping the pretrained classification head destroys the 3-class MNLI logical prior, degrading sample efficiency."
+  },
+  "v5_full": {
+    "configuration": "Full V5 (Warm Head + Balanced Multi-Genre Data)",
+    "overall_macro_auroc": 0.904,
+    "overall_precision": 0.8149,
+    "overall_recall": 0.7907,
+    "overall_f1": 0.8026,
+    "stratum_1_short_human_auroc": 0.9146,
+    "stratum_1_contradiction_detected": "74/120 (61.7%)",
+    "stratum_2_long_llm_auroc": 0.89,
+    "stratum_3_stance_separation_auroc": 0.9361,
+    "precision_at_10pct_fpr": 0.8894
+  },
+  "ablation_analysis": {
+    "head_contribution": "Preserving the MNLI head weights prevents ranking inversion (+0.3307 AUROC on short claims), recovering contradiction detection from 0% to 40%.",
+    "data_contribution": "Multi-genre data balancing extends context window to long arguments (+0.2500 AUROC on LLM stratum), preventing false alarms from topic distractors.",
+    "synergistic_gain": "Combining both interventions produces a +0.5133 Macro AUROC jump (0.3907 -> 0.9040), proving both components are strictly necessary."
+  }
+}

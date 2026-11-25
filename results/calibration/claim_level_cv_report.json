@@ -1,0 +1,62 @@
+{
+  "folds": [
+    {
+      "fold": 1,
+      "train_claims": 64,
+      "val_claims": 16,
+      "optimal_tau": 0.56,
+      "val_candidate_recall": 0.957,
+      "val_rejection_c1": 0.1067,
+      "val_rejection_c0a": 0.0704,
+      "val_rejection_c0b": 0.9811
+    },
+    {
+      "fold": 2,
+      "train_claims": 64,
+      "val_claims": 16,
+      "optimal_tau": 0.56,
+      "val_candidate_recall": 0.9524,
+      "val_rejection_c1": 0.1169,
+      "val_rejection_c0a": 0.0667,
+      "val_rejection_c0b": 0.9718
+    },
+    {
+      "fold": 3,
+      "train_claims": 64,
+      "val_claims": 16,
+      "optimal_tau": 0.55,
+      "val_candidate_recall": 0.9923,
+      "val_rejection_c1": 0.0632,
+      "val_rejection_c0a": 0.2759,
+      "val_rejection_c0b": 0.9848
+    },
+    {
+      "fold": 4,
+      "train_claims": 64,
+      "val_claims": 16,
+      "optimal_tau": 0.55,
+      "val_candidate_recall": 1.0,
+      "val_rejection_c1": 0.0841,
+      "val_rejection_c0a": 0.0374,
+      "val_rejection_c0b": 0.9811
+    },
+    {
+      "fold": 5,
+      "train_claims": 64,
+      "val_claims": 16,
+      "optimal_tau": 0.55,
+      "val_candidate_recall": 0.9933,
+      "val_rejection_c1": 0.0217,
+      "val_rejection_c0a": 0.0667,
+      "val_rejection_c0b": 0.9825
+    }
+  ],
+  "mean_tau": 0.554,
+  "std_tau": 0.0049,
+  "tau_range": [
+    0.55,
+    0.56
+  ],
+  "mean_val_recall": 0.979,
+  "worst_fold_recall": 0.9524
+}

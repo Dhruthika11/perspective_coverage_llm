@@ -1,0 +1,1029 @@
+claim_id,claim_text,kialo_id,debate_type,split,source
+1,"Affirmative Action: Useful Once, Outdated Today?",774,binary,test,kialo
+2,"Should society work towards becoming ""colorblind"" in regards to race/ethnicity?",775,binary,test,kialo
+3,Is Jesus the Messiah?,776,binary,test,kialo
+4,Who is the greatest rapper alive today?,777,multi,test,kialo
+5,Are arranged marriages better than love marriages?,778,binary,test,kialo
+6,Did the Exodus Really Happen?,779,binary,test,kialo
+7,Quem deve ser eleito Presidente do Brasil em 2022?,780,multi,test,kialo
+8,Is there an afterlife?,781,binary,test,kialo
+9,What is the meaning of life?,782,multi,test,kialo
+10,Open source: the best way to develop software?,783,binary,test,kialo
+11,Multipolar World Order,784,binary,test,kialo
+12,Should there be a upper age limit for voting?,785,binary,test,kialo
+13,Which Harry Potter character would you bring back?,786,multi,test,kialo
+14,Small D*ck Energy: Is it body shaming or a justified call-out?,787,binary,test,kialo
+15,Should you give a partner that cheated a second chance?,788,binary,test,kialo
+16,Should private schools be banned?,789,binary,test,kialo
+17,"Media and cultural bias that people are watching ""too much TV"" or that it is a ""waste of time"" is incorrect & unhelpful",790,binary,test,kialo
+18,"In a committed relationship, what constitutes infidelity?",791,multi,test,kialo
+19,The relation between the current incentive for individual behaviour and a future proof society.,792,binary,test,kialo
+20,Should the Olympics be abolished?,793,binary,test,kialo
+21,Bandaid fixes to U.S. healthcare,794,binary,test,kialo
+22,"Is America really ""Land of the Free""?",795,binary,test,kialo
+23,¿Se debe independizar Cataluña de España?,796,binary,test,kialo
+24,Is preferential voting the most effective system for ensuring fairer election outcomes?,797,binary,test,kialo
+25,Is Lab-Grown Meat a suitable replacement for Factory Farming?,798,binary,test,kialo
+26,"In the future, humanity will create a new type of economy where automated systems distribute goods and services",799,binary,test,kialo
+27,Ocean exploration should be of higher priority than space exploration the coming decade,800,binary,test,kialo
+28,Should (compulsory) school education focus on science rather than humanities?,801,binary,test,kialo
+29,Are crop circles created by extraterrestials?,802,binary,test,kialo
+30,Should religious practices that incorporate self-harm be banned?,803,binary,test,kialo
+31,Should social media platforms be regulated by the government?,804,binary,test,kialo
+32,Should Men Be Involved And Trusted In Childcare?,805,binary,test,kialo
+33,The Rebel Alliance would defeat the United Federation of Planets in space combat.,806,binary,test,kialo
+34,Will the Covid-19 pandemic have a lasting impact on society?,807,binary,test,kialo
+35,Can Man-made Climate Change Be Reversed?,808,binary,test,kialo
+36,Was Donald Trump one of the smartest presidents in US history?,809,binary,test,kialo
+37,Do IMF programs cause economic damage to the countries they're lending to?,810,binary,test,kialo
+38,El reconocimiento es un punto de partida fundamental para llegar a la concordia,811,binary,test,kialo
+39,"Should the Met remove Balthus' painting, Thérèse Dreaming?",812,binary,test,kialo
+40,Cruel and Unusual: Should Capital Punishment Hurt?,813,binary,test,kialo
+41,Does the world need an international environmental government with political power to mitigate environmental damage?,814,binary,test,kialo
+42,Who caused the leak of the Nord Stream Pipeline on 26th Sept 2022?,815,multi,test,kialo
+43,Is Information warfare more ethical than conventional warfare?,816,binary,test,kialo
+44,Глобалізація: виклики та перспективи,817,binary,test,kialo
+45,Should Culturally or Historically Significant Artwork Be Property of the State?,818,binary,test,kialo
+46,Is moral non-compulsion evidence against naturalistic evolution?,819,binary,test,kialo
+47,Should all religions be banned on a global scale?,820,binary,test,kialo
+48,Is it Time for Hungary and the EU to Part Ways?,821,binary,test,kialo
+49,Doit-on apprendre à désirer pour avoir une vie pleinement satisfaisante?,822,multi,test,kialo
+50,Is The Ubiquity of Heterosexuality Chiefly a Product Of Heteronormativity?,823,binary,test,kialo
+51,Was Christianity in the 20th Century Good for Europe?,824,binary,test,kialo
+52,The primary purpose of marriage is procreating and raising children.,825,binary,test,kialo
+53,Should health care be free in the USA?,826,binary,test,kialo
+54,Notebooks should be done away with and students should use electronic devices.,827,binary,test,kialo
+55,¿Protegen las vacunas a la sociedad?,828,binary,test,kialo
+56,Is Rahul Gandhi mature enough to handle a position of responsibility like being a prime minister?,829,binary,test,kialo
+57,Is the BBC an Impartial Organization?,830,binary,test,kialo
+58,Should students be able to grade their teachers?,831,binary,test,kialo
+59,Anarchist Economies: Universal Unit of Account?,832,binary,test,kialo
+60,Do Parents Have an Obligation to Genetically Enhance Their Babies?,833,binary,test,kialo
+61,The knowledge that we exist in a Simulated Reality has no utility,834,binary,test,kialo
+62,Are Weapons of Mass destruction Ethical?,835,binary,test,kialo
+63,'Sola Scriptura' is a man-made philosophy.,836,binary,test,kialo
+64,"It is better to discuss topics in person, rather than through online text-based mediums.",837,binary,test,kialo
+65,Citizens are entitled to influence decisions made by the government through online public discussions and votings.,838,binary,test,kialo
+66,Should People Be Allowed To Work More Than 10 Hours/Day?,839,binary,test,kialo
+67,Sports is presently the best Career choice.,840,binary,test,kialo
+68,Anarchist Economies: What kind of production and distribution coordination do you prefer between local structures?,841,multi,test,kialo
+69,Should video game storytelling portray gender equality?,842,binary,test,kialo
+70,Is dating easier for women?,843,binary,test,kialo
+71,Is astrology a valid practice?,844,binary,test,kialo
+72,Should We Abolish Strict Regulation Over Crossing National Borders?,845,binary,test,kialo
+73,Should Daylight Saving Time be kept?,846,binary,test,kialo
+74,What is the best writing advice?,847,multi,test,kialo
+75,Wird ein deutlicher Klimawandel durch menschengemachtes CO2 verursacht?,848,binary,test,kialo
+76,"The American GMD system is capable against a limited number of older generation threats. What should be done about it, given the money it costs to maintain and the turbulent history it possesses?",849,multi,test,kialo
+77,Aboriginal and Torres Strait Islander Voice in the Australian Constitution,850,binary,test,kialo
+78,NHL commissioner Gary Bettman has been good for the league,851,binary,test,kialo
+79,Who is to blame for drug and alcohol addiction?,852,binary,test,kialo
+80,Faut-il réformer les retraites en France ?,853,multi,test,kialo
+81,"If God is Real, Should we File a Class Action Lawsuit Against It?",854,binary,test,kialo
+82,Should Gay Men Be Allowed To Donate Blood?,855,binary,test,kialo
+83,Can religious belief be rational without argument?,856,binary,test,kialo
+84,Should US Presidents Have the Power to Issue Pardons?,857,binary,test,kialo
+85,Do ghosts exist?,858,binary,test,kialo
+86,Muhammad's succession,859,binary,test,kialo
+87,Who / What is Kiri?,860,multi,test,kialo
+88,Nanotechnology in agriculture,861,binary,test,kialo
+89,"Is liberal democracy, as described by fukayama; the final form of government?",862,multi,test,kialo
+90,Should the US return to the gold standard?,863,binary,test,kialo
+91,Human Beauty Standards Are Determined By Biology,864,binary,test,kialo
+92,Should doctors be banned from performing genital reshaping surgery on intersex infants?,865,binary,test,kialo
+93,Should the U.S. increase the quota of H-1B visas?,866,binary,test,kialo
+94,Should Bitcoin Be Adopted As Legal Tender Worldwide?,867,binary,test,kialo
+95,What happens to us once our physical bodies die?,868,multi,test,kialo
+96,Come mai da Roma in giù si trova solo acqua leggermente frizzante?,869,binary,test,kialo
+97,Is cultural appropriation wrong?,870,binary,test,kialo
+98,"Executive Order, is it anti-democratic?",871,binary,test,kialo
+99,Which political leaning serves our inalienable rights best?,872,multi,test,kialo
+100,Should progressives abandon Harry Potter?,873,binary,test,kialo
+101,Abortion should be normalized.,874,binary,test,kialo
+102,Gatos: ¿Especie Exótica Invasora?,875,binary,test,kialo
+103,Are individuals accountable for their behaviour?,876,binary,test,kialo
+104,Should private property exist in outer space?,877,binary,test,kialo
+105,Is Lula's victory good for Brazil?,878,binary,test,kialo
+106,Do we need a vaccine to fight the Covid-19 pandemic?,879,binary,test,kialo
+107,Is it okay for children to use bad words?,880,binary,test,kialo
+108,3D Printer and Guns: Should Blueprints of 3D-Printed Weapons be Prohibited?,881,binary,test,kialo
+109,La raccolta differenziata,882,binary,test,kialo
+110,Are professional athletes' strikes in support of social movements beneficial?,883,binary,test,kialo
+111,Violent video games should be banned to curb school shootings.,884,binary,test,kialo
+112,Should left turns be abolished?,885,binary,test,kialo
+113,Moderate inflation around 2% is beneficial for an economy.,886,binary,test,kialo
+114,Was the EU response to the humanitarian situation following the earthquake in Turkey and Syria sufficient?,887,binary,test,kialo
+115,"According to the Bible, salvation is by faith alone (sola fide)",888,binary,test,kialo
+116,Should both sexes carry babies if scientifically possible?,889,binary,test,kialo
+117,Would a global social credit system be beneficial?,890,binary,test,kialo
+118,Is health care a human right?,891,binary,test,kialo
+119,"Do sexualised artworks of prepubescent girls - ""Loli"" - encourage pedophilia?",892,binary,test,kialo
+120,Should the UK Remain in the EU if the only Alternative is a Hard Brexit?,893,binary,test,kialo
+121,Are Bitcoin and Similar Cryptocurrencies Good for the World?,894,binary,test,kialo
+122,Should we create and adopt a universal currency?,895,binary,test,kialo
+123,Which interpretation of quantum mechanics is the most plausible?,896,multi,test,kialo
+124,Should Florida pass HB 1259 (Education),897,binary,test,kialo
+125,Should Florida pass HB 1403 (Medical Conscience),898,binary,test,kialo
+126,News producers should not be allowed to force the viewing of ads to read news articles,899,binary,test,kialo
+127,Does everyone want to be happy?,900,binary,test,kialo
+128,What are the reasons against running private companies democratically?,901,multi,test,kialo
+129,Should Florida pass HB 421 (Driving on the Left),902,binary,test,kialo
+130,Does humanity have a future beyond Earth?,903,binary,test,kialo
+131,Are the Milankovitch Cycles major causes of Global Warming?,904,binary,test,kialo
+132,Will the delivery of Leopard tanks to Ukraine by Germany benefit the European Union?,905,binary,test,kialo
+133,Should data-trade be prohibited?,906,binary,test,kialo
+134,Is it acceptable for vegans to give their pets a vegan diet?,907,binary,test,kialo
+135,How could we eliminate homelessness without additional government spending?,908,multi,test,kialo
+136,Is the world of Harry Potter really the place to be?,909,binary,test,kialo
+137,Everyone should have a right to repair and modify their own consumer electronic devices,910,binary,test,kialo
+138,Is Having a Single Guinea Pig as a Pet Ethical?,911,binary,test,kialo
+139,Energia nucleare,912,binary,test,kialo
+140,"Is ""All Lives Matter"" a racist affront to BLM?",913,binary,test,kialo
+141,Should humans procreate?,914,binary,test,kialo
+142,Does literature help to understand the world?,915,binary,test,kialo
+143,Is consumerism a necessary and positive socio economic force/order.,916,binary,test,kialo
+144,Can racism be eradicated?,917,binary,test,kialo
+145,Should Routine Childhood Vaccines Be Mandatory?,918,binary,test,kialo
+146,Portugal attractiveness,919,binary,test,kialo
+147,Critical Race Theory,920,binary,test,kialo
+148,Technologie vs urgence climatique et épuisement des ressources,921,binary,test,kialo
+149,Is the well-being of citizens more important than their right to vote?,922,binary,test,kialo
+150,Brexit: Was it a good choice for the UK?,923,binary,test,kialo
+151,Is AI in need of preemptive rules and regulations?,924,binary,test,kialo
+152,Is Social Media a Frontier for Violence?,925,binary,test,kialo
+153,Proof of Stake is better than Proof of Work for securing a distributed ledger,926,binary,test,kialo
+154,Are constructed languages useful and do we need more of them?,927,binary,test,kialo
+155,"Propose a method of taxing or funding a ROBOT tax. Include a proposal for (re)distribution of said ROBOT tax. For reference: ROBOT = ""Redistribution of Benefits Obtained by Technology"" aka AI and automation.",928,multi,test,kialo
+156,Should Restraints be Used in Adolescent Psychiatric Inpatient Treatment?,929,binary,test,kialo
+157,Should Equal Paternity/Maternity Paid Leave Be Mandatory?,930,binary,test,kialo
+158,Débat: La France est-elle en retard ?,931,binary,test,kialo
+159,Is Donald Trump honorable?,932,binary,test,kialo
+160,The benefits of home-schooling outweigh the benefits of traditional schooling.,933,binary,test,kialo
+161,Does luck play a dominant role in the success of a person?,934,binary,test,kialo
+162,Will a nuclear war cause human extinction?,935,binary,test,kialo
+163,Are Cryptocurrencies And Blockchain Technologies The Next 'Industrial Revolution'?,936,binary,test,kialo
+164,Is Victimization mentality a disorder?,937,binary,test,kialo
+165,"PS5 v Xbox Series X/S, what's better?",938,binary,test,kialo
+166,Should Sony sell their company to Apple?,939,binary,test,kialo
+167,Which of the popular news outlet is the best?,940,multi,test,kialo
+168,Should public health decision makers prioritise psychological impact in their decisions?,941,binary,test,kialo
+169,Are Humans Evil?,942,binary,test,kialo
+170,Is India the best host for the ICC Men's Cricket World Cup 2023?,943,binary,test,kialo
+171,Is it beneficial for a person to learn to enjoy new genres of entertainment?,944,binary,test,kialo
+172,Is Calling out Privilege Pointless?,945,binary,test,kialo
+173,La détention d'armes a feu doit être légalisé,946,binary,test,kialo
+174,I corsi di Laurea in Medicina dovrebbero essere ad accesso libero,947,binary,test,kialo
+175,¿Se aprende mejor aplicando TICs en el aula?,948,binary,test,kialo
+176,Обсуждаем,949,binary,test,kialo
+177,Is globalisation good or bad?,950,binary,test,kialo
+178,Was the USSR communist?,951,binary,test,kialo
+179,Is Globalism Inherently Better Than Nationalism?,952,binary,test,kialo
+180,Do the ends justify the means?,953,binary,test,kialo
+181,Are dating apps any good?,954,binary,test,kialo
+182,Gender Stereotyping In Advertising Should Be Banned,955,binary,test,kialo
+183,Should adults watch anime?,956,binary,test,kialo
+184,Antidepressants should be legal for kids under 18,957,binary,test,kialo
+185,Should suicide be legal?,958,binary,test,kialo
+186,Joseph Smith was heavily influenced by his practice of Folk Magic in the formation of the LDS Church (Mormonism),959,binary,test,kialo
+187,El Medio Ambiente y la Contaminación,960,binary,test,kialo
+188,Are Gender Reveal Parties Harmful?,961,binary,test,kialo
+189,Should Florida pass SB 1718 (Immigration),962,binary,test,kialo
+190,Is gender more of a social category than an anatomical category?,963,binary,test,kialo
+191,Russia is no Enemy of the West,964,binary,test,kialo
+192,Should Schools Push Back Start Times?,965,binary,test,kialo
+193,Should schools have more security?,966,binary,test,kialo
+194,Should Countries Taking In Refugees Confiscate their Valuables?,967,binary,test,kialo
+195,Was the Iraq War fought for the interests of U.S Oil Corporations?,968,binary,test,kialo
+196,"The Bible Teaches That Creation Happened in Six Literal, 24-Hour Days Under 10,000 Years Ago",969,binary,test,kialo
+197,Does American Foreign Policy protect business interests?,970,binary,test,kialo
+198,The desire for a sense of superiority is a fundamental human drive.,971,binary,test,kialo
+199,Scottish Independence: Should Scotland be an Independent Country?,972,binary,test,kialo
+200,Should humans be allowed to explore DIY gene editing?,973,binary,test,kialo
+201,Should students be allowed to skip grades?,974,binary,test,kialo
+202,Does altruism exist?,975,binary,test,kialo
+203,Should Florida pass HB 7 (Abortion),976,binary,test,kialo
+204,Should Florida pass SB 102 (Housing),977,binary,test,kialo
+205,Should Florida pass SB 902 (Safety Standards for Amusement Rides),978,binary,test,kialo
+206,Should Florida pass SB 106 (Florida Trail Network),979,binary,test,kialo
+207,Should creationism be taught in schools?,980,binary,test,kialo
+208,Are our emotions a useful potential source of knowledge or an obstacle to knowledge?,981,multi,test,kialo
+209,Is the US a force for good?,982,binary,test,kialo
+210,Triangles aren't a real instrument.,983,binary,test,kialo
+211,Should Infant Circumcision Be Banned?,984,binary,test,kialo
+212,AI Will Not Supplant Humans in Creating Art,985,binary,test,kialo
+213,Is Percy Jackson's universe better than Harry Potter's?,986,binary,test,kialo
+214,We can learn more from novels than we can from textbooks.,987,binary,test,kialo
+215,Is Tucker Carlson a good reporter?,988,binary,test,kialo
+216,Are electric guitars better than acoustic guitars?,989,binary,test,kialo
+217,Should fracking be banned?,990,binary,test,kialo
+218,Edad mínima para trabajar en España,991,binary,test,kialo
+219,Should people be free to choose the country in which they live?,992,binary,test,kialo
+220,Is school bad for your mental health?,993,binary,test,kialo
+221,Does the Bible contain historical and geographical errors?,994,binary,test,kialo
+222,Can AI be trusted?,995,binary,test,kialo
+223,Should Florida pass SB 354 (Trafficking in Fentanyl)?,996,binary,test,kialo
+224,Should Florida pass HB 543 (Public Safety / Permitless Carry)?,997,binary,test,kialo
+225,2023年的新加坡还适合华人移民进来吗？,998,binary,test,kialo
+226,Can police be a force for good?,999,binary,test,kialo
+227,Would Abolishing Privacy Be Beneficial?,1000,binary,test,kialo
+228,"What is the correct view of Christian eschatology? (Premillennial, Amillennial, or Postmillennial)",1001,multi,test,kialo
+229,Kialo for Vacasa ($VCSA),1002,binary,test,kialo
+230,"The use of technology in vaccines with strong quality control is paramount to their success, efficacy and efficiency",1003,binary,test,kialo
+231,Is Greta Thunberg's Impact on Society Positive?,1004,binary,test,kialo
+232,"The real learning goes on after the lesson, not during it.",1005,binary,test,kialo
+233,Vem mördade Olof Palme?,1006,multi,test,kialo
+234,The roles an actor can play should not be limited by that actor’s race or gender,1007,binary,test,kialo
+235,Investment in Fortinet (FTNT),1008,binary,test,kialo
+236,"How should a European unemployment insurance be configured, properly?",1009,multi,test,kialo
+237,Putin will use nuclear weapon against Ukraine,1010,binary,test,kialo
+238,Are New Age Beliefs Beneficial?,1011,binary,test,kialo
+239,Is Apple overpriced and overrated?,1012,binary,test,kialo
+240,Should Western countries normalize relations with the Taliban government in Afghanistan?,1013,binary,test,kialo
+241,Is modern advertising harmful?,1014,binary,test,kialo
+242,Marvel vs DC: Which Universe is Better?,1015,binary,test,kialo
+243,What is the best reaction to an alien encounter ?,1016,multi,test,kialo
+244,Should All Human Interaction be Voluntary?,1017,binary,test,kialo
+245,The Nintendo Switch has the best game exclusives out of all the consoles.,1018,binary,test,kialo
+246,Should Ex-Convicts Be Prioritised In The Job Market?,1019,binary,test,kialo
+247,Do covalent bonds have preferable qualities for human survival?,1020,binary,test,kialo
+248,Is Cancel Culture Beneficial?,1021,binary,test,kialo
+249,How can we approach changes within and to Catalyst to meet the needs of the individuals and communities it serves?,1022,multi,test,kialo
+250,Cardano Contingent Staking,1023,binary,test,kialo
+251,Is Feminism Compatible with Islam?,1024,binary,test,kialo
+252,Which Cosmological Model (or Models) is Correct?,1025,multi,test,kialo
+253,Is Chess 960 superior to regular chess?,1026,binary,test,kialo
+254,Should You Post Images Of Your Children Online?,1027,binary,test,kialo
+255,Should Joe Biden still run for president in 2024.,1028,binary,test,kialo
+256,Should quotas for women on boards and in managerial positions be mandatory?,1029,binary,test,kialo
+257,Is Ron DeSantis a good governor?,1030,binary,test,kialo
+258,Is it okay to physically torture prisoners?,1031,binary,test,kialo
+259,What religion should people follow?,0,multi,test,kialo
+260,Will ChatGPT do more harm than good?,1,binary,test,kialo
+261,All Humans Should Be Vegan.,2,binary,test,kialo
+262,Is the two-state solution the best resolution for the Israel-Palestine conflict?,3,binary,test,kialo
+263,Free Will or Determinism: Do We Have Free Will?,4,binary,test,kialo
+264,Would the world be a better place without humans?,5,binary,test,kialo
+265,Should women-only spaces be open to anyone identifying as a woman?,6,binary,test,kialo
+266,Should There be a Universal Basic Income (UBI)?,7,binary,test,kialo
+267,Is space exploration necessary?,8,binary,test,kialo
+268,Pro-Life vs Pro-Choice: Should Abortion be Legal?,9,binary,test,kialo
+269,Should the US Pay Reparations for Slavery?,10,binary,test,kialo
+270,Should Ukraine become a member of NATO?,11,binary,test,kialo
+271,Who is the better player; Messi or Ronaldo?,12,binary,test,kialo
+272,Should men be allowed to vote on abortion legislation?,13,binary,test,kialo
+273,Should homeschooling be banned?,14,binary,test,kialo
+274,Should animal testing be banned?,15,binary,test,kialo
+275,Should the use of 'chosen' or gender-neutral pronouns be mandatory?,16,binary,test,kialo
+276,Do video games have a positive effect on society?,17,binary,test,kialo
+277,Do Aliens Exist?,18,binary,test,kialo
+278,Would a genderless society be better?,19,binary,test,kialo
+279,The Trolley Problem: What's the Right Solution?,20,binary,test,kialo
+280,Is it ethically wrong to watch pornography?,21,binary,test,kialo
+281,Should the US adopt stricter gun control legislation?,22,binary,test,kialo
+282,Should you break up with your partner if they are magically turned into a worm?,23,binary,test,kialo
+283,Should Sex Work Be Legal?,24,binary,test,kialo
+284,Is Feminism a Force For Good?,25,binary,test,kialo
+285,Who Should Self-Driving Cars Kill?,26,binary,test,kialo
+286,Are the 2024 Pakistan elections legitimate?,27,binary,test,kialo
+287,Should You Confess to Cheating After a One Night Stand?,28,binary,test,kialo
+288,Should Governments Ever Limit Free Speech?,29,binary,test,kialo
+289,Should Children Learn About Gender Identity And Sexual Orientation In School?,30,binary,test,kialo
+290,Who should the Republican Party nominate for President in 2024?,31,multi,test,kialo
+291,Should we have a single global language?,32,binary,test,kialo
+292,Should European Monarchies Be Abolished?,33,binary,test,kialo
+293,Will Sex Robots Advance Sexual Liberation?,34,binary,test,kialo
+294,Should fake news be illegal?,35,binary,test,kialo
+295,Is Love Positive and Necessary for All Humans?,36,binary,test,kialo
+296,Is Capital Punishment in the United States justified?,37,binary,test,kialo
+297,What are the benefits / harms of Critical Race Theory?,38,binary,test,kialo
+298,Is Artificial General Intelligence (AGI) a threat to humanity?,39,binary,test,kialo
+299,Is television bad for people?,40,binary,test,kialo
+300,Is LeBron James better than Michael Jordan?,41,binary,test,kialo
+301,Who Should The 2024 Democratic Nominee Be?,42,multi,test,kialo
+302,Time for a Maximum Wage? Should the US Limit CEO Pay?,43,binary,test,kialo
+303,Is it Time to 'Free the Nipple'? Toplessness and Gender Equality in the US,44,binary,test,kialo
+304,Gender Neutral Bathrooms: Should They be Standard?,45,binary,test,kialo
+305,Has Christianity been bad for Western civilization?,46,binary,test,kialo
+306,Should athletes be allowed to compete in their chosen gender category?,47,binary,test,kialo
+307,What's the best Twitter/X alternative?,48,multi,test,kialo
+308,Should Middle Eastern countries launch a joint on-ground opposition to Israel in support of Gaza?,49,binary,test,kialo
+309,Is South Africa's ICJ case against Israel legitimate?,50,binary,test,kialo
+310,Is Esports a sport?,51,binary,test,kialo
+311,Should the death penalty be abolished?,52,binary,test,kialo
+312,Who should provide healthcare: the government or the market?,53,binary,test,kialo
+313,Is political correctness detrimental to society?,54,binary,test,kialo
+314,Children Voting: Should the Minimum Voting Age be Abolished?,55,binary,test,kialo
+315,Should the use of AI in law be welcomed?,56,binary,test,kialo
+316,Should puberty be delayed in children experiencing gender dysphoria?,57,binary,test,kialo
+317,Will the impact of AI in the educational sector be positive?,58,binary,test,kialo
+318,Has Social Media Been Good For Humanity?,59,binary,test,kialo
+319,Should education at public universities in the United States be tuition free?,60,binary,test,kialo
+320,Should Burning The US Flag Be Illegal?,61,binary,test,kialo
+321,Will the impact of AI in the creative sector be positive?,62,binary,test,kialo
+322,Is drag turning mainstream hurting LGBT rights?,63,binary,test,kialo
+323,Are the Gospels Historically Reliable?,64,binary,test,kialo
+324,Should all children should be taught to code in school?,65,binary,test,kialo
+325,Is Putin's attack on Ukraine unjustifiable and wrong?,66,binary,test,kialo
+326,Is Christian Nationalism Unamerican?,67,binary,test,kialo
+327,Should we worship a god that sends people to hell?,68,binary,test,kialo
+328,Should Biden cease bombing Yemen?,69,binary,test,kialo
+329,Is scientism a religion?,70,binary,test,kialo
+330,Should Racial Profiling Be Banned?,71,binary,test,kialo
+331,Is Morality Objective?,72,binary,test,kialo
+332,Does God exist?,73,binary,test,kialo
+333,Should we abolish political parties in the USA?,74,binary,test,kialo
+334,Should Supreme Court justices be elected?,75,binary,test,kialo
+335,Is social media helping or harming human relationships?,76,binary,test,kialo
+336,Should Cannabis Be Federally Legalized In The United States?,77,binary,test,kialo
+337,Should women be allowed to become priests?,78,binary,test,kialo
+338,Are identity politics detrimental to society?,79,binary,test,kialo
+339,Is Gender a Social Construct?,80,binary,test,kialo
+340,Was Jesus physically resurrected from the dead?,81,binary,test,kialo
+341,Should an artificial general intelligence be created?,82,binary,test,kialo
+342,Is Artificial General Intelligence (AGI) even possible?,83,binary,test,kialo
+343,Gender is an ill-defined concept and should thus be abolished.,84,binary,test,kialo
+344,Should the UN have terminated its mission in Sudan?,85,binary,test,kialo
+345,Should Religious Education that Promotes a Certain Faith or Religion be Abolished in Schools?,86,binary,test,kialo
+346,Which of the potential explanations for peculiar UFOs (UAP) is most likely?,87,multi,test,kialo
+347,Is Islam compatible with feminism?,88,binary,test,kialo
+348,Should Humans Tour Outer Space?,89,binary,test,kialo
+349,Does BDSM promote violence against women?,91,binary,test,kialo
+350,Why are electric vehicles better than fossil fuel vehicles?,92,multi,test,kialo
+351,Artificial Intelligence (AI): is limiting an AI's freedom of thought unethical?,93,binary,test,kialo
+352,Is the Scientific Process Objective?,94,binary,test,kialo
+353,Children should be raised in atheism.,95,binary,test,kialo
+354,Was there fraud or impropriety in the US 2020 presidential election on behalf of the Democratic Party?,96,binary,test,kialo
+355,Should there be any limit to freedom of speech?,97,binary,test,kialo
+356,What is the best solution to the Israel/Palestine conflict?,98,multi,test,kialo
+357,Should we adapt to climate change rather than avert it?,99,binary,test,kialo
+358,Is pure recreation immoral when we could be helping to end suffering?,100,binary,test,kialo
+359,Which voting system should the United States use?,101,multi,test,kialo
+360,Should Polygamy Be Legal?,102,binary,test,kialo
+361,Should humans act to fight climate change?,103,binary,test,kialo
+362,Are the Indonesian elections free and fair?,104,binary,test,kialo
+363,Are boycotts are a net positive to society?,105,binary,test,kialo
+364,Can Religions and the LGBTQ+ Community Peacefully Coexist?,106,binary,test,kialo
+365,Should transgender personae only be performed by transgender people?,107,binary,test,kialo
+366,Is Artificial Intelligence a threat to democratic governance?,108,binary,test,kialo
+367,Should abortion be considered murder?,109,binary,test,kialo
+368,What is the best diet or dietary approach for health and well being?,110,multi,test,kialo
+369,Should we criminalise hate crime?,111,binary,test,kialo
+370,Should Western countries place sanctions on Israel following retaliatory strikes ordered by Netanyahu?,112,binary,test,kialo
+371,Is the existence of a transcendent Creator demonstrated through the Kalam argument?,113,binary,test,kialo
+372,Is steroid use outside sports ethical?,114,binary,test,kialo
+373,Should we replace meat with insect derived protein?,115,binary,test,kialo
+374,Should we connect our brains to computers to the fullest possible extent?,116,binary,test,kialo
+375,Is keeping AI closed source safer and better for society than open sourcing AI?,117,binary,test,kialo
+376,"Regardless of who we are today, the universe must have had an origin. How did our universe start?",118,multi,test,kialo
+377,"Is Taylor Swift's video ""The Man"" a proper representation of men in today's society?",119,binary,test,kialo
+378,Is Net Neutrality Necessary?,120,binary,test,kialo
+379,Is Cannibalism Ethically Permissible?,121,binary,test,kialo
+380,Donald Trump for President 2024,122,binary,test,kialo
+381,Should Euthanasia Be Legalised?,123,binary,test,kialo
+382,schools should teach life skills such as cooking and driving,124,binary,test,kialo
+383,Should juveniles who commit violent crime be treated as adults in the criminal justice system?,125,binary,test,kialo
+384,Should Human Life Be Valued Above Animal Life?,126,binary,test,kialo
+385,Is Hamas a terror organization?,127,binary,test,kialo
+386,Was Donald Trump a Good President?,128,binary,test,kialo
+387,Should military conscription apply to men and women equally?,129,binary,test,kialo
+388,Has Religion Been a Good Thing for Humanity?,130,binary,test,kialo
+389,Does the gender binary correspond to the sex binary?,131,binary,test,kialo
+390,Can Religious Faith and Science Coexist?,132,binary,test,kialo
+391,"Does Mixed Martial Arts (MMA) glorify violence? And if so, would that be a problem?",133,binary,test,kialo
+392,Is it wrong to celebrate the death of Henry Kissinger?,134,binary,test,kialo
+393,Is one sex partner enough?,135,binary,test,kialo
+394,Should the US continue to support Israel in the Israel-Palestine conflict?,136,binary,test,kialo
+395,Should Zoos Be Banned?,137,binary,test,kialo
+396,Should public nudity be legal?,138,binary,test,kialo
+397,Should nuclear energy replace fossil fuels?,139,binary,test,kialo
+398,Has the use of AI in workplaces negatively affected the quality of output?,140,binary,test,kialo
+399,Should private prisons be banned?,141,binary,test,kialo
+400,Should LGBTQ+ Conversion Therapy Be Banned?,142,binary,test,kialo
+401,Should ear piercing of newborns be banned?,143,binary,test,kialo
+402,Is Pope Francis a good pope?,144,binary,test,kialo
+403,Is it necessary to experience suffering?,145,binary,test,kialo
+404,Should guns be reserved for law enforcement and the military?,146,binary,test,kialo
+405,Is Premarital Sex Immoral?,147,binary,test,kialo
+406,"Should the UK Government increase the minimum income requirement for UK family visas to £38,700?",148,binary,test,kialo
+407,Should TikTok be banned in the US?,149,binary,test,kialo
+408,Do fair trade products cause more good than harm?,150,binary,test,kialo
+409,Is Gender Reassignment Surgery the Best Option for Transgender People?,151,binary,test,kialo
+410,Is it Ok to incentivise moral behaviour?,152,binary,test,kialo
+411,Are the roots of the Israel-Palestine conflict antisemitic?,153,binary,test,kialo
+412,"Should high quality childcare be provided, free of charge, to all Americans ?",154,binary,test,kialo
+413,Should indigenous lands be returned to Native populations?,155,binary,test,kialo
+414,Should the Tampon Tax be Abolished?,156,binary,test,kialo
+415,What are the most important websites for self-education and research?,157,multi,test,kialo
+416,Should single-sex schools be banned?,158,binary,test,kialo
+417,"Should the USA break up into smaller, distinct nations?",159,binary,test,kialo
+418,Should Finland have joined NATO?,160,binary,test,kialo
+419,Which front-end javascript framework is best?,161,multi,test,kialo
+420,Is enlightened despotism superior to democracy?,162,binary,test,kialo
+421,Which religion best supports science?,163,multi,test,kialo
+422,Should all drugs be legalised?,164,binary,test,kialo
+423,Should Empathy Be Taught In School?,165,binary,test,kialo
+424,Should school uniforms be banned?,166,binary,test,kialo
+425,Is Cloning Animals Ethical?,167,binary,test,kialo
+426,Should Bullfighting be Banned?,168,binary,test,kialo
+427,Should governments provide a universal basic income?,169,binary,test,kialo
+428,Should Warner Brothers have fired Amber Heard from Aquaman 2?,170,binary,test,kialo
+429,Is Elon Musk's takeover of Twitter good for the public?,171,binary,test,kialo
+430,Do paywalls around academic publications slow scientific progress?,172,binary,test,kialo
+431,Is equality of outcome better than equality of opportunity?,173,binary,test,kialo
+432,Digital Piracy: Good or Bad?,174,binary,test,kialo
+433,Should marijuana be as legally accessible as alcohol?,175,binary,test,kialo
+434,How should society deal with pedophiles convicted of child sex offences?,176,multi,test,kialo
+435,Should Children's Stories Be Subject to Strict Moral Guidelines?,177,binary,test,kialo
+436,Logic is more useful for human advancement than emotion.,178,binary,test,kialo
+437,Should legacy be a factor in college admissions?,179,binary,test,kialo
+438,"What are the strengths and weaknesses of networked, [[wikilinking]], note-taking apps?",180,binary,test,kialo
+439,All software should be open source.,181,binary,test,kialo
+440,Open source software is better.,182,binary,test,kialo
+441,Is Organic Farming Better Than Conventional Farming?,183,binary,test,kialo
+442,Should the sale of genetically modified food be banned?,184,binary,test,kialo
+443,Is Vegetarianism A Healthy or Unhealthy Diet To Have?,185,binary,test,kialo
+444,Are Men the Biggest Problem Mankind Faces?,186,binary,test,kialo
+445,Should people with Genetic disorders reproduce?,187,binary,test,kialo
+446,Should general AI have fundamental rights?,188,binary,test,kialo
+447,"If Scientifically Possible, Should Humans Become Immortal?",189,binary,test,kialo
+448,China is Still Communist,190,binary,test,kialo
+449,Is citizen science beneficial to science?,191,binary,test,kialo
+450,Does God Allow Evil: Is the Existence of God Compatible with the Existence of Evil?,192,binary,test,kialo
+451,Should we promote the feeling of nationalism for betterment of India?,193,binary,test,kialo
+452,Should religion be involved in politics?,194,binary,test,kialo
+453,Should China declare support for Palestine?,195,binary,test,kialo
+454,Is Darwinian Evolution Philosophy or Science?,196,binary,test,kialo
+455,Should Colleges Have Safe Spaces?,197,binary,test,kialo
+456,Should gratuitous acts of violence in movies and television shows be banned?,198,binary,test,kialo
+457,Should the United States have more than two major political parties?,199,binary,test,kialo
+458,Should the US Recognize Palestine as a State?,200,binary,test,kialo
+459,Should the age of consent be lowered to fourteen?,201,binary,test,kialo
+460,What is the best Nickelodeon show?,202,multi,test,kialo
+461,Do gun control laws reduce crime?,203,binary,test,kialo
+462,Should the UN Security Council's veto power and permanent membership for the five nations be abolished?,204,binary,test,kialo
+463,Are the rich or the poor more responsible for environmental damages?,205,binary,test,kialo
+464,Would a Socialist Economy work better than a Capitalist Economy?,206,binary,test,kialo
+465,What is the best Pixar movie?,207,multi,test,kialo
+466,Does trickle-down economics do more harm than good?,208,binary,test,kialo
+467,SB 1596: Employment of Minors,209,binary,test,kialo
+468,Is Hamlet Mad?,210,binary,test,kialo
+469,Should we build a nuclear power plant?,211,binary,test,kialo
+470,Edible Landscapes: Should Lawns Be Replaced?,212,binary,test,kialo
+471,Is water wet?,213,binary,test,kialo
+472,Is cultural diversity beneficial to develop a successful organisation?,214,binary,test,kialo
+473,Can self-censorship be a good thing?,215,binary,test,kialo
+474,Should All People in the US Have the Right to Basic Healthcare?,216,binary,test,kialo
+475,Should Art Made By Abusers Be Removed From Cultural Institutions?,217,binary,test,kialo
+476,Is freedom of sexuality inducing harm?,218,binary,test,kialo
+477,"Wir suchen einen Namen, der aus unserem losen Zusammenschluss von Klima-, Sozial- und Demokratie-Bewegungen in Österreich, eine Gemeinschaft schafft.",219,multi,test,kialo
+478,Is Christmas best celebrated at home or at a tourist destination?,220,binary,test,kialo
+479,Is the UK NHS (National Health Service) sustainable?,221,binary,test,kialo
+480,"Wir wollen einen Wortlaut, einen Ausdruck, ein paar Zeilen finden, die das Selbstverständnis der Vernetzung beschreiben, für die wir mit der orga-übergreifenden Vernetzungs AG arbeiten und Strukturen schaffen wollen.",222,multi,test,kialo
+481,Are trans women real women?,223,binary,test,kialo
+482,Should airplane passengers pay for their body weight?,224,binary,test,kialo
+483,Is the USA a good country to live in?,225,binary,test,kialo
+484,Modern technology is a disadvantage to society.,226,binary,test,kialo
+485,Should Shark Culling Be Banned?,227,binary,test,kialo
+486,Everyone Should Health Track - Self Quantify,228,binary,test,kialo
+487,Should science get more governmental funding?,229,binary,test,kialo
+488,Will human civilisation collapse (i.e regress or go extinct) ?,230,binary,test,kialo
+489,Should Florida Pass HB 887 (Guardianship)?,231,binary,test,kialo
+490,Is AI art theft?,232,binary,test,kialo
+491,Should Florida Pass SB 1178 (Condominium and Cooperative Associations)?,233,binary,test,kialo
+492,Should Florida Pass SB 1364 (Everglades Protection Area)?,234,binary,test,kialo
+493,Should Florida Pass SB 864 (Autism Spectrum Disorder Training for Law Enforcement Officers)?,235,binary,test,kialo
+494,Should Florida Pass HB 1431 (International Drug Reference Pricing)?,236,binary,test,kialo
+495,Should Florida Pass SB 248 (Medical Negligence)?,237,binary,test,kialo
+496,Should Florida Pass HB 3 (Online Access to Materials Harmful to Minors)?,238,binary,test,kialo
+497,Should Florida Pass HB 1 (Social Media Use for Minors)?,239,binary,test,kialo
+498,What is the best movie by DreamWorks Animation?,240,multi,test,kialo
+499,Is chivalry sexist?,241,binary,test,kialo
+500,Did the British Empire do more harm than good to the people it ruled over?,242,binary,test,kialo
+501,Are UFOs real?,243,binary,test,kialo
+502,Technological VS Moral Advancement,244,binary,test,kialo
+503,Should Drinking Water Be Fluoridated?,245,binary,test,kialo
+504,Le tirage au sort des parlementaires est-il une alternative souhaitable à l'élection ?,246,binary,test,kialo
+505,"Is it responsible to have ""conservative"" values in politics?",247,binary,test,kialo
+506,Should Australians establish an Aboriginal and Torres Strait Islander Voice?,248,binary,test,kialo
+507,Was Einstein Sexist?,249,binary,test,kialo
+508,Should we require major polluter nations to open up their borders to climate refugees?,250,binary,test,kialo
+509,Should we create a sports category that allows drug usage?,251,binary,test,kialo
+510,Should vaccinations be mandatory?,252,binary,test,kialo
+511,Do Ontological Arguments Prove God?,253,binary,test,kialo
+512,The Second Amendment to the U.S. Constitution should be repealed.,254,binary,test,kialo
+513,Does overturning Roe v. Wade undermine American legal and civil freedoms?,255,binary,test,kialo
+514,Is Capitalism Bad?,256,binary,test,kialo
+515,Does the Bible support the conclusion that homosexuality is a sin against God?,257,binary,test,kialo
+516,Should burning the Quran be illegal?,258,binary,test,kialo
+517,Has Xi Jinping been good for China?,259,binary,test,kialo
+518,Will robots doing work be better or worse for humans?,260,binary,test,kialo
+519,Is science becoming increasingly distorted and losing objectivity?,261,multi,test,kialo
+520,Is Space Exploration a Waste of Money?,262,binary,test,kialo
+521,"Does social media play a significant role in influencing people's behaviors, becoming a key driver of climate change?",263,binary,test,kialo
+522,Are video games currently more enjoyable than board games?,264,binary,test,kialo
+523,Is Shrek a superhero?,265,binary,test,kialo
+524,Should Hunger Be The First Problem To Solve Before All Others?,266,binary,test,kialo
+525,Does Feminism Empower Both Women And Men?,267,binary,test,kialo
+526,Should the US sell weapons with nuclear capabilities to Ukraine?,268,binary,test,kialo
+527,Are gender and sex the same thing?,269,binary,test,kialo
+528,Did a divine being create the universe?,270,binary,test,kialo
+529,Is God a Trinity?,271,binary,test,kialo
+530,How did our Universe come into existence – why does it exist?,272,multi,test,kialo
+531,Are the Catholic teachings the best?,273,binary,test,kialo
+532,Is it racist to only support business based on owners race?,274,binary,test,kialo
+533,Should the police be defunded?,275,binary,test,kialo
+534,Will man-made climate change cause human extinction?,276,binary,test,kialo
+535,Online learning is the future of education,277,binary,test,kialo
+536,Rent control policies hurts housing affordability and should be repealed,278,binary,test,kialo
+537,Is the original Political Compass a useful tool?,279,binary,test,kialo
+538,Is banning books inherently wrong?,280,binary,test,kialo
+539,Should Governments Put A Tax On Meat?,281,binary,test,kialo
+540,Wie werden in einer freien und solidarischen Gesellschaft Produktion und Distribution organisiert?,282,multi,test,kialo
+541,Was Jesus Christ actually the Messiah as claimed by Christianity?,283,binary,test,kialo
+542,Is Moana OK to show in US schools given the religious depictions?,284,binary,test,kialo
+543,Should LGBTQ+ Campaigning Use The Narrative That LGBTQ+ People Are 'Born This Way'?,285,binary,test,kialo
+544,Do we need religion for morality?,286,binary,test,kialo
+545,Is Capitalism the Best System for the People?,287,binary,test,kialo
+546,Are Humans fundamentally different from other animals?,288,binary,test,kialo
+547,"Concerning vehicles, are ethanol engines better for the environment than electrification?",289,binary,test,kialo
+548,Should Comprehensive Sex Education be Mandatory?,290,binary,test,kialo
+549,Should voters in the UK have a final vote on the Brexit deal?,291,binary,test,kialo
+550,Should parents perpetuate myths like Santa Claus and the Easter Bunny to their children?,292,binary,test,kialo
+551,Is civil disobedience in a democracy morally justified?,293,binary,test,kialo
+552,Is Narendra Modi good for India?,294,binary,test,kialo
+553,Should students be allowed to use generative AI for assignments?,295,binary,test,kialo
+554,Are free markets better for humans than regulated markets?,296,binary,test,kialo
+555,Is Islam a threat to Western civilization?,297,binary,test,kialo
+556,Should the EU have its own army?,299,binary,test,kialo
+557,The Government should be mandated to provide people with a boyfriend or a girlfriend,300,binary,test,kialo
+558,God Exists,301,binary,test,kialo
+559,Should HPV vaccines be provided free for everyone?,302,binary,test,kialo
+560,Is Communism Actually Viable In The USA?,303,binary,test,kialo
+561,Should water be taxed?,304,binary,test,kialo
+562,Should Kashmir Be An Independent State?,305,binary,test,kialo
+563,Can man and all heavenly beings belong to the same species as God?,306,binary,test,kialo
+564,Should children be raised communally?,307,binary,test,kialo
+565,Should school be mandatory until 12th grade?,308,binary,test,kialo
+566,Should abortion of disabled fetuses be allowed for the reason that the fetus is disabled?,309,binary,test,kialo
+567,Personal and Social Implications of FOMO (the Fear of Missing Out),310,binary,test,kialo
+568,Should parents who don't vaccinate their children be fined if the child gets a vaccine-preventable illness?,311,binary,test,kialo
+569,Are women superior to men?,312,binary,test,kialo
+570,No one should feel obliged to change their lifestyle to combat global warming.,313,binary,test,kialo
+571,Amazon ISEN,314,binary,test,kialo
+572,Are human activities primarily responsible for global warming?,315,binary,test,kialo
+573,"Does God draw man through ""irresistible grace""?",316,binary,test,kialo
+574,Should Men Pay Child Support When Abortion is Legal?,317,binary,test,kialo
+575,Should We Sing Problematic Christmas Songs?,318,binary,test,kialo
+576,Should media organizations be penalized for spreading 'fake news'?,319,binary,test,kialo
+577,Should democracies accept Ukrainian refugees and Russians seeking to escape Putin's tyranny?,320,binary,test,kialo
+578,Should we automatically increase regulation as the economy does better and vice versa?,321,binary,test,kialo
+579,Is it important to get a college education?,322,binary,test,kialo
+580,Are the Hunter Biden emails as released by the New York Post authentic?,323,binary,test,kialo
+581,Should failing banks receive bailouts from the government?,324,binary,test,kialo
+582,Is an embryo a human?,325,binary,test,kialo
+583,Ukraine should become a member of EU,326,binary,test,kialo
+584,How should we characterize the overthrow of Yanukovich in Ukraine 2014?,327,multi,test,kialo
+585,Is Joe Biden a good President?,328,binary,test,kialo
+586,Should college tuition be free in the US?,329,binary,test,kialo
+587,Are there more than two genders?,330,binary,test,kialo
+588,One should vote yes on prop 22,331,binary,test,kialo
+589,Our perception as humans is not necessarily the same as any other human,332,binary,test,kialo
+590,Should pedophilia be classed as a sexual orientation?,333,binary,test,kialo
+591,Is Islam the true religion over Christianity?,334,multi,test,kialo
+592,Should the institution of prison be eliminated ?,335,binary,test,kialo
+593,"Can men and women be ""just friends""?",336,binary,test,kialo
+594,Should dating apps allow users to filter on the basis of race?,337,binary,test,kialo
+595,Is the Palestinian Cause a Just Cause?,338,binary,test,kialo
+596,Do we need to abolish capitalism to deal with climate change?,339,binary,test,kialo
+597,¿Para o contra la implementación de un idioma universal?,340,binary,test,kialo
+598,Is being asexual/aromantic inherently under the LGBT+ umbrella?,341,binary,test,kialo
+599,Why does something exist instead of nothing?,342,multi,test,kialo
+600,What is the best rock band?,343,multi,test,kialo
+601,Is Chess A Sport?,344,binary,test,kialo
+602,Does pineapple belong on pizza?,345,binary,test,kialo
+603,Should vaping be banned?,346,binary,test,kialo
+604,What are the attributes and qualities that define an 'ideal country'?,347,multi,test,kialo
+605,Who contributed the most to founding rock music?,348,multi,test,kialo
+606,Is capitalism good?,349,binary,test,kialo
+607,Should the Bible be considered a historical document?,350,binary,test,kialo
+608,"Does the Bible describe Earth, not as a sphere, but as a disc covered by a solid dome?",351,binary,test,kialo
+609,Does Feminism Strive For Equality?,352,binary,test,kialo
+610,Is Sexual Orientation A Choice?,353,binary,test,kialo
+611,Should corporal punishment be allowed in schools?,354,binary,test,kialo
+612,Should the European Union legalize marijuana?,355,binary,test,kialo
+613,Free Speech on the Internet: Should Internet Companies Deny Service to White Supremacists?,356,binary,test,kialo
+614,Is Anarchism Viable for the world?,357,binary,test,kialo
+615,Feminism is toxic,358,binary,test,kialo
+616,Schools should teach the history of Israel Palestine conflict,359,binary,test,kialo
+617,Will the future be better than the present?,360,binary,test,kialo
+618,Is there a meaning of life?,361,binary,test,kialo
+619,Should religion be allowed in public spaces?,362,binary,test,kialo
+620,Should animals be banned in circuses?,363,binary,test,kialo
+621,The USA will continue to have an automobile based transportation system for the next 200 years.,364,binary,test,kialo
+622,What are the necessary conditions for genuine science?,365,multi,test,kialo
+623,Should we Have a 100% Inheritance Tax?,366,binary,test,kialo
+624,Governments should impose methods of population control.,367,binary,test,kialo
+625,Is anarchy the only ethical system of society?,368,binary,test,kialo
+626,What should an LGBT+ inclusive curriculum for secondary school teach?,369,multi,test,kialo
+627,Does tiger parenting do more harm than good?,370,binary,test,kialo
+628,Should the idea of “countries” be abolished?,371,binary,test,kialo
+629,Does Transgenderism exist?,372,binary,test,kialo
+630,Should we get rid of paper money?,373,binary,test,kialo
+631,Should we continue researching technologies to extend human life?,374,binary,test,kialo
+632,"What criteria can we use to distinguish between knowledge, belief and opinion?",375,multi,test,kialo
+633,Can creativity be enhanced by technology?,376,binary,test,kialo
+634,Mark Twain used the N-word in The Adventures of Huckleberry Finn. Should it be censored?,377,binary,test,kialo
+635,Anything that exists is alive,378,binary,test,kialo
+636,What is the best game in the Halo franchise?,379,multi,test,kialo
+637,Is King Charles III good for the United Kingdom?,380,binary,test,kialo
+638,Does Mass legal immigration hurt America?,381,binary,test,kialo
+639,Is Having Children Selfish?,382,binary,test,kialo
+640,Was the Earth created in six days by the God of Christianity?,383,binary,test,kialo
+641,Should India take a conciliatory stance with Canada over the alleged murder of Hardeep Singh Nijjar?,384,binary,test,kialo
+642,What is the best method for solving a Rubik's cube?,385,multi,test,kialo
+643,Is the Collapse of the Silicon Valley Bank the Start of a Banking Crisis?,386,binary,test,kialo
+644,Which political party is best for the United States of America?,387,multi,test,kialo
+645,Will we ever have world peace?,388,binary,test,kialo
+646,Are teacher and student relationships wrong?,390,binary,test,kialo
+647,Should public entities use only open source software?,391,binary,test,kialo
+648,Lottery should be an integral component of democratic political systems,392,binary,test,kialo
+649,Is having children a bad idea in today's times?,393,binary,test,kialo
+650,Should the United States have Universal Basic Income?,394,binary,test,kialo
+651,Does Gender Stereotyping Children Need To Stop?,395,binary,test,kialo
+652,Should zoos be illegal? (excluding rescue zoos),396,binary,test,kialo
+653,Should all inheritance be seized by the state and auctioned?,397,binary,test,kialo
+654,"Should the US remove Confederate memorials, flags, and monuments from public spaces?",398,binary,test,kialo
+655,Separación de la iglesia y la escuela en República Dominicana.,399,binary,test,kialo
+656,"Is Christian Domestic Discipline right, and is it what the Bible really suggests?",400,binary,test,kialo
+657,Is There A Need For Testing on Lab Animals in Research?,401,binary,test,kialo
+658,Is Porn Beneficial?,402,binary,test,kialo
+659,Will Covid19 bring lasting environmental changes?,403,binary,test,kialo
+660,Is Saying #AllLivesMatter Instead of #BlackLivesMatter Better?,404,binary,test,kialo
+661,Is transhumanism going to be the next step in human evolution?,405,binary,test,kialo
+662,Should religious education be compulsory in public schools?,406,binary,test,kialo
+663,Should Psychiatrists Be Allowed to Diagnose Trump?,407,binary,test,kialo
+664,Is Vigilantism Ever Permissible?,408,binary,test,kialo
+665,What is the EU's best strategy to deal with refugees coming from Africa and Near/Middle East?,409,multi,test,kialo
+666,Should there be mandatory schools for parents?,410,binary,test,kialo
+667,Should Quebec become independent?,411,binary,test,kialo
+668,The Ethics of Eating Animals: Is Eating Meat Wrong?,412,binary,test,kialo
+669,Is Cancel Culture Beneficial to Society?,413,binary,test,kialo
+670,All US and EU sanctions imposed on Russia since 2014 should be lifted,414,binary,test,kialo
+671,Should Trump be impeached and removed from office?,415,binary,test,kialo
+672,Should trans women be allowed to compete in women's sports?,416,binary,test,kialo
+673,Should a license be required in order to have a child (procreate)?,417,binary,test,kialo
+674,Should everyone's wealth and income information be publicly available?,418,binary,test,kialo
+675,In Case Aliens Exist: Should We Say Hello?,419,binary,test,kialo
+676,Is deliberately not preventing someone's death ethically equivalent to killing them?,420,binary,test,kialo
+677,Should a global curfew be introduced to stop COVID-19?,421,binary,test,kialo
+678,Is the state necessary and beneficial to society?,422,binary,test,kialo
+679,"Homosexuality, should it be legal?",423,binary,test,kialo
+680,Should same-sex marriage be legalised in Australia?,424,binary,test,kialo
+681,An anarchist society is preferable.,425,binary,test,kialo
+682,Should humans prefer cats over dogs?,426,binary,test,kialo
+683,Periodic lockdowns should be planned as emergency measures to fight climate change,427,binary,test,kialo
+684,What is the best way to learn?,428,multi,test,kialo
+685,Governments should allow people to use education taxes as vouchers for private schools.,429,binary,test,kialo
+686,"Banning semi automatic ""assault style"" rifles will do nothing to reduce gun violence",430,binary,test,kialo
+687,Would a non-monetary economy be ideal?,431,binary,test,kialo
+688,Should Hate Speech Be Legally Protected?,432,binary,test,kialo
+689,Does science justify atheism?,433,binary,test,kialo
+690,Should copyright be abolished?,434,binary,test,kialo
+691,Should public displays of affection (PDA) be allowed in middle school and high school?,435,binary,test,kialo
+692,Does Morality Precede Religion?,436,binary,test,kialo
+693,Should humanity establish colonies on Mars?,437,binary,test,kialo
+694,The Libertarian Solution: Can People Govern Themselves?,438,binary,test,kialo
+695,"Promoting ethical businesses is the consumers' job, rather than corporations'",439,binary,test,kialo
+696,Should schools require students to learn a second language?,440,binary,test,kialo
+697,Should graphic warning images be removed from cigarette packaging?,441,binary,test,kialo
+698,Should Planned Parenthood Be Defunded?,442,binary,test,kialo
+699,Does homophobia originate in gender inequality?,443,binary,test,kialo
+700,What governing system should Iran adopt?,444,multi,test,kialo
+701,Who would win in a Deathmatch of all DC superheroes? (Part two),445,multi,test,kialo
+702,Coolest superhero power for real life,446,multi,test,kialo
+703,The coolest sci-fi weapon is...,447,multi,test,kialo
+704,Should scientific studies be available free of charge?,448,binary,test,kialo
+705,Who was Jesus of Nazareth?,449,binary,test,kialo
+706,Should Hasina resign in light of the Bangladesh protests?,450,binary,test,kialo
+707,Is Mail-In Voting the Best Way to Vote in US Elections?,451,binary,test,kialo
+708,Should scientists be evaluated by the number of their scientific papers and citations?,452,binary,test,kialo
+709,Is science political?,453,binary,test,kialo
+710,What is the purpose of life?,454,multi,test,kialo
+711,Is the constitution nearly dead?,455,binary,test,kialo
+712,Did Covid-19 originate from a lab leak?,456,binary,test,kialo
+713,Does it make sense to change India's official name to Bharat?,457,binary,test,kialo
+714,Is Star Citizen a scam?,458,binary,test,kialo
+715,Should the government provide funding for arts programs?,459,binary,test,kialo
+716,Should Private Cars Be Forbidden In Large Cities?,460,binary,test,kialo
+717,Is Joe Biden better than Donald Trump?,461,binary,test,kialo
+718,Would teleportation be beneficial if it existed?,462,binary,test,kialo
+719,Is Earth flat instead of a sphere?,463,binary,test,kialo
+720,Should plastic water bottles have a five-cent deposit on every bottle?,464,binary,test,kialo
+721,Should COVID-19 Vaccines be Mandatory?,465,binary,test,kialo
+722,Is ChatGPT AGI?,466,binary,test,kialo
+723,How can truth be salvaged in an era of post-truth politics?,467,multi,test,kialo
+724,Should the US forgive student loan debt for all?,468,binary,test,kialo
+725,Should communism be preferred over capitalism?,469,binary,test,kialo
+726,Is Mass Immigration into Europe a Positive Thing for Indigenous Europeans?,470,binary,test,kialo
+727,Can anything be proven without assumption?,471,binary,test,kialo
+728,Are electric cars bad for the environment?,472,binary,test,kialo
+729,Should people marry outside their religious faith?,473,binary,test,kialo
+730,Should hate speech be illegal?,474,binary,test,kialo
+731,Should School be Mandatory?,475,binary,test,kialo
+732,Does the US need to fix its Patenting System?,476,binary,test,kialo
+733,Are video games the best source of entertainment?,477,binary,test,kialo
+734,Should Australia become a republic?,478,binary,test,kialo
+735,Should the US continue to support ukraine?,479,binary,test,kialo
+736,Are the Rules of the US Criminal Justice System Fair?,480,binary,test,kialo
+737,Should churches pay tax?,481,binary,test,kialo
+738,Should Ukraine surrender in order to save lives?,482,binary,test,kialo
+739,Should American Football Be Banned?,483,binary,test,kialo
+740,Should sensitive social and political topics be discussed in school?,484,binary,test,kialo
+741,Social media sites should prioritise posts and accounts that raise awareness on the Israel Palestine conflict.,485,binary,test,kialo
+742,"The fewer languages there are, the better the world is.",486,binary,test,kialo
+743,Is Science Akin To Religion?,487,binary,test,kialo
+744,Are we becoming increasingly more intelligent than previous generations?,488,binary,test,kialo
+745,Which one is more accurate: Rationalism or Empiricism?,489,binary,test,kialo
+746,Should Election Campaigns only be Funded by the Government?,490,binary,test,kialo
+747,How heavily should governments enforce regulations?,491,binary,test,kialo
+748,Should China pay reparations for the spread of coronavirus?,492,binary,test,kialo
+749,What degree of mathematical knowledge is needed for a member of modern society?,493,multi,test,kialo
+750,Transparent AI,494,binary,test,kialo
+751,Is the principle of pet ownership vegan?,495,binary,test,kialo
+752,Are Jehovah's Witnesses the Most Accurate Church?,496,binary,test,kialo
+753,Should The Constitution Be Redrafted And Rewritten?,497,binary,test,kialo
+754,Should Neopronouns be officially integrated into the English language?,498,binary,test,kialo
+755,Does Pastafarianism deserve the same rights as other religions?,499,binary,test,kialo
+756,Is killing vampires immoral?,500,binary,test,kialo
+757,Should Western nations roll back all personnel and aid from Niger following the coup?,501,binary,test,kialo
+758,Are corporate mergers and acquisitions not beneficial to society?,502,binary,test,kialo
+759,Was Trump a good president?,503,binary,test,kialo
+760,Will cryptocurrencies replace fiat currencies?,504,binary,test,kialo
+761,Is sex with no emotional attachment good for your mind?,505,binary,test,kialo
+762,Should Weed be legalized,506,binary,test,kialo
+763,Does society benefit from religious belief and practice?,507,binary,test,kialo
+764,Is it ethical to design and build weapons of war?,508,binary,test,kialo
+765,Should all forms of circumcision of minors be banned?,509,binary,test,kialo
+766,Should we adopt a universal language?,510,binary,test,kialo
+767,Are modern democracies destined to fail due to their inherent weaknesses?,511,binary,test,kialo
+768,Should People in Positions of Authority Resign When Accused of Sexual Assault?,512,binary,test,kialo
+769,Should Teachers Be Allowed To Wear Religious Symbols At School?,513,binary,test,kialo
+770,The Republic of Ireland should maintain its status of being a militarily neutral country.,514,binary,test,kialo
+771,Is standardized testing an effective measure of student learning in schools?,515,binary,test,kialo
+772,What is the biggest concern of climate change?,516,multi,test,kialo
+773,Should high-income countries take in refugees?,517,binary,test,kialo
+774,Bruciare i libri sacri,518,binary,test,kialo
+775,Would Kamala Harris be a good replacement for Biden?,519,binary,test,kialo
+776,La Unión Europea debería convertirse en los Estados Unidos de Europa,520,binary,test,kialo
+777,Does Islam show miraculous signs of the divine reality?,521,binary,test,kialo
+778,The age restriction on being able to run for president should be lowered.,522,binary,test,kialo
+779,Is Western culture superior to other cultures?,523,binary,test,kialo
+780,Is stealing ever acceptable?,524,binary,test,kialo
+781,Are Ghosts Real?,525,binary,test,kialo
+782,Should Dogs Be Banned In Cities?,526,binary,test,kialo
+783,Should TV shows/movies be realistic to real life?,527,binary,test,kialo
+784,Is face to face learning better than online?,528,binary,test,kialo
+785,What color can be considered 'Nothing'?,529,multi,test,kialo
+786,Should investors incorporate climate change in their decisions,530,binary,test,kialo
+787,Are women too anxious about the world or is the world too dangerous for women?,531,binary,test,kialo
+788,Should University professors focus on helping failing students?,532,binary,test,kialo
+789,Personal data monetisation,533,multi,test,kialo
+790,Which hero from any myth or fandom would win in a last entity standing free for all fight?,534,multi,test,kialo
+791,Can teaching textbooks be replaced by online resources?,535,binary,test,kialo
+792,"Should we allow the state to discriminate based on race? (CA Prop 16, Repeal Prop 209 Affirmative Action Amendment)",536,binary,test,kialo
+793,Die Klimakrise ist da und lässt uns nicht mehr viel Zeit. Wie kommt man am schnellsten und sichersten weg von der fossilen hin zu einer CO2 neutralen Energiegewinnung?,537,multi,test,kialo
+794,What is the relationship between God's sovereignty and man's free will?,538,multi,test,kialo
+795,Are American suburbs harmful?,539,binary,test,kialo
+796,Are Latter-day Saints (aka Mormons) Christian?,540,binary,test,kialo
+797,Does the Bible say that abortion is wrong?,541,binary,test,kialo
+798,Should the United States federal government should substantially increase its military presence in the Arctic?,542,binary,test,kialo
+799,Should the NHS be privatised?,543,binary,test,kialo
+800,Should gender and sexuality topics be discussed in public schools?,544,binary,test,kialo
+801,Should HBO reboot Harry Potter?,545,binary,test,kialo
+802,Is Fascism a moral good?,546,binary,test,kialo
+803,Mankind is endowed by their creator with certain inalienable rights,547,multi,test,kialo
+804,What Defines a 'True' Follower of a Religion?,548,binary,test,kialo
+805,There should be a 5 pound/dollar fine every time you drive.,549,binary,test,kialo
+806,Is Religious Indoctrination of Children Abuse?,550,binary,test,kialo
+807,Should Cinco de Mayo be celebrated in the US?,551,binary,test,kialo
+808,Sortition is Better than Representation,552,binary,test,kialo
+809,Do Statements Exist That Are Both True and False?,553,binary,test,kialo
+810,Do Humanities have less value than Natural Sciences?,554,binary,test,kialo
+811,Should Esperanto be adopted internationally?,555,binary,test,kialo
+812,Was the American Civil War (1861-65) mainly about slavery?,556,binary,test,kialo
+813,Do we need nuclear power for sustainable energy production?,557,binary,test,kialo
+814,Should Macron resign following the nationwide protests in 2023?,558,binary,test,kialo
+815,Mary has supernaturally appeared to people.,559,multi,test,kialo
+816,Should Asia form a union similar to the EU?,560,binary,test,kialo
+817,What is the best Disney TV show?,561,multi,test,kialo
+818,Should Turkey acknowledge the Armenian genocide?,562,binary,test,kialo
+819,Should we judge the quality of artwork based on the conduct of the artist?,563,binary,test,kialo
+820,Logical Fallacies can be used to make a point.,564,binary,test,kialo
+821,"Can the Earth be Under 10,000 Years Old?",565,binary,test,kialo
+822,Is Alcoholism a Disease?,566,binary,test,kialo
+823,Could Hitler have won World War 2?,567,binary,test,kialo
+824,Should employers be legally allowed to fire employees because of their social media activity?,568,binary,test,kialo
+825,"Should the Primary Focus of Prisons be Rehabilitation, or Punishment?",569,binary,test,kialo
+826,"Should America adopt the Popularity Contest voting system, instead of single vote?",570,multi,test,kialo
+827,Do all or most White Americans experience privilege?,571,binary,test,kialo
+828,Is it unethical to declaw a cat?,572,binary,test,kialo
+829,Should every country be ethno-nationalist?,573,binary,test,kialo
+830,Is Cloning Humans Ethical?,574,binary,test,kialo
+831,The US should adopt a carbon fee and dividend plan to address the primary cause of climate change.,575,binary,test,kialo
+832,Should physical libraries be digitized?,576,binary,test,kialo
+833,Should the US stop trying to force North Korea to abandon its nuclear program?,577,binary,test,kialo
+834,Would capitalism abolish democracy?,578,binary,test,kialo
+835,Is having police officers in schools a good idea?,579,binary,test,kialo
+836,Was Covid-19 more dangerous than regular flu viruses?,580,binary,test,kialo
+837,Does the United States Need a Strong Third Political Party For Moderates?,581,binary,test,kialo
+838,How should Cascadia's borders be defined?,582,multi,test,kialo
+839,Is discipline necessary in education?,583,binary,test,kialo
+840,The Vegan Alternative: Pain-free GM Animals?,584,binary,test,kialo
+841,Is it ethically preferable to save a child over an adult?,585,binary,test,kialo
+842,Is Spanking a Child Abusive?,586,binary,test,kialo
+843,Does Hell Exist?,587,binary,test,kialo
+844,What is the best measure to decrease climate change?,588,multi,test,kialo
+845,Is Wikipedia a reliable source of information?,589,binary,test,kialo
+846,Are programs like Alcoholics Anonymous the best way to battle addiction?,590,binary,test,kialo
+847,Should governments make an effort to reduce the gender pay gap?,591,binary,test,kialo
+848,How can prejudice against minority sexual orientations and gender identities be reduced?,592,binary,test,kialo
+849,Is the Adam and Eve story scientifically plausible?,593,binary,test,kialo
+850,Should the death penalty be implemented for terrorism?,594,binary,test,kialo
+851,Is skateboarding a sport?,595,binary,test,kialo
+852,The Greek Airforce is amongst the best in the world,596,binary,test,kialo
+853,Were the Tokyo and Nuremberg trials victor's justice?,597,binary,test,kialo
+854,Should Puerto Rico become an American State,598,binary,test,kialo
+855,Presidential debates should include writing prompts.,599,binary,test,kialo
+856,Hierarchy is a social structure designed to maintain order in a system.,600,binary,test,kialo
+857,Gardens do not need chemicals.,601,binary,test,kialo
+858,Should cyberbullying be criminalized?,602,binary,test,kialo
+859,Should Keybase team names be locked?,603,binary,test,kialo
+860,Should creators of movies and TV shows cater to their fans?,604,binary,test,kialo
+861,There are no health risks of using a 5G cellular mobile phone.,605,binary,test,kialo
+862,Keeping secrets is unethical,606,binary,test,kialo
+863,Will women hold almost all economical and political power in the future?,607,multi,test,kialo
+864,What are the ethics of Totalitarianism?,608,multi,test,kialo
+865,Should there be One World State?,609,binary,test,kialo
+866,Should Aborting a Disabled Child Be Legal?,610,binary,test,kialo
+867,Tourism to North Korea should be banned.,611,binary,test,kialo
+868,Does the Wagner insurrection spell the end for Putin?,612,binary,test,kialo
+869,Has New Atheism been a failure?,613,binary,test,kialo
+870,The existence of Santa Claus,614,binary,test,kialo
+871,"Angenommen es gibt einen liebenden, allmächtigen Gott. Warum gibt es dann Leid auf der Welt?",615,multi,test,kialo
+872,Kialo should separate voting into relevance and veracity of claim.,616,binary,test,kialo
+873,Should birth control be free?,617,binary,test,kialo
+874,"Should China, Pakistan, Bangladesh, Nepal, and India become united?",618,binary,test,kialo
+875,Should President Biden forgive all U.S student debt?,619,binary,test,kialo
+876,Are farmers paid enough for their work?,620,binary,test,kialo
+877,Should We Increase the Number of Votes For People Who Pay More Taxes?,621,binary,test,kialo
+878,Menstrual Products Should Be Free,622,binary,test,kialo
+879,Who is the Superest Hero?,623,binary,test,kialo
+880,Should We Ban Symbols of Communist Regimes?,624,binary,test,kialo
+881,Should shame have a place in a properly functioning society?,625,binary,test,kialo
+882,Is globalisation good?,626,binary,test,kialo
+883,Les solutions de lutte contre le dérèglement climatique.,627,binary,test,kialo
+884,Should life skills be taught in K12 school?,628,binary,test,kialo
+885,Is traveling worthwhile?,629,binary,test,kialo
+886,What is the problem with religion?,630,multi,test,kialo
+887,Is Pornography Art?,631,binary,test,kialo
+888,Should Steroid Use in Sports Be Allowed?,632,binary,test,kialo
+889,Should citizens have the ability to allocate a portion of their federal income taxes to specific budget items?,633,binary,test,kialo
+890,How should the US government make better contributions towards science?,634,multi,test,kialo
+891,Can evolutionary ethics provide a sufficient explanation of our moral experience?,635,binary,test,kialo
+892,Is taxation theft?,636,binary,test,kialo
+893,Should scientists contribute to Wikipedia?,637,binary,test,kialo
+894,Should we use calculators in every math class?,638,binary,test,kialo
+895,Should STEM Degrees Be Free?,639,binary,test,kialo
+896,Capitalism v Socialism,640,binary,test,kialo
+897,Mitigating the risk of extinction from AI should be a global priority alongside risks such as pandemics and nuclear war,641,binary,test,kialo
+898,Bitcoin will become global reserve currency,642,binary,test,kialo
+899,Is it unethical to use ad-blockers?,643,binary,test,kialo
+900,Did Frank D. Roosevelt save capitalism?,644,binary,test,kialo
+901,Is the minimum wage good for the economy overall?,645,binary,test,kialo
+902,Which Anime Is the Best and Why?,646,multi,test,kialo
+903,Should surveillance balloons be banned?,647,binary,test,kialo
+904,Does Islam Support Slavery?,648,binary,test,kialo
+905,Should The Date of Australia Day Be Changed?,649,binary,test,kialo
+906,Do electronic devices help or hurt children's development?,650,binary,test,kialo
+907,Should Organ Donation be Mandatory?,651,binary,test,kialo
+908,The European Union should become a United States of Europe,652,binary,test,kialo
+909,Should Judges be Elected or Appointed?,653,binary,test,kialo
+910,What is the best way to introduce education for sustainability in early childhood education in socioeconomically underdeveloped communities?,654,multi,test,kialo
+911,Should we let AI (artificial intelligence) take decisions for us (humans)?,655,binary,test,kialo
+912,Are Leggings Pants?,656,binary,test,kialo
+913,Las Matemáticas son divertidas,657,binary,test,kialo
+914,Should all deductions and exemptions be eliminated from the US system of Income Tax collection?,658,binary,test,kialo
+915,Does Islam Need A Reform To Be Compatible With The Modern World?,659,binary,test,kialo
+916,Will inflation come under control in 2023?,660,binary,test,kialo
+917,Should we have a global governance?,661,binary,test,kialo
+918,Should there be a Negative Income Tax?,662,binary,test,kialo
+919,AI manipulating humans,663,binary,test,kialo
+920,Should Washington State's flag be redesigned to have Booker T. Washington's likeness instead of George Washington?,664,binary,test,kialo
+921,Will Liquid Democracy be a better mechanism of governance than Representative Democracy?,665,binary,test,kialo
+922,SDGs can't be achieved without cloud-based tools,666,binary,test,kialo
+923,Should emergency rooms turn away people who cannot pay?,667,binary,test,kialo
+924,Time for a Pacific NATO,668,binary,test,kialo
+925,Readily available information is promoting survivorship bias.,669,binary,test,kialo
+926,Osho Rajneesh created a cult,670,binary,test,kialo
+927,Should Trump be allowed back on Twitter?,671,binary,test,kialo
+928,Is Intentional Childlessness a Sin?,672,binary,test,kialo
+929,Is multiculturalism good for societies?,673,binary,test,kialo
+930,Are video learning courses a good learning format?,674,binary,test,kialo
+931,"Should Whatsapp, instead of other instant messaging apps, be used?",675,binary,test,kialo
+932,What is the Nature of Reality?,676,multi,test,kialo
+933,Should Inheritance be Abolished?,677,binary,test,kialo
+934,Illegal immigration negatively affects the host nation.,678,binary,test,kialo
+935,Discipline or Abuse: When is discipline considered abuse?,679,binary,test,kialo
+936,Feminism & sex for fun: does hedonistic sexuality benefit feminism?,680,binary,test,kialo
+937,Should The Internet Be Regulated?,681,binary,test,kialo
+938,What should Kialo build for mobile phone use?,682,multi,test,kialo
+939,Was the music of the past better than it is today?,683,binary,test,kialo
+940,What is the best drug regulation system?,685,multi,test,kialo
+941,You Must Not ‘Do Your Own Research’ When It Comes To Science,686,binary,test,kialo
+942,gender equality in the home,687,binary,test,kialo
+943,Should a land value tax be introduced to replace other taxes?,688,binary,test,kialo
+944,Should Felons be Allowed to Vote?,689,binary,test,kialo
+945,Should there be automatic voter registration in the US?,690,binary,test,kialo
+946,Should straight actors play gay roles?,691,binary,test,kialo
+947,Is Youtube Enforcing Censorship Through The Demonetization Policy?,692,binary,test,kialo
+948,Can non-medical abortion be morally justified?,693,binary,test,kialo
+949,Was Elizabeth II a good queen?,694,binary,test,kialo
+950,Should mobile phones be used in the classroom?,695,binary,test,kialo
+951,Should Religions Receive Public Funding?,696,binary,test,kialo
+952,Is Intelligent Design the Best Explanation For Life?,697,binary,test,kialo
+953,Evolve beyond war and militarism,698,binary,test,kialo
+954,Why do people believe in God?,699,binary,test,kialo
+955,UK High Court rules government's Rwanda asylum plan is unlawful: is this the right or wrong decision?,700,binary,test,kialo
+956,Should Islamic Masjids treat men and women equally?,701,binary,test,kialo
+957,Should Mother Teresa have been canonized?,702,binary,test,kialo
+958,Are all humans of equal value?,703,binary,test,kialo
+959,What is religion's role in worldwide societal development?,704,binary,test,kialo
+960,Should Turkey be part of the European Union?,705,binary,test,kialo
+961,Did the US have to use nuclear weapons to achieve Japan's unconditional surrender?,706,binary,test,kialo
+962,Should Messi return to Barcelonia?,707,binary,test,kialo
+963,"When a democracy gets invaded and there is very little hope of victory, should the government surrender?",708,binary,test,kialo
+964,Should Nintendo allow for Fangames and modifications to their systems?,709,binary,test,kialo
+965,How Were the Pyramids of Egypt Meant to Be Used?,710,multi,test,kialo
+966,Is the Book of Mormon an authentic ancient scripture?,711,binary,test,kialo
+967,Should blocking communication between users on websites be admin-only powers?,712,binary,test,kialo
+968,Is Humanism a religion?,713,binary,test,kialo
+969,Should cannabis be banned in athletics?,714,binary,test,kialo
+970,Religion is incompatible with science.,715,binary,test,kialo
+971,Should the US states have more or less autonomy?,716,binary,test,kialo
+972,Is Bitcoin's Worth Entirely Speculative?,717,binary,test,kialo
+973,What is the best OS?,718,multi,test,kialo
+974,Should Cascadia secede from the United States and Canada?,719,binary,test,kialo
+975,Should States Provide A Clean Needle Program for IV Drug Users?,720,binary,test,kialo
+976,Is evolution by natural selection true?,721,binary,test,kialo
+977,A child doesn't owe his parents something for getting raised by them,722,binary,test,kialo
+978,Should gender reassignment procedures for minors be allowed?,723,binary,test,kialo
+979,Is global overpopulation a myth?,724,binary,test,kialo
+980,Online gambling: free choice or addiction?,725,binary,test,kialo
+981,Sollte es ein generelles Tempolimit von 130 km/h auf deutschen Autobahnen geben?,726,binary,test,kialo
+982,Public health care systems should pay for osteopathic physicians.,727,binary,test,kialo
+983,Is racism logical?,728,binary,test,kialo
+984,Should Society Normalise Men Wearing Dresses/Skirts?,729,binary,test,kialo
+985,Sollten Deutsche Wohnen & Co. enteignet werden?,730,binary,test,kialo
+986,Impfung ja oder nein?,731,binary,test,kialo
+987,Inzest sollte legalisiert werden,732,binary,test,kialo
+988,What is withholding consumers from asking a doggybag in restaurants?,733,multi,test,kialo
+989,Die AFD steht dem nationalsozialistischem Gedankengut nahe.,734,binary,test,kialo
+990,"Should we believe that God exists, even if we're not sure it's true?",735,binary,test,kialo
+991,The Short Name ‘Czechia’ Should Be Used in All Unpolitical and/or Informal Situations.,736,binary,test,kialo
+992,Has the U.S. just cemented its global leadership again?,737,binary,test,kialo
+993,Should All Transgender Athletes Have to Compete in Men's Divisions?,738,binary,test,kialo
+994,The Death Penalty is Humane,739,binary,test,kialo
+995,Video games with a pixel art-style are overdone.,740,binary,test,kialo
+996,Should higher education be publicly funded?,741,binary,test,kialo
+997,Should governments push to implement 100% renewable energy?,742,binary,test,kialo
+998,What cause area is the most pressing?,743,multi,test,kialo
+999,Are battery electric vehicles better than hydrogen fuel cell vehicles?,744,binary,test,kialo
+1000,The Bible contains contradictions,745,binary,test,kialo
+1001,'Push' advertising should be banned,746,binary,test,kialo
+1002,Is Sally Rooney's boycott of Israel justified?,747,binary,test,kialo
+1003,Policy decisions should be based on scientific evidence.,748,binary,test,kialo
+1004,Was the 2003 US-led invasion of Iraq justified?,749,binary,test,kialo
+1005,Coffee break,750,binary,test,kialo
+1006,Should the Electoral College be abolished?,751,binary,test,kialo
+1007,Should billionaires be banned?,752,binary,test,kialo
+1008,Did the French Revolution have predominantly negative consequences?,753,binary,test,kialo
+1009,Can The U.S. Power Grid Handle The EV Boom?,754,binary,test,kialo
+1010,We are alone in the universe.,755,binary,test,kialo
+1011,Would Humanity Be Better Off Under A Global Government?,756,binary,test,kialo
+1012,Are humans primarily driven by self-interest?,757,binary,test,kialo
+1013,Do angels and demons exist?,758,binary,test,kialo
+1014,"Big pharma"" is actually good for society",759,binary,test,kialo
+1015,Is eating meat wrong?,760,binary,test,kialo
+1016,Should the EU introduce a carbon tax?,761,binary,test,kialo
+1017,Is Fine Tuning Good Evidence for a Creator?,762,binary,test,kialo
+1018,Should nuclear energy be the most prominent source of energy?,763,binary,test,kialo
+1019,Should a maximum wage be introduced?,764,binary,test,kialo
+1020,Should Direct Democracy be allowed to Overrule Elected Representatives,765,binary,test,kialo
+1021,Should Dictatorships Receive Development Aid?,766,binary,test,kialo
+1022,Are human rights truly universal?,767,binary,test,kialo
+1023,Was Barack Obama a good president?,768,binary,test,kialo
+1024,Will progress win or does history go in circles?,769,binary,test,kialo
+1025,Is Donation Charity or a Moral Obligation?,770,binary,test,kialo
+1026,Are Plants and Fungi Conscious?,771,binary,test,kialo
+1027,“Cambio climático vs Sostenibilidad de Territorios Marino-Costeros”: La innovación y el desarrollo productivo en territorios marino-costeros aumentará o disminuirá los efectos del cambio climático y sus impactos asociados a la sostenibilidad del mar y la costa.,772,multi,test,kialo
+1028,Laws Allowing For Minority Differences,773,binary,test,kialo

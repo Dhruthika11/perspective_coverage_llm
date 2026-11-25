@@ -1,0 +1,4 @@
+model_key,claim_id,n_generated_viewpoints,n_gold_clusters,n_matched_clusters,coverage_score,uncovered_clusters
+gemma_2_9b_it,1,5,8,5,0.625,3
+gemma_2_9b_it,2,5,3,3,1.0,0
+gemma_2_9b_it,3,5,7,5,0.7143,2

@@ -1,0 +1,12 @@
+Model,Model_Key,SingleStage_Cosine (tau=0.75),True_TwoStage_Coverage,False_Match_Drop,Drop_Pct,Support_Coverage,Undermine_Coverage,Stance_Gap (Sup-Und),Zero_Coverage_Claims,Total_Claims
+Qwen2.5-0.5B-Instruct,qwen2_5_0_5b_instruct,0.118,0.1071,0.0109,9.3%,0.1361,0.0697,0.0664,500,907
+Qwen2.5-1.5B-Instruct,qwen2_5_1_5b_instruct,0.0978,0.0957,0.0021,2.1%,0.1249,0.0578,0.0672,524,907
+Qwen2.5-3B-Instruct,qwen2_5_3b_instruct,0.0659,0.0658,0.0001,0.2%,0.0892,0.0375,0.0517,600,907
+Qwen2.5-7B-Instruct,qwen2_5_7b_instruct,0.1626,0.1551,0.0075,4.6%,0.2121,0.086,0.1261,404,907
+Qwen2.5-14B-Instruct,qwen2_5_14b_instruct,0.1577,0.1543,0.0034,2.2%,0.1869,0.1107,0.0762,397,907
+Qwen2.5-32B-Instruct,qwen2_5_32b_instruct,0.0581,0.0578,0.0003,0.5%,0.0791,0.0341,0.0449,644,907
+Llama-3.2-1B-Instruct,llama_3_2_1b_instruct,0.0976,0.0854,0.0122,12.5%,0.1215,0.047,0.0745,558,907
+Llama-3.2-3B-Instruct,llama_3_2_3b_instruct,0.1334,0.1326,0.0007,0.5%,0.1796,0.0786,0.101,437,907
+Gemma-2-2B-IT,gemma_2_2b_it,0.15,0.1481,0.0019,1.3%,0.2053,0.0764,0.1289,403,907
+Gemma-3-12B-IT,gemma_3_12b_it,0.0439,0.0438,0.0001,0.2%,0.0572,0.0273,0.0299,685,907
+Mistral-7B-Instruct,mistral_7b_instruct_v0_3,0.0886,0.0881,0.0005,0.6%,0.1105,0.0564,0.0541,559,907

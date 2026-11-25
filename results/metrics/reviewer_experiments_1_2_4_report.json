@@ -1,0 +1,141 @@
+{
+  "experiment_1_calibration_transfer": {
+    "baseline_calibrated_theta_0_720": {
+      "theta": 0.72,
+      "tp": 190,
+      "fp": 7,
+      "fn": 350,
+      "tn": 571,
+      "precision": 96.45,
+      "recall": 35.19,
+      "f1": 0.5156
+    },
+    "v3_calibrated_theta_0_950": {
+      "theta": 0.95,
+      "tp": 216,
+      "fp": 45,
+      "fn": 324,
+      "tn": 533,
+      "precision": 82.76,
+      "recall": 40.0,
+      "f1": 0.5393
+    },
+    "llm_188_at_calibrated_thetas": {
+      "baseline_theta_0_720_tp": 4,
+      "baseline_theta_0_720_recall": "2.13%",
+      "v3_theta_0_950_tp": 30,
+      "v3_theta_0_950_recall": "15.96%",
+      "delta_tp": 26
+    }
+  },
+  "experiment_2_same_topic_fp_analysis": {
+    "total_same_topic_negatives": 180,
+    "v3_fp_count_theta_0_80": 58,
+    "v3_fp_rate": "32.22%",
+    "sample_cases": [
+      {
+        "claim": "Online Shopping Is Better Than Offline Shopping",
+        "premise": "### Practical Perspective Viewpoint 1: **Efficiency and Speed**\n\nOnline shopping offers quicker and more efficient transactions. Orders can be placed and shipped within minutes, reducing wait times and enhancing the overall purchasing experience. This immediacy is particularly valuable for urgent purchases, time-sensitive items, or those who need fast delivery options.\n\n### Practical Perspective Viewpoint 2: **Convenience and Flexibility**\n\nOnline shopping provides greater convenience and flexibility. Customers can browse and purchase products from the comfort of their homes, tailoring their shopping experience to their schedules. This flexibility is particularly beneficial for busy professionals and those who live far from physical stores, eliminating the hassle of driving to a store.\n\n### Practical Perspective Viewpoint 3: **Access to Wider Selection**\n\nOnline platforms offer a vast selection of products from diverse sellers and brands, which can be overwhelming but also liberating. This variety allows consumers to find unique items and explore broader ranges of products that may not be available locally. The ease of comparison shopping online makes it easier to find the best deals and most suitable products.\n\n### Practical Perspective Viewpoint 4: **Price Transparency and Discounts**\n\nOnline shopping frequently features clear price transparency and competitive discounts, including promotions, rebates, and loyalty programs. Consumers can easily compare prices across different retailers and take advantage of the best deals. This transparency and competitive pricing can lead to better value for money, especially for frequent shoppers.",
+        "hypothesis": "You don't have to leave the house to shop online.",
+        "v3_p_entail": 0.8742,
+        "base_fwd_p_entail": 0.0026
+      },
+      {
+        "claim": "Remove Bush tax cuts for the wealthy",
+        "premise": "### Social Perspective\n\n**Social Integration:** Removing tax cuts for the wealthy can enhance social integration by promoting a more balanced distribution of resources. This can lead to greater social mobility and reduce the sense of alienation felt by lower-income groups, fostering a more cohesive society.\n\n**Community Support:** Higher taxes on the wealthy could provide substantial funding for community programs and services that support vulnerable populations, such as affordable housing, job training, and community centers. This can strengthen local communities and build stronger social networks.\n\n### Demographic Perspective\n\n**Generational Impact:** Removing tax cuts for the wealthy could particularly benefit younger generations, who often face higher barriers to economic advancement due to rising costs of living and student debt. Redirected funds could support education and housing initiatives that target young adults and help them establish financial stability.\n\n**Regional Disparities:** Addressing regional disparities by reallocating funds to underdeveloped areas can help in reducing urban-rural divides. Increased investment in rural and economically disadvantaged regions through higher taxes on the wealthy can lead to improved quality of life and economic opportunities in these areas.\n\n### Interpersonal Perspective\n\n**Trust and Cooperation:** Higher taxes on the wealthy might enhance interpersonal trust and cooperation within society. When those with higher incomes contribute more, it can foster a sense of mutual responsibility and shared sacrifice, leading to better community relationships and social harmony.\n\n**Role Models and Values:** Wealthy individuals who willingly accept higher taxes can set positive examples for others, demonstrating responsible citizenship and a commitment to societal wellbeing. This can inspire a culture of giving back and contribute to the development of more socially conscious values among all income groups.",
+        "hypothesis": "you can reduce the deficit by removing tax cuts",
+        "v3_p_entail": 0.9272,
+        "base_fwd_p_entail": 0.0049
+      },
+      {
+        "claim": "Wire-tapped and \u2018intercepted\u2019 evidence must be allowed as admissible in court",
+        "premise": "### Social Perspective\n\nFrom a social perspective, allowing wire-tapped and intercepted evidence must consider the potential long-term impact on social cohesion and trust. The public must perceive law enforcement actions as legitimate and just to maintain social trust. Otherwise, there could be a chilling effect on reporting crimes or cooperating with investigations, leading to reduced public safety and trust in the legal system. Additionally, the social fabric can be strained if individuals feel constantly watched, leading to a culture of fear and mistrust.\n\n### Interpersonal Perspective\n\nFrom an interpersonal perspective, the admissibility of wire-tapped and intercepted evidence should reflect the importance of privacy and trust in interpersonal relationships. These communications often involve sensitive personal matters, and the revelation of such content can cause significant emotional distress. Therefore, such evidence must be handled with extreme care, ensuring that the harm to individuals\u2019 emotional and psychological well-being is minimized. This perspective emphasizes the need for empathy and sensitivity in handling such evidence, ensuring that it is used in a manner that respects personal boundaries and protects individual dignity.",
+        "hypothesis": "Wiretapping has a high level of benefit to both reduce serious crime and prosecute criminals.",
+        "v3_p_entail": 0.9584,
+        "base_fwd_p_entail": 0.0012
+      },
+      {
+        "claim": "Remove Bush tax cuts for the wealthy",
+        "premise": "**Practical and Implementation Perspective:**\n\nRemoving Bush tax cuts for the wealthy can be a practical step if implemented alongside robust measures to ensure economic stability and consumer spending. Here\u2019s how:\n\n### **Proponent Viewpoint:**\nImplementing this policy can help close the wealth gap and stimulate consumer spending, leading to more robust economic growth. It ensures that high-income earners don\u2019t see their disposable incomes rise too much, which can be reinvested into the economy. Simultaneously, this can lead to more discretionary spending by middle and lower-income groups, driving up demand and supporting businesses.\n\n### **Opponent Viewpoint:**\nHowever, without a corresponding increase in public spending or investment, the immediate effect might be limited. High-income earners might save a larger portion of their income, so the initial boost in consumer spending might be muted. Moreover, fiscal conservatives argue that reducing these cuts could exacerbate the budget deficit, necessitating even tighter fiscal control. Balancing the budget and maintaining economic stability should be a priority, especially given the potential impact on public services and investments.\n\n### **Implementation Considerations:**\nIn terms of implementation, it\u2019s crucial to maintain a balance. Removing the tax cuts should be coupled with targeted increases in public spending, particularly in areas like education, healthcare, and infrastructure, to ensure sustained economic growth. This approach would help counterbalance the reduction in rich individuals' disposable income, ensuring a broader economic stimulus. Policymakers must carefully assess the long-term benefits versus potential short-term challenges, balancing fiscal responsibility with social equity.",
+        "hypothesis": "you can reduce the deficit by removing tax cuts",
+        "v3_p_entail": 0.9511,
+        "base_fwd_p_entail": 0.0014
+      },
+      {
+        "claim": "Remove Bush tax cuts for the wealthy",
+        "premise": "- **Social Perspective:** Wealth redistribution is essential for maintaining social cohesion and preventing exploitation. It promotes fairness and ensures that resources are allocated according to one\u2019s capacity to pay, which aligns with societal expectations of equality and meritocracy.\n\n- **Demographic Perspective:** For those concerned with income disparity, removing tax cuts for the wealthy can alleviate poverty and enhance overall well-being. It supports the underprivileged who desperately need more assistance, helping them achieve better lives by investing in themselves and their communities.\n\n- **Interpersonal Perspective:** From a personal standpoint, advocating for equitable tax reforms reflects understanding of mutual obligations. It encourages responsible citizenship and fosters environments where all contributions are valued, thereby enhancing community spirit and collective success.",
+        "hypothesis": "you can reduce the deficit by removing tax cuts",
+        "v3_p_entail": 0.9817,
+        "base_fwd_p_entail": 0.0202
+      },
+      {
+        "claim": "Hosting the Olympics is a good investment",
+        "premise": "### Social Perspective\n\n**Pros:**\n1. **Community Engagement:** Hosting the Olympics can enhance community engagement and social cohesion through volunteer programs and community-based initiatives.\n2. **Health and Wellness Promotion:** The spotlight on sports and athletic achievements can inspire local populations to adopt healthier lifestyles and increase physical activity.\n\n**Cons:**\n1. **Social Strain:** Intense media coverage and high expectations can create social pressures, particularly on athletes and organizers, leading to stress and burnout.\n2. **Disruption of Daily Life:** Significant disruptions in daily routines and increased congestion due to construction and influx of visitors can negatively impact the quality of life for residents.\n\n### Demographic Perspective\n\n**Pros:**\n1. **Demographic Diversity:** The Olympics attract diverse demographic groups, including international visitors, which can enhance demographic diversity and cross-cultural interactions within the host city.\n2. **Long-term Population Growth:** The infrastructure developed for the Olympics can improve living conditions, attracting more residents and contributing to long-term population growth and economic stability.\n\n**Cons:**\n1. **Housing Affordability:** Increased demand for housing can lead to rising property prices, making it harder for lower-income residents to afford homes in their own city.\n2. **Age-Specific Impacts:** Younger and older demographics may experience different impacts; while youth might benefit from inspiration and opportunities, elderly residents might face inconveniences due to construction and crowds.\n\n### Interpersonal Perspective\n\n**Pros:**\n1. **Networking Opportunities:** The event provides unique networking opportunities for professionals in various fields, fostering collaborations and partnerships.\n2. **Personal Growth:** Participation and involvement in Olympic-related activities can lead to personal growth, building skills and character.\n\n**Cons:**\n1. **Strain on Personal Relationships:** The time and effort required for preparations and volunteering can strain interpersonal relationships, especially if family members are involved in different aspects of the event.\n2. **Conflict and Tensions:** High levels of stress and competition can lead to interpersonal conflicts among participants, volunteers, and staff, affecting team dynamics and overall harmony.",
+        "hypothesis": "The Olympics gives athletes a goal and young people a chance to believe in themselves",
+        "v3_p_entail": 0.9844,
+        "base_fwd_p_entail": 0.0166
+      },
+      {
+        "claim": "All Americans should have the right (be entitled) to health care",
+        "premise": "### Social Perspective\n\nFrom a social perspective, universal health care fosters social cohesion and reduces social tensions. When all Americans have access to basic healthcare, it mitigates the risk of healthcare-related financial stress, which can lead to increased social mobility and intergenerational support. This ensures that societal well-being is prioritized, promoting a sense of shared responsibility and mutual benefit.\n\n### Interpersonal Perspective\n\nInterpersonally, universal health care strengthens interpersonal relationships by ensuring that healthcare needs do not become a source of social isolation or conflict. When healthcare is a shared resource, it reduces the likelihood of people avoiding medical treatment due to financial concerns, thereby fostering a more interconnected community. This can enhance trust and cooperation among neighbors and colleagues, strengthening the fabric of society.",
+        "hypothesis": "Everyone should have a right to health care.",
+        "v3_p_entail": 0.8767,
+        "base_fwd_p_entail": 0.0053
+      },
+      {
+        "claim": "We have lost the true meaning of Christmas",
+        "premise": "**Social Perspective:**\n\nFrom a social standpoint, the loss of the true meaning of Christmas can lead to a sense of alienation and disconnection among people. As commercialization increases, families may find it harder to maintain the familial bonds and traditions that once defined the holiday season. The pressure to keep up with materialistic expectations can erode interpersonal relationships, making Christmas feel more like a chore than a time for family and community. This shift can foster feelings of loneliness and isolation, particularly among younger generations who are growing up with minimal exposure to the holiday's cultural and familial roots.",
+        "hypothesis": "It's not a real holiday.",
+        "v3_p_entail": 0.9391,
+        "base_fwd_p_entail": 0.0237
+      },
+      {
+        "claim": "Intellectual property rights have to be abolished",
+        "premise": "**Social Perspective**: Intellectual Property Rights should not be abolished because they act as a shield for creators, ensuring fair compensation and protecting their intellectual property. This sustains a vibrant economy built on innovation and creativity, benefiting all segments of society. The absence of such protections could lead to a hollowing out of the creative sector, damaging its health and resilience. Socially, it reinforces meritocracy and incentivizes excellence, making the world more equitable and dynamic.\n\n**Demographic Perspective**: Upholding intellectual property rights is crucial for demographic groups whose livelihoods often depend on creative work. These include authors, musicians, filmmakers, software developers, and designers. Eliminating intellectual property rights would disproportionately affect marginalized and underrepresented voices, compromising their ability to earn from their talents and sustain themselves financially. Ensuring equitable access to creative content is essential for inclusivity and represents a moral obligation towards humanity\u2019s potential and diversity.\n\n**Interpersonal Perspective**: For individuals engaging in various professional spheres, intellectual property rights provide tangible benefits such as royalties, patents, and copyrights. These protections motivate them to continue contributing to society, drive innovation, and maintain high standards of quality. Conversely, the abolition of IP rights could lead to decreased motivation and reduced quality in work, impacting personal satisfaction and overall societal output. Emphasizing rights promotes accountability within industries and ensures continuous improvement and contribution to the community at large.",
+        "hypothesis": "Firms and individuals misallocate resources trying to race others to the same goal, and spend resources stealing from one another:",
+        "v3_p_entail": 0.9691,
+        "base_fwd_p_entail": 0.0019
+      },
+      {
+        "claim": "Newspapers Are a Thing of the Past",
+        "premise": "### Viewpoint 8: Technological Adaptability and Innovation\n\nNewspapers can survive and thrive by embracing technological adaptability and innovation. While their traditional print format may indeed be outdated, the industry's core value lies in its ability to adapt. By integrating cutting-edge technologies such as augmented reality, virtual reality, and immersive news experiences, newspapers can create engaging, interactive content that captures the attention of modern readers. Additionally, leveraging artificial intelligence for personalized content recommendations and ensuring high-quality, trustworthy journalism can help retain audience loyalty and attract new readers. This way, newspapers can evolve into platforms that not only inform but also entertain and engage, thus ensuring their relevance and sustainability in the digital age.",
+        "hypothesis": "The balance of analysis and relevancy is better struck by newspapers",
+        "v3_p_entail": 0.9489,
+        "base_fwd_p_entail": 0.0051
+      }
+    ]
+  },
+  "experiment_4_claim_clustered_bootstrap": {
+    "n_unique_claims": 39,
+    "n_bootstraps": 2000,
+    "delta_f1_mean": 0.0959,
+    "delta_f1_95_ci": [
+      0.0587,
+      0.1365
+    ],
+    "v3_f1_95_ci": [
+      0.5343,
+      0.6529
+    ],
+    "base_f1_95_ci": [
+      0.4269,
+      0.5695
+    ],
+    "v3_precision_95_ci": [
+      0.7252,
+      0.8584
+    ],
+    "base_precision_95_ci": [
+      0.919,
+      0.991
+    ],
+    "v3_recall_95_ci": [
+      0.4141,
+      0.5376
+    ],
+    "base_recall_95_ci": [
+      0.2764,
+      0.4014
+    ]
+  }
+}

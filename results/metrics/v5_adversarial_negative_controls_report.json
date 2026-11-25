@@ -1,0 +1,200 @@
+{
+  "title": "Adversarial Negative Control Evaluation for Argument-NLI V5",
+  "verifier_configuration": {
+    "v5_model_dir": "models/ensemble_data_only",
+    "temperature_applied": 1.9104,
+    "device": "cpu"
+  },
+  "falsification_criterion": "Acceptance >= 50% on negative controls implies metric failure.",
+  "conclusion": "PASSED",
+  "macro_metrics": {
+    "macro_unrelated_claim_acceptance_rate_tau_50": 4.0,
+    "macro_opposite_stance_acceptance_rate_tau_50": 9.0
+  },
+  "per_model_results": {
+    "qwen2_5_7b_instruct": {
+      "name": "Qwen2.5-7B",
+      "family": "Qwen",
+      "unrelated_claim_negatives": {
+        "n_evaluated": 50,
+        "mean_p_entail": 0.1152,
+        "median_p_entail": 0.0427,
+        "mean_p_contra": 0.1691,
+        "mean_p_neutral": 0.7156,
+        "accept_count_tau_50": 3,
+        "accept_rate_tau_50": 6.0,
+        "accept_count_f1_52": 3,
+        "accept_rate_f1_52": 6.0,
+        "accept_count_prec_83": 2,
+        "accept_rate_prec_83": 4.0,
+        "accept_count_argmax": 3,
+        "accept_rate_argmax": 6.0,
+        "rejection_rate_tau_50": 94.0,
+        "predicted_class_distribution": {
+          "contradiction_pct": 14.0,
+          "neutral_pct": 80.0,
+          "entailment_full_pct": 6.0
+        }
+      },
+      "same_topic_opposite_stance_negatives": {
+        "n_evaluated": 50,
+        "mean_p_entail": 0.1071,
+        "median_p_entail": 0.0617,
+        "mean_p_contra": 0.2124,
+        "mean_p_neutral": 0.6805,
+        "accept_count_tau_50": 1,
+        "accept_rate_tau_50": 2.0,
+        "accept_count_f1_52": 1,
+        "accept_rate_f1_52": 2.0,
+        "accept_count_prec_83": 0,
+        "accept_rate_prec_83": 0.0,
+        "accept_count_argmax": 2,
+        "accept_rate_argmax": 4.0,
+        "rejection_rate_tau_50": 98.0,
+        "predicted_class_distribution": {
+          "contradiction_pct": 14.0,
+          "neutral_pct": 82.0,
+          "entailment_full_pct": 4.0
+        }
+      }
+    },
+    "llama_3_1_8b_instruct": {
+      "name": "Llama-3.1-8B",
+      "family": "Llama",
+      "unrelated_claim_negatives": {
+        "n_evaluated": 50,
+        "mean_p_entail": 0.0829,
+        "median_p_entail": 0.047,
+        "mean_p_contra": 0.2221,
+        "mean_p_neutral": 0.695,
+        "accept_count_tau_50": 2,
+        "accept_rate_tau_50": 4.0,
+        "accept_count_f1_52": 2,
+        "accept_rate_f1_52": 4.0,
+        "accept_count_prec_83": 1,
+        "accept_rate_prec_83": 2.0,
+        "accept_count_argmax": 2,
+        "accept_rate_argmax": 4.0,
+        "rejection_rate_tau_50": 96.0,
+        "predicted_class_distribution": {
+          "contradiction_pct": 20.0,
+          "neutral_pct": 76.0,
+          "entailment_full_pct": 4.0
+        }
+      },
+      "same_topic_opposite_stance_negatives": {
+        "n_evaluated": 50,
+        "mean_p_entail": 0.1765,
+        "median_p_entail": 0.0617,
+        "mean_p_contra": 0.334,
+        "mean_p_neutral": 0.4896,
+        "accept_count_tau_50": 6,
+        "accept_rate_tau_50": 12.0,
+        "accept_count_f1_52": 6,
+        "accept_rate_f1_52": 12.0,
+        "accept_count_prec_83": 3,
+        "accept_rate_prec_83": 6.0,
+        "accept_count_argmax": 7,
+        "accept_rate_argmax": 14.0,
+        "rejection_rate_tau_50": 88.0,
+        "predicted_class_distribution": {
+          "contradiction_pct": 36.0,
+          "neutral_pct": 50.0,
+          "entailment_full_pct": 14.0
+        }
+      }
+    },
+    "gemma_2_9b_it": {
+      "name": "Gemma-2-9B",
+      "family": "Gemma",
+      "unrelated_claim_negatives": {
+        "n_evaluated": 50,
+        "mean_p_entail": 0.0788,
+        "median_p_entail": 0.0359,
+        "mean_p_contra": 0.1297,
+        "mean_p_neutral": 0.7915,
+        "accept_count_tau_50": 1,
+        "accept_rate_tau_50": 2.0,
+        "accept_count_f1_52": 1,
+        "accept_rate_f1_52": 2.0,
+        "accept_count_prec_83": 1,
+        "accept_rate_prec_83": 2.0,
+        "accept_count_argmax": 2,
+        "accept_rate_argmax": 4.0,
+        "rejection_rate_tau_50": 98.0,
+        "predicted_class_distribution": {
+          "contradiction_pct": 8.0,
+          "neutral_pct": 88.0,
+          "entailment_full_pct": 4.0
+        }
+      },
+      "same_topic_opposite_stance_negatives": {
+        "n_evaluated": 50,
+        "mean_p_entail": 0.1703,
+        "median_p_entail": 0.0625,
+        "mean_p_contra": 0.2915,
+        "mean_p_neutral": 0.5382,
+        "accept_count_tau_50": 6,
+        "accept_rate_tau_50": 12.0,
+        "accept_count_f1_52": 6,
+        "accept_rate_f1_52": 12.0,
+        "accept_count_prec_83": 3,
+        "accept_rate_prec_83": 6.0,
+        "accept_count_argmax": 7,
+        "accept_rate_argmax": 14.0,
+        "rejection_rate_tau_50": 88.0,
+        "predicted_class_distribution": {
+          "contradiction_pct": 30.0,
+          "neutral_pct": 56.0,
+          "entailment_full_pct": 14.0
+        }
+      }
+    },
+    "olmo_2_1124_7b_instruct": {
+      "name": "OLMo-2-7B",
+      "family": "OLMo",
+      "unrelated_claim_negatives": {
+        "n_evaluated": 50,
+        "mean_p_entail": 0.1111,
+        "median_p_entail": 0.0498,
+        "mean_p_contra": 0.154,
+        "mean_p_neutral": 0.7349,
+        "accept_count_tau_50": 2,
+        "accept_rate_tau_50": 4.0,
+        "accept_count_f1_52": 2,
+        "accept_rate_f1_52": 4.0,
+        "accept_count_prec_83": 1,
+        "accept_rate_prec_83": 2.0,
+        "accept_count_argmax": 2,
+        "accept_rate_argmax": 4.0,
+        "rejection_rate_tau_50": 96.0,
+        "predicted_class_distribution": {
+          "contradiction_pct": 14.0,
+          "neutral_pct": 82.0,
+          "entailment_full_pct": 4.0
+        }
+      },
+      "same_topic_opposite_stance_negatives": {
+        "n_evaluated": 50,
+        "mean_p_entail": 0.1729,
+        "median_p_entail": 0.0788,
+        "mean_p_contra": 0.1864,
+        "mean_p_neutral": 0.6407,
+        "accept_count_tau_50": 5,
+        "accept_rate_tau_50": 10.0,
+        "accept_count_f1_52": 5,
+        "accept_rate_f1_52": 10.0,
+        "accept_count_prec_83": 4,
+        "accept_rate_prec_83": 8.0,
+        "accept_count_argmax": 5,
+        "accept_rate_argmax": 10.0,
+        "rejection_rate_tau_50": 90.0,
+        "predicted_class_distribution": {
+          "contradiction_pct": 14.0,
+          "neutral_pct": 76.0,
+          "entailment_full_pct": 10.0
+        }
+      }
+    }
+  }
+}

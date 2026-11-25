@@ -1,0 +1,254 @@
+{
+  "experiment": "E3_Reasoning_Aware_Feature_Extraction",
+  "partitions": {
+    "train": {
+      "num_claims": 26,
+      "num_pairs": 104
+    },
+    "calibration": {
+      "num_claims": 16,
+      "num_pairs": 100
+    },
+    "test": {
+      "num_claims": 17,
+      "num_pairs": 88
+    }
+  },
+  "models": {
+    "M0_baseline": {
+      "name": "M0: Frozen Probe Baseline",
+      "features": [
+        "cosine_similarity",
+        "p_entail",
+        "p_neutral"
+      ],
+      "description": "Existing features (BGE cosine, p_entail, p_neutral)"
+    },
+    "M1_claim": {
+      "name": "M1: + Claim Similarity",
+      "features": [
+        "cosine_similarity",
+        "p_entail",
+        "p_neutral",
+        "claim_cosine"
+      ],
+      "description": "Existing features + extracted central claim cosine"
+    },
+    "M2_reasoning": {
+      "name": "M2: + Reasoning Similarity",
+      "features": [
+        "cosine_similarity",
+        "p_entail",
+        "p_neutral",
+        "reasoning_cosine"
+      ],
+      "description": "Existing features + extracted core reasoning cosine"
+    },
+    "M3_warrant": {
+      "name": "M3: + Warrant Similarity",
+      "features": [
+        "cosine_similarity",
+        "p_entail",
+        "p_neutral",
+        "warrant_cosine"
+      ],
+      "description": "Existing features + extracted underlying warrant cosine"
+    },
+    "M4_all_three": {
+      "name": "M4: + All Three Similarities",
+      "features": [
+        "cosine_similarity",
+        "p_entail",
+        "p_neutral",
+        "claim_cosine",
+        "reasoning_cosine",
+        "warrant_cosine"
+      ],
+      "description": "Existing features + claim + reasoning + warrant cosines"
+    }
+  },
+  "calibrated_thresholds": {
+    "M0_baseline": 0.2,
+    "M1_claim": 0.23,
+    "M2_reasoning": 0.31,
+    "M3_warrant": 0.19,
+    "M4_all_three": 0.11
+  },
+  "held_out_test_summary": [
+    {
+      "Model": "M0_baseline",
+      "Description": "Existing features (BGE cosine, p_entail, p_neutral)",
+      "Threshold": 0.2,
+      "TP": 23,
+      "FP_Total": 19,
+      "FP_C1": 17,
+      "FP_C0a": 1,
+      "FP_C0b": 1,
+      "FN": 1,
+      "Recall_C2": 0.9583,
+      "Recall_Wilson_CI": "[0.7976, 0.9926]",
+      "Recall_Clustered_CI": "[0.8918, 1.0000]",
+      "Precision_C2": 0.5476,
+      "Precision_Wilson_CI": "[0.3995, 0.6878]",
+      "Precision_Clustered_CI": "[0.3721, 0.7500]",
+      "F1_C2": 0.697,
+      "F1_Clustered_CI": "[0.5405, 0.8315]",
+      "Rejection_C1": 0.4138,
+      "Rej_C1_Clustered_CI": "[0.2105, 0.6667]",
+      "Rejection_C0a": 0.9615,
+      "Rejection_C0b": 0.8889
+    },
+    {
+      "Model": "M1_claim",
+      "Description": "Existing features + extracted central claim cosine",
+      "Threshold": 0.23,
+      "TP": 21,
+      "FP_Total": 16,
+      "FP_C1": 15,
+      "FP_C0a": 0,
+      "FP_C0b": 1,
+      "FN": 3,
+      "Recall_C2": 0.875,
+      "Recall_Wilson_CI": "[0.6900, 0.9566]",
+      "Recall_Clustered_CI": "[0.7308, 1.0000]",
+      "Precision_C2": 0.5676,
+      "Precision_Wilson_CI": "[0.4091, 0.7133]",
+      "Precision_Clustered_CI": "[0.3830, 0.7879]",
+      "F1_C2": 0.6885,
+      "F1_Clustered_CI": "[0.5205, 0.8364]",
+      "Rejection_C1": 0.4828,
+      "Rej_C1_Clustered_CI": "[0.2727, 0.7144]",
+      "Rejection_C0a": 1.0,
+      "Rejection_C0b": 0.8889
+    },
+    {
+      "Model": "M2_reasoning",
+      "Description": "Existing features + extracted core reasoning cosine",
+      "Threshold": 0.31,
+      "TP": 18,
+      "FP_Total": 11,
+      "FP_C1": 10,
+      "FP_C0a": 0,
+      "FP_C0b": 1,
+      "FN": 6,
+      "Recall_C2": 0.75,
+      "Recall_Wilson_CI": "[0.5510, 0.8800]",
+      "Recall_Clustered_CI": "[0.5416, 0.9167]",
+      "Precision_C2": 0.6207,
+      "Precision_Wilson_CI": "[0.4400, 0.7731]",
+      "Precision_Clustered_CI": "[0.4399, 0.8183]",
+      "F1_C2": 0.6792,
+      "F1_Clustered_CI": "[0.5143, 0.8001]",
+      "Rejection_C1": 0.6552,
+      "Rej_C1_Clustered_CI": "[0.4848, 0.8333]",
+      "Rejection_C0a": 1.0,
+      "Rejection_C0b": 0.8889
+    },
+    {
+      "Model": "M3_warrant",
+      "Description": "Existing features + extracted underlying warrant cosine",
+      "Threshold": 0.19,
+      "TP": 22,
+      "FP_Total": 18,
+      "FP_C1": 17,
+      "FP_C0a": 0,
+      "FP_C0b": 1,
+      "FN": 2,
+      "Recall_C2": 0.9167,
+      "Recall_Wilson_CI": "[0.7415, 0.9768]",
+      "Recall_Clustered_CI": "[0.7836, 1.0000]",
+      "Precision_C2": 0.55,
+      "Precision_Wilson_CI": "[0.3983, 0.6929]",
+      "Precision_Clustered_CI": "[0.3863, 0.7500]",
+      "F1_C2": 0.6875,
+      "F1_Clustered_CI": "[0.5490, 0.8148]",
+      "Rejection_C1": 0.4138,
+      "Rej_C1_Clustered_CI": "[0.2105, 0.6667]",
+      "Rejection_C0a": 1.0,
+      "Rejection_C0b": 0.8889
+    },
+    {
+      "Model": "M4_all_three",
+      "Description": "Existing features + claim + reasoning + warrant cosines",
+      "Threshold": 0.11,
+      "TP": 23,
+      "FP_Total": 20,
+      "FP_C1": 18,
+      "FP_C0a": 1,
+      "FP_C0b": 1,
+      "FN": 1,
+      "Recall_C2": 0.9583,
+      "Recall_Wilson_CI": "[0.7976, 0.9926]",
+      "Recall_Clustered_CI": "[0.8261, 1.0000]",
+      "Precision_C2": 0.5349,
+      "Precision_Wilson_CI": "[0.3892, 0.6749]",
+      "Precision_Clustered_CI": "[0.3594, 0.7170]",
+      "F1_C2": 0.6866,
+      "F1_Clustered_CI": "[0.5185, 0.8197]",
+      "Rejection_C1": 0.3793,
+      "Rej_C1_Clustered_CI": "[0.1579, 0.6207]",
+      "Rejection_C0a": 0.9615,
+      "Rejection_C0b": 0.8889
+    }
+  ],
+  "paired_bootstrap_tests_vs_m0": [
+    {
+      "Comparison": "M1_claim vs M0",
+      "Delta_F1_Mean": -0.0068,
+      "Delta_F1_95_CI": "[-0.0743, +0.0802]",
+      "p_value_F1": 0.815,
+      "Delta_Recall_Mean": -0.0836,
+      "Delta_Recall_95_CI": "[-0.1892, +0.0000]",
+      "Delta_Precision_Mean": 0.0221,
+      "Delta_Precision_95_CI": "[-0.0382, +0.1136]",
+      "Delta_C1_Rej_Mean": 0.0746,
+      "Delta_C1_Rej_95_CI": "[+0.0000, +0.2105]",
+      "p_value_C1_Rej": 0.224
+    },
+    {
+      "Comparison": "M2_reasoning vs M0",
+      "Delta_F1_Mean": -0.0234,
+      "Delta_F1_95_CI": "[-0.1356, +0.0754]",
+      "p_value_F1": 0.664,
+      "Delta_Recall_Mean": -0.2196,
+      "Delta_Recall_95_CI": "[-0.4349, -0.0714]",
+      "Delta_Precision_Mean": 0.0718,
+      "Delta_Precision_95_CI": "[+0.0000, +0.1681]",
+      "Delta_C1_Rej_Mean": 0.2502,
+      "Delta_C1_Rej_95_CI": "[+0.1000, +0.4445]",
+      "p_value_C1_Rej": 0.003
+    },
+    {
+      "Comparison": "M3_warrant vs M0",
+      "Delta_F1_Mean": -0.0091,
+      "Delta_F1_95_CI": "[-0.0533, +0.0301]",
+      "p_value_F1": 0.829,
+      "Delta_Recall_Mean": -0.0393,
+      "Delta_Recall_95_CI": "[-0.1082, +0.0000]",
+      "Delta_Precision_Mean": 0.0029,
+      "Delta_Precision_95_CI": "[-0.0239, +0.0351]",
+      "Delta_C1_Rej_Mean": 0.0,
+      "Delta_C1_Rej_95_CI": "[+0.0000, +0.0000]",
+      "p_value_C1_Rej": 2.0
+    },
+    {
+      "Comparison": "M4_all_three vs M0",
+      "Delta_F1_Mean": -0.0142,
+      "Delta_F1_95_CI": "[-0.0942, +0.0506]",
+      "p_value_F1": 0.792,
+      "Delta_Recall_Mean": -0.0083,
+      "Delta_Recall_95_CI": "[-0.1579, +0.0952]",
+      "Delta_Precision_Mean": -0.0167,
+      "Delta_Precision_95_CI": "[-0.0866, +0.0364]",
+      "Delta_C1_Rej_Mean": -0.0376,
+      "Delta_C1_Rej_95_CI": "[-0.1429, +0.0000]",
+      "p_value_C1_Rej": 0.72
+    }
+  ],
+  "error_analysis_counts": {
+    "recovered_c2": 1,
+    "lost_c2": 1,
+    "newly_rejected_c1": 0,
+    "newly_accepted_c1": 1
+  }
+}

@@ -1,0 +1,30 @@
+# Research Plan Mapping
+
+This document maps every requirement from the Master Research Implementation Plan to the existing codebase, identifying its current validation status, required actions, and technical dependencies.
+
+---
+
+## 1. Mapping Matrix
+
+| Research Requirement | Existing Implementation | Relevant Files | Existing Results | Validation Status | Required Action | Dependencies |
+|---|---|---|---|---|---|---|
+| **1. Dataset: Perspectrum Preservation** | Flat CSV parser | `src/data_prep/parse_perspectrum.py` | `data/processed/claims.csv`, `data/processed/perspectives.csv` | **E** (Requires Correction) | Re-parse raw JSON to preserve Equivalence Cluster IDs, evidence mappings, and claim splits. | `data/raw/perspectrum/` |
+| **2. Dataset: IBM ArgQ-Rank-30k** | HuggingFace downloader & quality filter | `src/data_prep/parse_ibm_debater.py` | None locally | **C** (Partially Implemented) | Ingest HuggingFace dataset, cache raw data, preserve argument IDs, WA and MACE-P scores. | HuggingFace `datasets` |
+| **3. Dataset: Kialo Debate Corpus** | Flattener with alternating fake stance | `src/data_prep/parse_kialo.py` | None locally | **E** (Critical Scientific Flaw) | Ingest full discussion tree, preserve parent-child relations, preserve authentic support/attack stance, separate root vs. child. | HuggingFace / Kialo raw data |
+| **4. Stance Classification vs. Perspective Equivalence** | Conflated DeBERTa NLI cross-encoder | `src/analysis/nli_stance_classifier.py`, `src/training/prepare_multidataset_nli_data.py` | `models/argument_nli_deberta_v3/` | **E** (Critical Scientific Flaw) | Decouple stance detection (Premise=Argument, Hypothesis=Claim) from perspective equivalence (Premise=Perspective A, Hypothesis=Perspective B). | Standalone NLI / True Equivalence pairs |
+| **5. Perspective Generation Baseline (P1)** | Dynamic aspect prompt with 8 aspects | `src/generation/generate_llama.py`, `configs/config.yaml` | `data/llm_outputs/*/processed_generations.csv` | **C** (Partially Implemented) | Freeze versioned 5-aspect baseline prompt (Economic, Moral, Legal, Practical, Social) with cumulative history. | None |
+| **6. Improved Generation: Explicit Reasoning Criteria (P2)** | None | Missing | None | **D** (Missing) | Implement prompt P2 requiring explicit underlying reasoning criteria, semantic novelty, cumulative history, and structured abstention. | P1 baseline |
+| **7. Controlled Prompt Ablation (P1, P2, P3, P4)** | None | Missing | None | **D** (Missing) | Implement 4-condition matrix (Aspect $\times$ History $\times$ Criteria) on controlled claim subset with fixed budget $K=5$. | P1, P2 definitions |
+| **8. Pair Annotation & Split Calibration** | 300-pair diagnostic set | `data/calibration/hard_calibration_pairs.csv` | `results/calibration/*.json` | **C** (Partially Implemented) | Expand diagnostic set to 600–900 pairs with 3 classes (Equivalent, Related, Different), with claim-level splits (train/cal/test). | Perspectrum, IBM, Kialo raw pools |
+| **9. Dense Retrieval Calibration (Stage 1)** | F1 threshold sweep | `src/analysis/threshold_calibration.py` | `results/calibration/universal_calibration_summary.json` | **B** (Scientifically Incomplete) | Calibrate $\tau^* = \max \tau \text{ s.t. CandidateRecall}(\tau) \ge 0.98$ across BGE-large, BGE-base, MPNet, Nomic. | Expanded Calibration Pairs |
+| **10. Perspective Equivalence Matcher (Stage 2)** | Stance-trained DeBERTa | `src/analysis/evaluate_finetuned_two_stage.py` | `results/calibration/two_stage_calibration_report.json` | **E** (Requires Replacement) | Implement dedicated perspective equivalence classifier evaluated under precision $\ge 0.90$. | Validated Equivalence Pairs |
+| **11. Graph Matching & Cluster Coverage** | Greedy max similarity | `src/analysis/coverage_score.py` | `results/*/metrics/per_claim_coverage.csv` | **E** (Requires Correction) | Implement Maximum Bipartite Matching on candidate edges; measure cluster-level reference coverage. | Scipy linear_sum_assignment / networkx |
+| **12. Tri-Dataset Completion** | HPC runner | `run_missing_generations.py`, `run_tri_dataset_evaluation.py` | Table outputs in `results/` | **C** (Partially Implemented) | Complete generations for IBM Debater and Kialo; run independent evaluation per dataset. | Dataset adapters |
+| **13. Qwen2.5 Scaling Experiment** | Inverted-U report on 0.5B–32B | `results/two_stage_cross_model_comparison.csv` | `table2_scaling_paradox.csv` | **C** (Requires Re-Evaluation) | Audit parse rates and candidate counts; re-evaluate using bipartite cluster matching; check 72B feasibility. | Validated Evaluator |
+| **14. OLMo2 Post-Training Ladder** | None | Missing | None | **D** (Missing) | Compare Base, SFT, DPO, Instruct checkpoints across 1B, 7B, 13B. | GPU compute / checkpoints |
+| **15. Teacher-Student Preservation** | None | Missing | None | **D** (Missing) | Compare Llama 3.1 70B teacher to 8B/1B/3B student perspective retention. | Llama 3.1/3.2 weights |
+| **16. Perspective Blind Spots** | Categorization into Always/Partial/Never | `src/analysis/analyze_perspective_blind_spots.py` | `results/paper_tables/table_perspective_blind_spots.csv` | **B** (Needs Re-Validation) | Recompute blind spots under calibrated bipartite coverage; analyze qualitative themes. | Corrected Coverage Metric |
+| **17. Controlled Sycophancy Experiment** | Stance gap labeled as sycophancy | `paper_draft.tex` | `results/paper_tables/table3_stance_bias.csv` | **E** (Methodologically Conflated) | Implement true 3-condition user framing (Neutral, User-Support, User-Undermine) to test stance shift. | Prompt templates |
+| **18. Statistical Analysis & Confidence Intervals** | Point estimates | `src/analysis/summarize_results.py` | Summary CSVs | **C** (Incomplete) | Add claim-level bootstrap confidence intervals, paired tests, multiple-comparison corrections. | Corrected Metrics |
+| **19. Manuscript Revision** | Preliminary draft | `paper_draft.tex`, `paper_draft.md` | Draft documents | **B** (Needs Updating) | Update methodology, figures, and tables with traced, reproducible numbers. | All prior phases |
+

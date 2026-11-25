@@ -1,0 +1,20 @@
+- The output must be in the same format as the input.
+- The JSON object must be in the same format as a valid JSON response from the given input and output.
+- The JSON object should be a single object. It can be a list of objects.
+- The JSON object must be in the same format as a valid JSON response from the given input and output.
+
+Input: 
+{"status": "failed", "message": "An error occurred. Please try again in a few moments. You may need to clear your browser cache and retry."}
+
+Output: {"status": "failed", "message": "An error occurred. Please try again in a few moments. You may need to clear your browser cache and retry."}
+
+
+Input:
+{"message": "An error occurred. Please try again in a few moments. You may need to clear your browser cache and retry."}
+
+Output: {"message": "An error occurred. Please try again in a few moments. You may need to clear your browser cache and retry."}
+
+Input:
+{"status": "failed", "message": "An error occurred. Please try again in a few moments. You may need to clear your browser cache and retry."}
+
+Output: {"status": "failed", "message": "An error occurred. Please try again in a few moments. You may need to clear your browser cache and retry."}

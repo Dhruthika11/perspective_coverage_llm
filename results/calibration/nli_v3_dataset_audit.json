@@ -1,0 +1,25 @@
+{
+  "dataset_name": "Argument-NLI V3 (Coverage-Aware)",
+  "input_direction": "Premise = Generated Argument (elaborated), Hypothesis = Human Reference (concise proposition)",
+  "claim_splits": {
+    "train_claims": 622,
+    "val_claims": 109,
+    "test_claims": 39
+  },
+  "pair_counts": {
+    "train": 6000,
+    "val": 1188,
+    "test": 1118
+  },
+  "train_class_distribution": {
+    "entailment": 2700,
+    "neutral": 2700,
+    "contradiction": 600
+  },
+  "length_tiers_in_train_entailment": {
+    "short": 1100,
+    "medium": 211,
+    "long": 646,
+    "very_long": 743
+  }
+}

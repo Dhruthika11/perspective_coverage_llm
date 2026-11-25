@@ -1,0 +1,143 @@
+{
+  "description": "Threshold calibration fitted on expanded multi-model Stage 1 survivors (N=288) with strict claim disjointness.",
+  "stage1_tau": 0.75,
+  "min_precision_constraint": 0.9,
+  "optimal_theta_star": 0.7200000000000002,
+  "calibration_survivors_metrics": {
+    "n_survivors": 268,
+    "stats": {
+      "theta": 0.72,
+      "precision": 0.9104,
+      "recall": 0.2877,
+      "f1": 0.4373,
+      "tp": 61,
+      "fp": 6,
+      "fn": 151,
+      "tn": 50
+    },
+    "per_model_family_breakdown": {
+      "32b": {
+        "n_survivors": 28,
+        "positives": 28,
+        "negatives": 0,
+        "tp": 6,
+        "fp": 0,
+        "fn": 22,
+        "tn": 0,
+        "accepted": 6,
+        "precision": 1.0,
+        "recall": 0.2143
+      },
+      "3b": {
+        "n_survivors": 46,
+        "positives": 46,
+        "negatives": 0,
+        "tp": 4,
+        "fp": 0,
+        "fn": 42,
+        "tn": 0,
+        "accepted": 4,
+        "precision": 1.0,
+        "recall": 0.087
+      },
+      "7b": {
+        "n_survivors": 39,
+        "positives": 39,
+        "negatives": 0,
+        "tp": 5,
+        "fp": 0,
+        "fn": 34,
+        "tn": 0,
+        "accepted": 5,
+        "precision": 1.0,
+        "recall": 0.1282
+      },
+      "gemma-9b": {
+        "n_survivors": 46,
+        "positives": 46,
+        "negatives": 0,
+        "tp": 8,
+        "fp": 0,
+        "fn": 38,
+        "tn": 0,
+        "accepted": 8,
+        "precision": 1.0,
+        "recall": 0.1739
+      },
+      "hard_multimodel": {
+        "n_survivors": 11,
+        "positives": 0,
+        "negatives": 11,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "tn": 11,
+        "accepted": 0,
+        "precision": 1.0,
+        "recall": 0.0
+      },
+      "human_perspectrum_cluster": {
+        "n_survivors": 43,
+        "positives": 0,
+        "negatives": 43,
+        "tp": 0,
+        "fp": 6,
+        "fn": 0,
+        "tn": 37,
+        "accepted": 6,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "tri_perspectrum_qwen": {
+        "n_survivors": 55,
+        "positives": 53,
+        "negatives": 2,
+        "tp": 38,
+        "fp": 0,
+        "fn": 15,
+        "tn": 2,
+        "accepted": 38,
+        "precision": 1.0,
+        "recall": 0.717
+      }
+    }
+  },
+  "held_out_test_metrics": {
+    "n_survivors": 66,
+    "total_test_pairs": 147,
+    "stage1_dropped_positives": 1,
+    "tp": 35,
+    "fp": 0,
+    "fn_conditional": 24,
+    "fn_end_to_end": 25,
+    "precision": 1.0,
+    "precision_95_ci": [
+      0.9011,
+      1.0
+    ],
+    "recall_conditional_stage2": 0.5932,
+    "recall_conditional_95_ci": [
+      0.4659,
+      0.7091
+    ],
+    "recall_end_to_end": 0.5833,
+    "recall_end_to_end_95_ci": [
+      0.4573,
+      0.6994
+    ],
+    "f1_conditional": 0.7447,
+    "f1_end_to_end": 0.7368,
+    "ece": 0.4063,
+    "brier_score": 0.3498,
+    "opposite_stance_rejection_among_survivors": {
+      "total_surviving_opposites": 7,
+      "leaks": 0,
+      "rejection_rate": 1.0
+    },
+    "same_stance_diff_reasoning_rejection_among_survivors": {
+      "total_surviving": 0,
+      "leaks": 0,
+      "rejection_rate": 1.0
+    }
+  }
+}

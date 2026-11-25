@@ -1,0 +1,342 @@
+{
+  "unified_100_human_audit": {
+    "class_summary": {
+      "class_2": {
+        "n": 44,
+        "m0_accepted": 38,
+        "m0_accept_rate": 0.863636,
+        "m0_mean_score": 0.430601,
+        "m_soft_accepted": 37,
+        "m_soft_accept_rate": 0.840909,
+        "m_soft_mean_score": 0.423135,
+        "mean_reasoning_cosine": 0.690482,
+        "penalized_pairs": 11,
+        "penalized_rate": 0.25,
+        "mean_score_delta": -0.007465
+      },
+      "class_1": {
+        "n": 26,
+        "m0_accepted": 6,
+        "m0_accept_rate": 0.230769,
+        "m0_mean_score": 0.151715,
+        "m_soft_accepted": 6,
+        "m_soft_accept_rate": 0.230769,
+        "m_soft_mean_score": 0.140978,
+        "mean_reasoning_cosine": 0.630931,
+        "penalized_pairs": 11,
+        "penalized_rate": 0.423077,
+        "mean_score_delta": -0.010738
+      },
+      "class_0a": {
+        "n": 18,
+        "m0_accepted": 1,
+        "m0_accept_rate": 0.055556,
+        "m0_mean_score": 0.037722,
+        "m_soft_accepted": 1,
+        "m_soft_accept_rate": 0.055556,
+        "m_soft_mean_score": 0.031673,
+        "mean_reasoning_cosine": 0.602994,
+        "penalized_pairs": 3,
+        "penalized_rate": 0.166667,
+        "mean_score_delta": -0.006049
+      },
+      "class_0b": {
+        "n": 12,
+        "m0_accepted": 0,
+        "m0_accept_rate": 0.0,
+        "m0_mean_score": 0.044218,
+        "m_soft_accepted": 0,
+        "m_soft_accept_rate": 0.0,
+        "m_soft_mean_score": 0.041378,
+        "mean_reasoning_cosine": 0.528608,
+        "penalized_pairs": 3,
+        "penalized_rate": 0.25,
+        "mean_score_delta": -0.00284
+      }
+    },
+    "specially_noted_hard_pairs": [
+      {
+        "pair_id": 1442,
+        "claim": "Music that glorifies violence against women should be banned",
+        "gold": "Music depicting violence against women encourages men (and women) not to respect women.",
+        "generated": "Music that glorifies violence against women should be banned to prevent potential real-life imitators By allowing music that glorifies violence against women to be played, artists are enabling a culture that normalizes and potentially inspires violent behavior, which can lead to real-life harm to women.",
+        "user_label": "class_1",
+        "user_notes": "User audit: class1 (perception vs real violence)",
+        "reasoning_cosine": 0.7828,
+        "m0_prob": 0.2045356611658886,
+        "m0_decision": "ACCEPT",
+        "m_soft_score": 0.2045356611658886,
+        "m_soft_decision": "ACCEPT",
+        "score_delta": 0.0
+      },
+      {
+        "pair_id": 180,
+        "claim": "Minors Should Be Able to Obtain Abortions Without Parental Consent",
+        "gold": "If teens can access contraceptives without parental consent, they should be able to make the same decision about an abortion on their own",
+        "generated": "Minors should be able to obtain abortions without parental consent to ensure they can access timely and confidential reproductive healthcare. From a social and demographic perspective, denying minors access to abortion without parental consent can disproportionately affect marginalized groups, such as low-income communities and ethnic minorities, who may already face significant barriers to healthcare access.",
+        "user_label": "class_1",
+        "user_notes": "User audit: class1 (contraceptive parity vs access)",
+        "reasoning_cosine": 0.6787,
+        "m0_prob": 0.4098166095866231,
+        "m0_decision": "ACCEPT",
+        "m_soft_score": 0.4098166095866231,
+        "m_soft_decision": "ACCEPT",
+        "score_delta": 0.0
+      },
+      {
+        "pair_id": 1238,
+        "claim": "People should become vegetarian",
+        "gold": "Complete nutrition and health benefits can be had with a vegetarian diet.",
+        "generated": "Choosing a vegetarian diet promotes ethical treatment of animals by reducing animal suffering and exploitation. Vegetarianism is an ethical choice that advocates for the prevention of animal suffering by not consuming their flesh, thereby reducing the demand for animal farming and encouraging more humane treatment of animals.",
+        "user_label": "class_1",
+        "user_notes": "User audit: reject class2 (class1 animal ethics vs health)",
+        "reasoning_cosine": 0.6843,
+        "m0_prob": 0.1740633135905716,
+        "m0_decision": "REJECT",
+        "m_soft_score": 0.1740633135905716,
+        "m_soft_decision": "REJECT",
+        "score_delta": 0.0
+      },
+      {
+        "pair_id": 484,
+        "claim": "Violent video games cause violent crime",
+        "gold": "Violent video games are seen as a risk factor for aggressive behavior, according to the American Psychological Association (APA)",
+        "generated": "Holding video game developers legally responsible for violent crimes committed by players creates a deterrent effect, encouraging responsible content creation. If developers face legal repercussions for their games contributing to violent acts, they will be incentivized to design and produce content that minimizes the risk of such outcomes.",
+        "user_label": "class_1",
+        "user_notes": "User audit: class1",
+        "reasoning_cosine": 0.6131,
+        "m0_prob": 0.0908985928601366,
+        "m0_decision": "REJECT",
+        "m_soft_score": 0.07613859286013658,
+        "m_soft_decision": "REJECT",
+        "score_delta": -0.014760000000000023
+      },
+      {
+        "pair_id": 1278,
+        "claim": "Social networking sites are good for our society",
+        "gold": "Law enforcement uses social media to catch and prosecute criminals.",
+        "generated": "Social networking sites promote democratic participation in the public sphere by enabling civic engagement and awareness-raising through online activism and awareness campaigns By facilitating the mobilization of collective action and civic engagement, social networking sites empower citizens to hold governments and institutions accountable, thereby strengthening democratic institutions and promoting societal values such as transparency, accountability, and social justice.",
+        "user_label": "class_1",
+        "user_notes": "User audit: class1",
+        "reasoning_cosine": 0.6162,
+        "m0_prob": 0.0827432757491212,
+        "m0_decision": "REJECT",
+        "m_soft_score": 0.06922327574912118,
+        "m_soft_decision": "REJECT",
+        "score_delta": -0.013520000000000018
+      },
+      {
+        "pair_id": 1262,
+        "claim": "We should support the creation of a Free Trade Area of the Americas",
+        "gold": "Free Trade Area of the Americas is a great threat to our environment",
+        "generated": "Supporting a Free Trade Area of the Americas may undermine the cultural heritage and diversity of regional nations The imposition of a single, unified regulatory framework could lead to cultural homogenization, eroding the unique characteristics of each nation and compromising regional identities.",
+        "user_label": "class_1",
+        "user_notes": "User audit: class1",
+        "reasoning_cosine": 0.6727,
+        "m0_prob": 0.1014748192863738,
+        "m0_decision": "REJECT",
+        "m_soft_score": 0.1014748192863738,
+        "m_soft_decision": "REJECT",
+        "score_delta": 0.0
+      },
+      {
+        "pair_id": 226,
+        "claim": "The United States should continue Its use of drone strikes abroad",
+        "gold": "Using drones can reduce the chance of pilots getting PTSD in operations.",
+        "generated": "Drone strikes can be a cost-effective tool for national security, minimizing financial burdens associated with traditional military interventions. Drone strikes require significantly less financial investment in personnel, equipment, and logistics compared to large-scale deployments. This allows the U.S. to allocate resources to other critical domestic and international priorities.",
+        "user_label": "class_1",
+        "user_notes": "User audit: class1",
+        "reasoning_cosine": 0.6467,
+        "m0_prob": 0.0535228066592705,
+        "m0_decision": "REJECT",
+        "m_soft_score": 0.05220280665927051,
+        "m_soft_decision": "REJECT",
+        "score_delta": -0.0013199999999999878
+      },
+      {
+        "pair_id": 1508,
+        "claim": "There is a need for developing tactical nuclear weapons",
+        "gold": "The way tactical nuclear weapons need to be deployed control of their use is devolved to field commanders, vastly increasing the probability that in the event of conflict they would be used.",
+        "generated": "Developing tactical nuclear weapons is too risky due to their potential for misuse and violation of international non-proliferation laws. The threat of misuse and the risk of violating international laws make the development of tactical nuclear weapons an unacceptable risk to global security.",
+        "user_label": "class_1",
+        "user_notes": "User audit: class1",
+        "reasoning_cosine": 0.6096,
+        "m0_prob": 0.0766975656029747,
+        "m0_decision": "REJECT",
+        "m_soft_score": 0.0605375656029747,
+        "m_soft_decision": "REJECT",
+        "score_delta": -0.016159999999999994
+      },
+      {
+        "pair_id": 639,
+        "claim": "The United States should ban assault weapons",
+        "gold": "A majority of adults with the inclusion of gun owners support common sense gun control including background checks, bans on assault weapons and high-capacity magazines.",
+        "generated": "Banning assault weapons would reduce mass shootings and gun violence By restricting access to high-capacity magazines and semi-automatic firearms, the US can minimize the lethality of mass shootings and create a safer environment for all, particularly in communities disproportionately affected by gun violence.",
+        "user_label": "class_1",
+        "user_notes": "User audit: class1",
+        "reasoning_cosine": 0.6514,
+        "m0_prob": 0.0691313252187111,
+        "m0_decision": "REJECT",
+        "m_soft_score": 0.0691313252187111,
+        "m_soft_decision": "REJECT",
+        "score_delta": 0.0
+      },
+      {
+        "pair_id": 293,
+        "claim": "Abolish the US Electoral College",
+        "gold": "The Electoral College gives too much power to \"swing states\" and allows the presidential election to be decided by a handful of states.",
+        "generated": "Abolishing the US Electoral College would ensure the integrity of the democratic process by directly aligning the president\u2019s election with the popular vote. Directly linking the election outcome to the popular vote would eliminate the potential for a candidate to win the presidency without securing a majority of votes, thereby enhancing democratic principles.",
+        "user_label": "class_1",
+        "user_notes": "User audit: class1",
+        "reasoning_cosine": 0.6457,
+        "m0_prob": 0.097212657949055,
+        "m0_decision": "REJECT",
+        "m_soft_score": 0.09549265794905501,
+        "m_soft_decision": "REJECT",
+        "score_delta": -0.0017199999999999854
+      }
+    ],
+    "flipped_pairs": [
+      {
+        "pair_id": 585,
+        "claim": "Children in developing countries should be sponsored",
+        "gold": "Tyke sponsorship realizes more prominent comprehension between individuals from various nations and societies.",
+        "generated": "Providing sponsorship to children in developing countries can stimulate economic growth through increased education and workforce productivity. By investing in education, sponsored children are more likely to secure better-paying jobs, contributing to a more substantial tax base and government revenue, ultimately fostering economic growth.",
+        "user_label": "class_2",
+        "user_notes": "User audit: class_2",
+        "reasoning_cosine": 0.5419,
+        "m0_prob": 0.2050941357290663,
+        "m_soft_score": 0.1618541357290663
+      }
+    ]
+  },
+  "frozen_341_human_benchmark": {
+    "triage_3way_splits": {
+      "class_2": {
+        "n": 15,
+        "m0_accepted": 14,
+        "m_soft_accepted": 14,
+        "penalized": 4,
+        "mean_reas_cos": 0.698373
+      },
+      "class_1": {
+        "n": 7,
+        "m0_accepted": 4,
+        "m_soft_accepted": 4,
+        "penalized": 4,
+        "mean_reas_cos": 0.600243
+      },
+      "class_0a": {
+        "n": 7,
+        "m0_accepted": 0,
+        "m_soft_accepted": 0,
+        "penalized": 6,
+        "mean_reas_cos": 0.567186
+      }
+    },
+    "class_1_nuance_by_partition": {
+      "train": {
+        "n": 53,
+        "m0_rejected": 15,
+        "m0_rejection_rate": 0.283019,
+        "m_soft_rejected": 15,
+        "m_soft_rejection_rate": 0.283019,
+        "net_recovered": 0,
+        "penalized": 24,
+        "mean_reas_cos": 0.657817
+      },
+      "calibration": {
+        "n": 45,
+        "m0_rejected": 21,
+        "m0_rejection_rate": 0.466667,
+        "m_soft_rejected": 22,
+        "m_soft_rejection_rate": 0.488889,
+        "net_recovered": 1,
+        "penalized": 25,
+        "mean_reas_cos": 0.628658
+      },
+      "test": {
+        "n": 29,
+        "m0_rejected": 12,
+        "m0_rejection_rate": 0.413793,
+        "m_soft_rejected": 14,
+        "m_soft_rejection_rate": 0.482759,
+        "net_recovered": 2,
+        "penalized": 14,
+        "mean_reas_cos": 0.645266
+      },
+      "overall": {
+        "n": 127,
+        "m0_rejected": 48,
+        "m0_rejection_rate": 0.377953,
+        "m_soft_rejected": 51,
+        "m_soft_rejection_rate": 0.401575,
+        "net_recovered": 3,
+        "penalized": 63,
+        "mean_reas_cos": 0.644619
+      }
+    },
+    "overturned_pairs": [
+      {
+        "pair_id": 343,
+        "partition": "test",
+        "true_label": "class_1",
+        "jury_consensus_type": "unanimous_3_of_3",
+        "claim": "Subsidize poor communities",
+        "gold": "Redistribution of wealth internal to a country is done most efficently through the use of subsidies.",
+        "generated": "Subsidizing poor communities fosters social equity by addressing the historical injustices that led to economic disparities. By providing financial assistance, we can help rectify the systemic inequalities that have been perpetuated through generations, thereby promoting a more just and fair society. This approach acknowledges the moral imperative to address the root causes of poverty and inequality.",
+        "reasoning_cosine": 0.5983,
+        "m0_prob": 0.21828831691848513,
+        "m0_decision": "ACCEPT",
+        "m_soft_score": 0.19760831691848513,
+        "m_soft_decision": "REJECT",
+        "human_rationale": "Human confirmed 3/3 unanimous consensus"
+      },
+      {
+        "pair_id": 628,
+        "partition": "calibration",
+        "true_label": "class_0a",
+        "jury_consensus_type": "majority_2_of_3",
+        "claim": "There is a need for developing tactical nuclear weapons",
+        "gold": "The way tactical nuclear weapons need to be deployed control of their use is devolved to field commanders, vastly increasing the probability that in the event of conflict they would be used.",
+        "generated": "Deterrence Economics: On the other hand, some may argue that the cost of developing tactical nuclear weapons is justified by their potential to deter conflicts, thereby saving lives and preventing larger-scale wars that would be economically catastrophic. In this view, the economic benefit of maintaining peace through a credible deterrence capability justifies the financial investment. However, this argument assumes that such weapons indeed contribute to stability and peace, which is not universally accepted.",
+        "reasoning_cosine": 0.5627,
+        "m0_prob": 0.22120619334152544,
+        "m0_decision": "ACCEPT",
+        "m_soft_score": 0.1862861933415254,
+        "m_soft_decision": "REJECT",
+        "human_rationale": "Human adjudicated: Gold opposes development citing field commander risk, generated defends pro-development deterrence economics (rebuttal/opposite stance)."
+      },
+      {
+        "pair_id": 802,
+        "partition": "calibration",
+        "true_label": "class_1",
+        "jury_consensus_type": "majority_2_of_3",
+        "claim": "Africans are worse off due to natural resources",
+        "gold": "Natural resources are of huge benefit for many reasons, one being the creation of work for the people.",
+        "generated": "Natural resources should not be blamed for African underdevelopment when external exploitation and historical colonial legacies are significant factors. The argument focuses on the role of external exploitation and historical colonialism in exacerbating African underdevelopment, rather than the continent's natural resource endowment being the primary cause.",
+        "reasoning_cosine": 0.5797,
+        "m0_prob": 0.2232850135971937,
+        "m0_decision": "ACCEPT",
+        "m_soft_score": 0.19516501359719368,
+        "m_soft_decision": "REJECT",
+        "human_rationale": "Human adjudicated 3-way split as class_1"
+      },
+      {
+        "pair_id": 875,
+        "partition": "test",
+        "true_label": "class_1",
+        "jury_consensus_type": "unanimous_3_of_3",
+        "claim": "Open primaries are the most effective method of selecting candidates for elections",
+        "gold": "Moderate, non-partisan politics are promoted by open primaries.",
+        "generated": "Open primaries facilitate greater inclusivity by allowing a diverse range of voters to participate in the candidate selection process. This inclusion fosters a more representative candidate pool that better reflects the demographic diversity of the electorate.",
+        "reasoning_cosine": 0.6111,
+        "m0_prob": 0.20882366572853034,
+        "m0_decision": "ACCEPT",
+        "m_soft_score": 0.19326366572853032,
+        "m_soft_decision": "REJECT",
+        "human_rationale": "Unanimous 3-judge consensus verified as accurate semantic relationship for class_1."
+      }
+    ]
+  }
+}

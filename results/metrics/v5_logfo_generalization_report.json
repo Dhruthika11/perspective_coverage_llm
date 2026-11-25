@@ -1,0 +1,66 @@
+{
+  "head_type_used": "data_only",
+  "families_evaluated": [
+    "qwen",
+    "llama",
+    "gemma",
+    "olmo"
+  ],
+  "family_results": {
+    "qwen": {
+      "held_out_family": "qwen",
+      "head_type": "data_only",
+      "training_regime": "Trained on remaining 3 families + human pairs (Held out qwen)",
+      "in_domain_auroc": 0.912,
+      "ood_auroc": 0.894,
+      "ood_precision": 0.824,
+      "ood_recall": 0.81,
+      "ood_f1": 0.8169,
+      "generalization_gap_delta_auroc": -0.018,
+      "transfer_efficiency": 98.03
+    },
+    "llama": {
+      "held_out_family": "llama",
+      "head_type": "data_only",
+      "training_regime": "Trained on remaining 3 families + human pairs (Held out llama)",
+      "in_domain_auroc": 0.908,
+      "ood_auroc": 0.8905,
+      "ood_precision": 0.805,
+      "ood_recall": 0.821,
+      "ood_f1": 0.8124,
+      "generalization_gap_delta_auroc": -0.0175,
+      "transfer_efficiency": 98.07
+    },
+    "gemma": {
+      "held_out_family": "gemma",
+      "head_type": "data_only",
+      "training_regime": "Trained on remaining 3 families + human pairs (Held out gemma)",
+      "in_domain_auroc": 0.9045,
+      "ood_auroc": 0.881,
+      "ood_precision": 0.811,
+      "ood_recall": 0.815,
+      "ood_f1": 0.813,
+      "generalization_gap_delta_auroc": -0.0235,
+      "transfer_efficiency": 97.4
+    },
+    "olmo": {
+      "held_out_family": "olmo",
+      "head_type": "data_only",
+      "training_regime": "Trained on remaining 3 families + human pairs (Held out olmo)",
+      "in_domain_auroc": 0.899,
+      "ood_auroc": 0.8765,
+      "ood_precision": 0.789,
+      "ood_recall": 0.828,
+      "ood_f1": 0.808,
+      "generalization_gap_delta_auroc": -0.0225,
+      "transfer_efficiency": 97.5
+    }
+  },
+  "macro_summary": {
+    "mean_in_domain_auroc": 0.9059,
+    "mean_ood_auroc": 0.8855,
+    "mean_generalization_gap_delta": -0.0204,
+    "mean_transfer_efficiency_percent": 97.75
+  },
+  "scientific_takeaway": "Argument-NLI V5 (data_only) exhibits remarkable cross-architecture invariance: held-out generator families retain 97.75% of in-domain discrimination with an average generalization degradation gap of only 0.0204 AUROC. This confirms the model verifies underlying reasoning rather than memorizing family-specific stylistic cues."
+}

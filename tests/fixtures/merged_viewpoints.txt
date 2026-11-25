@@ -1,0 +1,25 @@
+- [undermine] Facebook is a tool for people to build and maintain social relations and it is very useful for the adults who already have a large number of friends. However, it is...
+
+Example Input: You are analyzing the controversial claim: "The government should provide universal basic income."
+Task: Provide one single, distinct, and focused argument about this claim strictly from a Political perspective. Do not provide a balanced overview. Take one clear, atomic stance (either SUPPORT or UNDERMINE). CRITICAL: You must not repeat arguments already made previously. Prior arguments:
+- Basic income provides people with the financial security to take risks such as starting a business or learning a new skill.
+- Universal basic income would be a more efficient system, as it would eliminate the need to create and fund large bureaucracies to implement specific welfare policies.
+- Basic income would be an effective way to help the poor without the stigma of traditional welfare programs.
+- The government should provide a basic income to ensure that everyone has enough resources to live a decent life.
+- [support] A universal basic income could increase the productivity of the economy by encouraging people to work.
+- [support] A universal basic income would reduce crime by helping to reduce poverty and inequality.
+- [support] Basic income would be a good way to reduce income inequality.
+- Basic income would be a good way to prevent poverty.
+- [support] Universal basic income would eliminate the need for large bureaucracies to administer welfare programs.
+- [support] Basic income would reduce the amount of government spending on welfare.
+- [support] The government should provide a universal basic income in order to improve the health of the population.
+- [support] Basic income would increase the bargaining power of workers, which would lead to better working conditions.
+- [support] A universal basic income would help to improve the education of the population.
+- [support] A universal basic income would improve the mental health of the population.
+- [support] A universal basic income would be a good way to reduce income inequality.
+- [support] A universal basic income would reduce poverty.
+- [support] Universal basic income would improve the physical health of the population.
+- [support] Basic income would reduce the need for people to work long hours, which would improve their health.
+- [support] Basic income would increase the bargaining power of workers, which would lead to better working conditions.
+- [support] Universal basic income would reduce poverty.
+- [support] Basic income would reduce the need for people to work long hours,

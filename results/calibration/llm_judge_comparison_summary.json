@@ -1,0 +1,42 @@
+[
+  {
+    "Method": "Single-Stage Cosine (tau=0.75)",
+    "Precision": 0.8554,
+    "Recall": 0.9467,
+    "F1": 0.8987,
+    "Opp_Leaks": 24,
+    "Leak_Rate": "40.0%"
+  },
+  {
+    "Method": "Single-Stage Cosine (tau=0.80)",
+    "Precision": 0.8624,
+    "Recall": 0.6267,
+    "F1": 0.7259,
+    "Opp_Leaks": 15,
+    "Leak_Rate": "25.0%"
+  },
+  {
+    "Method": "Two-Stage (tau=0.75 + Real DeBERTa NLI)",
+    "Precision": 0.8868,
+    "Recall": 0.6267,
+    "F1": 0.7344,
+    "Opp_Leaks": 12,
+    "Leak_Rate": "20.0%"
+  },
+  {
+    "Method": "Two-Stage (tau=0.75 + LLM-as-a-Judge)",
+    "Precision": 0.8333,
+    "Recall": 0.4333,
+    "F1": 0.5702,
+    "Opp_Leaks": 13,
+    "Leak_Rate": "21.7%"
+  },
+  {
+    "Method": "Two-Stage (tau=0.75 + ORACLE Upper Bound)",
+    "Precision": 1.0,
+    "Recall": 0.9467,
+    "F1": 0.9726,
+    "Opp_Leaks": 0,
+    "Leak_Rate": "0.0%"
+  }
+]

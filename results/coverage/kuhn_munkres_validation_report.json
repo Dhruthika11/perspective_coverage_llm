@@ -1,0 +1,107 @@
+{
+  "status": "VERIFIED_MATHEMATICALLY_AND_EMPIRICALLY",
+  "injectivity_passed": true,
+  "duplicate_inflation_test": [
+    {
+      "n_duplicate_viewpoints": 1,
+      "n_gold_clusters": 3,
+      "matched_clusters_recovered": 1,
+      "matched_cluster_indices": [
+        0
+      ],
+      "coverage_pct": 33.33,
+      "inflation_detected": false,
+      "passed": true
+    },
+    {
+      "n_duplicate_viewpoints": 2,
+      "n_gold_clusters": 3,
+      "matched_clusters_recovered": 1,
+      "matched_cluster_indices": [
+        0
+      ],
+      "coverage_pct": 33.33,
+      "inflation_detected": false,
+      "passed": true
+    },
+    {
+      "n_duplicate_viewpoints": 5,
+      "n_gold_clusters": 3,
+      "matched_clusters_recovered": 1,
+      "matched_cluster_indices": [
+        0
+      ],
+      "coverage_pct": 33.33,
+      "inflation_detected": false,
+      "passed": true
+    },
+    {
+      "n_duplicate_viewpoints": 10,
+      "n_gold_clusters": 3,
+      "matched_clusters_recovered": 1,
+      "matched_cluster_indices": [
+        0
+      ],
+      "coverage_pct": 33.33,
+      "inflation_detected": false,
+      "passed": true
+    },
+    {
+      "n_duplicate_viewpoints": 25,
+      "n_gold_clusters": 3,
+      "matched_clusters_recovered": 1,
+      "matched_cluster_indices": [
+        0
+      ],
+      "coverage_pct": 33.33,
+      "inflation_detected": false,
+      "passed": true
+    },
+    {
+      "n_duplicate_viewpoints": 50,
+      "n_gold_clusters": 3,
+      "matched_clusters_recovered": 1,
+      "matched_cluster_indices": [
+        0
+      ],
+      "coverage_pct": 33.33,
+      "inflation_detected": false,
+      "passed": true
+    },
+    {
+      "n_duplicate_viewpoints": 100,
+      "n_gold_clusters": 3,
+      "matched_clusters_recovered": 1,
+      "matched_cluster_indices": [
+        0
+      ],
+      "coverage_pct": 33.33,
+      "inflation_detected": false,
+      "passed": true
+    }
+  ],
+  "multi_cluster_test": {
+    "n_viewpoints": 10,
+    "n_gold_clusters": 4,
+    "matched_count": 2,
+    "matched_rows": [
+      0,
+      5
+    ],
+    "matched_cols": [
+      0,
+      1
+    ],
+    "passed": true
+  },
+  "configuration_audit": {
+    "stage_1_dense_retrieval_tau": 0.55,
+    "stage_2a_stance_filter": "Strict contradiction rejection (preserves UNKNOWN)",
+    "stage_2b_warrant_probe_cutoff_T_star": 0.2,
+    "matching_algorithm": "scipy.optimize.linear_sum_assignment (Kuhn-Munkres / Hungarian Algorithm)",
+    "cost_function": "argmax sum(w_ij) == linear_sum_assignment(-W)",
+    "injective_constraint": "Strictly 1 viewpoint <= 1 gold cluster, 1 gold cluster <= 1 viewpoint",
+    "duplicate_inflation_resistant": true,
+    "identical_across_all_34_models": true
+  }
+}

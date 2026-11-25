@@ -1,0 +1,42 @@
+{
+  "dataset_name": "balanced_multifamily_benchmark_v1",
+  "total_pairs": 1120,
+  "target_condition_met": true,
+  "statistics_by_family": {
+    "qwen": {
+      "total_pairs": 280,
+      "positives": 140,
+      "negatives": 140,
+      "mean_premise_words": 46.2,
+      "mean_hypothesis_words": 17.1,
+      "unique_claims": 140
+    },
+    "llama": {
+      "total_pairs": 280,
+      "positives": 140,
+      "negatives": 140,
+      "mean_premise_words": 59.7,
+      "mean_hypothesis_words": 21.4,
+      "unique_claims": 147
+    },
+    "gemma": {
+      "total_pairs": 280,
+      "positives": 140,
+      "negatives": 140,
+      "mean_premise_words": 45.8,
+      "mean_hypothesis_words": 15.4,
+      "unique_claims": 140
+    },
+    "olmo": {
+      "total_pairs": 280,
+      "positives": 140,
+      "negatives": 140,
+      "mean_premise_words": 52.2,
+      "mean_hypothesis_words": 19.8,
+      "unique_claims": 141
+    }
+  },
+  "contamination_check": {
+    "locked_test_claims_overlap": 0
+  }
+}

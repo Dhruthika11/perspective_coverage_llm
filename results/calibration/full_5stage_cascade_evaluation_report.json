@@ -1,0 +1,170 @@
+{
+  "pipeline_architecture": [
+    "Stage 1: Dense Retrieval Filter (cos >= 0.55)",
+    "Stage 2a: Stance Concordance Filter (Reject Explicit Contradiction: Support vs Undermine)",
+    "Stage 2b: Calibrated Warrant Probe (Probe Score >= 0.20)",
+    "Conditional UNKNOWN Stance Safeguard (If Stance == UNKNOWN, Reject if P(entail) < 0.10 AND P(neutral) > 0.90)",
+    "Stage 2c: Bidirectional Entailment Check (Reject if min(E_forward, E_backward) < 0.05)"
+  ],
+  "test_partition_metrics_n88": {
+    "stage1_retrieval": {
+      "c2_recall": 1.0,
+      "c1_rejection": 0.069,
+      "c0a_rejection": 0.1154,
+      "precision": 0.32,
+      "f1": 0.4848
+    },
+    "stage2a_stance": {
+      "c2_recall": 1.0,
+      "c1_rejection": 0.069,
+      "c0a_rejection": 0.7692,
+      "precision": 0.4138,
+      "f1": 0.5854
+    },
+    "stage2b_probe": {
+      "c2_recall": 0.9583,
+      "c1_rejection": 0.4138,
+      "c0a_rejection": 0.9615,
+      "precision": 0.5476,
+      "f1": 0.697
+    },
+    "unknown_safeguard": {
+      "c2_recall": 0.9583,
+      "c1_rejection": 0.4138,
+      "c0a_rejection": 0.9615,
+      "precision": 0.5476,
+      "f1": 0.697
+    },
+    "stage2c_bidirectional": {
+      "c2_recall": 0.625,
+      "c1_rejection": 0.4828,
+      "c0a_rejection": 1.0,
+      "precision": 0.4839,
+      "f1": 0.5455
+    }
+  },
+  "calibration_partition_metrics_n100": {
+    "stage1_retrieval": {
+      "c2_recall": 1.0,
+      "c1_rejection": 0.0444,
+      "c0a_rejection": 0.0476,
+      "precision": 0.2759,
+      "f1": 0.4324
+    },
+    "stage2a_stance": {
+      "c2_recall": 1.0,
+      "c1_rejection": 0.0889,
+      "c0a_rejection": 0.8571,
+      "precision": 0.3529,
+      "f1": 0.5217
+    },
+    "stage2b_probe": {
+      "c2_recall": 0.9583,
+      "c1_rejection": 0.4667,
+      "c0a_rejection": 0.8571,
+      "precision": 0.46,
+      "f1": 0.6216
+    },
+    "unknown_safeguard": {
+      "c2_recall": 0.875,
+      "c1_rejection": 0.4667,
+      "c0a_rejection": 0.8571,
+      "precision": 0.4375,
+      "f1": 0.5833
+    },
+    "stage2c_bidirectional": {
+      "c2_recall": 0.625,
+      "c1_rejection": 0.6,
+      "c0a_rejection": 0.9048,
+      "precision": 0.4286,
+      "f1": 0.5085
+    }
+  },
+  "audited_production_sample_metrics_n50": {
+    "stage2b_probe": {
+      "c2_recall": 0.8095,
+      "c1_rejection": 0.8,
+      "c0a_rejection": 0.9167,
+      "precision": 0.85,
+      "f1": 0.8293,
+      "tp": 17,
+      "fp": 3
+    },
+    "unknown_safeguard": {
+      "c2_recall": 0.8095,
+      "c1_rejection": 0.8,
+      "c0a_rejection": 1.0,
+      "precision": 0.8947,
+      "f1": 0.85,
+      "tp": 17,
+      "fp": 2
+    },
+    "stage2c_bidirectional": {
+      "c2_recall": 0.619,
+      "c1_rejection": 1.0,
+      "c0a_rejection": 1.0,
+      "precision": 1.0,
+      "f1": 0.7647,
+      "tp": 13,
+      "fp": 0
+    }
+  },
+  "audited_pairs_pruned_by_stage2c": [
+    {
+      "pair_id": 1657,
+      "human_label": "class_2",
+      "fwd_entail": 0.023,
+      "bwd_entail": 0.6259,
+      "min_entail": 0.023,
+      "type": "False Negative"
+    },
+    {
+      "pair_id": 808,
+      "human_label": "class_2",
+      "fwd_entail": 0.9694,
+      "bwd_entail": 0.0059,
+      "min_entail": 0.0059,
+      "type": "False Negative"
+    },
+    {
+      "pair_id": 1442,
+      "human_label": "class_1",
+      "fwd_entail": 0.0039,
+      "bwd_entail": 0.9365,
+      "min_entail": 0.0039,
+      "type": "True Rejection (FP Pruned)"
+    },
+    {
+      "pair_id": 714,
+      "human_label": "class_2",
+      "fwd_entail": 0.9731,
+      "bwd_entail": 0.0425,
+      "min_entail": 0.0425,
+      "type": "False Negative"
+    },
+    {
+      "pair_id": 180,
+      "human_label": "class_1",
+      "fwd_entail": 0.1826,
+      "bwd_entail": 0.0011,
+      "min_entail": 0.0011,
+      "type": "True Rejection (FP Pruned)"
+    },
+    {
+      "pair_id": 96,
+      "human_label": "class_2",
+      "fwd_entail": 0.9864,
+      "bwd_entail": 0.0009,
+      "min_entail": 0.0009,
+      "type": "False Negative"
+    }
+  ],
+  "production_workload_yields_n250": {
+    "REJECT_STAGE2B_DIFFERENT_WARRANT": 70,
+    "REJECT_STAGE2A_STANCE": 56,
+    "ACCEPT_CLASS2_EQUIVALENT": 51,
+    "REJECT_STAGE1": 50,
+    "REJECT_STAGE2C_BIDIRECTIONAL": 18,
+    "REJECT_UNKNOWN_STANCE_SAFEGUARD": 5
+  }
+}

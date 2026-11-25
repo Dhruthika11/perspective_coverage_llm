@@ -1,0 +1,5 @@
+length_tier,total,tp,fn,recall
+long,78,26,52,0.3333
+medium,21,3,18,0.1429
+short,2,0,2,0.0
+very_long,87,41,46,0.4713

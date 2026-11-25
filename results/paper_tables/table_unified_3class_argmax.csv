@@ -1,0 +1,4 @@
+Model,Accuracy,Macro_F1,Entailment_F1,Contra_F1,Neutral_F1,TP_argmax,FP_argmax,FN_argmax,TN_argmax
+Version 3 (Coverage-Aware),58.59,0.526,0.6418,0.3445,0.5917,293,80,247,498
+Forward Zero-Shot Baseline,56.35,0.499,0.5195,0.3493,0.6282,193,10,347,568
+Legacy Inverted Baseline,56.8,0.4984,0.5263,0.3383,0.6306,205,34,335,544

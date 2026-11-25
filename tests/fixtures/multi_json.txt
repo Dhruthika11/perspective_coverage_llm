@@ -1,0 +1,9 @@
+[EX A]: { "stance": "support", "perspective_summary": "Vaccination provides protection against illness and death", "core_reasoning": "Vaccination is an efficient way to prevent diseases, and it would be unethical to let people suffer from diseases that could have been prevented." }
+
+[EX Q]: CLAIM : We should ban the niqab in all public spaces
+Task: Provide one single, distinct, and focused argument about this (either SUPPORTING or UNDERMINING) this claim.
+[EX A]: { "stance": "support", "perspective": "Public safety and security", "core-reasoning": "The niqab conceals the identity of the wearer, creating a risk of impersonation." }
+
+[EX Q]: CLAIM : We should ban the use of child actors
+Task: Provide one single, distinct, and focused argument about this (either SUPPORTING or UNDERMINING) this claim.
+[EX A]: { "stance": "undermine", "perspective": "Human Rights", "core-reasoning": "Parents should be allowed to choose to put their children into acting if they think it will benefit the child" }

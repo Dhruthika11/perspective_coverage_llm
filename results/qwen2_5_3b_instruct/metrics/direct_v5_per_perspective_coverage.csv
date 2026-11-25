@@ -1,0 +1,164 @@
+claim_id,perspective_id,cluster_id,stance,max_v5_probability,covered_f1,covered_prec90,best_supporting_argument
+1,3,2214,support,0.7579,True,False,"### Ethical Perspective:
+
+From an ethical standpoint, the use of child performers raises significant concerns about the welfare and protection of minors. The principle of inherent dignity and autonomy"
+1,20807,2214,support,0.8564,True,True,"### Ethical Perspective:
+
+From an ethical standpoint, the use of child performers raises significant concerns about the welfare and protection of minors. The principle of inherent dignity and autonomy"
+1,20808,2214,support,0.8948,True,True,"### Practical Perspective:
+
+From a practical standpoint, banning the use of child performers would not only be difficult to enforce but could also lead to unintended consequences that outweigh any pot"
+1,20809,2214,support,0.9302,True,True,"### Legal Perspective:
+
+From a legal standpoint, the use of child performers should be regulated rather than banned to ensure the safety and protection of minors. International laws, such as the Conve"
+1,20810,2214,support,0.8402,True,True,"### Legal Perspective:
+
+From a legal standpoint, the use of child performers should be regulated rather than banned to ensure the safety and protection of minors. International laws, such as the Conve"
+1,9,2215,undermine,0.1992,False,False,"### Legal Perspective:
+
+From a legal standpoint, the use of child performers should be regulated rather than banned to ensure the safety and protection of minors. International laws, such as the Conve"
+1,20827,2215,undermine,0.3402,False,False,"### Ethical Perspective:
+
+From an ethical standpoint, the use of child performers raises significant concerns about the welfare and protection of minors. The principle of inherent dignity and autonomy"
+1,20828,2215,undermine,0.4966,False,False,"### Legal Perspective:
+
+From a legal standpoint, the use of child performers should be regulated rather than banned to ensure the safety and protection of minors. International laws, such as the Conve"
+1,20829,2215,undermine,0.1793,False,False,"### Legal Perspective:
+
+From a legal standpoint, the use of child performers should be regulated rather than banned to ensure the safety and protection of minors. International laws, such as the Conve"
+1,2,2216,support,0.9322,True,True,"### Legal Perspective:
+
+From a legal standpoint, the use of child performers should be regulated rather than banned to ensure the safety and protection of minors. International laws, such as the Conve"
+1,20803,2216,support,0.9475,True,True,"### Legal Perspective:
+
+From a legal standpoint, the use of child performers should be regulated rather than banned to ensure the safety and protection of minors. International laws, such as the Conve"
+1,20804,2216,support,0.0779,False,False,"### Legal Perspective:
+
+From a legal standpoint, the use of child performers should be regulated rather than banned to ensure the safety and protection of minors. International laws, such as the Conve"
+1,20805,2216,support,0.9394,True,True,"### Legal Perspective:
+
+From a legal standpoint, the use of child performers should be regulated rather than banned to ensure the safety and protection of minors. International laws, such as the Conve"
+1,20806,2216,support,0.9354,True,True,"### Practical Perspective:
+
+From a practical standpoint, banning the use of child performers would not only be difficult to enforce but could also lead to unintended consequences that outweigh any pot"
+1,1,2217,support,0.8634,True,True,"### Legal Perspective:
+
+From a legal standpoint, the use of child performers should be regulated rather than banned to ensure the safety and protection of minors. International laws, such as the Conve"
+1,20799,2217,support,0.9028,True,True,"### Legal Perspective:
+
+From a legal standpoint, the use of child performers should be regulated rather than banned to ensure the safety and protection of minors. International laws, such as the Conve"
+1,20800,2217,support,0.9291,True,True,"### Legal Perspective:
+
+From a legal standpoint, the use of child performers should be regulated rather than banned to ensure the safety and protection of minors. International laws, such as the Conve"
+1,20801,2217,support,0.9019,True,True,"### Legal Perspective:
+
+From a legal standpoint, the use of child performers should be regulated rather than banned to ensure the safety and protection of minors. International laws, such as the Conve"
+1,20802,2217,support,0.8795,True,True,"### Legal Perspective:
+
+From a legal standpoint, the use of child performers should be regulated rather than banned to ensure the safety and protection of minors. International laws, such as the Conve"
+1,5,2218,support,0.9,True,True,"### Legal Perspective:
+
+From a legal standpoint, the use of child performers should be regulated rather than banned to ensure the safety and protection of minors. International laws, such as the Conve"
+1,20815,2218,support,0.9034,True,True,"### Legal Perspective:
+
+From a legal standpoint, the use of child performers should be regulated rather than banned to ensure the safety and protection of minors. International laws, such as the Conve"
+1,20816,2218,support,0.9209,True,True,"### Legal Perspective:
+
+From a legal standpoint, the use of child performers should be regulated rather than banned to ensure the safety and protection of minors. International laws, such as the Conve"
+1,20817,2218,support,0.8896,True,True,"### Legal Perspective:
+
+From a legal standpoint, the use of child performers should be regulated rather than banned to ensure the safety and protection of minors. International laws, such as the Conve"
+1,20818,2218,support,0.8826,True,True,"### Legal Perspective:
+
+From a legal standpoint, the use of child performers should be regulated rather than banned to ensure the safety and protection of minors. International laws, such as the Conve"
+1,7,2219,undermine,0.8697,True,True,"### Legal Perspective:
+
+From a legal standpoint, the use of child performers should be regulated rather than banned to ensure the safety and protection of minors. International laws, such as the Conve"
+1,20819,2219,undermine,0.0975,False,False,"### Ethical Perspective:
+
+From an ethical standpoint, the use of child performers raises significant concerns about the welfare and protection of minors. The principle of inherent dignity and autonomy"
+1,20820,2219,undermine,0.7126,True,False,"### Legal Perspective:
+
+From a legal standpoint, the use of child performers should be regulated rather than banned to ensure the safety and protection of minors. International laws, such as the Conve"
+1,20822,2219,undermine,0.547,True,False,"### Legal Perspective:
+
+From a legal standpoint, the use of child performers should be regulated rather than banned to ensure the safety and protection of minors. International laws, such as the Conve"
+1,20821,2219,undermine,0.8735,True,True,"### Legal Perspective:
+
+From a legal standpoint, the use of child performers should be regulated rather than banned to ensure the safety and protection of minors. International laws, such as the Conve"
+1,8,2220,undermine,0.8989,True,True,"### Practical Perspective:
+
+From a practical standpoint, banning the use of child performers would not only be difficult to enforce but could also lead to unintended consequences that outweigh any pot"
+1,20823,2220,undermine,0.8099,True,False,"### Practical Perspective:
+
+From a practical standpoint, banning the use of child performers would not only be difficult to enforce but could also lead to unintended consequences that outweigh any pot"
+1,20825,2220,undermine,0.8625,True,True,"### Practical Perspective:
+
+From a practical standpoint, banning the use of child performers would not only be difficult to enforce but could also lead to unintended consequences that outweigh any pot"
+1,20826,2220,undermine,0.8582,True,True,"### Practical Perspective:
+
+From a practical standpoint, banning the use of child performers would not only be difficult to enforce but could also lead to unintended consequences that outweigh any pot"
+1,20824,2220,undermine,0.8874,True,True,"### Legal Perspective:
+
+From a legal standpoint, the use of child performers should be regulated rather than banned to ensure the safety and protection of minors. International laws, such as the Conve"
+1,4,2221,support,0.9123,True,True,"### Legal Perspective:
+
+From a legal standpoint, the use of child performers should be regulated rather than banned to ensure the safety and protection of minors. International laws, such as the Conve"
+1,20811,2221,support,0.9096,True,True,"### Legal Perspective:
+
+From a legal standpoint, the use of child performers should be regulated rather than banned to ensure the safety and protection of minors. International laws, such as the Conve"
+1,20812,2221,support,0.8988,True,True,"### Legal Perspective:
+
+From a legal standpoint, the use of child performers should be regulated rather than banned to ensure the safety and protection of minors. International laws, such as the Conve"
+1,20813,2221,support,0.9169,True,True,"### Legal Perspective:
+
+From a legal standpoint, the use of child performers should be regulated rather than banned to ensure the safety and protection of minors. International laws, such as the Conve"
+1,20814,2221,support,0.9213,True,True,"### Legal Perspective:
+
+From a legal standpoint, the use of child performers should be regulated rather than banned to ensure the safety and protection of minors. International laws, such as the Conve"
+2,15,5032,undermine,0.8634,True,True,"### **Practical and Implementation Perspective:**
+
+#### **Proponent Viewpoint:**
+Implementing a system where celebrities are exempt from National Service can have practical benefits. Tourism in key en"
+2,20839,5032,undermine,0.8834,True,True,"### **Practical and Implementation Perspective:**
+
+#### **Proponent Viewpoint:**
+Implementing a system where celebrities are exempt from National Service can have practical benefits. Tourism in key en"
+2,20840,5032,undermine,0.9209,True,True,"### **Practical and Implementation Perspective:**
+
+#### **Proponent Viewpoint:**
+Implementing a system where celebrities are exempt from National Service can have practical benefits. Tourism in key en"
+2,14,5033,undermine,0.8803,True,True,"### Legal Perspective
+
+From a legal standpoint, the principle of universal conscription ensures that all eligible citizens serve their country equally. Exempting celebrities based on their status woul"
+2,20835,5033,undermine,0.8962,True,True,"### Legal Perspective
+
+From a legal standpoint, the principle of universal conscription ensures that all eligible citizens serve their country equally. Exempting celebrities based on their status woul"
+2,20836,5033,undermine,0.8795,True,True,"### **Practical and Implementation Perspective:**
+
+#### **Proponent Viewpoint:**
+Implementing a system where celebrities are exempt from National Service can have practical benefits. Tourism in key en"
+2,20837,5033,undermine,0.923,True,True,"### **Practical and Implementation Perspective:**
+
+#### **Proponent Viewpoint:**
+Implementing a system where celebrities are exempt from National Service can have practical benefits. Tourism in key en"
+2,20838,5033,undermine,0.9173,True,True,"### **Practical and Implementation Perspective:**
+
+#### **Proponent Viewpoint:**
+Implementing a system where celebrities are exempt from National Service can have practical benefits. Tourism in key en"
+2,10,5034,support,0.9052,True,True,"### **Practical and Implementation Perspective:**
+
+#### **Proponent Viewpoint:**
+Implementing a system where celebrities are exempt from National Service can have practical benefits. Tourism in key en"
+2,20832,5034,support,0.9187,True,True,"### **Practical and Implementation Perspective:**
+
+#### **Proponent Viewpoint:**
+Implementing a system where celebrities are exempt from National Service can have practical benefits. Tourism in key en"
+2,20833,5034,support,0.9066,True,True,"### **Practical and Implementation Perspective:**
+
+#### **Proponent Viewpoint:**
+Implementing a system where celebrities are exempt from National Service can have practical benefits. Tourism in key en"
+2,20834,5034,support,0.8921,True,True,"### **Practical and Implementation Perspective:**
+
+#### **Proponent Viewpoint:**
+Implementing a system where celebrities are exempt from National Service can have practical benefits. Tourism in key en"

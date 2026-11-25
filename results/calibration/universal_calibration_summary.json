@@ -1,0 +1,36 @@
+{
+  "n_pairs_total": 300,
+  "n_positive": 213,
+  "n_negative": 87,
+  "recommended_tau": 0.7511,
+  "tau_f1_max": 0.7511,
+  "best_f1": 0.9685,
+  "precision_at_tau": 1.0,
+  "recall_at_tau": 0.939,
+  "roc_auc": 0.9902,
+  "tau_youden_j": 0.7511,
+  "dataset_breakdown": {
+    "ibm_debater": {
+      "n_samples": 100,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "kialo": {
+      "n_samples": 100,
+      "accuracy": 0.94,
+      "precision": 1.0,
+      "recall": 0.9091,
+      "f1": 0.9524
+    },
+    "perspectrum": {
+      "n_samples": 100,
+      "accuracy": 0.93,
+      "precision": 1.0,
+      "recall": 0.8542,
+      "f1": 0.9213
+    }
+  },
+  "figure_path": "C:\\Users\\dhrut\\Downloads\\perspective_coverage\\perspective_coverage\\results/calibration\\universal_threshold_roc_pr.png"
+}
